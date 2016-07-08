@@ -1,5 +1,5 @@
 # maumagnaguagno.github.io
-:newspaper: **My internets**
+:neutral_face: **My internets**
 
 Original title
 ```HTML
@@ -18,3 +18,7 @@ ____________________
 |       |          |
 |_______|__________|
 ```
+
+TODO
+- [Menubar](http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive)
+- DOCTYPE and fullscreen SVG
