@@ -6,11 +6,11 @@ description: List everything here.
 
 <h1>Archive</h1>
 
-{% for post in site.pages %}
+{% for page in site.pages %}
 
 <div>
   <span class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ site.path }}{{ page.url }}">{{ page.title }}</a>
     <p>{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}</p>
   </span>
 </div>
