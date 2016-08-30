@@ -5,7 +5,13 @@ description: Home, virtual home.
 ---
 
 Hello there stranger, I am **Mau**.
-I am interested in AI (automated planning), robotics, compilers (deoptimizations) and procedural generation (worlds).
+I am interested in:
+
+- AI (automated planning)
+- Robotics
+- Compilers (deoptimizations)
+- Game development
+- Procedural generation (worlds)
 
 Here you can see some of my stuff:
 
