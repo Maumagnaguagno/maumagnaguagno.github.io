@@ -14,6 +14,8 @@ sass:
   sass_dir: css
   style:    expanded
 
+categories: [fruit, meat, vegetable, cheese, drink]
+
 permalink: /:title.html
 
 exclude:
