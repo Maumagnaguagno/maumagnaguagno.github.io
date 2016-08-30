@@ -1,13 +1,14 @@
 ---
-layout: post
-title: "Links"
+layout: default
+title: Links
+description: A lot of links for you to go, but please... come back.
 ---
 
-Links to the darkest places of the internets.
+Links to the coolest places of the internets.
 Hover the links to see a description.
 
 ## Sites
-- [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo account](https://vimeo.com/worrydream "Bret Victor at Vimeo")
+- [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
 
 ## Online tools
 - Programming
