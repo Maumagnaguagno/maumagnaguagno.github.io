@@ -2,7 +2,7 @@ title:   'Mau'
 author:
   name:  'MauMagnaguagno'
 
-path: /docs
+path: .
 url:  'http://maumagnaguagno.github.io'
 
 markdown: kramdown
