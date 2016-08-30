@@ -16,9 +16,19 @@ begin
 end
 ```
 
+{% highlight ruby %}
+begin
+  puts "Hello World", RUBY_VERSION
+end
+{% endhighlight %}
+
 ```Lisp
 (not (pred term1 term2))
 ```
+
+{% highlight Lisp %}
+(not (pred term1 term2))
+{% endhighlight %}
 
 ## Lists
 
