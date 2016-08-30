@@ -4,14 +4,12 @@ title: Archive
 description: List everything here.
 ---
 
-<h1>Archive</h1>
-
-{% for page in site.pages %}
+{% for post in site.posts %}
 
 <div>
   <span class='post-title'>
-    <a href="{{ site.path }}{{ page.url }}">{{ page.title }}</a>
-    <p>{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}</p>
+    <a href="{{ post.path }}{{ page.url }}">{{ post.title }}</a>
+    <p>{% if post.description %}<meta name="description" content="{{ post.description }}">{% endif %}</p>
   </span>
 </div>
 
