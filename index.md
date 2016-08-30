@@ -9,8 +9,14 @@ Hello there stranger, I am **Mau**.
 Here you can see some of my stuff:
 
 - [GitHub](https://github.com/Maumagnaguagno)
-- PDDL insights **TODO**
-- Ruby snippets **TODO**
+- [State-space visualization with D3](http://maumagnaguagno.github.io/HeuristicView/)
+  - See how different search mechanisms affect the state-space
+  - **TODO** add more information
+- [Web-planner](http://web-planner.herokuapp.com/)
+  - A classical planner running on Heroku
+  - **TODO** add more information
+- **TODO** PDDL insights
+- **TODO** Ruby snippets
 
 Take a look at my archive to see everything.
 
