@@ -10,7 +10,7 @@ Original title
 
 Layout
 ```
-____________________
+ __________________
 |__________________| <-- Menu bar (Home, Subjects, GitHub, About)
 |       |          |
 |       |          | <-- Images (left) and text (right)
@@ -21,4 +21,3 @@ ____________________
 
 TODO
 - [Menubar](http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive)
-- DOCTYPE and fullscreen SVG
