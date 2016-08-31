@@ -4,7 +4,7 @@ title: Home
 description: Home, virtual home.
 ---
 
-Hello there stranger, I am **Mau**.
+Hello there, I am **Mau**.
 I am interested in:
 
 - AI (automated planning)
