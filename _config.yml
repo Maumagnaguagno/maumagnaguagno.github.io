@@ -5,6 +5,7 @@ url:    https://maumagnaguagno.github.io
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 highlighter: rouge
 
 sass:

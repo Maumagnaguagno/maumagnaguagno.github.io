@@ -11,6 +11,10 @@ begin
 end
 {% endhighlight %}
 
+  ```ruby
+  gem install rouge
+  ```
+
 ```Ruby
 begin
   symbol = :symbol
