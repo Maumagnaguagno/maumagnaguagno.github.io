@@ -12,9 +12,9 @@ begin
 end
 {% endhighlight %}
 
-  ```ruby
-  gem install rouge
-  ```
+```ruby
+gem install rouge
+```
 
 ```Ruby
 begin
