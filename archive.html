@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Archive
+hidden: true
 description: List everything here.
 ---
 
 {% for page in site.pages %}
+  {% unless page.hidden %}
 
 <div>
   <span class='post-title'>
@@ -13,4 +15,5 @@ description: List everything here.
   </span>
 </div>
 
+  {% endunless %}
 {% endfor %}
