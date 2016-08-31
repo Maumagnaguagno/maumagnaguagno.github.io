@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ruby
+hidden: true
 description: 
 ---
 

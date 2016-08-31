@@ -4,7 +4,6 @@
 ###########
 ---
 
-
 @import 'settings';
 
 
@@ -17,6 +16,10 @@ html {
 body {
   color:            $body-color;
   background-color: $body-background-color;
+}
+
+highlight {
+  color: $highlight-color;
 }
 
 //////////////
@@ -231,5 +234,5 @@ table {
 }
 
 .post-date {
-  color: $post-date-color;  
+  color: $post-date-color;
 }

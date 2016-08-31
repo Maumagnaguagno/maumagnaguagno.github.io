@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PDDL
+hidden: true
 description: 
 ---
 
