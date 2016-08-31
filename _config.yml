@@ -2,11 +2,11 @@ title:  Mau
 author: MauMagnaguagno
 url:    https://maumagnaguagno.github.io
 
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rouge
 
 sass:
   sass_dir: css
