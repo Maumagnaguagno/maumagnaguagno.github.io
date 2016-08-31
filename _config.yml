@@ -1,9 +1,8 @@
-title:   'Mau'
+title:  Mau
 author:
-  name:  'MauMagnaguagno'
+  name: MauMagnaguagno
 
-path: .
-url:  'http://maumagnaguagno.github.io'
+url: http://maumagnaguagno.github.io
 
 markdown: kramdown
 kramdown:
