@@ -11,6 +11,13 @@ begin
 end
 {% endhighlight %}
 
+```Ruby
+begin
+  symbol = :symbol
+  number = 52
+end
+```
+
 ```
 Text
 ```
