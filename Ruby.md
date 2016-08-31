@@ -16,7 +16,7 @@ end
 gem install rouge
 ```
 
-```Ruby
+```ruby
 begin
   symbol = :symbol
   number = 52
