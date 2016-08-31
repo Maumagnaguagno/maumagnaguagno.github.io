@@ -5,7 +5,7 @@ hidden: true
 description: 
 ---
 
-{% highlight clisp %}
+```lisp
 ; Domain description
 ; Describe the relations and transitions that can occur
 ; This one describe the Tower of Hanoi puzzle
@@ -53,4 +53,4 @@ description:
 
   ; Other transitions can be defined here
 )
-{% endhighlight %}
+```
