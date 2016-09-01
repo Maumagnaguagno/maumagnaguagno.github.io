@@ -2,7 +2,7 @@
 layout: default
 title: PDDL
 hidden: true
-description: 
+description: The Planning Domain Definition Language
 ---
 
 # PDDL
