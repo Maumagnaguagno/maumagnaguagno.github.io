@@ -2,6 +2,7 @@
 layout: default
 title: PDDL
 description: The Planning Domain Definition Language
+category: pddl
 ---
 
 # PDDL
@@ -91,7 +92,7 @@ description: The Planning Domain Definition Language
     - Step-optimal plan
     - Metric-based plan (minimize/maximize time/cost/resource)
 
-## Requirements
+## Most common requirements
 - ``:strips`` - default requirement (positive preconditions, add and delete effects)
 - ``:negative-preconditions`` - able to use ``not`` in preconditions
 - ``:equality`` - able to use ``=`` in preconditions
@@ -118,9 +119,8 @@ description: The Planning Domain Definition Language
 - Which predicates you used?
 - Small modifications impact your description?
   - Typing
-  - More than one hero
-  - Get out dungeon with sword
-  - Get out dungeon disarming all traps
+  - More objects
+  - More predicates in goal
 
 ## References
 - [PDDL 2.1 specification](http://www.public.asu.edu/~ktalamad/tmp/files/pddl21specs.pdf)

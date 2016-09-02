@@ -1,14 +1,7 @@
 # [maumagnaguagno.github.io](https://maumagnaguagno.github.io)
 **My internets**
 
-Original title
-```HTML
-<h1 style="text-align: center;">
-  <span style="font-size:72px;font-family:trebuchet ms,helvetica;">MauMagnaguagno</span>
-</h1>
-```
-
-Layout
+Goal Layout
 ```
  __________________
 |__________________| <-- Menu bar (Home, Subjects, GitHub, About)
