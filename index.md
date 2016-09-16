@@ -22,8 +22,8 @@ Here you can see some of my stuff:
 - [Web-planner](http://web-planner.herokuapp.com/)
   - A classical planner running on Heroku
   - **TODO** add more information
-- [PDDL insights](PDDL.md)
-- [Ruby snippets](Ruby.md)
+- [PDDL insights](PDDL.html)
+- [Ruby snippets](Ruby.html)
 
 Take a look at my archive to see everything.
 
