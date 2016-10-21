@@ -1,6 +1,8 @@
 # [maumagnaguagno.github.io](https://maumagnaguagno.github.io)
 **My internets**
 
+Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
+
 Goal Layout
 ```
  __________________
@@ -14,3 +16,4 @@ Goal Layout
 
 TODO
 - [Menubar](http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive)
+- Add [events](https://api.github.com/users/maumagnaguagno/events)
