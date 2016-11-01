@@ -13,8 +13,8 @@ category: pddl
   - There was no one formalism very well defined, only STRIPS
   - They were interested in fast/correct planners, not being limited by parsers
 
-- ICAPS
-  - Make them compete within the same rules/input (PDDL 1 from 98)
+- [ICAPS](http://www.icaps-conference.org/)
+  - Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input (PDDL 1 from 98)
   - May the best/fast/compatible planner win
   - Force community to share language/limitations/benchmarks
     - Some people were not happy with this (incompatible planners were forgotten)
