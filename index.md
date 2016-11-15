@@ -9,9 +9,9 @@ I am interested in:
 
 - AI (automated planning)
 - Robotics
-- Compilers (deoptimizations)
+- Compilers (optimizations and deoptimizations)
 - Game development
-- Procedural generation (worlds)
+- Procedural generation
 
 Here you can see some of my stuff:
 
