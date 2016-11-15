@@ -59,7 +59,7 @@ a = ''
 unification(a) { puts a } # Prints 1\n2\n3\n
 ```
 
-# Rescue
+## Rescue
 Sometimes your program is interrupted by an error, other times you just did something wrong and decided to finish it, causing an interruption ``CTRL+C``
 Useful when combined with timers, so you know how much time has passed until your patience has run dry.
 Remember that you can also use ``rescue`` blocks in method definitions.
