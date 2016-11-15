@@ -104,11 +104,13 @@ category: pddl
 - Some planners may lack the desired requirements
 - Sometimes we can rewrite the description using simpler constructions
 - ``:negative-preconditions``
-  - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate - ``(not (clean ?space))`` => ``(dirty ?space)``
+  - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate
+  - ``(not (clean ?space))`` => ``(dirty ?space)``
 - ``:equality``
   - Add an equality predicate ``(equal obj obj)`` for each object at the initial state and replace preconditions
 - ``:typing``
-  - Move types to initial state and parameters to preconditions - ``(?var - type)`` => ``(type ?var)``
+  - Move types to initial state and parameters to preconditions
+  - ``(?var - type)`` => ``(type ?var)``
 - ``:disjunctive-preconditions``
   - Break each part of the precondition in a different action
 
