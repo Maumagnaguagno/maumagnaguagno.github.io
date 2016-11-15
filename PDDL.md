@@ -33,7 +33,7 @@ category: pddl
 
 ## Domain
 
-```lisp
+```elisp
 ; Domain - this is  a comment 
 (define (domain hanoi)
   (:requirements :strips :negative-preconditions :equality )
@@ -58,7 +58,7 @@ category: pddl
 
 ## Problem
 
-```lisp
+```elisp
 ; Problem - this is also a comment
 (define (problem pb3)
   (:domain hanoi)
