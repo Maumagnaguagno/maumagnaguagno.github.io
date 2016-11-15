@@ -8,7 +8,6 @@ description: My Ruby tricks
 # Ruby
 
 ## Conditional/Assignment merge
-
 Other languages may not let you assign variables inside a conditional statement, such as ``if``, ``elsif``, ``while`` or ``until``.
 But Ruby does let you do that, which actually can help you avoid asking twice for the same variable.
 The following code blocks are equivalent, in the first case we test and only then modify the array, in the second case we do both at once.
@@ -62,7 +61,6 @@ unification(a) { puts a } # Prints 1\n2\n3\n
 ```
 
 ## ARGV parsing
-
 Parse arguments using a ``while`` loop that consumes values from ``ARGV``.
 To make everything easier you can define the parser in a class method, such as ``self.setup``, that returns a new instance.
 Required terms are processed first while others are shifted from the option list as required.
@@ -77,7 +75,7 @@ class Foo
     Foo arg1 [options]\n
   Options:
     -d       - specify debug mode
-    -v level - show output: 0 for silent, 1 for warnings or 2 for complete(default)"
+    -v level - verbose level: 0 for silent, 1 for warnings or 2 for complete"
 
   def initialize(ar1, debug, verbose)
     #...
