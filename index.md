@@ -8,11 +8,11 @@ Hello there, I am **Mau**.
 I am interested in:
 
 - [AI](https://en.wikipedia.org/wiki/Artificial_intelligence)
-  - [Automated Planning](https://en.wikipedia.org/wiki/Automated_planning_and_scheduling))
-- Robotics
+  - [Automated Planning](https://en.wikipedia.org/wiki/Automated_planning_and_scheduling)
 - [Compilers](https://en.wikipedia.org/wiki/Compiler)
   - [Optimizations](https://en.wikipedia.org/wiki/Program_optimization)
   - [Deoptimizations](http://chrisseaton.com/rubytruffle/deoptimizing/)
+- Robotics
 - Game development
 - Procedural generation
 
