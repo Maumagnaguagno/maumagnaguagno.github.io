@@ -27,5 +27,3 @@ Here you can see some of my stuff:
 - [Ruby snippets](Ruby)
 
 Take a look at my archive to see everything.
-
-Running on GitHub with Jekyll, based on [Jekyll minimal theme](https://github.com/henrythemes/jekyll-minimal-theme).
