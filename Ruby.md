@@ -78,7 +78,7 @@ end
 Parse arguments using a ``while`` loop that consumes values from ``ARGV``.
 To make everything easier you can define the parser in a class method, such as ``self.setup``, that returns a new instance.
 Required terms are processed first while others are shifted from the option list as required.
-Put ``HELP`` descrition at the top to provide help for both developer and user.
+Put ``HELP`` description at the top to provide help for both developer and user.
 Conditional/Assignment merge and splat are used in this example.
 
 ```ruby
