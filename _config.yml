@@ -14,8 +14,9 @@ sass:
 
 permalink: /:title
 
-exclude:
-- README.md
+exclude: README.md
+
+gems: jemoji
 
 safe: true
 lsi: false
