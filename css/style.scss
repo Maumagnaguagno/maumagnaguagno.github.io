@@ -28,7 +28,7 @@ a {
   strong {
     color: inherit;
   }
-  
+
   &:hover,
   &:focus {
     text-decoration: underline;
@@ -135,6 +135,7 @@ img {
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
+  vertical-align: text-top;
 }
 
 //////////////////////
@@ -178,7 +179,7 @@ table {
   padding-bottom: 1rem;
   margin-bottom:  1rem;
 
- .masthead-title {
+  .masthead-title {
     margin-top: 0;
     margin-bottom: 0;
     color: $masthead-color;
