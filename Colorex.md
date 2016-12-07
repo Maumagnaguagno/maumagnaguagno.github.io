@@ -13,7 +13,7 @@ Eventually gonna populate this page with some pretty images.
 
 Example text before image.
 
-![Brownian motion X mirrored to achieve rorschach test](imgs/colorex_brownian.png)
+![Brownian motion X mirrored](img/colorex_brownian.png "Looks like a Rorschach test!")
 
 Example text after image.
 
