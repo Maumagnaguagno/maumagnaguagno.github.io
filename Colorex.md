@@ -16,7 +16,7 @@ This is the most exciting one, based on [Brownian motion](https://en.wikipedia.o
 The color is incremented after each successful blank is found, otherwise the process is repeated, with the position being restarted every time the current position is not blank or within the canvas.
 Instead of using the full 24 bits [color space](https://en.wikipedia.org/wiki/Color_space) I decided to use 18 bits, jumping a few colors along the way to use more colors in small images.
 Then generating a X mirrored image to result in something like a [Rorschach test](https://en.wikipedia.org/wiki/Rorschach_test) and have some fun seeing the computer testing my sanity.
-If you do the math ``2**18 == 512**2`` which means the image below could be 1024x512 since it is mirrored, but since bytes overflow and we can have bigger images, in this case a 1024 by 1024.
+If you do the math ``2**18 == 512**2`` which means the image below could be 1024x512 since it is mirrored, but since bytes overflow we can have bigger images, in this case a 1024 by 1024.
 
 ![Brownian motion X mirrored](img/colorex_brownian.png "Looks like a Rorschach test!")
 
