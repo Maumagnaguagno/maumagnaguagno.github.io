@@ -14,10 +14,9 @@ This was not my [first try](https://github.com/Maumagnaguagno/Spriter), so this 
 
 This is the most exciting one, based on [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) the computer starts at a XY position and moves to a random direction one step, checks if the current position is occupied by a blank pixel a draws a color.
 The color is incremented after each successful blank is found, otherwise the process is repeated, with the position being restarted every time the current position is not blank or within the canvas.
-Instead of using the full 24 bits [color space](https://en.wikipedia.org/wiki/Color_space) I decided to use 18 bits, jumping a few colors along the way to use more colors in small images.
+Instead of using the full 24 bits [color space](https://en.wikipedia.org/wiki/Color_space) I decided to use 18 bits, 262144 colors, jumping a few visually equal colors along the way to make small images prettier.
 Then generating a X mirrored image to result in something like a [Rorschach test](https://en.wikipedia.org/wiki/Rorschach_test) and have some fun seeing the computer testing my sanity.
-If you do the math ``2**18 == 512**2`` which means the image below could be 1024x512 since it is mirrored, but since bytes overflow we can have bigger images, in this case a 1024 by 1024.
 
-![Brownian motion X mirrored](img/colorex_brownian.png "Looks like a Rorschach test!")
+![Brownian motion X mirrored](img/colorex_brownian.png "Now tell me, what do you see?")
 
 Eventually gonna populate this page with more algorithms and pretty images, stay tuned.
