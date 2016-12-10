@@ -1,11 +1,8 @@
 ---
-###########
-# note: will result in an all-in-one-file stylesheet e.g. style.css
-###########
+# note: will result in a single style.css
 ---
 
 @import 'settings';
-
 
 html {
   font-family: $font-family;
@@ -18,7 +15,6 @@ body {
   background-color: $body-background-color;
 }
 
-//////////////
 // Links
 
 a {
@@ -29,13 +25,11 @@ a {
     color: inherit;
   }
 
-  &:hover,
-  &:focus {
+  &:hover, &:focus {
     text-decoration: underline;
   }
 }
 
-////////////////////////////
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,23 +39,26 @@ h1, h2, h3, h4, h5, h6 {
   color:          $headings-color;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
+
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
-/////////////
 // Body text
 
 p {
@@ -73,8 +70,6 @@ strong {
   color: $strong-color;
 }
 
-
-/////////////
 // Lists
 
 ul, ol, dl {
@@ -85,11 +80,11 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
 
-//////////////////////
 // Code
 
 code,
@@ -117,7 +112,6 @@ pre {
   }
 }
 
-/////////////////////
 // Quotes
 
 blockquote {
@@ -138,7 +132,6 @@ img {
   vertical-align: text-top;
 }
 
-//////////////////////
 // Tables
 
 table {
@@ -147,8 +140,7 @@ table {
   border: 1px solid $table-border-color;
   border-collapse: collapse;
 
-  td,
-  th {
+  td, th {
    padding: .25rem .5rem;
    border: 1px solid $table-border-color;
   }
@@ -159,9 +151,7 @@ table {
   }
 }
 
-////////////////////////////////
 //  Container
-//   -- centers page content
 
 .container {
   max-width: 38rem;
@@ -171,7 +161,6 @@ table {
   margin-right: auto;
 }
 
-///////////////////////////////////////////////////
 //  Masthead
 
 .masthead {
@@ -197,14 +186,11 @@ table {
   }
 }
 
-
-//////////////////////////
 // Posts
 
 .post {
   margin-bottom: 4em;
 
-  // note: only change margin for title,date if inside post block
   .post-title {
     margin-top: 0;
   }
@@ -212,13 +198,12 @@ table {
   // Meta data line below post title
   .post-date {
     display: block;
-    margin-top:  -.5rem;
+    margin-top: -.5rem;
     margin-bottom: 1rem;
   }
 }
 
-.post-title,
-.post-title a {
+.post-title, .post-title a {
   color: $post-title-color;
 }
 
