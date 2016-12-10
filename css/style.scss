@@ -87,10 +87,10 @@ dd {
 
 // Code
 
-code,
-pre {
+code, pre {
   font-family: $code-font-family;
 }
+
 code {
   padding: .25em .5em;
   font-size: 85%;
@@ -145,8 +145,7 @@ table {
    border: 1px solid $table-border-color;
   }
 
-  tr:nth-child(odd) td,
-  tr:nth-child(odd) th {
+  tr:nth-child(odd) td, tr:nth-child(odd) th {
     background-color: $table-odd-background-color;
   }
 }
