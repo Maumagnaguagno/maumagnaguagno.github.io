@@ -160,24 +160,24 @@ table {
   margin-right: auto;
 }
 
-//  Masthead
+//  Nav
 
-.masthead {
+.nav {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom:  1rem;
 
-  .masthead-title {
+  .nav-title {
     margin-top: 0;
     margin-bottom: 0;
-    color: $masthead-color;
+    color: $nav-color;
   
     a {
-      color: $masthead-color;
+      color: $nav-color;
     }
     
     small {
-      color: $masthead-small-color;
+      color: $nav-small-color;
       font-size: 75%;
       font-weight: 400;
       letter-spacing: 0;
@@ -209,6 +209,8 @@ table {
 .post-date {
   color: $post-date-color;
 }
+
+// Split
 
 .split { display: table-row; }
 .split>div { display: table-cell; }
