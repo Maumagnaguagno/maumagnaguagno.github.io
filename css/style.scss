@@ -209,3 +209,6 @@ table {
 .post-date {
   color: $post-date-color;
 }
+
+.split { display: table-row; }
+.split>div { display: table-cell; }
