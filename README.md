@@ -3,17 +3,26 @@
 
 Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
 
-Goal Layout
 ```
  __________________
-|__________________| <-- Menu bar (Home, Subjects, GitHub, About)
+|__________________| <-- Nav bar (Home, ...)
 |       |          |
-|       |          | <-- Images (left) and text (right)
-|       |          |     Separation may be invisible
+|       |          | <-- Split view
+|       |          |     Separations may be invisible
 |       |          |
 |_______|__________|
 ```
 
-TODO
-- [Menubar](http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive)
-- Add [events](https://api.github.com/users/maumagnaguagno/events)
+Apply split view using divs.
+Avoid reaching 100% to create better separations
+
+```HTML
+<div class="split">
+  <div style="width:45%">
+    Left text is here.
+  </div>
+  <div style="width:45%">
+    And the right content is here.
+  </div>
+</div>
+```
