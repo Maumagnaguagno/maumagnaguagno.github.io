@@ -2,7 +2,6 @@
 layout: default
 title: Archive
 hidden: true
-description: List everything here.
 ---
 
 {% for page in site.pages %}
