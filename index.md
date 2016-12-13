@@ -23,8 +23,8 @@ Here you can see some of my stuff:
   - See how different search mechanisms affect the state-space
 - [Web-planner](http://web-planner.herokuapp.com/)
   - A classical planner running on Heroku
-- [PDDL insights](PDDL)
-- [Ruby snippets](Ruby)
+- [PDDL insights](pddl.md)
+- [Ruby snippets](ruby.md)
 
 Take a look at my archive to see everything.
 
