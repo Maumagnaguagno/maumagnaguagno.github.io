@@ -99,7 +99,10 @@ code {
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
+  margin-right: -5rem;
+  margin-left: -5rem;
+  padding: 1rem 5rem;
+  border-radius: 8px;
   font-size: .8rem;
   line-height: 1.4;
   background-color: $pre-background-color;
