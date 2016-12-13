@@ -43,7 +43,8 @@ process(*ARGV)
 ## Pointer unification
 Instead of creating your own ``FreeVariable`` class, consider ``String`` for fast value replacement.
 Strings can be used as pointers, so that changing the value of one string object changes the value of all variables that point to that one.
-Other complex objects use the same approach, with variables only holding such pointer, but ``true``, ``false``, ``nil`` and numeric objects are stored in-place for speed.
+Other complex objects use the same approach, with variables only holding pointers, while ``true``, ``false``, ``nil`` and numeric objects are stored in-place for speed.
+Note that you can replace only objects of the same class, such as ``array1.replace(array2)``.
 
 ```ruby
 def unification(var)
@@ -60,9 +61,10 @@ unification(a) { puts a } # Prints 1\n2\n3\n
 ```
 
 ## Rescue
-Sometimes your program is interrupted by an error, other times you just did something wrong and decided to finish it, causing an interruption ``CTRL+C``
-Useful when combined with timers, so you know how much time has passed until your patience has run dry.
-Remember that you can also use ``rescue`` blocks in method definitions.
+Sometimes your program is interrupted by an error, other times you just noticed something wrong and decided to hit ``CTRL+C``, causing an interruption.
+But that does not mean your program is going to terminate, sometimes you need to save your changes before a clean exit and the computer must rescue you.
+This is also useful when combined with timers, so you know how much time has passed until your patience has run dry.
+Remember that you can also use ``rescue`` blocks in method definitions, without ``begin``.
 
 ```ruby
 begin # or def bar
