@@ -1,5 +1,4 @@
 ---
-layout: default
 title: PDDL
 description: The Planning Domain Definition Language
 category: pddl

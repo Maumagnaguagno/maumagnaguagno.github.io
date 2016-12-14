@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Links
 description: A lot of links for you to go, but please... come back.
 ---
