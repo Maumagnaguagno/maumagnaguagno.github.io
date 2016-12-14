@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Ruby
 description: My Ruby tricks
 ---
