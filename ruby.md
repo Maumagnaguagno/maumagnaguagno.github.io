@@ -1,6 +1,7 @@
 ---
 title: Ruby
 description: My Ruby tricks
+category: ruby
 ---
 
 # Ruby
