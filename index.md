@@ -25,6 +25,6 @@ Here you can see some of my stuff:
 - [PDDL insights](pddl.md)
 - [Ruby snippets](ruby.md)
 
-Take a look at my archive to see everything.
+Take a look at my [archive](archive.md) to see everything.
 
 Running on GitHub with Jekyll, based on [Jekyll minimal theme](https://github.com/henrythemes/jekyll-minimal-theme).
