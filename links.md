@@ -20,7 +20,7 @@ Hover the links to see a description.
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
-  - [Wiserack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
+  - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
 
 </div><div style="width:45%" markdown="1">
 
