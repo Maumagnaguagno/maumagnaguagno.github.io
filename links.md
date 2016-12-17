@@ -4,7 +4,7 @@ description: A lot of links for you to go, but please... come back.
 ---
 
 Links to the coolest places of the internets.
-Hover the links to see a description.
+Hover links to see their description.
 
 <div class="split"><div style="width:45%" markdown="1">
 
