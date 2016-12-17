@@ -15,7 +15,7 @@ Hover the links to see a description.
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](http://hackaday.com "Engineering and maker stuff")
 - Youtube
-  - [Tested](https://www.youtube.com/user/testedcom "Adam Savage's - Design and build stuff")
+  - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
