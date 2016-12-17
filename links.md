@@ -6,10 +6,16 @@ description: A lot of links for you to go, but please... come back.
 Links to the coolest places of the internets.
 Hover the links to see a description.
 
+<div class="split">
+<div style="width:45%" markdown="1">
+
 ## Sites
 - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
 - [Red blob games](http://www.redblobgames.com/ "A* and game development material")
 - [Hackaday](http://hackaday.com "Engineering and maker stuff")
+
+</div>
+<div style="width:45%" markdown="1">
 
 ## Online tools
 - Programming
@@ -27,3 +33,6 @@ Hover the links to see a description.
 - Movies
   - [TasteKid](http://www.tastekid.com/ "Recommendation system")
   - [IMDb](http://www.imdb.com/ "That movie with that actor, the same from the other movie")
+
+</div>
+</div>
