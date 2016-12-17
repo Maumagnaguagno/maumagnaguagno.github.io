@@ -18,7 +18,7 @@ Hover the links to see a description.
   - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
-  - [Satchbags Goods](https://www.youtube.com/user/satchbags/ "Games explained")
+  - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
   - [Wiserack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
 
