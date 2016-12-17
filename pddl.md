@@ -7,9 +7,10 @@ category: pddl
 # PDDL
 
 ## Why PDDL exists?
-- Many different languages/inputs => incompatibility => hard to compare
+- Many different languages/inputs
+  - Incompatibility made planners hard to compare
 - Planning community had no reason to use same language
-  - There was no one formalism very well defined, only STRIPS
+  - There was no one formalism well defined, only STRIPS
   - They were interested in fast/correct planners, not being limited by parsers
 
 - [ICAPS](http://www.icaps-conference.org/)
@@ -33,7 +34,7 @@ category: pddl
 ## Domain
 
 ```elisp
-; Domain - this is  a comment 
+; Domain - this is a comment
 (define (domain hanoi)
   (:requirements :strips :negative-preconditions :equality )
   (:predicates (clear ?x) (on ?x ?y) (smaller ?x ?y) )
@@ -69,13 +70,13 @@ category: pddl
     (smaller d1 d2) (smaller d1 d3)
     (smaller d2 d3)
     (clear d1) (clear peg2) (clear peg3)
-    (on d1 d2) (on d2 d3) (on d3 peg1) 
+    (on d1 d2) (on d2 d3) (on d3 peg1)
   )
 
   (:goal (and
-    (on d3 peg3)
-    (on d2 d3)
     (on d1 d2)
+    (on d2 d3)
+    (on d3 peg3)
   ))
 )
 ```
