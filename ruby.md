@@ -12,21 +12,27 @@ But Ruby does let you do that, which actually can help you avoid asking twice fo
 The following code blocks are equivalent, in the first case we test and only then modify the array, in the second case we do both at once.
 
 ```ruby
-my_array = [1, 2, ...]
+my_array = [1, 2, 3]
+# Multi-line version
 until my_array.empty?
   puts my_array.shift
 end
+# Single line version
+puts my_array.shift until my_array.empty?
 ```
 
 ```ruby
-my_array = [1, 2, ...]
+my_array = [1, 2, 3]
+# Multi-line version
 until first = my_array.shift
   puts first
 end
+# Single line version will not work due to first being assigned after access.
+puts first until first = my_array.shift
 ```
 
 ## Splat operator
-Exploit easy to use arrays with the ``*`` splat operator, an asterisk that prefix variables to remove the array container.
+Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.
 
 ```ruby
 [1, *[2, 3]] == [1, 2, 3] # => true
@@ -38,13 +44,16 @@ def process(par1, par2, *par3)
 end
 
 process(*ARGV)
+
+# Particularly useful to print Hashes
+p *GC.stat
 ```
 
 ## Pointer unification
-Instead of creating your own ``FreeVariable`` class, consider ``String`` for fast value replacement.
-Strings can be used as pointers, so that changing the value of one string object changes the value of all variables that point to that one.
+Instead of creating your own ``Pointer`` or ``FreeVariable`` class, consider ``String`` or ``Array`` for fast value replacement.
+Strings can be used as pointers, so that changing the value of one string object changes the value of all variables that point to that string.
 Other complex objects use the same approach, with variables only holding pointers, while ``true``, ``false``, ``nil`` and numeric objects are stored in-place for speed.
-Note that you can replace only objects of the same class, such as ``array1.replace(array2)``.
+Note that you can replace only objects of the same class, such as ``array1.replace(array2)`` and not ``array1.replace(str2)``.
 
 ```ruby
 def unification(var)
@@ -57,14 +66,13 @@ def unification(var)
 end
 
 a = ''
-unification(a) { puts a } # Prints 1\n2\n3\n
+unification(a) { puts a } # Prints 1 2 3
 ```
 
 ## Rescue
 Sometimes your program is interrupted by an error, other times you just noticed something wrong and decided to hit ``CTRL+C``, causing an interruption.
-But that does not mean your program is going to terminate, sometimes you need to save your changes before a clean exit and the computer must rescue you.
+But that does not mean your program is going to terminate, sometimes you want a warning asking to save your changes before a clean exit and the computer must rescue you.
 This is also useful when combined with timers, so you know how much time has passed until your patience has run dry.
-Remember that you can also use ``rescue`` blocks in method definitions, without ``begin``.
 
 ```ruby
 begin # or def bar
@@ -74,14 +82,21 @@ rescue Interrupt
 rescue
   puts $!, $@
 end
+
+# You can also use ``rescue`` blocks in method definitions, without begin
+def my_method
+  # ...
+rescue
+  # Your rescue block
+end
 ```
 
 ## ARGV parsing
 Parse arguments using a ``while`` loop that consumes values from ``ARGV``.
 To make everything easier you can define the parser in a class method, such as ``self.setup``, that returns a new instance.
 Required terms are processed first while others are shifted from the option list as required.
-Put ``HELP`` description at the top to provide help for both developer and user.
-Conditional/Assignment merge and splat are used in this example.
+Put ``HELP`` description at the top to provide help for both developers and users.
+Previously described Conditional/Assignment merge and Splat operator are used in this example.
 
 ```ruby
 class Foo
@@ -114,7 +129,8 @@ class Foo
 end
 
 if $0 == __FILE__
-  if ARGV.size < 1 or ARGV.first == '-h'
+  # Use ARGV.size < N for N required parameters or empty? for N == 1
+  if ARGV.empty? or ARGV.first == '-h'
     puts Foo::HELP
   else Foo.setup(*ARGV)
   end
