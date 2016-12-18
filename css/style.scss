@@ -159,8 +159,11 @@ table {
   margin-bottom:  1rem;
 
   .nav-title {
-    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
     a {
+      padding-right: 20px;
       color: inherit;
     }
 
