@@ -17,7 +17,6 @@ I am interested in:
 
 Here you can see some of my stuff:
 
-- [:octocat: GitHub](https://github.com/Maumagnaguagno)
 - [State-space visualization with D3](http://maumagnaguagno.github.io/HeuristicView/)
   - See how different search mechanisms affect the state-space
 - [Web-planner](http://web-planner.herokuapp.com/)
