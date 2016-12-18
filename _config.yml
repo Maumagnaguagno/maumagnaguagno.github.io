@@ -14,9 +14,6 @@ sass:
   sass_dir: css
   style: compressed
 
-img_attrs:
-  align: nil
-
 permalink: /:title
 
 exclude: README.md
