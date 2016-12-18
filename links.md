@@ -30,6 +30,7 @@ Hover links to see their description.
   - [Rubular](http://rubular.com/ "Regex editor")
   - [Interactive Compiler C++](https://gcc.godbolt.org/ "Online assembler")
   - [DiffChecker](https://www.diffchecker.com/ "Diff in your browser, with colors")
+  - [W3C validator](https://validator.w3.org/ "Validate web documents")
 - Graphs and Charts
   - [WebGraphviz](http://www.webgraphviz.com/ "Write your graphs, let the computer draw for you")
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
