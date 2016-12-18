@@ -11,6 +11,11 @@ html {
 
 body {
   color: #333;
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
 }
 
 // Links
@@ -139,16 +144,6 @@ table {
   tr:nth-child(odd) td, tr:nth-child(odd) th {
     background-color: #f9f9f9;
   }
-}
-
-// Container
-
-.container {
-  max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
 }
 
 // Nav
