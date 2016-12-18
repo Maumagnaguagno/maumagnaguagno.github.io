@@ -3,13 +3,13 @@ title: Archive
 hidden: true
 ---
 
-{% for page in site.pages %}
-  {% if page.title and page.hidden != true %}
+{% for page in site.html_pages %}
+  {% unless page.hidden %}
 
 <div class='post-title'>
   <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
   <p>{{ page.description }}</p>
 </div>
 
-  {% endif %}
+  {% endunless %}
 {% endfor %}
