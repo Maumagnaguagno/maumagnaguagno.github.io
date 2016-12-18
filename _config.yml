@@ -18,7 +18,5 @@ permalink: /:title
 
 exclude: README.md
 
-gems: jemoji
-
 safe: true
 lsi: false
