@@ -141,7 +141,7 @@ table {
   }
 }
 
-//  Container
+// Container
 
 .container {
   max-width: 38rem;
@@ -151,7 +151,7 @@ table {
   margin-right: auto;
 }
 
-//  Nav
+// Nav
 
 .nav {
   padding-top:    1rem;
@@ -159,9 +159,10 @@ table {
   margin-bottom:  1rem;
 
   .nav-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    a { color: inherit; }
+    padding-right: 20px;
+    a {
+      color: inherit;
+    }
 
     small {
       font-size: 75%;
