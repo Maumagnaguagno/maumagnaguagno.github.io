@@ -14,7 +14,7 @@ sass:
   sass_dir: css
   style: compressed
 
-emoji:
+img_attrs:
   align: nil
 
 permalink: /:title
