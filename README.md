@@ -4,13 +4,13 @@
 Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
 
 ```
- __________________
-|__________________| <-- Nav bar (Home, ...)
-|       |          |
-|       |          | <-- Split view
-|       |          |     Separations may be invisible
-|       |          |
-|_______|__________|
+ ___________________
+|___________________| <-- Nav bar
+|   | 1 Collumn |   |
+|   |     |     |   | <-- Split view
+|   |  L  |  R  |   |     Separations are invisible
+|   |     |     |   |
+|___|___________|___|
 ```
 
 Apply split view using divs.
