@@ -4,7 +4,7 @@ hidden: true
 ---
 
 {% for page in site.pages %}
-  {% if page.title and page.hidden == false %}
+  {% if page.title and page.hidden != true %}
 
 <div class='post-title'>
   <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
