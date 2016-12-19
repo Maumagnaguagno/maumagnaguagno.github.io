@@ -3,11 +3,6 @@ author: MauMagnaguagno
 keywords: Crazy,PDDL,Ruby,MauMagnaguagno
 description: Random thoughts of a deterministic mind.
 
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: false
-
 sass:
   sass_dir: css
   style: compressed
@@ -15,6 +10,3 @@ sass:
 permalink: /:title
 
 exclude: README.md
-
-safe: true
-lsi: false
