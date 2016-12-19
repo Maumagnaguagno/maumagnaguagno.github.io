@@ -18,6 +18,19 @@ body {
   margin-right: auto;
 }
 
+header {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom:  1rem;
+  font-size: 1.25rem;
+  line-height: 1.25;
+
+  a {
+    margin-right: 20px;
+    color: inherit;
+  }
+}
+
 // Links
 
 a {
@@ -143,21 +156,6 @@ table {
 
   tr:nth-child(odd) td, tr:nth-child(odd) th {
     background-color: #f9f9f9;
-  }
-}
-
-// Nav
-
-.nav {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom:  1rem;
-  font-size: 1.25rem;
-  line-height: 1.25;
-
-  a {
-    margin-right: 20px;
-    color: inherit;
   }
 }
 
