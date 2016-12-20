@@ -13,7 +13,8 @@ Hover links to see their description.
   - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
   - [Red blob games](http://www.redblobgames.com/ "A* and game development material")
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
-  - [Hackaday](http://hackaday.com "Engineering and maker stuff")
+  - [Hackaday](https://hackaday.com "Engineering and maker stuff")
+  - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
 - Youtube
   - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
@@ -39,7 +40,7 @@ Hover links to see their description.
   - [Dillinger](http://dillinger.io/ "Markdown editor")
   - [Sharelatex](https://www.sharelatex.com/ "Share papers with co-workers")
 - Movies
-  - [TasteKid](http://www.tastekid.com/ "Recommendation system")
+  - [TasteKid](https://www.tastekid.com/ "Recommendation system")
   - [IMDb](http://www.imdb.com/ "That movie with that actor, the same from the other movie")
 
 </div></div>

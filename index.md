@@ -17,9 +17,9 @@ I am interested in:
 
 Here you can see some of my stuff:
 
-- [State-space visualization with D3](http://maumagnaguagno.github.io/HeuristicView/)
+- [State-space visualization with D3](https://maumagnaguagno.github.io/HeuristicView/)
   - See how different search mechanisms affect the state-space
-- [Web-planner](http://web-planner.herokuapp.com/)
+- [Web-planner](https://web-planner.herokuapp.com/)
   - A classical planner running on Heroku
 - [PDDL insights](pddl.md)
 - [Ruby snippets](ruby.md)
