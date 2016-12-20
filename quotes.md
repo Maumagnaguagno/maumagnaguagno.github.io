@@ -10,13 +10,13 @@ hidden: true
 
 > Vita brevis,  
 > ars longa,  
-> occasio praeceps, 
+> occasio praeceps,  
 > experimentum periculosum,  
 > iudicium difficile.
 
 </div><div style="width:45%" markdown="1">
 
-[Ars longa, vita brevis](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)
+[Ars longa, Vita brevis](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)  
 Hippocrates
 
 </div></div>
