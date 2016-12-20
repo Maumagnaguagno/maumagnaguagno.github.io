@@ -156,27 +156,6 @@ table {
   }
 }
 
-// Posts
-
-.post {
-  margin-bottom: 4em;
-
-  .post-title {
-    margin-top: 0;
-  }
-
-  // Meta data line below post title
-  .post-date {
-    display: block;
-    margin-top: -.5rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.post-date {
-  color: #9a9a9a;
-}
-
 // Split
 
 .split { display: table-row; }
