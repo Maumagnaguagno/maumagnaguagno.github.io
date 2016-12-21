@@ -1,6 +1,7 @@
 ---
 title: Quotes
 description: Stuff people say
+date: 2016-12-20
 hidden: true
 ---
 
