@@ -21,3 +21,13 @@ hidden: true
 Hippocrates
 
 </div></div>
+
+<div class="split"><div style="width:45%" markdown="1">
+
+Ursula K. Le Guin
+
+</div><div style="width:45%" markdown="1">
+
+> The creative adult is the child who has survived.
+
+</div></div>
