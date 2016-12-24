@@ -1,3 +1,12 @@
 {% if page.date %}
   <p style="font-size:small;float:right;">{{ page.date | date_to_long_string }}</p>
 {% endif %}
+
+{% assign words = content | number_of_words %}
+<p>
+{% if words < 360 %}
+1 min
+{% else %}
+  {{ words | divided_by:180 }} mins
+{% endif %}
+</p>
