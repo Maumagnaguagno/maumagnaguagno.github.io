@@ -17,8 +17,8 @@ Apply split view using divs.
 Avoid reaching 100% to create better separations
 
 ```HTML
-<div class="split" markdown="1">
-  <div style="width:45%">
+<div class="split">
+  <div style="width:45%" markdown="1">
     Left text is here.
   </div>
   <div style="width:45%" markdown="1">
