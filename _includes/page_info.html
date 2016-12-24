@@ -1,5 +1,5 @@
 {% if page.date %}
   {% assign words = content | number_of_words %}
-  <p style="font-size:small;font-weight:bold;float:right;">{{ page.date | date_to_long_string }} -{% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}read</p>
+  <p style="font-size:small;float:right;">{{ page.date | date_to_long_string }} -{% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}read</p>
 {% endif %}
 
