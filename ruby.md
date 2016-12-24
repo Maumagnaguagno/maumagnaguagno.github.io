@@ -1,6 +1,7 @@
 ---
 title: Ruby
 description: My Ruby tricks
+date: 2016-09-15
 category: ruby
 ---
 

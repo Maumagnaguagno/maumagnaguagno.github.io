@@ -1,6 +1,7 @@
 ---
 title: PDDL
 description: The Planning Domain Definition Language
+date: 2016-09-01
 category: pddl
 ---
 
