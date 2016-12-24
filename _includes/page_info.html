@@ -1,7 +1,6 @@
 {% if page.date %}
-  {% assign words = content | number_of_words %}
-  
   <p style="font-size:small;float:right;">
+    {% assign words = page.content | number_of_words %}
     {% if words < 360 %}
       1 min
     {% else %}
