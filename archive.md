@@ -4,7 +4,7 @@ hidden: true
 ---
 
 {% assign sorted_pages = site.html_pages | sort: 'date' %}
-{% for page in sorted_pages %}
+{% for page in sorted_pages reversed %}
   {% unless page.hidden %}
 
 <div>
