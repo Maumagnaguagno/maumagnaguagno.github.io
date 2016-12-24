@@ -3,7 +3,8 @@ title: Archive
 hidden: true
 ---
 
-{% for page in site.html_pages %}
+{% assign sorted_pages = site.html_pages | sort: 'date' %}
+{% for page in sorted_pages %}
   {% unless page.hidden %}
 
 <div>
