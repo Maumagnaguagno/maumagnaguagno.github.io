@@ -25,9 +25,7 @@ layout: compress
 </header>
 
 <div>
-  {% if page.date %}
-    <p style="font-size:small;float:right;">{{ page.date | date_to_long_string }}</p>
-  {% endif %}
+  {% include page_info.html %}
   {{ content }}
 </div>
 
