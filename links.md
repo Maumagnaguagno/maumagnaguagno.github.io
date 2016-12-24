@@ -1,6 +1,7 @@
 ---
 title: Links
 description: A lot of links for you to go, but please... come back.
+hidden: true
 ---
 
 Links to the coolest places of the internets.

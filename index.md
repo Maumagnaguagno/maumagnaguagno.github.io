@@ -1,6 +1,7 @@
 ---
 title: Home
 description: Home, virtual home.
+hidden: true
 ---
 
 Hello there, I am **Mau**.
