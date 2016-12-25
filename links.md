@@ -16,6 +16,7 @@ Hover links to see their description.
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
+  - [Andrej Karpathy blog](http://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [Academic site](http://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
 - Youtube
   - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
