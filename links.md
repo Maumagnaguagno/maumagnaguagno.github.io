@@ -7,7 +7,7 @@ hidden: true
 Links to the coolest places of the internets.
 Hover links to see their description.
 
-<div class="split" markdown="1"><div style="width:45%" markdown="1">
+<div class="split"><div style="width:45%" markdown="1">
 
 ## Sites
 - Computer Science and Engineering
