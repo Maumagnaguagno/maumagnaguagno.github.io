@@ -7,7 +7,7 @@ hidden: true
 Links to the coolest places of the internets.
 Hover links to see their description.
 
-<div class="split"><div style="width:45%" markdown="1">
+<div class="split" markdown="1"><div style="width:45%">
 
 ## Sites
 - Computer Science and Engineering
@@ -25,7 +25,7 @@ Hover links to see their description.
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
   - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
 
-</div><div style="width:45%" markdown="1">
+</div><div style="width:45%">
 
 ## Online tools
 - Programming
