@@ -19,25 +19,29 @@ Stylish | 2.0.7
 
 TODO add links
 
+## Configs
+about:config
+- disable Heartbeat: ``set browser.selfsupport.url to ""``
+
 ## Preferences
-TODO
+**TODO**
 
 ### General
-TODO
+**TODO**
 
 ### Search
-TODO
+**TODO**
 
 ### Content
 
-DRM content
+#### DRM content
 - Play DRM content: yes
 
-Pop-ups
+#### Pop-ups
 - Block pop-up windows: yes
 - Exceptions: none
 
-Fonts & Colors
+#### Fonts & Colors
 - Default font: ``Times New Roman`` Size: ``...``
 - Fonts for: ``Latin``
   - Proportional: ``Serif`` Size: ``...``
@@ -48,10 +52,13 @@ Fonts & Colors
   - Allow pages to choose their own fonts, instead of my selections above: yes
   - Fallback Text Encoding: ``Default for Current Locale``
 
-TODO colors and languages
-TODO add other preferences
+**TODO colors and languages**
 
-## Adblock Plus
+**TODO add other preferences**
+
+## Extensions
+
+### Adblock Plus
 - Automatic updates: default
 - Disable everywhere: no
 - Show tabs on Flash and Java: no
@@ -63,14 +70,14 @@ Filter preferences:
 - EasyList
 - Allow some non-intrusive advertising: no
 
-## All-in-One Sidebar
-TODO
+### All-in-One Sidebar
+**TODO**
 
-## BarTab Heavy
-TODO
+### BarTab Heavy
+**TODO**
 
-## Classic Theme Restorer
-TODO
+### Classic Theme Restorer
+**TODO**
 
-## Stylish scripts
-TODO gists
+### Stylish scripts
+**TODO gists**
