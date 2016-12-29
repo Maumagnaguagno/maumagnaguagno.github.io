@@ -3,9 +3,6 @@ author: MauMagnaguagno
 keywords: Crazy,PDDL,Ruby,MauMagnaguagno
 description: Random thoughts of a deterministic mind.
 
-kramdown:
-  gfm_quirks: paragraph_end
-
 sass:
   sass_dir: css
   style: compressed

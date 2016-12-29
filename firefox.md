@@ -20,8 +20,7 @@ Stylish | 2.0.7
 TODO add links
 
 ## Configs
-about:config
-- disable Heartbeat: ``set browser.selfsupport.url to ""``
+Disable Heartbeat: ``about:config set browser.selfsupport.url to ""``
 
 ## Preferences
 **TODO**
@@ -64,11 +63,10 @@ about:config
 - Show tabs on Flash and Java: no
 - Count filter hits: no
 - Show in toolbar: no
-
-Filter preferences:
-- Adblock Warning Removal List
-- EasyList
-- Allow some non-intrusive advertising: no
+- Filter preferences:
+  - Adblock Warning Removal List
+  - EasyList
+  - Allow some non-intrusive advertising: no
 
 ### All-in-One Sidebar
 **TODO**
