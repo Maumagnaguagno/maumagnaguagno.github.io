@@ -5,7 +5,7 @@ description: Random thoughts of a deterministic mind.
 
 kramdown:
   input: GFM
-  hard_wrap: false
+  hard_wrap: true
 
 sass:
   sass_dir: css
