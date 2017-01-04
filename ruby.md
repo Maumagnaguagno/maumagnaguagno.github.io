@@ -71,7 +71,7 @@ unification(a) { puts a } # Prints 1 2 3
 ```
 
 ## Rescue
-Sometimes your program is interrupted by an error, other times you just noticed something wrong and decided to hit ``CTRL+C``, causing an interruption.
+Sometimes your program is interrupted by an error, other times you just noticed something wrong and decided to hit <kbd>CTRL+C</kbd>, causing an interruption.
 But that does not mean your program is going to terminate, sometimes you want a warning asking to save your changes before a clean exit and the computer must rescue you.
 This is also useful when combined with timers, so you know how much time has passed until your patience has run dry.
 
