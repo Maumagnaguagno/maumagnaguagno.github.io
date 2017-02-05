@@ -1,0 +1,10 @@
+title: Mau
+description: Random thoughts of a deterministic mind.
+
+sass:
+  sass_dir: css
+  style: compressed
+
+permalink: /:title
+
+exclude: README.md
