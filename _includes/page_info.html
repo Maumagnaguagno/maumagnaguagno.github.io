@@ -1,8 +1,0 @@
-{% if page.date %}
-
-<p style="font-size:small;float:right">
-  {{ page.content | number_of_words | divided_by: 250.0 | ceil}} min read -
-  {{ page.date | date_to_long_string }}
-</p>
-
-{% endif %}
