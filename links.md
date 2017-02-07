@@ -24,6 +24,7 @@ Hover links to see their description.
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
   - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
+  - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Ben Heck - Design, build and fix electronics")
 
 </div><div style="width:45%" markdown="1">
 
@@ -36,8 +37,10 @@ Hover links to see their description.
   - [W3C validator](https://validator.w3.org/ "Validate web documents")
 - Graphs and Charts
   - [WebGraphviz](http://www.webgraphviz.com/ "Write your graphs, let the computer draw for you")
+  - [Graphizo](http://g.gravizo.com/ "Your Graphviz, UMLGraph or PlantUML for your README")
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
+  - [GoAT](https://github.com/blampe/goat "ASCII diagram generation")
 - Writing
   - [Dillinger](http://dillinger.io/ "Markdown editor")
   - [Sharelatex](https://www.sharelatex.com/ "Share papers with co-workers")
