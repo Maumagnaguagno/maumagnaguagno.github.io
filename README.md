@@ -18,10 +18,10 @@ Avoid reaching 100% to create better separations
 
 ```HTML
 <div class="split">
-  <div style="width:45%" markdown="1">
+  <div markdown="1">
     Left text is here.
   </div>
-  <div style="width:45%" markdown="1">
+  <div markdown="1">
     And the right content is here.
   </div>
 </div>

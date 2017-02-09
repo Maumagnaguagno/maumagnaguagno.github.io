@@ -7,7 +7,7 @@ hidden: true
 
 # Quotes
 
-<div class="split"><div style="width:45%" markdown="1">
+<div class="split"><div markdown="1">
 
 > Vita brevis,  
 > ars longa,  
@@ -15,7 +15,7 @@ hidden: true
 > experimentum periculosum,  
 > iudicium difficile.
 
-</div><div style="width:45%" markdown="1">
+</div><div markdown="1">
 
 [Ars longa, Vita brevis](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)  
 Hippocrates
@@ -33,7 +33,7 @@ Ursula K. Le Guin
 
 </div></div>
 
-<div class="split"><div style="width:45%" markdown="1">
+<div class="split"><div markdown="1">
 
 > Be the person you needed  
 > when you were younger.
