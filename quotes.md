@@ -35,7 +35,8 @@ Ursula K. Le Guin
 
 <div class="split"><div style="width:45%" markdown="1">
 
-> Be the person you needed when you were younger.
+> Be the person you needed  
+> when you were younger.
 
 </div><div markdown="1">
 
