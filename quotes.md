@@ -32,3 +32,13 @@ Hippocrates
 Ursula K. Le Guin
 
 </div></div>
+
+<div class="split"><div style="width:45%" markdown="1">
+
+> Be the person you needed when you were younger.
+
+</div><div markdown="1">
+
+Ayesha A. Siddiqi
+
+</div></div>
