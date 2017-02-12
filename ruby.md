@@ -97,7 +97,7 @@ Parse arguments using a ``while`` loop that consumes values from ``ARGV``.
 To make everything easier you can define the parser in a class method, such as ``self.setup``, that returns a new instance.
 Required terms are processed first while others are shifted from ``options`` as required.
 Put ``HELP`` description at the top to provide help for both developers and users.
-Previously described Conditional/Assignment merge and Splat operator are used in this example.
+Conditional/Assignment merge and Splat operator, previously described, are used in this example.
 
 ```ruby
 class Foo
