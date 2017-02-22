@@ -137,3 +137,40 @@ if $0 == __FILE__
   end
 end
 ```
+
+## Hash behavior
+Hash may behave differently according to object initialization if provided a default value or block behavior.
+
+```ruby
+# Basic Hash
+h = Hash.new
+h[2]      #=> nil
+h         #=> {}
+h[2] += 1 #=> NoMethodError: undefined method `+' for nil:NilClass
+
+# Default value
+h = Hash.new(0)
+h[2]      #=> 0
+h         #=> {}
+h[2] += 1 #=> {2=>1}
+
+# Default behavior
+h = Hash.new {|h,k| h[k] = 0}
+h[2]      #=> 0
+h         #=> {2=>0}
+h[2] += 1 #=> {2=>1}
+```
+
+Note that if the default value is not a boolean or numeric object the behavior is probably not what one would expect, as the same instance is always returned.
+
+```ruby
+h = Hash.new('a')
+h[2]         #=> 'a'
+h << 'b'     #=> 'ab'
+h[2]         #=> 'ab'
+h.default    #=> 'ab'
+h[3] <<= 'c' #=> 'abc'
+h[4] += 'c'  #=> 'abcc'
+h.default    #=> 'abc'
+h            #=> {3=>'abc', 4=>'abcc'}
+```
