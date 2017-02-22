@@ -139,7 +139,7 @@ end
 ```
 
 ## Hash behavior
-Hash may behave differently according to object initialization if provided a default value or block behavior.
+Hash may behave differently according to object initialization if default value or block behavior is provided.
 
 ```ruby
 # Basic Hash
@@ -161,7 +161,7 @@ h         #=> {2=>0}
 h[2] += 1 #=> {2=>1}
 ```
 
-Note that if the default value is not a boolean or numeric object the behavior is probably not what one would expect, as the same instance is always returned.
+If the default value is not a boolean or numeric object, the behavior is probably not what one would expect, as the same instance is always returned.
 
 ```ruby
 h = Hash.new('a')
