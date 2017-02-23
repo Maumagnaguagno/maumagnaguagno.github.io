@@ -132,12 +132,24 @@ In order to add PDDL and SHOP snippets to your tex files you can extend Lisp wit
 \lstdefinelanguage
 {PDDL}[]{LISP}
 {alsoletter={:,?},
-morekeywords={define,domain,problem,:domain,:extends,:requirements,:strips,:equality,:typing,:conditional-effects,:strips,:types,:objects,:negative-preconditions,:disjunctive-preconditions,:existential-preconditions,:universal-preconditions,:constants,:domain-variables,:timeless,:domain-axioms,:action-expansions,:predicates,:action,:parameters,:precondition,:effect,:fluents,:primary-effect,:side-effect,:init,:goal,when,not,forall,exists,goal-type,choice,forsome,in-context}}
+morekeywords={
+  define,domain,problem,:domain,:extends,:requirements,:strips,
+  :equality,:typing,:conditional-effects,:types,:objects,
+  :negative-preconditions,:disjunctive-preconditions,
+  :existential-preconditions,:universal-preconditions,
+  :constants,:domain-variables,:timeless,:domain-axioms,
+  :action-expansions,:predicates,:action,:parameters,:precondition,
+  :effect,:fluents,:primary-effect,:side-effect,:init,:goal,when,not,
+  forall,exists,goal-type,choice,forsome,in-context
+}}
 
 \lstdefinelanguage
 {SHOP}[]{LISP}
-{alsoletter={:,?,!}, 
-morekeywords={defdomain,defproblem,:domain,:method,:operator,:goal,when,not,forall,exists,goal-type,choice,forsome,in-context}}
+{alsoletter={:,?,!},
+morekeywords={
+  defdomain,defproblem,:domain,:method,:operator,:goal,
+  when,not,forall,exists,goal-type,choice,forsome,in-context
+}}
 ```
 
 And use like this:
