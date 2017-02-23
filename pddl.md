@@ -130,8 +130,8 @@ In order to add PDDL and SHOP snippets to your tex files you can extend Lisp wit
 \usepackage{listings}
 
 \lstdefinelanguage
-{PDDL}[]{LISP}
-{alsoletter={:,?},
+{PDDL}[]{LISP}{
+alsoletter={:,?},
 morekeywords={
   define,domain,problem,:domain,:extends,:requirements,:strips,
   :equality,:typing,:conditional-effects,:types,:objects,
@@ -144,8 +144,8 @@ morekeywords={
 }}
 
 \lstdefinelanguage
-{SHOP}[]{LISP}
-{alsoletter={:,?,!},
+{SHOP}[]{LISP}{
+alsoletter={:,?,!},
 morekeywords={
   defdomain,defproblem,:domain,:method,:operator,:goal,
   when,not,forall,exists,goal-type,choice,forsome,in-context
@@ -158,7 +158,6 @@ And use like this:
   float=!tb,
   caption={Move operator.},
   label={lst:pddlmove},
-  basicstyle=\ttfamily\footnotesize,
   language=PDDL]
 (:action move
   :parameters (?bot - robot ?source ?destination - hallway)
