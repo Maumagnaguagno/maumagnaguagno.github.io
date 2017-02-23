@@ -28,7 +28,7 @@ my_array = [1, 2, 3]
 until first = my_array.shift
   puts first
 end
-# Single line version will not work due to first being assigned after access.
+# Single line version will not work due to first being assigned after access
 puts first until first = my_array.shift
 ```
 
