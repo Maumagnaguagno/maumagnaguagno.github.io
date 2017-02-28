@@ -1,5 +1,4 @@
 ---
-title: Home
 description: Home, virtual home.
 hidden: true
 ---
