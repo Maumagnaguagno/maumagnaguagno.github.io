@@ -19,4 +19,4 @@ Then generating a X mirrored image to result in something like a [Rorschach test
 
 ![Brownian motion X mirrored](img/colorex_brownian.png "Now tell me, what do you see?")
 
-Eventually gonna populate this page with more algorithms and pretty images, stay tuned.
+Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
