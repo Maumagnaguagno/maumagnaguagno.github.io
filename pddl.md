@@ -115,7 +115,7 @@ category: pddl
 - ``:disjunctive-preconditions``
   - Break each part of the precondition in a different action
 
-## What is important to describe?
+## What is important to report/document?
 - Which requirements you used?
   - Why?
   - Do they make it simpler to describe/understand the problem?
