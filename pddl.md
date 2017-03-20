@@ -8,8 +8,8 @@ category: pddl
 # PDDL
 
 ## Why PDDL exists?
-- Many different languages/inputs
-  - Incompatibility made planners hard to compare
+- Many different languages/inputs formats for each planner
+  - Incompatibility made planners hard to compare and utilize
 - Planning community had no reason to use same language
   - There was no one formalism well defined, only STRIPS
   - They were interested in fast/correct planners, not being limited by parsers
@@ -28,15 +28,17 @@ category: pddl
 - **State**: Set of properties at some point
   - ``( (drunk hero) (at hero room1) )``
 - **Initial state**: The state of the world that we start in
-- **Goal specification**: Things that we want to be true
+- **Goal specification**: The parts of a state we want to be true (ignore what is not specified)
 - **Actions/Operators**: Ways of changing the state of the world
-  - **Parameters and Variables**: Used to reference an object, unification is left to the planner
+  - **Parameters and Variables**: Used to reference objects
+- **Domain**: Set of actions that define a scenario
+- **Problem**: Objects, initial and goal states that define an instance of the scenario
 
 ## Domain
 ```elisp
 ; Domain - this is a comment
 (define (domain hanoi)
-  (:requirements :strips :negative-preconditions :equality )
+  (:requirements :strips :negative-preconditions :equality)
   (:predicates (clear ?x) (on ?x ?y) (smaller ?x ?y) )
   (:action move
     :parameters (?disc ?from ?to)
@@ -104,12 +106,12 @@ category: pddl
 - Sometimes we can rewrite the description using simpler constructions
 - ``:negative-preconditions``
   - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate
-  - ``(not (clean ?space))`` => ``(dirty ?space)``
+  - ``(not (clean ?space))`` to ``(dirty ?space)``
 - ``:equality``
   - Add an equality predicate ``(equal obj obj)`` for each object at the initial state and replace preconditions
 - ``:typing``
   - Move types to initial state and parameters to preconditions
-  - ``(?var - type)`` => ``(type ?var)``
+  - ``(?var - type)`` to ``(type ?var)``
 - ``:disjunctive-preconditions``
   - Break each part of the precondition in a different action
 
