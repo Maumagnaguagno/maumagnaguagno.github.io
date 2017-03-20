@@ -28,7 +28,7 @@ category: pddl
 - **State**: Set of properties at some point
   - ``( (drunk hero) (at hero room1) )``
 - **Initial state**: The state of the world that we start in
-- **Goal specification**: The parts of a state we want to be true (ignore what is not specified)
+- **Goal specification**: The parts of a state we want to be true (ignore the rest)
 - **Actions/Operators**: Ways of changing the state of the world
   - **Parameters and Variables**: Used to reference objects
 - **Domain**: Set of actions that define a scenario
