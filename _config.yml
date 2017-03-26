@@ -7,4 +7,9 @@ sass:
 
 permalink: /:title
 
+collections:
+  test:
+    output: true
+    permalink: /test/:title
+
 exclude: README.md
