@@ -5,6 +5,7 @@ sass:
   sass_dir: css
   style: compressed
 
-permalink: /:title
+permalink: pretty
 
+include: ['pages']
 exclude: README.md
