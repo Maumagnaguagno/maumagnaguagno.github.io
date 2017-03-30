@@ -25,6 +25,8 @@ Hover links to see their description.
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
   - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
   - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Ben Heck - Design, build and fix electronics")
+  - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
+  - [Numberphile](https://www.youtube.com/user/numberphile "Maths!")
 
 </div><div style="width:45%" markdown="1">
 
