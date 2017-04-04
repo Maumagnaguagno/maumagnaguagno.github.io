@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-Hello there, I am **Mau**.
+Hello, I am **Mau**.
 I am interested in:
 
 - [AI](https://en.wikipedia.org/wiki/Artificial_intelligence)

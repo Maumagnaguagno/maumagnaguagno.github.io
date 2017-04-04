@@ -5,7 +5,7 @@ hidden: true
 ---
 
 Links to the coolest places of the internets.
-Hover links to see their description.
+Hover links to see their descriptions.
 
 <div class="split"><div style="width:45%" markdown="1">
 
@@ -48,6 +48,5 @@ Hover links to see their description.
   - [Sharelatex](https://www.sharelatex.com/ "Share papers with co-workers")
 - Movies
   - [TasteKid](https://www.tastekid.com/ "Recommendation system")
-  - [IMDb](http://www.imdb.com/ "That movie with that actor, the same from the other movie")
 
 </div></div>
