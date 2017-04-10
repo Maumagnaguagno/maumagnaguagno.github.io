@@ -163,7 +163,7 @@ h[2] += 1 #=> {2=>1}
 
 If the default value is not a boolean or numeric object, the behavior is probably not what one would expect, as the same instance is always returned.
 
-```Ruby
+```ruby
 h = Hash.new('a')
 h[2]         #=> 'a'
 h << 'b'     #=> 'ab'
