@@ -128,7 +128,7 @@ category: pddl
 
 ## PDDL and LaTeX listings
 You can add PDDL to your papers/reports using LaTeX listings with a custom template.
-To simplify this process I created a [repository](https://github.com/Maumagnaguagno/planning-latex "Planning LaTeX") to contain listings for planning and usage example.
+To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") to contain listings for planning and usage example.
 
 ## References
 - [PDDL 2.1 specification](http://www.public.asu.edu/~ktalamad/tmp/files/pddl21specs.pdf)
