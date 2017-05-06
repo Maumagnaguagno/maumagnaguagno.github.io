@@ -110,7 +110,7 @@ class Foo
     -v level - verbose level: 0 for silent, 1 for warnings or 2 for complete"
 
   def initialize(arg1, debug, verbose)
-    #...
+    # ...
   end
 
   def self.setup(arg1, *options)
