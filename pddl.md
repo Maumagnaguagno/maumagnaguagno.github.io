@@ -101,6 +101,32 @@ category: pddl
 - ``:disjunctive-preconditions`` - able to use ``or`` in preconditions
 - ``:conditional-effects`` - able to use ``when`` in effects
 
+```elisp
+(:action name
+  :parameters (
+    ?param1 ?param2 - type ; requires typing
+    ?param3 ?param4 ; strips
+  )
+  :precondition (and
+    (pred ?param1) ; strips
+    (not (pred ?param2)) ; negative-preconditions
+    (not (= ?param1 ?param2)) ; negative-preconditions and equality
+    (or ; disjunctive-preconditions
+      (pred ?param3)
+      (pred ?param4)
+    )
+  )
+  :effect (and
+    (not (pred ?param1)) ; strips
+    (pred ?param2) ; strips
+    (when ; conditional-effects
+      (pred2 ?param1)
+      (not (pred2 ?param1))
+    )
+  )
+)
+```
+
 ## Downgrading PDDL
 - Some planners may lack the desired requirements
 - Sometimes we can rewrite the description using simpler constructions
@@ -124,7 +150,6 @@ category: pddl
   - Typing
   - More objects
   - More predicates in goal
-
 
 ## PDDL and LaTeX listings
 You can add PDDL to your papers/reports using LaTeX listings with a custom template.
