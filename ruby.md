@@ -84,7 +84,7 @@ rescue
   puts $!, $@
 end
 
-# You can also use ``rescue`` blocks in method definitions, without begin
+# You can also use rescue blocks in method definitions, without begin
 def my_method
   # ...
 rescue
