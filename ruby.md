@@ -38,7 +38,7 @@ Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove var
 ```ruby
 [1, *[2, 3]] == [1, 2, 3] # => true
 
-def process(arg0, arg1, other_args)
+def process(arg0, arg1, *other_args)
   # arg0 == ARGV[0]
   # arg1 == ARGV[1]
   # other_args == ARGV[2..-1]
