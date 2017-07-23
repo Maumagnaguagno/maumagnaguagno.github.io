@@ -20,6 +20,8 @@ Here you can see some of the stuff I worked on:
   - See how different search mechanisms affect the state-space
 - [Web-planner](https://web-planner.herokuapp.com/)
   - A classical planner running on Heroku
+- [Timeline](Timeline/)
+  - Convert Markdown timeline to Graphviz DOT
 - [PDDL insights](pddl.md)
 - [Ruby snippets](ruby.md)
 
