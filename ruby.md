@@ -202,6 +202,7 @@ This is useful if values must conform to mathematics/physics formulas where inte
 
 ## Give me more
 There are more places in the internet to search for Ruby snippets:
-- [Ruby Style Guide](bbatsov/ruby-style-guide) and [RuboCop](http://batsov.com/rubocop/) to learn and enforce a style guide to your project.
+- [Ruby Style Guide](bbatsov/ruby-style-guide) to learn about what the community prefer.
+- [RuboCop](http://batsov.com/rubocop/) to enforce a style guide to your project.
 - [JuanitoFatas/fast-ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast common Ruby idioms.
 - [BigBinary blog](http://blog.bigbinary.com/categories/Ruby-2-4) have a Ruby 2.4 series of posts.
