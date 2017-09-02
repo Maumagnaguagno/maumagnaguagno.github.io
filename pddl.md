@@ -22,7 +22,7 @@ category: pddl
 
 ## Planning elements
 - **Objects**: Things in the world that interest us
-  - ``ball, room1, hero, sword``
+  - ``ball``, ``room1``, ``hero``, ``sword``
 - **Predicates**: Properties of objects that we are interested in (can be true or false)
   - ``(drunk hero)``
 - **State**: Set of properties at some point
