@@ -174,3 +174,27 @@ h[4] += 'c'  #=> 'abcc'
 h.default    #=> 'abc'
 h            #=> {3=>'abc', 4=>'abcc'}
 ```
+
+## Equality operator
+From time to time your new object class must be compared, and comparing only instance variables, ``@var == other.var``, will result in error if the ``other`` object does not respond to ``var``.
+Most users will compare the objects class first, ``self.class == other.class``, which is good but not optimal.
+Instead of thinking if both objects have the same class we can think if object is an instance of other object class, which is slightly faster.
+
+```ruby
+class MyObject2
+
+  attr_reader :var
+
+  def initialize(var)
+    @var = var
+  end
+
+  def ==(other)
+    instance_of?(other.class) and @var == other.var
+  end
+end
+```
+
+## Float division
+Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` can do that for you, ``a.fdiv(b)``.
+This is speacially useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
