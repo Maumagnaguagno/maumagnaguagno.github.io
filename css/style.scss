@@ -78,7 +78,12 @@ li + li { margin-top: 4px }
 
 // Code
 
-code { font-size: 90% }
+code {
+  font: 16px Consolas, monospace;
+  background-color: rgba(27, 31, 35, 0.05);
+  padding: 3px;
+  border-radius: 3px;
+}
 
 pre {
   margin: 0 -2rem 1rem -2rem;
