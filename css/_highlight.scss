@@ -1,5 +1,7 @@
-pre.highlight,
-.highlight pre { color: #fff; background-color: #111 }
+pre.highlight, .highlight pre {
+  color: #fff; background-color: #111;
+  box-shadow: 10px 10px 2px #666
+}
 .highlight .hll { background-color: #222 }
 .highlight .c { color: #777 } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
