@@ -199,3 +199,9 @@ end
 ## Float division
 Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` can do that for you, ``a.fdiv(b)``.
 This is useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
+
+## Give me more
+There are more places in the internet to search for Ruby snippets:
+- [Ruby Style Guide](bbatsov/ruby-style-guide) and [RuboCop](http://batsov.com/rubocop/) to learn and enforce certain style guides to your project.
+- [JuanitoFatas/fast-ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of faster alternatives for common Ruby idioms.
+- [BigBinary blog](http://blog.bigbinary.com/categories/Ruby-2-4) have a Ruby 2.4 series of posts.
