@@ -182,7 +182,7 @@ Instead of thinking if both objects have the same class we can think if object i
 There is probably a variation of this equality operator which can consider inheritance using ``is_a?``.
 
 ```ruby
-class MyObject2
+class MyObject
 
   attr_reader :var
 
