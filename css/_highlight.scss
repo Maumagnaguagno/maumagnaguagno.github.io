@@ -15,6 +15,7 @@
   .ge { font-style: italic } /* Generic.Emph */
   .gs { font-weight: bold } /* Generic.Strong */
 
+  .p,  /* Punctuation */
   .k,  /* Keyword */
   .kc, /* Keyword.Constant */
   .kd, /* Keyword.Declaration */
@@ -38,9 +39,8 @@
   .nt, /* Name.Tag */
   .gd { color: #f92672 } /* Generic.Deleted & Diff Deleted */
 
-  .n,  /* Name */
-  .p,  /* Punctuation */
   .w,  /* Text.Whitespace */
+  .n,  /* Name */
   .nb, /* Name.Builtin */
   .bp, /* Name.Builtin.Pseudo */
   .ni, /* Name.Entity */
