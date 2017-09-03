@@ -22,6 +22,7 @@
   .kp, /* Keyword.Pseudo */
   .kr, /* Keyword.Reserved */
   .kt, /* Keyword.Type */
+  .nb, /* Name.Builtin */
   .no { color: #66d9ef } /* Name.Constant */
 
   .l,  /* Literal */
@@ -41,7 +42,6 @@
 
   .w,  /* Text.Whitespace */
   .n,  /* Name */
-  .nb, /* Name.Builtin */
   .bp, /* Name.Builtin.Pseudo */
   .ni, /* Name.Entity */
   .nl, /* Name.Label */
