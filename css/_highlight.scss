@@ -38,7 +38,6 @@
   .ow, /* Operator.Word */
   .kn, /* Keyword.Namespace */
   .nt, /* Name.Tag */
-  .vg, /* Name.Variable.Global */
   .gd { color: #f92672 } /* Generic.Deleted & Diff Deleted */
 
   .w,  /* Text.Whitespace */
@@ -51,6 +50,7 @@
   .nv, /* Name.Variable */
   .vc { color: #fff } /* Name.Variable.Class */
 
+  .vg { color: #f00 } /* Name.Variable.Global */
   .vi { color: #f08 } /* Name.Variable.Instance */
 
   .c,  /* Comment */
