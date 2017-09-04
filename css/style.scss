@@ -3,7 +3,11 @@
 
 @import "highlight.scss";
 
-html { font: 20px / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif }
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   20px;
+  line-height: 1.5;
+}
 
 body {
   max-width: 38rem;
