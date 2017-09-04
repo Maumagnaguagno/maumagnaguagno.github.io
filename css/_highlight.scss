@@ -10,7 +10,6 @@
 
   .hll { background-color: #222 }
   .err { color: #960050; background-color: #1e0010 } /* Error */
-  .gh {} /* Generic Heading & Diff Header */
   .ge { font-style: italic } /* Generic.Emph */
   .gs { font-weight: bold } /* Generic.Strong */
 
@@ -42,18 +41,6 @@
   .nt, /* Name.Tag */
   .gd  /* Generic.Deleted & Diff Deleted */
   { color: #f92672 }
-
-  .w,  /* Text.Whitespace */
-  .n,  /* Name */
-  .bp, /* Name.Builtin.Pseudo */
-  .no  /* Name.Constant */
-  .ni, /* Name.Entity */
-  .nl, /* Name.Label */
-  .nn, /* Name.Namespace */
-  .py, /* Name.Property */
-  .nv, /* Name.Variable */
-  .vc  /* Name.Variable.Class */
-  {}
 
   .k+.nc { color: #f66 } /* Name.Class */
   .vg { color: #f00 } /* Name.Variable.Global */
@@ -88,4 +75,17 @@
   .sr, /* Literal.String.Regex */
   .s1  /* Literal.String.Single */
   { color: #f0f }
+
+  .w,  /* Text.Whitespace */
+  .n,  /* Name */
+  .bp, /* Name.Builtin.Pseudo */
+  .no  /* Name.Constant */
+  .ni, /* Name.Entity */
+  .nl, /* Name.Label */
+  .nn, /* Name.Namespace */
+  .py, /* Name.Property */
+  .nv, /* Name.Variable */
+  .vc, /* Name.Variable.Class */
+  .gh  /* Generic Heading & Diff Header */
+  {}
 }
