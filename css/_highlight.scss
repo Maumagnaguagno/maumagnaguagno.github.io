@@ -26,10 +26,6 @@
   .kt  /* Keyword.Type */
   { color: #88f }
 
-  .nc, /* Name.Class */
-  .no /* Name.Constant */
-  { color: #fff }
-
   .l,  /* Literal */
   .m,  /* Literal.Number */
   .mf, /* Literal.Number.Float */
@@ -50,14 +46,16 @@
   .w,  /* Text.Whitespace */
   .n,  /* Name */
   .bp, /* Name.Builtin.Pseudo */
+  .no  /* Name.Constant */
   .ni, /* Name.Entity */
   .nl, /* Name.Label */
   .nn, /* Name.Namespace */
   .py, /* Name.Property */
   .nv, /* Name.Variable */
   .vc  /* Name.Variable.Class */
-  { color: #fff }
+  {}
 
+  .k+.nc { color: #f66 } /* Name.Class */
   .vg { color: #f00 } /* Name.Variable.Global */
   .vi { color: #f08 } /* Name.Variable.Instance */
 
@@ -72,7 +70,7 @@
   .na, /* Name.Attribute */
   .nd, /* Name.Decorator */
   .ne, /* Name.Exception */
-  .nf, /* Name.Function */
+  .k+.nf, /* Name.Function */
   .nx, /* Name.Other */
   .ss, /* Literal.String.Symbol */
   .gi  /* Generic.Inserted & Diff Inserted */
