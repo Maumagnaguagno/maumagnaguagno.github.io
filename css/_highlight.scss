@@ -14,17 +14,21 @@
   .ge { font-style: italic } /* Generic.Emph */
   .gs { font-weight: bold } /* Generic.Strong */
 
-  .p,  /* Punctuation */
+  .p, /* Punctuation */
+  .nb /* Name.Builtin */
+  { color: #6de }
+
   .k,  /* Keyword */
   .kc, /* Keyword.Constant */
   .kd, /* Keyword.Declaration */
   .kp, /* Keyword.Pseudo */
   .kr, /* Keyword.Reserved */
-  .kt, /* Keyword.Type */
-  .nb { color: #66d9ef } /* Name.Builtin */
+  .kt  /* Keyword.Type */
+  { color: #88f }
 
   .nc, /* Name.Class */
-  .no { color: #fff } /* Name.Constant */
+  .no /* Name.Constant */
+  { color: #fff }
 
   .l,  /* Literal */
   .m,  /* Literal.Number */
@@ -33,13 +37,15 @@
   .mi, /* Literal.Number.Integer */
   .il, /* Literal.Number.Integer.Long */
   .mo, /* Literal.Number.Oct */
-  .se { color: #ae81ff } /* Literal.String.Escape */
+  .se  /* Literal.String.Escape */
+  { color: #ae81ff }
 
   .o,  /* Operator */
   .ow, /* Operator.Word */
   .kn, /* Keyword.Namespace */
   .nt, /* Name.Tag */
-  .gd { color: #f92672 } /* Generic.Deleted & Diff Deleted */
+  .gd  /* Generic.Deleted & Diff Deleted */
+  { color: #f92672 }
 
   .w,  /* Text.Whitespace */
   .n,  /* Name */
@@ -49,7 +55,8 @@
   .nn, /* Name.Namespace */
   .py, /* Name.Property */
   .nv, /* Name.Variable */
-  .vc { color: #fff } /* Name.Variable.Class */
+  .vc  /* Name.Variable.Class */
+  { color: #fff }
 
   .vg { color: #f00 } /* Name.Variable.Global */
   .vi { color: #f08 } /* Name.Variable.Instance */
@@ -59,7 +66,8 @@
   .cp, /* Comment.Preproc */
   .c1, /* Comment.Single */
   .cs, /* Comment.Special */
-  .gu { color: #0f0 } /* Generic.Subheading & Diff Unified/Comment? */
+  .gu  /* Generic.Subheading & Diff Unified/Comment? */
+  { color: #0f0 }
 
   .na, /* Name.Attribute */
   .nd, /* Name.Decorator */
@@ -67,8 +75,8 @@
   .nf, /* Name.Function */
   .nx, /* Name.Other */
   .ss, /* Literal.String.Symbol */
-  .gi { color: #ff0 } /* Generic.Inserted & Diff Inserted */
-  
+  .gi  /* Generic.Inserted & Diff Inserted */
+  { color: #ff0 }
 
   .s,  /* Literal.String */
   .ld, /* Literal.Date */
@@ -80,5 +88,6 @@
   .si, /* Literal.String.Interpol */
   .sx, /* Literal.String.Other */
   .sr, /* Literal.String.Regex */
-  .s1 { color: #f0f } /* Literal.String.Single */
+  .s1  /* Literal.String.Single */
+  { color: #f0f }
 }
