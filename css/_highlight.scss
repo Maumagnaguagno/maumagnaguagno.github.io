@@ -33,6 +33,7 @@
   .il, /* Literal.Number.Integer.Long */
   .mo, /* Literal.Number.Oct */
   .se  /* Literal.String.Escape */
+  .si, /* Literal.String.Interpol */
   { color: #ae81ff }
 
   .o,  /* Operator */
@@ -70,7 +71,6 @@
   .sd, /* Literal.String.Doc */
   .s2, /* Literal.String.Double */
   .sh, /* Literal.String.Heredoc */
-  .si, /* Literal.String.Interpol */
   .sx, /* Literal.String.Other */
   .sr, /* Literal.String.Regex */
   .s1  /* Literal.String.Single */
