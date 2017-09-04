@@ -21,9 +21,10 @@
   .kp, /* Keyword.Pseudo */
   .kr, /* Keyword.Reserved */
   .kt, /* Keyword.Type */
-  .nb, /* Name.Builtin */
+  .nb { color: #66d9ef } /* Name.Builtin */
+
   .nc, /* Name.Class */
-  .no { color: #66d9ef } /* Name.Constant */
+  .no { color: #fff } /* Name.Constant */
 
   .l,  /* Literal */
   .m,  /* Literal.Number */
@@ -58,14 +59,16 @@
   .cp, /* Comment.Preproc */
   .c1, /* Comment.Single */
   .cs, /* Comment.Special */
-  .gu { color: #777 } /* Generic.Subheading & Diff Unified/Comment? */
+  .gu { color: #0f0 } /* Generic.Subheading & Diff Unified/Comment? */
 
   .na, /* Name.Attribute */
   .nd, /* Name.Decorator */
   .ne, /* Name.Exception */
   .nf, /* Name.Function */
   .nx, /* Name.Other */
-  .gi { color: #a6e22e } /* Generic.Inserted & Diff Inserted */
+  .ss, /* Literal.String.Symbol */
+  .gi { color: #ff0 } /* Generic.Inserted & Diff Inserted */
+  
 
   .s,  /* Literal.String */
   .ld, /* Literal.Date */
@@ -77,7 +80,5 @@
   .si, /* Literal.String.Interpol */
   .sx, /* Literal.String.Other */
   .sr, /* Literal.String.Regex */
-  .s1 { color: #e6db74 } /* Literal.String.Single */
-
-  .ss { color: #ff0 } /* Literal.String.Symbol */
+  .s1 { color: #f0f } /* Literal.String.Single */
 }
