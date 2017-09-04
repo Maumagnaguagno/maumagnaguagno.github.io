@@ -15,10 +15,9 @@ body {
 }
 
 header {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  font-size:      1.25rem;
-  line-height:    1.25;
+  padding:     1rem 0;
+  font-size:   1.25rem;
+  line-height: 1.25;
 
   a {
     margin-right: 20px;
@@ -38,15 +37,15 @@ a {
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom:  .5rem;
+  margin:         1rem 0 .5rem;
   line-height:    1.25;
   text-rendering: optimizeLegibility;
 }
 
 h1 { font-size: 2rem }
-h2 { font-size: 1.5rem; margin-top: 1rem; }
-h3 { font-size: 1.25rem; margin-top: 1rem; }
-h4, h5, h6 { font-size:  1rem; margin-top: 1rem; }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4, h5, h6 { font-size: 1rem }
 
 // Body text
 
@@ -66,7 +65,7 @@ code {
 }
 
 pre {
-  margin: 0 -2rem 1rem -2rem;
+  margin: 0 -2rem 1rem;
   padding: 1rem 2rem;
   border-radius: 8px;
   font-size: .8rem;
@@ -84,7 +83,7 @@ pre {
 
 blockquote {
   padding: .5rem 1rem;
-  margin: .8rem 0;
+  margin:  .8rem 0;
   color: #777;
   border-left: .25rem solid #ddd;
   border-radius: 20px;
@@ -95,7 +94,7 @@ blockquote {
 
 kbd {
   display: inline-block;
-  padding: 3px 3px;
+  padding: 3px;
   font: 12px Consolas, monospace;
   vertical-align: middle;
   background-color: #eef;
