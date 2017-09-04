@@ -43,7 +43,7 @@
   .gd  /* Generic.Deleted & Diff Deleted */
   { color: #f92672 }
 
-  .k+.nc { color: #f66 } /* Name.Class */
+  .k + .nc { color: #f66 } /* Name.Class */
   .vg { color: #f00 } /* Name.Variable.Global */
   .vi { color: #f08 } /* Name.Variable.Instance */
 
@@ -55,10 +55,10 @@
   .gu  /* Generic.Subheading & Diff Unified/Comment? */
   { color: #0f0 }
 
+  .k + .nf, /* Name.Function */
   .na, /* Name.Attribute */
   .nd, /* Name.Decorator */
   .ne, /* Name.Exception */
-  .k+.nf, /* Name.Function */
   .nx, /* Name.Other */
   .ss, /* Literal.String.Symbol */
   .gi  /* Generic.Inserted & Diff Inserted */
