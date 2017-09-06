@@ -8,17 +8,16 @@ category: pddl
 # PDDL
 
 ## Why PDDL exists?
-- Many different languages/inputs formats for each planner
-  - Incompatibility made planners hard to compare and utilize
-- Planning community had no reason to use same language
-  - There was no one formalism well defined, only STRIPS
-  - They were interested in fast/correct planners, not being limited by parsers
 
-- [ICAPS](http://www.icaps-conference.org/)
-  - Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input (PDDL 1 from 98)
-  - May the best/fast/compatible planner win
-  - Force community to share language/limitations/benchmarks
-    - Some people were not happy with this (incompatible planners were forgotten)
+Many different languages/inputs formats for each planner created an environment where incompatibility made planners hard to be compared and rework was required to use other planners.
+Planning community had no reason to use same language, there was no formalism well defined (only STRIPS-like) and they were interested in fast/correct planners, not being limited by parsers.
+It is time to make planners compete fot the title of best planner and while publishing their approaches, [ICAPS](http://www.icaps-conference.org/).
+- Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input (PDDL 1 from 98)
+- May the best/faster/more compatible planner win
+- Force community to share language/limitations/benchmarks
+
+Some people were not happy with this as their planners required more than PDDL could express, their incompatible planners were forgotten due to lack of usage and documentation.
+PDDL is incremented from time to time to support new features, which may be modified or dropped as implementations and use cases appear.
 
 ## Planning elements
 - **Objects**: Things in the world that interest us
