@@ -15,9 +15,10 @@ body {
 }
 
 header {
-  padding:     1rem 0;
-  font-size:   1.25rem;
-  line-height: 1.25;
+  font-size:     1.25rem;
+  line-height:   1.25;
+  padding:       1rem 0;
+  margin-bottom: 1rem;
 
   a {
     margin-right: 20px;
@@ -37,7 +38,7 @@ a {
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
-  margin:         1rem 0 .5rem;
+  margin:         0 0 .5rem;
   line-height:    1.25;
   text-rendering: optimizeLegibility;
 }
