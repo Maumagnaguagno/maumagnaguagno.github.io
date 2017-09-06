@@ -10,9 +10,9 @@ category: pddl
 ## Why PDDL exists?
 
 Many different languages/inputs formats for each planner created an environment where incompatibility made planners hard to be compared and rework was required to use other planners.
-Planning community had no reason to use same language, there was no formalism well defined (only STRIPS-like) and they were interested in fast/correct planners, not being limited by parsers.
+Planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) and they were interested in fast/correct planners, not being limited by parsers.
 It is time to make planners compete fot the title of best planner and while publishing their approaches, [ICAPS](http://www.icaps-conference.org/).
-- Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input (PDDL 1 from 98)
+- Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input ([PDDL 1.2 from 98](http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf))
 - May the best/faster/more compatible planner win
 - Force community to share language/limitations/benchmarks
 
@@ -155,5 +155,5 @@ You can add PDDL to your papers/reports using LaTeX listings with a custom templ
 To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") to contain listings for planning and usage example.
 
 ## References
-- [PDDL 2.1 specification](http://www.public.asu.edu/~ktalamad/tmp/files/pddl21specs.pdf)
-- [An Introduction to PDDL, by Malte Helmert](http://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf)
+- [PDDL 2.1 specification](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf)
+- [An Introduction to PDDL, by Malte Helmert](https://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf)

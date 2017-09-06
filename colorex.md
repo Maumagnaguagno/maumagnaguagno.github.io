@@ -7,7 +7,7 @@ category: image
 
 # Colorex
 
-Inspired by [Images with all colors](http://codegolf.stackexchange.com/questions/22144/images-with-all-colors?noredirect=1&lq=1) and [Tweetable Mathematical Art](http://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art) I decided to make images with a computer.
+Inspired by [Images with all colors](https://codegolf.stackexchange.com/questions/22144/images-with-all-colors) and [Tweetable Mathematical Art](https://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art) I decided to make images with a computer.
 This was not my [first try](https://github.com/Maumagnaguagno/Spriter), so this time I wanted colorful images for a change.
 
 ## Brownian motion
