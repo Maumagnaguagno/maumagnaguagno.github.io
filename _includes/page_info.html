@@ -1,5 +1,8 @@
 {% if page.date %}
 
-<p class="info">{{ page.date | date_to_long_string }}<br>{{ page.content | number_of_words | divided_by: 250.0 | ceil}} min read</p>
+<p class="info">
+{{ page.date | date_to_long_string }}<br>
+{{ page.content | number_of_words | divided_by: 250.0 | ceil}} min read
+</p>
 
 {% endif %}
