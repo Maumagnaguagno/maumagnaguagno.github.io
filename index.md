@@ -1,4 +1,5 @@
 ---
+description: Random thoughts of a deterministic mind.
 hidden: true
 ---
 

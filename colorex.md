@@ -1,6 +1,6 @@
 ---
 title: Colorex
-description: Experiments with color
+description: Experiments with color.
 date: 2016-12-07
 category: image
 ---
