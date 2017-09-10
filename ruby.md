@@ -36,7 +36,7 @@ puts first until first = my_array.shift
 Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.
 
 ```ruby
-[1, *[2, 3]] == [1, 2, 3] # => true
+[1, *[2, 3]] == [1, 2, 3] #=> true
 
 def process(arg0, arg1, *other_args)
   # arg0 == ARGV[0]
