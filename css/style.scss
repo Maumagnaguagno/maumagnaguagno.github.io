@@ -128,5 +128,12 @@ table {
 
 // Split
 
-.split { display: table }
-.split>div { display: table-cell }
+.split {
+  display: table;
+  width: 100%;
+}
+
+.split>div {
+  display: table-cell;
+  width: 45%;
+}

@@ -13,15 +13,13 @@ Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-th
 |___|___________|___|
 ```
 
-Apply split view using divs.
-Avoid reaching 100% to create better separations
-
+Apply split view using divs:
 ```HTML
 <div class="split">
-  <div style="width:45%" markdown="1">
-    Left text is here.
+  <div markdown="1">
+    Left content is here.
   </div>
-  <div style="width:45%" markdown="1">
+  <div markdown="1">
     And the right content is here.
   </div>
 </div>

@@ -7,7 +7,7 @@ hidden: true
 Links to the coolest places of the internets.
 Hover links to see their descriptions.
 
-<div class="split"><div style="width:45%" markdown="1">
+<div class="split"><div markdown="1">
 
 ## Sites
 - Computer Science and Engineering
@@ -28,7 +28,7 @@ Hover links to see their descriptions.
   - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
   - [Numberphile](https://www.youtube.com/user/numberphile "Maths!")
 
-</div><div style="width:45%" markdown="1">
+</div><div markdown="1">
 
 ## Online tools
 - Programming
