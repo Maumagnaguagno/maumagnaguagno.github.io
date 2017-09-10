@@ -8,7 +8,6 @@ category: planning
 # PDDL
 
 ## Why PDDL exists?
-
 Many different languages/inputs formats for each planner created an environment where incompatibility made planners hard to be compared and rework was required to use other planners.
 Planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) and they were interested in fast/correct planners, not being limited by parsers.
 It is time to make planners compete fot the title of best planner and while publishing their approaches, [ICAPS](http://www.icaps-conference.org/).
