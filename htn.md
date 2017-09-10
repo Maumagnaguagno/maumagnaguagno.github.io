@@ -8,11 +8,63 @@ hidden: true
 
 # HTN
 
-## SHOP and JSHOP
+**TODO add intro here**
+
+## Elements
+**TODO list elements**
+- Primitives/operators
+- Non-primitives/methods
+
+## Implementations
+- SHOP and JSHOP
+- PyHop
+- HyperTensioN
+- HyperTensioN_U
 **TODO**
 
-## Search example
-**TODO**
+## Search examples
+
+### The move operator
+
+<div class="split"><div markdown="1">
+
+#### PDDL
+```elisp
+(:action move
+  :parameters (?agent ?from ?to)
+  :precondition (and
+    (at ?agent ?from)
+    (adjacent ?from ?to)
+  )
+  :effect (and
+    (not (at ?agent ?from))
+    (at ?agent ?to)
+  )
+)
+```
+
+</div><div markdown="1">
+
+#### JSHOP
+```elisp
+(:operator (!move ?agent ?from ?to)
+  (; preconditions
+    (at ?agent ?from)
+    (adjacent ?from ?to)
+  )
+  (; delete effects
+    (at ?agent ?from)
+  )
+  (; add effects
+    (at ?agent ?to)
+  )
+)
+```
+
+</div></div>
+
+### Visit and Unvisit
+** TODO**
 
 ## References
 **TODO**
