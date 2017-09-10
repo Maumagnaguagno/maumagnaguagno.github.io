@@ -4,9 +4,14 @@
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  color: #fff;
+  font-size:   .8rem;
+  line-height: 1.4;
+  color:            #fff;
   background-color: #111;
   box-shadow: 10px 10px 2px #666;
+  margin:  0 -2rem 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
 
   .hll { background-color: #222 }
   .err { color: #960050; background-color: #1e0010 } /* Error */
