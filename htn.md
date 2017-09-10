@@ -64,8 +64,29 @@ hidden: true
 
 </div></div>
 
-### Visit and Unvisit
-** TODO**
+### Mark states to avoid repetition
+<div class="split"><div markdown="1">
+
+```elisp
+(:operator (!!visit ?agent ?pos)
+  () ; preconditions
+  () ; delete effects
+  ((visited ?agent ?pos)) ; add effects
+)
+```
+
+</div><div markdown="1">
+
+```elisp
+(:operator (!!unvisit ?agent ?pos)
+  () ; preconditions
+  ((visited ?agent ?pos)) ; delete effects
+  () ; add effects
+)
+
+```
+
+</div></div>
 
 ## References
 **TODO**
