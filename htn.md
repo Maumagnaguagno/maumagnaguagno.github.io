@@ -83,7 +83,6 @@ hidden: true
   ((visited ?agent ?pos)) ; delete effects
   () ; add effects
 )
-
 ```
 
 </div></div>
