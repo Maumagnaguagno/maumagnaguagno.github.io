@@ -23,83 +23,83 @@ code {
   border-radius: 8px;
 
   .hll { background-color: #222 }
-  .err { color: #960050; background-color: #1e0010 } /* Error */
-  .ge { font-style: italic } /* Generic.Emph */
-  .gs { font-weight: bold } /* Generic.Strong */
+  .err { color: #960050; background-color: #1e0010 } // Error
+  .ge { font-style: italic } // Generic.Emph
+  .gs { font-weight: bold } // Generic.Strong
 
-  .p, /* Punctuation */
-  .nb /* Name.Builtin */
+  .p, // Punctuation
+  .nb // Name.Builtin
   { color: #6de }
 
-  .k,  /* Keyword */
-  .kc, /* Keyword.Constant */
-  .kd, /* Keyword.Declaration */
-  .kp, /* Keyword.Pseudo */
-  .kr, /* Keyword.Reserved */
-  .kt  /* Keyword.Type */
+  .k,  // Keyword
+  .kc, // Keyword.Constant
+  .kd, // Keyword.Declaration
+  .kp, // Keyword.Pseudo
+  .kr, // Keyword.Reserved
+  .kt  // Keyword.Type
   { color: #88f }
 
-  .l,  /* Literal */
-  .m,  /* Literal.Number */
-  .mf, /* Literal.Number.Float */
-  .mh, /* Literal.Number.Hex */
-  .mi, /* Literal.Number.Integer */
-  .il, /* Literal.Number.Integer.Long */
-  .mo, /* Literal.Number.Oct */
-  .se, /* Literal.String.Escape */
-  .si  /* Literal.String.Interpol */
+  .l,  // Literal
+  .m,  // Literal.Number
+  .mf, // Literal.Number.Float
+  .mh, // Literal.Number.Hex
+  .mi, // Literal.Number.Integer
+  .il, // Literal.Number.Integer.Long
+  .mo, // Literal.Number.Oct
+  .se, // Literal.String.Escape
+  .si  // Literal.String.Interpol
   { color: #ae81ff }
 
-  .o,  /* Operator */
-  .ow, /* Operator.Word */
-  .kn, /* Keyword.Namespace */
-  .nt, /* Name.Tag */
-  .gd  /* Generic.Deleted & Diff Deleted */
+  .o,  // Operator
+  .ow, // Operator.Word
+  .kn, // Keyword.Namespace
+  .nt, // Name.Tag
+  .gd  // Generic.Deleted & Diff Deleted
   { color: #f92672 }
 
-  .k + .nc { color: #f66 } /* Name.Class */
-  .vg { color: #f00 } /* Name.Variable.Global */
-  .vi { color: #f08 } /* Name.Variable.Instance */
+  .k + .nc { color: #f66 } // Name.Class
+  .vg { color: #f00 } // Name.Variable.Global
+  .vi { color: #f08 } // Name.Variable.Instance
 
-  .c,  /* Comment */
-  .cm, /* Comment.Multiline */
-  .cp, /* Comment.Preproc */
-  .c1, /* Comment.Single */
-  .cs, /* Comment.Special */
-  .gu  /* Generic.Subheading & Diff Unified/Comment? */
+  .c,  // Comment
+  .cm, // Comment.Multiline
+  .cp, // Comment.Preproc
+  .c1, // Comment.Single
+  .cs, // Comment.Special
+  .gu  // Generic.Subheading & Diff Unified/Comment?
   { color: #0f0 }
 
-  .k + .nf, /* Name.Function */
-  .na, /* Name.Attribute */
-  .nd, /* Name.Decorator */
-  .ne, /* Name.Exception */
-  .nx, /* Name.Other */
-  .ss, /* Literal.String.Symbol */
-  .gi  /* Generic.Inserted & Diff Inserted */
+  .k + .nf, // Name.Function
+  .na, // Name.Attribute
+  .nd, // Name.Decorator
+  .ne, // Name.Exception
+  .nx, // Name.Other
+  .ss, // Literal.String.Symbol
+  .gi  // Generic.Inserted & Diff Inserted
   { color: #ff0 }
 
-  .s,  /* Literal.String */
-  .ld, /* Literal.Date */
-  .sb, /* Literal.String.Backtick */
-  .sc, /* Literal.String.Char */
-  .sd, /* Literal.String.Doc */
-  .s2, /* Literal.String.Double */
-  .sh, /* Literal.String.Heredoc */
-  .sx, /* Literal.String.Other */
-  .sr, /* Literal.String.Regex */
-  .s1  /* Literal.String.Single */
+  .s,  // Literal.String
+  .ld, // Literal.Date
+  .sb, // Literal.String.Backtick
+  .sc, // Literal.String.Char
+  .sd, // Literal.String.Doc
+  .s2, // Literal.String.Double
+  .sh, // Literal.String.Heredoc
+  .sx, // Literal.String.Other
+  .sr, // Literal.String.Regex
+  .s1  // Literal.String.Single
   { color: #f0f }
 
-  .w,  /* Text.Whitespace */
-  .n,  /* Name */
-  .bp, /* Name.Builtin.Pseudo */
-  .no  /* Name.Constant */
-  .ni, /* Name.Entity */
-  .nl, /* Name.Label */
-  .nn, /* Name.Namespace */
-  .py, /* Name.Property */
-  .nv, /* Name.Variable */
-  .vc, /* Name.Variable.Class */
-  .gh  /* Generic Heading & Diff Header */
+  .w,  // Text.Whitespace
+  .n,  // Name
+  .bp, // Name.Builtin.Pseudo
+  .no  // Name.Constant
+  .ni, // Name.Entity
+  .nl, // Name.Label
+  .nn, // Name.Namespace
+  .py, // Name.Property
+  .nv, // Name.Variable
+  .vc, // Name.Variable.Class
+  .gh  // Generic Heading & Diff Header
   {}
 }
