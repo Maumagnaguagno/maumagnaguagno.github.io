@@ -117,9 +117,8 @@ table {
 .split {
   display: table;
   width: 100%;
-}
-
-.split>div {
-  display: table-cell;
-  width: 45%;
+  > div {
+    display: table-cell;
+    width: 45%;
+  }
 }
