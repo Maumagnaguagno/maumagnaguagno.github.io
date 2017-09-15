@@ -8,8 +8,7 @@ hidden: true
 # Quotes
 
 <div class="quote" markdown="1">
-[Ars longa, Vita brevis](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)  
-Hippocrates
+[Hippocrates](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)  
 > Vita brevis,  
 ars longa,  
 occasio praeceps,  
