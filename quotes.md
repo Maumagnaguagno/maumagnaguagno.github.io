@@ -30,8 +30,9 @@ when you were younger.
 
 <div class="quote" markdown="1">
 [Michael Lopp](https://en.wikipedia.org/wiki/Rands)
-> Don't underestimate the compounding awesomeness  
-of continually fixing small broken things.
+> Don't underestimate the compounding  
+awesomeness of continually fixing  
+small broken things.
 </div>
 
 <div class="quote" markdown="1">
