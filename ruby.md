@@ -12,25 +12,31 @@ Other languages may not let you assign variables inside a conditional statement,
 But Ruby does let you do that, which actually can help you avoid asking twice for the same variable.
 The following code blocks are equivalent, in the first case we test and only then modify the array, in the second case we do both at once.
 
-```ruby
-my_array = [1, 2, 3]
-# Multi-line version
-until my_array.empty?
-  puts my_array.shift
-end
-# Single line version
-puts my_array.shift until my_array.empty?
-```
+<div class="split"><div markdown="1">
 
 ```ruby
-my_array = [1, 2, 3]
+a = [1, 2, 3]
 # Multi-line version
-until first = my_array.shift
+until a.empty?
+  puts a.shift
+end
+# Single line version
+puts a.shift until a.empty?
+```
+
+</div><div markdown="1">
+
+```ruby
+a = [1, 2, 3]
+# Multi-line version
+until first = a.shift
   puts first
 end
-# Single line version will not work due to first being assigned after access
-puts first until first = my_array.shift
+# Fail due to first being assigned after access
+puts first until first = a.shift
 ```
+
+</div></div>
 
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.
