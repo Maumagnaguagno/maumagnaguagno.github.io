@@ -63,7 +63,10 @@ blockquote {
   p:last-child { margin-bottom: 0 }
 }
 
-.quote > p { float: right }
+.quote > p {
+  float: right;
+  width: 10rem;
+}
 
 // Kbd
 
