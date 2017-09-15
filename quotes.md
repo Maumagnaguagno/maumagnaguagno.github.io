@@ -46,3 +46,10 @@ Ayesha A. Siddiqi
 </div><div markdown="1">
 Chuck Palahniuk
 </div></div>
+
+<div class="quotes" markdown="1">
+> We all die.  
+> The goal isn't to live forever,  
+> the goal is to create something that will.
+Chuck Palahniuk
+</div>

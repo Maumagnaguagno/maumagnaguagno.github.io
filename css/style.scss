@@ -52,7 +52,7 @@ p { margin-top: 0 }
 
 li + li { margin-top: 4px }
 
-// Quotes
+// Blockquote
 
 blockquote {
   padding: .5rem 1rem;
@@ -62,6 +62,8 @@ blockquote {
   border-radius: 20px;
   p:last-child { margin-bottom: 0 }
 }
+
+.quote p { float: right }
 
 // Kbd
 
