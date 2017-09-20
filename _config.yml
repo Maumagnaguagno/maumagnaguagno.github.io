@@ -1,9 +1,6 @@
 title: Mau
-
+permalink: /:title
+exclude: README.md
 sass:
   sass_dir: css
   style: compressed
-
-permalink: /:title
-
-exclude: README.md
