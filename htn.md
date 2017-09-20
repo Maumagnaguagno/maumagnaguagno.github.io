@@ -26,7 +26,7 @@ hidden: true
 
 ### The move operator
 
-<div class="split"><div markdown="1">
+<div class="left" markdown="1">
 
 #### PDDL
 ```elisp
@@ -44,7 +44,8 @@ hidden: true
 
 ```
 
-</div><div markdown="1">
+</div>
+<div class="right" markdown="1">
 
 #### JSHOP
 ```elisp
@@ -62,10 +63,10 @@ hidden: true
 )
 ```
 
-</div></div>
+</div>
 
 ### Mark states to avoid repetition
-<div class="split"><div markdown="1">
+<div class="left" markdown="1">
 
 ```elisp
 (:operator (!!visit ?agent ?pos)
@@ -75,7 +76,8 @@ hidden: true
 )
 ```
 
-</div><div markdown="1">
+</div>
+<div class="right" markdown="1">
 
 ```elisp
 (:operator (!!unvisit ?agent ?pos)
@@ -85,7 +87,7 @@ hidden: true
 )
 ```
 
-</div></div>
+</div>
 
 ## References
 **TODO**
