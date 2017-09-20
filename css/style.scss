@@ -113,5 +113,10 @@ table {
   margin: 0;
 }
 
-.left .highlight { margin-right: -1rem; float: left; }
-.right .highlight { margin-left: 1rem; float: left; }
+// Split
+
+.split {
+  display: table-cell;
+  width: 50%;
+  .highlight { float: left }
+}
