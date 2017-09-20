@@ -12,7 +12,7 @@ Other languages may not let you assign variables inside a conditional statement,
 But Ruby does let you do that, which actually can help you avoid asking twice for the same variable.
 The following code blocks are equivalent, in the first case we test and only then modify the array, in the second case we do both at once.
 
-<div class="split"><div markdown="1">
+<div class="left" markdown="1">
 
 ```ruby
 a = [1, 2, 3]
@@ -24,7 +24,8 @@ end
 puts a.shift until a.empty?
 ```
 
-</div><div markdown="1">
+</div>
+<div class="right" markdown="1">
 
 ```ruby
 a = [1, 2, 3]
@@ -36,7 +37,7 @@ end
 puts first until first = a.shift
 ```
 
-</div></div>
+</div>
 
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.

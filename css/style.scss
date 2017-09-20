@@ -113,13 +113,5 @@ table {
   margin: 0;
 }
 
-// Split
-
-.split {
-  display: table;
-  width: 100%;
-  > div {
-    display: table-cell;
-    width: 45%;
-  }
-}
+.left .highlight { margin-right: -1rem; float: left; }
+.right .highlight { margin-left: 1rem; float: left; }
