@@ -15,12 +15,10 @@ Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-th
 
 Apply split view using divs:
 ```HTML
-<div class="split">
-  <div markdown="1">
-    Left content is here.
-  </div>
-  <div markdown="1">
-    And the right content is here.
-  </div>
+<div class="split" markdown="1">
+  Left content is here.
+</div>
+<div class="split" markdown="1">
+  And the right content is here.
 </div>
 ```
