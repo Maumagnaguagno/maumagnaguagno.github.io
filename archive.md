@@ -9,7 +9,7 @@ hidden: true
 
 <div>
   {% include page_info.html %}
-  <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+  <b><a href="{{ page.url }}">{{ page.title }}</a></b>
   <p>{{ page.description }}</p>
 </div>
 
