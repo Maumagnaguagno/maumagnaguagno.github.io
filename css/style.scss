@@ -18,6 +18,11 @@ header {
   a {
     margin-right: 20px;
     color: inherit;
+
+    :first-child {
+      font-size: 25px;
+      font-weight: bold;
+    }
   }
 }
 
