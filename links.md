@@ -28,7 +28,8 @@ Hover links to see their descriptions.
   - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
   - [Numberphile](https://www.youtube.com/user/numberphile "Maths!")
 
-</div><div style="float:left" markdown="1">
+</div>
+<div style="float:left" markdown="1">
 
 ## Online tools
 - Programming
