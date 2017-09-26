@@ -19,7 +19,7 @@ header {
     margin-right: 20px;
     color: inherit;
 
-    :first-child {
+    &:first-child {
       font-size: 25px;
       font-weight: bold;
     }
