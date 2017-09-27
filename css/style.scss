@@ -14,9 +14,10 @@ header {
   line-height:   1.25;
   padding:       1rem 0;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
 
   a {
-    margin-right: 20px;
     color: inherit;
 
     &:first-child {
