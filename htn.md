@@ -16,11 +16,10 @@ hidden: true
 - Non-primitives/methods
 
 ## Implementations
-- SHOP and JSHOP
-- PyHop
-- HyperTensioN
-- HyperTensioN_U
-**TODO**
+- [SHOP and JSHOP](https://www.cs.umd.edu/projects/shop/)
+- [PyHop](https://bitbucket.org/dananau/pyhop)
+- [HyperTensioN](https://github.com/Maumagnaguagno/HyperTensioN)
+- [HyperTensioN_U](https://github.com/Maumagnaguagno/HyperTensioN_U)
 
 ## Search examples
 
