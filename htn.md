@@ -100,7 +100,9 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
   )
   (; subtasks
     (!move ?agent ?from ?place)
+    (!!visit ?agent ?from)
     (forward ?agent ?goal)
+    (!!unvisit ?agent ?from)
   )
 )
 ```
