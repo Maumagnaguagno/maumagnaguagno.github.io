@@ -89,5 +89,24 @@ hidden: true
 
 </div>
 
+### Forward search
+```elisp
+(:method (forward ?agent ?goal)
+  base
+  ((at ?agent ?goal)) ; preconditions
+  () ; subtasks
+
+  recursion
+  (; preconditions
+    (at ?agent ?from)
+    (adjacent ?from ?place)
+  )
+  (; subtasks
+    (!move ?agent ?from ?place)
+    (forward ?agent ?goal)
+  )
+)
+```
+
 ## References
 **TODO**
