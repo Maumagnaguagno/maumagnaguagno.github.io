@@ -19,7 +19,50 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 - [HyperTensioN](https://github.com/Maumagnaguagno/HyperTensioN)
 - [HyperTensioN_U](https://github.com/Maumagnaguagno/HyperTensioN_U)
 
-## Search examples
+## Search example
+
+### Problem
+
+<div class="split" markdown="1">
+
+#### PDDL
+```elisp
+(def (problem pb1) (:domain search)
+  (:objects ag1 p0_0 p1_0 p2_0 p3_0 p4_0)
+  (:init
+    (at ag1 p0_0)
+    (adjacent p0_0 p1_0) (adjacent p1_0 p0_0)
+    (adjacent p1_0 p2_0) (adjacent p2_0 p1_0)
+    (adjacent p2_0 p3_0) (adjacent p3_0 p2_0)
+    (adjacent p3_0 p4_0) (adjacent p4_0 p3_0)
+  )
+  (:goal
+    (at ag1 p4_0)
+  )
+)
+```
+
+</div>
+<div class="split" markdown="1">
+
+#### JSHOP
+```elisp
+(defproblem pb1 search
+
+  (; initial state
+    (at ag1 p0_0)
+    (adjacent p0_0 p1_0) (adjacent p1_0 p0_0)
+    (adjacent p1_0 p2_0) (adjacent p2_0 p1_0)
+    (adjacent p2_0 p3_0) (adjacent p3_0 p2_0)
+    (adjacent p3_0 p4_0) (adjacent p4_0 p3_0)
+  )
+  (; task list
+    (forward ag1 p4_0)
+  )
+)
+```
+
+</div>
 
 ### The move operator
 
