@@ -27,16 +27,16 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 #### PDDL
 ```elisp
 (def (problem pb1) (:domain search)
-  (:objects ag1 p0_0 p1_0 p2_0 p3_0 p4_0)
+  (:objects ag1 p0 p1 p2 p30 p4)
   (:init
-    (at ag1 p0_0)
-    (adjacent p0_0 p1_0) (adjacent p1_0 p0_0)
-    (adjacent p1_0 p2_0) (adjacent p2_0 p1_0)
-    (adjacent p2_0 p3_0) (adjacent p3_0 p2_0)
-    (adjacent p3_0 p4_0) (adjacent p4_0 p3_0)
+    (at ag1 p0)
+    (adjacent p0 p1) (adjacent p1 p0)
+    (adjacent p1 p2) (adjacent p2 p1)
+    (adjacent p2 p3) (adjacent p3 p2)
+    (adjacent p3 p4) (adjacent p4 p3)
   )
   (:goal
-    (at ag1 p4_0)
+    (at ag1 p4)
   )
 )
 ```
@@ -49,14 +49,14 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 (defproblem pb1 search
 
   (; initial state
-    (at ag1 p0_0)
-    (adjacent p0_0 p1_0) (adjacent p1_0 p0_0)
-    (adjacent p1_0 p2_0) (adjacent p2_0 p1_0)
-    (adjacent p2_0 p3_0) (adjacent p3_0 p2_0)
-    (adjacent p3_0 p4_0) (adjacent p4_0 p3_0)
+    (at ag1 p0)
+    (adjacent p0 p1) (adjacent p1 p0)
+    (adjacent p1 p2) (adjacent p2 p1)
+    (adjacent p2 p3) (adjacent p3 p2)
+    (adjacent p3 p4) (adjacent p4 p3)
   )
   (; task list
-    (forward ag1 p4_0)
+    (forward ag1 p4)
   )
 )
 ```
