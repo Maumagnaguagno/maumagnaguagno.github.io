@@ -149,6 +149,3 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
   )
 )
 ```
-
-## References
-**TODO**
