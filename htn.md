@@ -27,7 +27,7 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 #### PDDL
 ```elisp
 (def (problem pb1) (:domain search)
-  (:objects ag1 p0 p1 p2 p30 p4)
+  (:objects ag1 p0 p1 p2 p3 p4)
   (:init
     (at ag1 p0)
     (adjacent p0 p1) (adjacent p1 p0)
