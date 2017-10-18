@@ -63,7 +63,10 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 
 </div>
 
-### The move operator
+### Move operator
+JSHOP operators are prefixed with ``!``.
+Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
+The conjunction token ``and`` can be omitted.
 
 <div class="split" markdown="1">
 
