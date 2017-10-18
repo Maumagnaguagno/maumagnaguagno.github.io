@@ -7,7 +7,7 @@ category: planning
 
 # HTN
 Hierarchical Task Network is one approach to automated planning.
-Differently from classical planning, where one must find a plan to go from the initial state to a goal state, HTNs work decomposing tasks.
+Differently from classical planning, where one must find a plan to go from a initial state to a goal state, HTNs work decomposing tasks based on the current state.
 This is a shift from explicit to implicit goal state, instead of ``(at hero there)`` we now have ``(travel hero there)``.
 In this case a task ``travel`` must be performed, which is decomposed to a sequence of ``move`` tasks, that are no longer decomposeable.
 Tasks like ``travel`` are non-primitives or methods, and may have several ways to be decomposed, while tasks like ``move`` are primitives or operators and make the plan that modify the state.
