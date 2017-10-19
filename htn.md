@@ -111,7 +111,14 @@ The conjunction token ``and`` can be omitted.
 
 </div>
 
-### Mark states to avoid repetition
+### Mark to avoid repetition
+To avoid reaching the same position multiple times a memory is needed.
+Memory for planners is defined as a list of entire or partially states visited during search.
+Search algorithms and some classical planners employ the entire state option, being implicit that any reached state will not be explored twice.
+HTNs on the other hand may have tasks that must reach the same state multiple times and require the planning instance description to explicitly avoid repetions when undesired.
+To create this memory of what already happened we can add predicates that mark partial states, in this case positions and agents, that were already explored.
+Since only operators can modify the state we need to add them, but they are only important internally, we can make them invisible to the final plan prefixing with ``!!``.
+
 <div class="split" markdown="1">
 
 ```elisp
