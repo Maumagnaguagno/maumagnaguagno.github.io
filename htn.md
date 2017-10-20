@@ -19,7 +19,7 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 - [HyperTensioN_U](https://github.com/Maumagnaguagno/HyperTensioN_U)
 
 ## Problem
-Since both PDDL and JSHOP input based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
+Since both PDDL and JSHOP input were based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
 PDDL is more verbose with each field being named, while JSHOP expects the user to remember which field is what.
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
 The missing keywords can be obtained with a smart use of comments.
