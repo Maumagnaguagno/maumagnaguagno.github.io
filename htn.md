@@ -18,34 +18,12 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 - [HyperTensioN](https://github.com/Maumagnaguagno/HyperTensioN)
 - [HyperTensioN_U](https://github.com/Maumagnaguagno/HyperTensioN_U)
 
-## Search example
-
-### Problem
+## Problem
 Since both PDDL and JSHOP input based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
 PDDL is more verbose with each field being named, while JSHOP expects the user to remember which field is what.
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
 The missing keywords can be obtained with a smart use of comments.
 
-<div class="split" markdown="1">
-
-#### PDDL
-```elisp
-(def (problem pb1) (:domain search)
-  (:objects ag1 p0 p1 p2 p3 p4)
-  (:init
-    (at ag1 p0)
-    (adjacent p0 p1) (adjacent p1 p0)
-    (adjacent p1 p2) (adjacent p2 p1)
-    (adjacent p2 p3) (adjacent p3 p2)
-    (adjacent p3 p4) (adjacent p4 p3)
-  )
-  (:goal
-    (at ag1 p4)
-  )
-)
-```
-
-</div>
 <div class="split" markdown="1">
 
 #### JSHOP
@@ -66,31 +44,34 @@ The missing keywords can be obtained with a smart use of comments.
 ```
 
 </div>
-
-### Move operator
-JSHOP operators are prefixed with ``!``.
-Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
-The conjunction token ``and`` can be omitted.
-
 <div class="split" markdown="1">
 
 #### PDDL
 ```elisp
-(:action move
-  :parameters (?agent ?from ?to)
-  :precondition (and
-    (at ?agent ?from)
-    (adjacent ?from ?to)
+(def (problem pb1) (:domain search)
+  (:objects ag1 p0 p1 p2 p3 p4)
+  (:init
+    (at ag1 p0)
+    (adjacent p0 p1) (adjacent p1 p0)
+    (adjacent p1 p2) (adjacent p2 p1)
+    (adjacent p2 p3) (adjacent p3 p2)
+    (adjacent p3 p4) (adjacent p4 p3)
   )
-  :effect (and
-    (not (at ?agent ?from))
-    (at ?agent ?to)
+  (:goal
+    (at ag1 p4)
   )
 )
-
 ```
 
 </div>
+
+## Domain
+
+### Changing the state
+JSHOP operators are prefixed with ``!``.
+Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
+The conjunction token ``and`` can be omitted.
+
 <div class="split" markdown="1">
 
 #### JSHOP
@@ -107,6 +88,25 @@ The conjunction token ``and`` can be omitted.
     (at ?agent ?to)
   )
 )
+```
+
+</div>
+<div class="split" markdown="1">
+
+#### PDDL
+```elisp
+(:action move
+  :parameters (?agent ?from ?to)
+  :precondition (and
+    (at ?agent ?from)
+    (adjacent ?from ?to)
+  )
+  :effect (and
+    (not (at ?agent ?from))
+    (at ?agent ?to)
+  )
+)
+
 ```
 
 </div>
