@@ -26,26 +26,6 @@ The missing keywords can be obtained with a smart use of comments.
 
 <div class="split" markdown="1">
 
-#### JSHOP
-```elisp
-(defproblem pb1 search
-
-  (; initial state
-    (at ag1 p0)
-    (adjacent p0 p1) (adjacent p1 p0)
-    (adjacent p1 p2) (adjacent p2 p1)
-    (adjacent p2 p3) (adjacent p3 p2)
-    (adjacent p3 p4) (adjacent p4 p3)
-  )
-  (; task list
-    (forward ag1 p4)
-  )
-)
-```
-
-</div>
-<div class="split" markdown="1">
-
 #### PDDL
 ```elisp
 (def (problem pb1) (:domain search)
@@ -64,6 +44,26 @@ The missing keywords can be obtained with a smart use of comments.
 ```
 
 </div>
+<div class="split" markdown="1">
+
+#### JSHOP
+```elisp
+(defproblem pb1 search
+
+  (; initial state
+    (at ag1 p0)
+    (adjacent p0 p1) (adjacent p1 p0)
+    (adjacent p1 p2) (adjacent p2 p1)
+    (adjacent p2 p3) (adjacent p3 p2)
+    (adjacent p3 p4) (adjacent p4 p3)
+  )
+  (; task list
+    (forward ag1 p4)
+  )
+)
+```
+
+</div>
 
 ## Domain
 
@@ -72,25 +72,6 @@ JSHOP operators are prefixed with ``!``.
 Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
 The conjunction token ``and`` can be omitted.
 
-<div class="split" markdown="1">
-
-#### JSHOP
-```elisp
-(:operator (!move ?agent ?from ?to)
-  (; preconditions
-    (at ?agent ?from)
-    (adjacent ?from ?to)
-  )
-  (; delete effects
-    (at ?agent ?from)
-  )
-  (; add effects
-    (at ?agent ?to)
-  )
-)
-```
-
-</div>
 <div class="split" markdown="1">
 
 #### PDDL
@@ -107,6 +88,25 @@ The conjunction token ``and`` can be omitted.
   )
 )
 
+```
+
+</div>
+<div class="split" markdown="1">
+
+#### JSHOP
+```elisp
+(:operator (!move ?agent ?from ?to)
+  (; preconditions
+    (at ?agent ?from)
+    (adjacent ?from ?to)
+  )
+  (; delete effects
+    (at ?agent ?from)
+  )
+  (; add effects
+    (at ?agent ?to)
+  )
+)
 ```
 
 </div>
