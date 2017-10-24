@@ -6,6 +6,7 @@ category: ruby
 ---
 
 # Ruby
+Over the years some tricks have been very useful while programming in Ruby, here you can see them.
 
 ## Conditional/Assignment merge
 Other languages may not let you assign variables inside a conditional statement, such as ``if``, ``elsif``, ``while`` or ``until``.
