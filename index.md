@@ -23,8 +23,6 @@ Here you can see some of the stuff I worked on:
   - A classical planner running on Heroku
 - [Timeline](Timeline/)
   - Convert Markdown timeline to Graphviz DOT
-- [PDDL insights](pddl.md)
-- [Ruby snippets](ruby.md)
 
 Take a look at my [archive](archive.md) to see everything.
 
