@@ -1,7 +1,7 @@
 # [maumagnaguagno.github.io](https://maumagnaguagno.github.io)
 **My internets**
 
- For the latest dependencies see [GitHub Pages Dependencies Versions](https://pages.github.com/versions/)
+[Repository metadata on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages/)  
 Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
 
 ```
