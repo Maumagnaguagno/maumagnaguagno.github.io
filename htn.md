@@ -160,6 +160,7 @@ The ``travel`` method we suggested in the introduction could be implemented like
   (; preconditions
     (at ?agent ?from)
     (adjacent ?from ?place)
+    (not (visited ?agent ?place))
   )
   (; subtasks
     (!move ?agent ?from ?place)
