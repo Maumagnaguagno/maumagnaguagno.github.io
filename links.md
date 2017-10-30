@@ -46,7 +46,7 @@ Hover links to see their descriptions.
   - [GoAT](https://github.com/blampe/goat "ASCII diagram generation")
 - Writing
   - [Dillinger](http://dillinger.io/ "Markdown editor")
-  - [Sharelatex](https://sharelatex.com/ "Share papers with co-workers")
+  - [Sharelatex](https://www.sharelatex.com/ "Share papers with co-workers")
 - Movies
   - [TasteDive](https://tastedive.com/ "Recommendation system")
 
