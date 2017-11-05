@@ -28,7 +28,7 @@ The missing keywords can be obtained with a smart use of comments.
 
 #### PDDL
 ```elisp
-(def (problem pb1) (:domain search)
+(define (problem pb1) (:domain search)
   (:objects ag1 p0 p1 p2 p3 p4)
   (:init
     (at ag1 p0)
