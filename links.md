@@ -40,13 +40,13 @@ Hover links to see their descriptions.
   - [W3C validator](https://validator.w3.org/ "Validate web documents")
 - Graphs and Charts
   - [WebGraphviz](http://www.webgraphviz.com/ "Write your graphs, let the computer draw for you")
-  - [Graphizo](https://g.gravizo.com/ "Your Graphviz, UMLGraph or PlantUML for your README")
+  - [Graphizo](https://g.gravizo.com/ "Graphviz, UMLGraph or PlantUML for your README")
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
   - [GoAT](https://github.com/blampe/goat "ASCII diagram generation")
 - Writing
   - [Dillinger](http://dillinger.io/ "Markdown editor")
-  - [Sharelatex](https://www.sharelatex.com/ "Share papers with co-workers")
+  - [Sharelatex](https://www.sharelatex.com/ "Collaborative writing")
 - Movies
   - [TasteDive](https://tastedive.com/ "Recommendation system")
 
