@@ -147,8 +147,8 @@ Tasks are accomplished following recipes defined by methods.
 Some recipes can be accomplished following different paths according to preference and context.
 Here the preferences are implicit in the order each case is defined, while the context appear as preconditions.
 For the ``forward`` method we have two cases, one is the ``base`` in which the agent is already at the goal and no subtask is required.
-The second is the ``recursion``, as the same suggests it will expand one ``move`` and recursively expands ``forward``, taking care to mark positions visited and later freeing such positions to be reused.
-The ``travel`` method we suggested in the introduction could be implemented like this.
+The second is the ``recursion``, as the name suggests it will expand one ``move`` and recursively expands ``forward``, taking care to mark positions visited and later freeing such positions to be reused.
+The ``travel`` method we suggested in the introduction could be implemented like a forward search, other implementations are [possible](https://github.com/Maumagnaguagno/HyperTensioN/blob/master/examples/search/search.jshop).
 
 ```elisp
 (:method (forward ?agent ?goal)
