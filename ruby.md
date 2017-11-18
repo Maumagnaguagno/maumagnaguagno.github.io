@@ -62,13 +62,13 @@ p *GC.stat
 Iterating nested ``Arrays`` can be cumbersome, but with parentheses we have parallel assignment, which acts just like the splat operator.
 
 ```ruby
-array = [[[1,2],[3,4]]]
+array = [[[1, 2], [3, 4]]]
 array.each {|a,b| p [a.first, a.last, b.first, b.last]} # Prints [1, 2, 3, 4]
 array.each {|(a,b),(c,d)| p [a, b, c, d]}               # Prints [1, 2, 3, 4]
 
 # Splat with index
-array = [['a','b'],['c','b']]
-array.each_with_index {|(a,b),i| p [i,a,b]} # Prints [0, "a", "b"] [1, "c", "b"]
+array = [['a', 'b'], ['c', 'd']]
+array.each_with_index {|(a,b),i| p [i, a, b]} # Prints [0, "a", "b"] [1, "c", "d"]
 ```
 
 ## Pointer unification
