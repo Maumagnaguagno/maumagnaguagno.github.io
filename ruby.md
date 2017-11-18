@@ -58,6 +58,23 @@ process(*ARGV)
 p *GC.stat
 ```
 
+## Splat iterator
+Iterating Arrays of Arrays can be cumbersome, but with parentheses we have parallel assignment, which acts just like the splat operator.
+
+```Ruby
+array = [[[1,2],[3,4]]]
+
+# Old way
+array.each {|a,b| p [a.first, a.last, b.first, b.last]} # Prints [1, 2, 3, 4]
+
+# New way
+array.each {|(a,b),(c,d)| p [a, b, c, d]} # Prints [1, 2, 3, 4]
+
+# Splat with index
+array = [['a','b'], ['c','b']]
+array.each_with_index {|(a,b),i| p [i,a,b]} # Prints [0, "a", "b"] [1, "c", "b"]
+```
+
 ## Pointer unification
 Instead of creating your own ``Pointer`` or ``FreeVariable`` class, consider ``String`` or ``Array`` for fast value replacement.
 Strings can be used as pointers, so that changing the value of one string object changes the value of all variables that point to that string.
