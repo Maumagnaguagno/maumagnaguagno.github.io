@@ -67,7 +67,7 @@ array.each {|a,b| p [a.first, a.last, b.first, b.last]} # Prints [1, 2, 3, 4]
 array.each {|(a,b),(c,d)| p [a, b, c, d]}               # Prints [1, 2, 3, 4]
 
 # Splat with index
-array = [['a','b'], ['c','b']]
+array = [['a','b'],['c','b']]
 array.each_with_index {|(a,b),i| p [i,a,b]} # Prints [0, "a", "b"] [1, "c", "b"]
 ```
 
