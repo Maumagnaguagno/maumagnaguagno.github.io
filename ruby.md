@@ -59,7 +59,7 @@ p *GC.stat
 ```
 
 ## Splat iterator
-Iterating Arrays of Arrays can be cumbersome, but with parentheses we have parallel assignment, which acts just like the splat operator.
+Iterating nested ``Arrays`` can be cumbersome, but with parentheses we have parallel assignment, which acts just like the splat operator.
 
 ```ruby
 array = [[[1,2],[3,4]]]
