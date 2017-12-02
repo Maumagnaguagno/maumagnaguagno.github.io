@@ -1,6 +1,7 @@
 ---
 title: Publications
 description: Useless science.
+date: 2017-12-01
 hidden: true
 ---
 
