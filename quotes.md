@@ -7,7 +7,7 @@ hidden: true
 # Quotes
 
 <div class="quote" markdown="1">
-[Hippocrates](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)  
+[Hippocrates](https://en.wikipedia.org/wiki/Ars_longa,_vita_brevis)
 > Vita brevis,  
 ars longa,  
 occasio praeceps,  
@@ -35,7 +35,7 @@ small broken things.
 </div>
 
 <div class="quote" markdown="1">
-Chuck Palahniuk
+[Chuck Palahniuk](https://en.wikipedia.org/wiki/Chuck_Palahniuk)
 > We all die.  
 The goal isn't to live forever,  
 the goal is to create something that will.
