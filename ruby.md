@@ -93,16 +93,27 @@ unification(a) { puts a } # Prints 1 2 3
 
 ## Rescue
 Sometimes your program is interrupted by an error, other times you just noticed something wrong and decided to hit <kbd>CTRL+C</kbd>, causing an interruption.
-But that does not mean your program is going to terminate, sometimes you want a warning asking to save your changes before a clean exit and the computer must rescue you.
-This is also useful when combined with timers, so you know how much time has passed until your patience has run dry.
+But that does not mean your program is going to terminate, sometimes you want to avoid a dirty exit and the computer must rescue you.
+You can also just do something [at exit](https://ruby-doc.org/core-2.3.0/Kernel.html#method-i-at_exit).
+This is useful when combined with timers, so you know how much time has passed until your patience has run dry.
+Multiple exceptions can be defined and their order is important.
 
 ```ruby
+# Single line
+unsafe(x) rescue puts 'Ops, something went wrong'
+
 begin # or def bar
+  t = Time.now.to_f
+  f = open('file.txt')
   # ...
 rescue Interrupt
-  puts 'Interrupted'
+  puts "Interrupted after #{Time.now.to_f - t}s"
 rescue
   puts $!, $@
+else
+  puts 'No exceptions were raised!'
+ensure
+  f.close
 end
 
 # You can also use rescue blocks in method definitions, without begin
