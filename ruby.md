@@ -114,13 +114,6 @@ else
 ensure
   f.close
 end
-
-# You can also use rescue blocks in method definitions, without begin
-def my_method
-  # ...
-rescue
-  # Your rescue block
-end
 ```
 
 ## ARGV parsing
