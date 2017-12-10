@@ -99,7 +99,7 @@ Multiple exceptions can be defined and their order is important.
 
 ```ruby
 # Single line
-unsafe(x) rescue puts 'Ops, something went wrong'
+unsafe(x) rescue puts 'Oops, something went wrong'
 
 begin # or def bar
   t = Time.now.to_f
