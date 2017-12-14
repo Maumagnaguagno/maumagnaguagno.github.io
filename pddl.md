@@ -6,8 +6,6 @@ category: planning
 ---
 
 # PDDL
-
-## Why PDDL exists?
 Many different languages/inputs formats for each planner created an environment where incompatibility made planners hard to be compared and rework was required to use other planners.
 Planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) and they were interested in fast/correct planners, not being limited by parsers.
 It is time to make planners compete fot the title of best planner and while publishing their approaches, [ICAPS](http://www.icaps-conference.org/).
@@ -34,8 +32,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 
 ## Domain
 ```elisp
-; Domain - this is a comment
-(define (domain hanoi)
+(define (domain hanoi) ; this is a comment
   (:requirements :strips :negative-preconditions :equality)
   (:predicates (clear ?x) (on ?x ?y) (smaller ?x ?y) )
   (:action move
@@ -58,8 +55,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 
 ## Problem
 ```elisp
-; Problem - this is also a comment
-(define (problem pb3)
+(define (problem pb3) ; this is also a comment
   (:domain hanoi)
   (:objects peg1 peg2 peg3 d1 d2 d3)
   (:init
@@ -80,18 +76,19 @@ PDDL is incremented from time to time to support new features, which may be modi
 )
 ```
 
-## Matching PDDL and planner
-- Planners usually do not support full PDDL specifications
-  - Too much, hard to maintain and optimize
-- User must select ideal/correct planner based on requirements
-  - What do you need to describe domain and problem?
-    - The ``:requirements`` field is your friend
-  - What do you expect as output?
-    - Any plan (sub-optimal)
-    - Step-optimal plan
-    - Metric-based plan (minimize/maximize time/cost/resource)
+## Requirements
+Planners usually do not support every PDDL specification out there, as each version adds requirements to support domains that otherwise would not be able to be described in PDDL.
+Not to mention the many experimental requirements that are published without sufficient implementation details.
+A planner that support everything is too complex for developers that are interested in a subset of PDDL that solves their problem, they need to focus on something they can maintain and optimize for their use case.
+It is left to the user to select ideal/correct planner based on their requirements:
+- What do you need to better describe domain and problem?
+  - The ``:requirements`` field is your friend
+- What do you expect?
+  - Sarisficing plan (sub-optimal, fast)
+  - Step-optimal plan (Optimal, slow)
+  - Metric-based plan (minimize/maximize time/cost/resource, slower)
 
-## Most common requirements
+Common requirements:
 - ``:strips`` - default requirement (positive preconditions, add and delete effects)
 - ``:negative-preconditions`` - able to use ``not`` in preconditions
 - ``:equality`` - able to use ``=`` in preconditions
