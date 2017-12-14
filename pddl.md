@@ -86,7 +86,7 @@ It is left to the user to select ideal/correct planner based on their requiremen
   - The ``:requirements`` field is your friend
 - What do you expect?
   - Sarisficing plan (sub-optimal, fast)
-  - Step-optimal plan (Optimal, slow)
+  - Step-optimal plan (optimal, slow)
   - Metric-based plan (minimize/maximize time/cost/resource, slower)
 
 Common requirements:
@@ -101,10 +101,10 @@ Some planners may lack the desired requirements.
 instead of giving up and searching for a new planner, we can rewrite the PDDL description using simpler constructions.
 These are a few tricks to **downgrade** PDDL:
 - ``:negative-preconditions``
-  - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate
+  - Duplicate predicate and use antonym instead, remove the original predicate if possible
   - ``(not (clean ?space))`` to ``(dirty ?space)``
 - ``:equality``
-  - Add an equality predicate ``(equal obj obj)`` for each object at the initial state and replace preconditions
+  - Add ``(equal obj obj)`` for each object at the initial state and replace preconditions
   - ``(= ?a ?b)`` to ``(equal ?a ?b)``
 - ``:typing``
   - Move types and subtypes to initial state and parameters to preconditions
