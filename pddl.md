@@ -32,7 +32,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 
 ## Domain
 ```elisp
-(define (domain hanoi) ; this is a comment
+(define (domain hanoi) ; This is a comment, there are no multiline comments
   (:requirements :strips :negative-preconditions :equality)
   (:predicates (clear ?x) (on ?x ?y) (smaller ?x ?y) )
   (:action move
@@ -55,7 +55,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 
 ## Problem
 ```elisp
-(define (problem pb3) ; this is also a comment
+(define (problem pb3) ; This is also a comment
   (:domain hanoi)
   (:objects peg1 peg2 peg3 d1 d2 d3)
   (:init
@@ -77,7 +77,8 @@ PDDL is incremented from time to time to support new features, which may be modi
 ```
 
 ## Requirements
-Planners usually do not support every PDDL specification out there, as each version adds requirements to support domains that otherwise would not be able to be described in PDDL.
+Planners usually do not support every PDDL specification out there, as each version adds expressive power to support domains that otherwise would not be able to be described in PDDL.
+The expressive power is handled in layers of **requirements** in PDDL
 Not to mention the many experimental requirements that are published without sufficient implementation details.
 A planner that support everything is too complex for developers that are interested in a subset of PDDL that solves their problem, they need to focus on something they can maintain and optimize for their use case.
 It is left to the user to select ideal/correct planner based on their requirements:
@@ -95,6 +96,24 @@ Common requirements:
 - ``:typing`` - able to type objects and variables, ``obj - type``
 - ``:disjunctive-preconditions`` - able to use ``or`` in preconditions
 - ``:conditional-effects`` - able to use ``when`` in effects
+
+Some planners may lack the desired requirements.
+instead of giving up and searching for a new planner, we can rewrite the PDDL description using simpler constructions.
+These are a few tricks to **downgrade** PDDL:
+- ``:negative-preconditions``
+  - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate
+  - ``(not (clean ?space))`` to ``(dirty ?space)``
+- ``:equality``
+  - Add an equality predicate ``(equal obj obj)`` for each object at the initial state and replace preconditions
+  - ``(= ?a ?b)`` to ``(equal ?a ?b)``
+- ``:typing``
+  - Move types and subtypes to initial state and parameters to preconditions
+  - ``(?var - type)`` to ``(type ?var)``
+- ``:disjunctive-preconditions``
+  - Break each side of the disjunction in a different action
+  - ``(and (p0 a) (or (p1 b) (p2 c)))`` to ``(and (p0 a) (p1 b))``, ``(and (p0 a) (p2 c))``
+
+The following action can help you identify how requirements are used:
 
 ```elisp
 (:action name
@@ -122,26 +141,16 @@ Common requirements:
 )
 ```
 
-## Downgrading PDDL
-- Some planners may lack the desired requirements
-- Sometimes we can rewrite the description using simpler constructions
-- ``:negative-preconditions``
-  - Duplicate predicate and use antonym instead, sometimes you can remove the original predicate
-  - ``(not (clean ?space))`` to ``(dirty ?space)``
-- ``:equality``
-  - Add an equality predicate ``(equal obj obj)`` for each object at the initial state and replace preconditions
-- ``:typing``
-  - Move types to initial state and parameters to preconditions
-  - ``(?var - type)`` to ``(type ?var)``
-- ``:disjunctive-preconditions``
-  - Break each part of the precondition in a different action
-
-## What is important to report/document?
-- Which requirements you used?
+## Documentation
+Once you have your domain and problems it is important to document your decisions.
+But what is important to report/document?
+- Which planner is compatible with the description?
+  - Do not forget to describe version and flags that were used to execute
+- Which requirements were used?
   - Why?
   - Do they make it simpler to describe/understand the problem?
-- Which predicates you used?
-- Small modifications impact your description?
+- Which predicates were used?
+- Small modifications impact the description/planning?
   - Typing
   - More objects
   - More predicates in goal
