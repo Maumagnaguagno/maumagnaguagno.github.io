@@ -155,7 +155,7 @@ But what is important to report/document?
   - More objects
   - More predicates in goal
 
-## PDDL and LaTeX listings
+## LaTeX listings
 You can add PDDL to your papers/reports using LaTeX listings with a custom template.
 To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") to contain listings for planning and usage example.
 
