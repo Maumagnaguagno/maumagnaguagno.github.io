@@ -31,6 +31,12 @@ PDDL is incremented from time to time to support new features, which may be modi
 - **Problem**: Objects, initial and goal states that define an instance of the scenario
 
 ## Domain
+An implementation of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a good start, there is only one action and very clear initial and goal states.
+You start with several disks in the leftmost of three pegs, each disk on top of a larger one.
+The goal is to move all disks to the rightmost peg, but there is a catch, only one disk can be moved at a time and never onto a smaller one.
+Three predicates are used to describe the if the top of a disk is ``clear``, which disk is ``on`` top of another and which disk is ``smaller`` than another.
+The ``move`` action has three parameters/free variables, prefixed by ``?``.
+
 ```elisp
 (define (domain hanoi) ; This is a comment, there are no multiline comments
   (:requirements :strips :negative-preconditions :equality)
@@ -54,6 +60,10 @@ PDDL is incremented from time to time to support new features, which may be modi
 ```
 
 ## Problem
+For only three disks there are several ``smaller`` predicates in the initial state to describe which movements are possible.
+The disks are on top of each other on ``peg1`` with the smaller ``disk1``, ``peg2`` and ``peg3`` being ``clear``.
+The goal only have the stack on ``peg3``, but you could add ``(clear peg1)`` and ``(clear peg2)``.
+
 ```elisp
 (define (problem pb3) ; This is also a comment
   (:domain hanoi)
