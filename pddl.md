@@ -34,7 +34,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 An implementation of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a good start, there is only one action and very clear initial and goal states.
 You start with several disks in the leftmost of three pegs, each disk on top of a larger one.
 The goal is to move all disks to the rightmost peg, but there is a catch, only one disk can be moved at a time and never onto a smaller one.
-Three predicates are used to describe the if the top of a disk is ``clear``, which disk is ``on`` top of another and which disk is ``smaller`` than another.
+Three predicates are used to describe if the top of a disk is ``clear``, which disk is ``on`` top of another and which disk is ``smaller`` than another.
 The ``move`` action has three parameters/free variables, prefixed by ``?``.
 
 ```elisp
@@ -60,9 +60,10 @@ The ``move`` action has three parameters/free variables, prefixed by ``?``.
 ```
 
 ## Problem
-For only three disks there are several ``smaller`` predicates in the initial state to describe which movements are possible.
+For a problem with only three disks there are several ``smaller`` predicates in the initial state to describe which movements are possible.
 The disks are on top of each other on ``peg1`` with the smaller ``disk1``, ``peg2`` and ``peg3`` being ``clear``.
 The goal only have the stack on ``peg3``, but you could add ``(clear peg1)`` and ``(clear peg2)``.
+For more or less disks you only need a different problem description, as they are new problem instances of the same domain.
 
 ```elisp
 (define (problem pb3) ; This is also a comment
