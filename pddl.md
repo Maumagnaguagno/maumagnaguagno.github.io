@@ -87,7 +87,7 @@ For more or less disks you only need a different problem description, as they ar
 
 ## Requirements
 Planners usually do not support every PDDL specification out there, as each version adds expressive power to support domains that otherwise would not be able to be described in PDDL.
-The expressive power is handled in layers of **requirements** in PDDL
+The expressive power is handled in layers of **requirements** in PDDL.
 Not to mention the many experimental requirements that are published without sufficient implementation details.
 A planner that support everything is too complex for developers that are interested in a subset of PDDL that solves their problem, they need to focus on something they can maintain and optimize for their use case.
 It is left to the user to select ideal/correct planner based on their requirements:
