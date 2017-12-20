@@ -80,9 +80,7 @@ For more or less disks you only need a different problem description, as they ar
   )
 
   (:goal (and
-    (on d1 d2)
-    (on d2 d3)
-    (on d3 peg3)
+    (on d1 d2) (on d2 d3) (on d3 peg3)
   ))
 )
 ```
