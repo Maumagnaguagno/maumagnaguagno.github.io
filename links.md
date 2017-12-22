@@ -33,11 +33,16 @@ Hover links to see their descriptions.
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
-  - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with very nice graphics")
+  - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with nice graphics")
   - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
   - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
   - [Numberphile](https://www.youtube.com/user/numberphile "Maths!")
-  - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
-  - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Ben Heck - Design, build and fix electronics")
-  - [Evan Kale](https://www.youtube.com/user/EvanKale91)
+  - [Tested](https://www.youtube.com/user/testedcom "Design and build stuff")
+  - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Design, build and fix electronics")
+  - [Evan Kale](https://www.youtube.com/user/EvanKale91 "Circuit bending")
+- Writing
+  - [Dillinger](http://dillinger.io/ "Markdown editor")
+  - [Sharelatex](https://www.sharelatex.com/ "Collaborative writing")
+- Movies
+  - [TasteDive](https://tastedive.com/ "Recommendation system")
 </div>
