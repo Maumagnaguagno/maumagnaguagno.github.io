@@ -34,7 +34,7 @@ Hover links to see their descriptions.
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with nice graphics")
-  - [Wisecrack](https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ "Funny and smart philosophy")
+  - [Wisecrack](https://www.youtube.com/user/thugnotes "Funny and smart philosophy")
   - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
   - [Numberphile](https://www.youtube.com/user/numberphile "Maths!")
   - [Tested](https://www.youtube.com/user/testedcom "Design and build stuff")
