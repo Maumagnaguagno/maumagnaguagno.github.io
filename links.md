@@ -9,7 +9,6 @@ Hover links to see their descriptions.
 
 <div style="float:left" markdown="1">
 
-## Sites
 - Computer Science and Engineering
   - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
   - [Red blob games](http://www.redblobgames.com/ "A* and game development material")
@@ -17,7 +16,7 @@ Hover links to see their descriptions.
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
   - [Karpathy blog](https://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [Academic site](https://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
-- Youtube
+- Youtube channels
   - [Tested](https://www.youtube.com/user/testedcom "Adam Savage - Design and build stuff")
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
@@ -31,7 +30,6 @@ Hover links to see their descriptions.
 </div>
 <div style="float:left" markdown="1">
 
-## Online tools
 - Programming
   - [Github](https://github.com/ "Show your projects to the world")
   - [Rubular](http://rubular.com/ "Regex editor")
