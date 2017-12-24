@@ -169,6 +169,6 @@ You can add PDDL to your papers/reports using LaTeX listings with a custom templ
 To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") to contain listings for planning and usage example.
 
 ## References
-- [PDDL 2.1, by Fox and Long](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf)
-- [An Introduction to PDDL, by Malte Helmert](https://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf)
-- [AI Planning with STRIPS, by Kory Becker](http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/)
+- [PDDL 2.1](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf) by Fox and Long
+- [An Introduction to PDDL](https://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf) by Malte Helmert
+- [AI Planning with STRIPS](http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/) by Kory Becker
