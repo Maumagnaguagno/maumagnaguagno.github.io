@@ -224,6 +224,10 @@ end
 Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` can do that for you, ``a.fdiv(b)``.
 This is useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
 
+## Range last element
+Ranges may include ``(1..end)`` or ``exclude (1...n)`` their end, you can check with ``range.exclude_end?``.
+To obtain the last element of a range use ``range.max``.
+
 ## Give me more
 There are more places in the internet to search for Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
