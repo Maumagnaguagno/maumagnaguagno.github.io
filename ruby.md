@@ -228,6 +228,18 @@ This is useful if values must conform to mathematics/physics formulas where inte
 Ranges may include ``(1..end)`` or exclude ``(1...end)`` their end, you can check with ``range.exclude_end?``.
 To obtain the last element of a range use ``range.max``.
 
+```ruby
+a = 1..5
+a.exclude_end?    #=> false
+[a.first, a.last] #=> [1, 5]
+[a.min, a.max]    #=> [1, 5]
+
+b = 1...5
+b.exclude_end?    #=> true
+[b.first, b.last] #=> [1, 5]
+[b.min, b.max]    #=> [1, 4]
+```
+
 ## Give me more
 There are more places in the internet to search for Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
