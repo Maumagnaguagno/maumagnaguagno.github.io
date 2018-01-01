@@ -234,7 +234,7 @@ To obtain the last element included in a range use ``range.max``, otherwise use 
 a = 1..5
 a.exclude_end?    #=> false
 [a.first, a.last] #=> [1, 5]
-[a.min, a.max]    #=> [1, 5]
+[a.min,   a.max]  #=> [1, 5]
 ```
 
 </div>
@@ -244,7 +244,7 @@ a.exclude_end?    #=> false
 b = 1...5
 b.exclude_end?    #=> true
 [b.first, b.last] #=> [1, 5]
-[b.min, b.max]    #=> [1, 4]
+[b.min,   b.max]  #=> [1, 4]
 ```
 
 </div>
