@@ -21,12 +21,14 @@ PDDL is incremented from time to time to support new features, which may be modi
   - ``ball``, ``room1``, ``hero``, ``sword``
 - **Predicates**: Properties of objects that we are interested in (can be true or false)
   - ``(drunk hero)``
-- **State**: Set of properties at some point
+- **State**: Set of true properties
   - ``( (drunk hero) (at hero room1) )``
-- **Initial state**: The state of the world that we start in
-- **Goal specification**: The parts of a state we want to be true (ignore the rest)
-- **Actions/Operators**: Ways of changing the state of the world
+- **Initial state**: State of the world that we start in
+- **Goal specification**: Partiall state we want to be true (ignore the rest)
+- **Actions/Operators**: Rules that change a state
   - **Parameters and Variables**: Used to reference objects
+  - **Precondition**: When a rule can applied
+  - **Effect**: What changes (add or delete predicates from a state)
 - **Domain**: Set of actions that define a scenario
 - **Problem**: Objects, initial and goal states that define an instance of the scenario
 
