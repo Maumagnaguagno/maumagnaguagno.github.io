@@ -26,7 +26,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 - **Initial state**: State of the world that we start in
 - **Goal specification**: Partial state we want to be achieve (ignore the rest)
 - **Actions/Operators**: Rules that change a state
-  - **Parameters**: Used to reference objects
+  - **Parameters**: Used to generalize, will be replaced by objects
   - **Precondition**: When a rule can applied (satisfied by current state)
   - **Effect**: What changes (add or delete predicates from a state)
 - **Domain**: Set of actions that define a scenario
