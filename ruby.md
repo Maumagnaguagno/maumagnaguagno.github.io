@@ -250,7 +250,7 @@ b.exclude_end?    #=> true
 </div>
 
 ## Give me more
-There are more places in the internet to search for Ruby snippets:
+These are places to search for more Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [RuboCop](http://batsov.com/rubocop/) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
