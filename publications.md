@@ -5,6 +5,7 @@ hidden: true
 ---
 
 # Publications
+- [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
 - [Team PUCRS: a Decentralised Multi-Agent Solution for the Agents in the City Scenario](https://www.meneguzzi.eu/felipe/pubs/ijaose-mapc-2017.pdf) - IJAOSE 2018
 - [Method Composition through Operator Pattern Identification](http://icaps17.icaps-conference.org/workshops/KEPS/proceedingsKEPS.pdf#page=57) - ICAPS/KEPS 2017
 - [WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search](http://icaps17.icaps-conference.org/workshops/UISP/uisp17proceedings.pdf#page=36) - ICAPS/UISP 2017
