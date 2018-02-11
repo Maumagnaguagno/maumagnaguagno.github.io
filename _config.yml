@@ -1,5 +1,6 @@
 title: Mau
 permalink: /:title
+include: ['_pages']
 exclude: README.md
 sass:
   sass_dir: css
