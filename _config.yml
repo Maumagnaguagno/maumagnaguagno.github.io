@@ -8,4 +8,5 @@ collections:
   pages:
     output: true
     permalink: /:title
-    layout: default
+    values:
+      layout: default
