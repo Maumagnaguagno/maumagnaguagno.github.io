@@ -3,7 +3,6 @@ title: Ruby Versions
 description: Differences between Ruby versions
 date: 2018-02-11
 category: ruby
-hidden: true
 ---
 
 # Ruby Versions
