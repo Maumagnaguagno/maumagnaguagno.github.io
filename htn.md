@@ -1,6 +1,6 @@
 ---
 title: HTN
-description: Hierarchical Task Network.
+description: Hierarchical Task Network
 date: 2017-09-07
 category: planning
 ---

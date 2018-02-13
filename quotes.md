@@ -1,6 +1,6 @@
 ---
 title: Quotes
-description: Stuff people say.
+description: Stuff people say
 hidden: true
 ---
 

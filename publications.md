@@ -1,6 +1,6 @@
 ---
 title: Publications
-description: Useless science.
+description: Useless science
 hidden: true
 ---
 
