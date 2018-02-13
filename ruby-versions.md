@@ -11,7 +11,7 @@ As time goes on some features are added, others removed, and most importantly, s
 This is a reminder of how Ruby evolved through time.
 
 ## 1.8
-We will take this version as our starting point.
+We will take consider this version our starting point.
 
 ## 1.9
 - From MRI to YARV
@@ -25,10 +25,10 @@ We will take this version as our starting point.
 - Numeric each_byte ???
 
 ## 2.0
-- __dir__
+- ``__dir__``
 
 ## 2.1
-- Numeric bitlength
+- Numeric bit_length
 
 ## 2.2
 - Symbol GC
