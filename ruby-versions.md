@@ -11,7 +11,7 @@ As time goes on some features are added, others removed, and most importantly, s
 This is a reminder of how Ruby evolved through time.
 
 ## 1.8
-No point in going back in time before 1.8, this will be our starting point.
+We will take this version as our starting point.
 
 ## 1.9
 From MRI to YARV
