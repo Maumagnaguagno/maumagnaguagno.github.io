@@ -7,19 +7,20 @@ hidden: true
 ---
 
 # Ruby Versions
-As time goes on some features are added, others removed, some changed.
+As time goes on some features are added, others removed or changed.  
 This is a reminder of how Ruby evolved through time.
 
-Version | Release date | End of support | End of maintenance
- ---    | ---          | ---            | ---
-[1.8]   |              |                |
-[1.9]   |              |                |
-[2.0]   |              |                |
-[2.1]   |              |                |
-[2.2]   |              |                |
-[2.3]   |              |                |
-[2.4]   |              |                |
-[2.5]   |              |                |
+Version    | Release    | End of support | End of maintenance
+ ---       | ---        | ---            | ---
+[1.8](#18) | 2003-08-04 | 2012-06-xx     | 2014-07-01
+[1.9](#19) | 2007-12-25 | 2014-02-23     | 2015-02-23
+[2.0](#20) | 2013-02-24 | 2015-02-24     | 2016-02-24
+[2.1](#21) | 2013-12-25 | 2016-03-30     | 2017-03-31
+[2.2](#22) | 2014-12-25 | 2017-03-28     | 2018-03-31
+[2.3](#23) | 2015-12-25 |                |
+[2.4](#24) | 2016-12-25 |                |
+[2.5](#25) | 2017-12-25 |                |
+[2.6](#26) | 2018-12-25 |                |
 
 ## 1.8
 - We will consider this version our starting point.
@@ -55,6 +56,9 @@ Version | Release date | End of support | End of maintenance
 - ``Kernel#yield_self``
 - ``String#delete_prefix/delete_suffix``
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push``
+
+## 2.6
+- **TODO: list possible features**
 
 ## Future
 - [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3 "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance")
