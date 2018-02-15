@@ -96,7 +96,7 @@ It is left to the user to select ideal/correct planner based on their requiremen
 - What do you need to better describe domain and problem?
   - The ``:requirements`` field is your friend
 - What do you expect?
-  - Sarisficing plan (sub-optimal, fast)
+  - Satisficing plan (sub-optimal, fast)
   - Step-optimal plan (optimal, slow)
   - Metric-based plan (minimize/maximize time/cost/resource, slower)
 
