@@ -11,16 +11,16 @@ As time goes on some features are added, others removed or changed.
 This is a reminder of how Ruby evolved through time.
 
 Version    | Release    | End of support | End of maintenance
- ---       | ---        | ---            | ---
+ :---:     | :---:      | :---:          | :---:
 [1.8](#18) | 2003-08-04 | 2012-06-xx     | 2014-07-01
 [1.9](#19) | 2007-12-25 | 2014-02-23     | 2015-02-23
 [2.0](#20) | 2013-02-24 | 2015-02-24     | 2016-02-24
 [2.1](#21) | 2013-12-25 | 2016-03-30     | 2017-03-31
 [2.2](#22) | 2014-12-25 | 2017-03-28     | 2018-03-31
-[2.3](#23) | 2015-12-25 |                |
-[2.4](#24) | 2016-12-25 |                |
-[2.5](#25) | 2017-12-25 |                |
-[2.6](#26) | 2018-12-25 |                |
+[2.3](#23) | 2015-12-25 | TBA            | TBA
+[2.4](#24) | 2016-12-25 | TBA            | TBA
+[2.5](#25) | 2017-12-25 | TBA            | TBA
+[2.6](#26) | 2018-12-25 | TBA            | TBA
 
 ## 1.8
 - We will consider this version our starting point.
