@@ -7,21 +7,32 @@ hidden: true
 ---
 
 # Ruby Versions
-As time goes on some features are added, others removed, and most importantly, some are changed in any project.
+As time goes on some features are added, others removed, some changed.
 This is a reminder of how Ruby evolved through time.
 
+Version | Release date | End of support | End of maintenance
+ ---    | ---          | ---            | ---
+[1.8]   |              |                |
+[1.9]   |              |                |
+[2.0]   |              |                |
+[2.1]   |              |                |
+[2.2]   |              |                |
+[2.3]   |              |                |
+[2.4]   |              |                |
+[2.5]   |              |                |
+
 ## 1.8
-We will take consider this version our starting point.
+- We will consider this version our starting point.
 
 ## 1.9
 - From MRI to YARV
 - Splat any args
+- Enumerators
 - ``Kernel#require_relative``
 - ``String#prepend``
 - ``IO#write/binwrite/binread``
 - ``String#clear``
-- Enumerators
-- Numeric step
+- ``Numeric#step``
 
 ## 2.0
 - ``Kernel#__dir__``
@@ -33,7 +44,7 @@ We will take consider this version our starting point.
 - Symbol GC
 
 ## 2.3
-- Frozen string literal
+- Frozen string literals
 - Safe navigation ``&``
 - ``Array/Hash#dig``
 
@@ -46,4 +57,4 @@ We will take consider this version our starting point.
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push``
 
 ## Future
-- Ruby 3x3
+- [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3 "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance")
