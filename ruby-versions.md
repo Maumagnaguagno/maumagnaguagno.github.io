@@ -39,10 +39,10 @@ This is a reminder of how Ruby evolved through time.
 - ``Numeric#step``
 
 ## 2.0
-- ``Kernel#__dir__``
 - Keyword arguments
 - UTF-8 as default encoding
 - Convert to Hash with ``#to_h``
+- ``Kernel#__dir__``
 
 ## 2.1
 - ``Numeric#bit_length``
@@ -62,6 +62,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel#yield_self``
 - ``String#delete_prefix/delete_suffix``
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push``
+- ``rescue/else/ensure`` in ``do/end`` blocks
 
 ## 2.6
 - **TODO: list possible features**
