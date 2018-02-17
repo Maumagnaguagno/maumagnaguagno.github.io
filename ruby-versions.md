@@ -10,7 +10,7 @@ hidden: true
 As time goes on some features are added, others removed or changed.  
 This is a reminder of how Ruby evolved through time.
 
-Version    | Release    | End of support | End of maintenance
+ Version   | Release    | End of support | End of maintenance
  :---:     | :---:      | :---:          | :---:
 [1.8](#18) | 2003-08-04 | 2012-06-xx     | 2014-07-01
 [1.9](#19) | 2007-12-25 | 2014-02-23     | 2015-02-23
@@ -40,6 +40,9 @@ Version    | Release    | End of support | End of maintenance
 
 ## 2.0
 - ``Kernel#__dir__``
+- Keyword arguments
+- UTF-8 as default encoding
+- Convert to Hash with ``#to_h``
 
 ## 2.1
 - ``Numeric#bit_length``
