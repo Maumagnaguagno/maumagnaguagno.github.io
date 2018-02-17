@@ -23,12 +23,15 @@ Version    | Release    | End of support | End of maintenance
 [2.6](#26) | 2018-12-25 | TBA            | TBA
 
 ## 1.8
-- We will consider this version our starting point.
+- We will consider this version our starting point
 
 ## 1.9
 - From MRI to YARV
 - Splat any args
 - Enumerators
+- New Hash syntax for Symbol keys ``{key: 'value'}``
+- Hashes use insertion order
+- One character strings are not ASCII values ``?c == 'c'``
 - ``Kernel#require_relative``
 - ``String#prepend``
 - ``IO#write/binwrite/binread``
