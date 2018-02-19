@@ -48,15 +48,18 @@ This is a reminder of how Ruby evolved through time.
 - ``Numeric#bit_length``
 
 ## 2.2
-- Symbol GC
+- [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
 
 ## 2.3
 - Frozen string literals
-- Safe navigation ``&``
+- [Safe navigation ``obj&.foo``](https://bugs.ruby-lang.org/issues/11537)
 - ``Array/Hash#dig``
+- [Experimental ``RubyVM::InstructionSequence#to_binary/load_from_binary``](https://bugs.ruby-lang.org/issues/11788)
 
 ## 2.4
-- Unify Fixnum and Bignum into Integer
+- [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
+- [``Array#max/min`` are optimized to not create temporary arrays under certain conditions](https://bugs.ruby-lang.org/issues/12172)
+- [``Regexp#match?`` does not change global variables](https://bugs.ruby-lang.org/issues/8110)
 
 ## 2.5
 - ``Kernel#yield_self``
