@@ -34,14 +34,15 @@ This is a reminder of how Ruby evolved through time.
 - One character strings are not ASCII values ``?c == 'c'``
 - ``Kernel#require_relative``
 - ``String#prepend``
-- ``IO#write/binwrite/binread``
 - ``String#clear``
+- ``IO#write/binwrite/binread``
 - ``Numeric#step``
 
 ## 2.0
 - Keyword arguments
 - UTF-8 as default encoding
 - Convert to Hash with ``#to_h``
+- Onigmo replaces Oniguruma
 - ``Kernel#__dir__``
 
 ## 2.1
@@ -58,7 +59,7 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.4
 - Unify Fixnum and Bignum into Integer [#12005](https://bugs.ruby-lang.org/issues/12005)
-- ``Array#max/min`` are optimized to not create temporary arrays under certain conditions [#12172](https://bugs.ruby-lang.org/issues/12172)
+- ``Array#max/min`` do not create temporary arrays under certain conditions [#12172](https://bugs.ruby-lang.org/issues/12172)
 - ``Regexp#match?`` does not change global variables [#8110](https://bugs.ruby-lang.org/issues/8110)
 
 ## 2.5
