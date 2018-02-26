@@ -251,6 +251,7 @@ b.exclude_end?    #=> true
 ## Give me more
 These are places to search for more Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
+- [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](http://batsov.com/rubocop/) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
 - [BigBinary blog](https://blog.bigbinary.com/categories/Ruby-2-4) have a Ruby 2.4 series of posts
