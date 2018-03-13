@@ -3,7 +3,6 @@ title: Ruby Versions
 description: Differences between Ruby versions
 date: 2018-02-11
 category: ruby
-hidden: true
 ---
 
 # Ruby Versions
@@ -35,7 +34,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel#require_relative``
 - ``String#prepend``
 - ``String#clear``
-- ``IO#write/binwrite/binread``
+- ``IO.write/binwrite/binread``
 - ``Numeric#step``
 
 ## 2.0
@@ -46,30 +45,37 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel#__dir__``
 
 ## 2.1
+- VM (method cache)
+- Bignum with GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+- ``String#scrub`` [#8414](https://bugs.ruby-lang.org/issues/8414)
 - ``Numeric#bit_length``
 
 ## 2.2
 - Symbol GC [#9634](https://bugs.ruby-lang.org/issues/9634)
 
 ## 2.3
-- Frozen string literals
+- Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
 - Safe navigation ``obj&.foo`` [#11537](https://bugs.ruby-lang.org/issues/11537)
 - ``Array/Hash#dig``
-- Experimental ``RubyVM::InstructionSequence#to_binary/load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
+- Experimental ``RubyVM::InstructionSequence#to_binary/.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
 
 ## 2.4
 - Unify Fixnum and Bignum into Integer [#12005](https://bugs.ruby-lang.org/issues/12005)
 - ``Array#max/min`` do not create temporary arrays under certain conditions [#12172](https://bugs.ruby-lang.org/issues/12172)
 - ``Regexp#match?`` does not change global variables [#8110](https://bugs.ruby-lang.org/issues/8110)
+- ``Comparable#clamp`` [#10594](https://bugs.ruby-lang.org/issues/10594)
 
 ## 2.5
-- ``Kernel#yield_self``
+- ``Kernel#yield_self`` [#6721](https://bugs.ruby-lang.org/issues/6721)
 - ``String#delete_prefix/delete_suffix``
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push``
-- ``rescue/else/ensure`` in ``do/end`` blocks
+- ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
 
 ## 2.6
-- **TODO: list possible features**
+The following modifications are part of the 2.6 preview branch and may change during the development course:
+- ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
+- ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
+- ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 
 ## Future
 - [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3 "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance")
