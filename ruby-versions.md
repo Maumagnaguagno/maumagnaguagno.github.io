@@ -67,15 +67,15 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.5
 - ``Kernel#yield_self`` [#6721](https://bugs.ruby-lang.org/issues/6721)
-- ``String#delete_prefix/delete_suffix``
-- ``Array#prepend/append`` as aliases of ``Array#unshift/push``
+- ``String#delete_prefix/delete_suffix`` [#12694](https://bugs.ruby-lang.org/issues/12694) [#13665](https://bugs.ruby-lang.org/issues/13665)
+- ``Array#prepend/append`` as aliases of ``Array#unshift/push`` [#12746](https://bugs.ruby-lang.org/issues/12746)
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
 
 ## 2.6
-The following modifications are part of the 2.6 preview branch and may change during the development course:
+The following are part of the Ruby 2.6 preview and may change during development:
 - ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 
 ## Future
-- [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3 "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance")
+- [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
