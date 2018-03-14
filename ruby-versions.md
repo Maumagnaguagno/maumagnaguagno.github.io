@@ -40,15 +40,15 @@ This is a reminder of how Ruby evolved through time.
 ## 2.0
 - Keyword arguments
 - UTF-8 as default encoding
-- Convert to Hash with ``#to_h``
-- Onigmo replaces Oniguruma
-- ``Kernel#__dir__``
+- Convert to Hash with ``#to_h`` [#6276](https://bugs.ruby-lang.org/issues/6276)
+- Onigmo replaces Oniguruma [#5820](https://bugs.ruby-lang.org/issues/5820)
+- ``Kernel#__dir__`` [#3346](https://bugs.ruby-lang.org/issues/3346)
 
 ## 2.1
 - VM (method cache)
 - Bignum with GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 - ``String#scrub`` [#8414](https://bugs.ruby-lang.org/issues/8414)
-- ``Numeric#bit_length``
+- ``Numeric#bit_length`` [#8700](https://bugs.ruby-lang.org/issues/8700)
 
 ## 2.2
 - Symbol GC [#9634](https://bugs.ruby-lang.org/issues/9634)
@@ -56,7 +56,7 @@ This is a reminder of how Ruby evolved through time.
 ## 2.3
 - Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
 - Safe navigation ``obj&.foo`` [#11537](https://bugs.ruby-lang.org/issues/11537)
-- ``Array/Hash#dig``
+- ``Array/Hash#dig`` [#11643](https://bugs.ruby-lang.org/issues/11643)
 - Experimental ``RubyVM::InstructionSequence#to_binary/.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
 
 ## 2.4
