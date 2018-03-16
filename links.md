@@ -40,6 +40,8 @@ Hover links to see their descriptions.
   - [Tested](https://www.youtube.com/user/testedcom "Design and build stuff")
   - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Design, build and fix electronics")
   - [Evan Kale](https://www.youtube.com/user/EvanKale91 "Circuit bending")
+  - [CuriousMarc](https://www.youtube.com/user/mverdiell "Computer Restorations")
+  - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
 - Writing
   - [Dillinger](http://dillinger.io/ "Markdown editor")
   - [Sharelatex](https://www.sharelatex.com/ "Collaborative writing")
