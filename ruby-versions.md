@@ -51,6 +51,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Numeric#bit_length`` [#8700](https://bugs.ruby-lang.org/issues/8700)
 
 ## 2.2
+- ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
 - Symbol GC [#9634](https://bugs.ruby-lang.org/issues/9634)
 
 ## 2.3
