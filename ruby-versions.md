@@ -73,7 +73,7 @@ This is a reminder of how Ruby evolved through time.
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
 
 ## 2.6
-The following are part of the Ruby 2.6 preview and may change during development:
+The following are part of the [Ruby 2.6-preview1](https://www.ruby-lang.org/en/news/2018/02/24/ruby-2-6-0-preview1-released/) and may change during development:
 - ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
