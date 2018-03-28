@@ -8,6 +8,7 @@ Hover links to see their descriptions.
 
 <div style="float:left" markdown="1">
 - Computer Science and Engineering
+  - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
   - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
   - [Red blob games](http://www.redblobgames.com/ "A* and game development material")
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
