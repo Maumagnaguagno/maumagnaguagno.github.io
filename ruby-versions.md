@@ -29,8 +29,8 @@ This is a reminder of how Ruby evolved through time.
 - Splat any args
 - Enumerators
 - New Hash syntax for Symbol keys ``{key: 'value'}``
-- Hashes use insertion order
-- One character strings are not ASCII values ``?c == 'c'``
+- Hashes preserve insertion order
+- One character strings are not ASCII values ``?c != c.ord``
 - ``Kernel#require_relative``
 - ``String#prepend``
 - ``String#clear``
