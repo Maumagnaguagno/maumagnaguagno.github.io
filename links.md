@@ -14,7 +14,7 @@ Hover links to see their descriptions.
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
-  - [Karpathy blog](https://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [Academic site](https://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
+  - [Karpathy blog](https://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [academic site](https://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
   - [Game AI Pro](http://www.gameaipro.com/ "Online book about AI in games")
 - Programming tools
   - [Rubular](http://rubular.com/ "Regex editor")
