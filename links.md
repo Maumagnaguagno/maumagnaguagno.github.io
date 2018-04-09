@@ -37,7 +37,7 @@ Hover links to see their descriptions.
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with nice graphics")
   - [Wisecrack](https://www.youtube.com/user/thugnotes "Funny and smart philosophy")
   - [PBS Idea Channel](https://www.youtube.com/user/pbsideachannel "Here is an idea...")
-  - [Numberphile](https://www.youtube.com/user/numberphile "Maths") and [Computerphile](https://www.youtube.com/user/Computerphile/videos "Bits")
+  - [Numberphile](https://www.youtube.com/user/numberphile "Maths") and [Computerphile](https://www.youtube.com/user/Computerphile "Bits")
   - [Tom Scott](https://www.youtube.com/user/enyay "Curious")
   - [Tested](https://www.youtube.com/user/testedcom "Design and build stuff")
   - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Design, build and fix electronics")
