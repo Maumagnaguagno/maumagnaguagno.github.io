@@ -44,7 +44,7 @@ This is a reminder of how Ruby evolved through time.
 - Convert to Hash with ``#to_h`` [#6276](https://bugs.ruby-lang.org/issues/6276)
 - Onigmo replaces Oniguruma [#5820](https://bugs.ruby-lang.org/issues/5820)
 - ``Kernel#__dir__`` [#3346](https://bugs.ruby-lang.org/issues/3346)
-- ``String#lines/chars/codepoints/bytes`` returns an Array instead of an Enumerator [#6670](https://bugs.ruby-lang.org/issues/6670)
+- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator [#6670](https://bugs.ruby-lang.org/issues/6670)
 
 ## 2.1
 - VM (method cache)
