@@ -39,16 +39,19 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.0
 - Keyword arguments
-- UTF-8 as default encoding
+- Extend class with ``Module#prepend``
+- UTF-8 as default encoding [#6679](https://bugs.ruby-lang.org/issues/6679)
 - Convert to Hash with ``#to_h`` [#6276](https://bugs.ruby-lang.org/issues/6276)
 - Onigmo replaces Oniguruma [#5820](https://bugs.ruby-lang.org/issues/5820)
 - ``Kernel#__dir__`` [#3346](https://bugs.ruby-lang.org/issues/3346)
+- ``String#lines/chars/codepoints/bytes`` returns an Array instead of an Enumerator [#6670](https://bugs.ruby-lang.org/issues/6670)
 
 ## 2.1
 - VM (method cache)
 - Bignum with GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 - ``String#scrub`` [#8414](https://bugs.ruby-lang.org/issues/8414)
 - ``Numeric#bit_length`` [#8700](https://bugs.ruby-lang.org/issues/8700)
+- ``Module#prepend/include`` are public
 
 ## 2.2
 - ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
