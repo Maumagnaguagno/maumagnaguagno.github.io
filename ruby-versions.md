@@ -81,5 +81,8 @@ The following are part of the [Ruby 2.6-preview1](https://www.ruby-lang.org/en/n
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 
+The more recent ones are still being developed:
+- Endless Ranges ``(1..)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
+
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
