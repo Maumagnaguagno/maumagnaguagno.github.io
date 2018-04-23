@@ -61,7 +61,7 @@ This is a reminder of how Ruby evolved through time.
 - Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
 - Safe navigation ``obj&.foo`` [#11537](https://bugs.ruby-lang.org/issues/11537)
 - ``Array/Hash#dig`` [#11643](https://bugs.ruby-lang.org/issues/11643)
-- Experimental ``RubyVM::InstructionSequence#to_binary/.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
+- Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
 
 ## 2.4
 - Unify Fixnum and Bignum into Integer [#12005](https://bugs.ruby-lang.org/issues/12005)
