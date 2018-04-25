@@ -30,7 +30,7 @@ This is a reminder of how Ruby evolved through time.
 - Enumerators
 - New Hash syntax for Symbol keys ``{key: 'value'}``
 - Hashes preserve insertion order
-- One character strings are not ASCII values ``?c != 'c'.ord``
+- Single character strings are not ASCII values ``?c != 'c'.ord``
 - ``Kernel#require_relative``
 - ``String#prepend``
 - ``String#clear``
@@ -59,6 +59,7 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.3
 - Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
+- ``String#+@/-@`` to get mutable and frozen strings, respectively [#11782](https://bugs.ruby-lang.org/issues/11782)
 - Safe navigation ``obj&.foo`` [#11537](https://bugs.ruby-lang.org/issues/11537)
 - ``Array/Hash#dig`` [#11643](https://bugs.ruby-lang.org/issues/11643)
 - Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
