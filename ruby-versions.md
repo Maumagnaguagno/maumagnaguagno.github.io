@@ -60,7 +60,7 @@ This is a reminder of how Ruby evolved through time.
 ## 2.3
 - Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
 - ``String#+@/-@`` to get mutable and frozen strings, respectively [#11782](https://bugs.ruby-lang.org/issues/11782)
-- ``obj&.foo`` [safe navigation operator](https://en.wikipedia.org/wiki/Safe_navigation_operator) [#11537](https://bugs.ruby-lang.org/issues/11537)
+- ``obj&.foo`` safe navigation operator [#11537](https://bugs.ruby-lang.org/issues/11537)
 - ``Array/Hash#dig`` [#11643](https://bugs.ruby-lang.org/issues/11643)
 - Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
 
