@@ -18,7 +18,7 @@ Hover links to see their descriptions.
   - [Game AI Pro](http://www.gameaipro.com/ "Online book about AI in games")
 - Programming tools
   - [Rubular](http://rubular.com/ "Regex editor")
-  - [Interactive Compiler C++](https://gcc.godbolt.org/ "Online assembler")
+  - [Compiler Explorer](https://gcc.godbolt.org/ "Online assembler")
   - [DiffChecker](https://www.diffchecker.com/ "Diff in your browser, with colors")
   - [W3C validator](https://validator.w3.org/ "Validate web documents")
 - Graphs and Charts
