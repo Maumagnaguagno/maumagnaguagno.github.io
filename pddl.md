@@ -36,7 +36,7 @@ PDDL is incremented from time to time to support new features, which may be modi
 
 ## Domain
 An implementation of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a good start, there is only one action and very clear initial and goal states.
-You start with several disks in the leftmost of three pegs, each disk on top of a larger one.
+It starts with several disks in the leftmost of three pegs, each disk on top of a larger one.
 The goal is to move all disks to the rightmost peg, but there is a catch, only one disk can be moved at a time and never onto a smaller one.
 Three predicates are used to describe if the top of a disk is ``clear``, which disk is ``on`` top of another and which disk is ``smaller`` than another.
 The ``move`` action has three parameters/free variables, prefixed by ``?``.
@@ -66,8 +66,8 @@ The ``move`` action has three parameters/free variables, prefixed by ``?``.
 ## Problem
 For a problem with only three disks there are several ``smaller`` predicates in the initial state to describe which movements are possible.
 The disks are on top of each other on ``peg1`` with the smaller ``disk1``, ``peg2`` and ``peg3`` being ``clear``.
-The goal only have the stack on ``peg3``, but you could add ``(clear peg1)`` and ``(clear peg2)``.
-For more or less disks you only need a different problem description, as they are new problem instances of the same domain.
+The goal only have the stack on ``peg3``, but one could add ``(clear peg1)`` and ``(clear peg2)``.
+For more or less disks only a different problem description is needed, as they are new problem instances of the same domain.
 
 ```elisp
 (define (problem pb3) ; This is also a comment
@@ -95,9 +95,9 @@ The expressive power is handled in layers of **requirements** in PDDL.
 Not to mention the many experimental requirements that are published without sufficient implementation details.
 A planner that support everything is too complex for developers that are interested in a subset of PDDL that solves their problem, they need to focus on something they can maintain and optimize for their use case.
 It is left to the user to select ideal/correct planner based on their requirements:
-- What do you need to better describe domain and problem?
-  - The ``:requirements`` field is your friend
-- What do you expect?
+- What is needed to better describe domain and problem?
+  - Use the ``:requirements`` field correctly
+- What is expected?
   - Satisficing plan (sub-optimal, fast)
   - Step-optimal plan (optimal, slow)
   - Metric-based plan (minimize/maximize time/cost/resource, slower)
@@ -126,7 +126,7 @@ These are a few tricks to **downgrade** PDDL:
   - Break each side of the disjunction in a different action
   - ``(and (p0 a) (or (p1 b) (p2 c)))`` to ``(and (p0 a) (p1 b))``, ``(and (p0 a) (p2 c))``
 
-The following action can help you identify how requirements are used:
+The following action shows how most common requirements take place:
 
 ```elisp
 (:action name
@@ -155,22 +155,21 @@ The following action can help you identify how requirements are used:
 ```
 
 ## Documentation
-Once you have your domain and problems it is important to document your decisions.
+Once domain and problems is done it is important to document the design decisions that were taken.
 But what is important to report/document?
 - Which planner is compatible with the description?
-  - Do not forget to describe version and flags that were used to execute
-- Which requirements were used?
+  - Describe version and flags used to execute
+- Which requirements and predicates were used?
   - Why?
   - Do they make it simpler to describe/understand the problem?
-- Which predicates were used?
 - Small modifications impact the description/planning?
   - Typing
   - More objects
   - More predicates in goal
 
 ## LaTeX listings
-You can add PDDL to your papers/reports using LaTeX listings with a custom template.
-To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") to contain listings for planning and usage example.
+It is possible to add syntax highlighted PDDL to your papers/reports using LaTeX listings with a custom template.
+To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") with listings for planning descriptions.
 
 ## References
 - [PDDL 2.1](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf) by Fox and Long
