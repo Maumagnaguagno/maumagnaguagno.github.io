@@ -17,18 +17,20 @@ Some people were not happy with this as their planners required more than PDDL c
 PDDL is incremented from time to time to support new features, which may be modified or dropped as implementations and use cases appear.
 
 ## Planning elements
-- **Objects**: Things in the world that interest us
+- **Objects**: elements in the world that are of our interest
   - ``ball``, ``room1``, ``hero``, ``sword``
-- **Predicates**: Properties of objects that we are interested in (can be true or false)
+- **Predicates**: Properties of objects that can be true or false
   - ``(drunk hero)``
 - **State**: Set of true predicates
   - ``( (drunk hero) (at hero room1) )``
 - **Initial state**: State of the world that we start in
-- **Goal specification**: Partial state we want to be achieve (ignore the rest)
+  - Usually with [closed-world assumption](https://en.wikipedia.org/wiki/Closed-world_assumption), predicates not mentioned are false
+- **Goal specification**: Partial state we want to be achieve
+  - Predicates not mentioned are ignored
 - **Actions/Operators**: Rules that change a state
   - **Parameters**: Used to generalize, will be replaced by objects
   - **Precondition**: When a rule can applied (satisfied by current state)
-  - **Effect**: What changes (add or delete predicates from a state)
+  - **Effect**: What changes (add or delete predicates from current state)
 - **Domain**: Set of actions that define a scenario
 - **Problem**: Objects, initial and goal states that define an instance of the scenario
 
