@@ -20,7 +20,7 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 
 ## Problem
 Since both [PDDL](/pddl) and JSHOP input were based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
-PDDL is more verbose with each field being named, while JSHOP expects the user to remember which field is what.
+PDDL is verbose with a name for each field, while JSHOP expects the user to remember what each field is used for.
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
 The missing keywords can be obtained with a smart use of comments.
 
@@ -68,7 +68,7 @@ The missing keywords can be obtained with a smart use of comments.
 ## Domain
 
 ### Changing the state
-JSHOP operators are prefixed with ``!``.
+JSHOP operators are prefixed with ``!`` or ``!!``.
 Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
 The conjunction token ``and`` can be omitted.
 
