@@ -9,8 +9,9 @@ category: planning
 Hierarchical Task Network is one approach to automated planning.
 Differently from classical planning, where one must find a plan to go from a initial state to a goal state, HTNs work decomposing tasks based on the current state.
 This is a shift from explicit to implicit goal state, instead of ``(at hero there)`` we now have ``(travel hero there)``.
-In this case a task ``travel`` must be performed, which is decomposed to a sequence of ``move`` tasks, that are no longer decomposeable.
-Tasks like ``travel`` are non-primitives or methods, and may have several ways to be decomposed, while tasks like ``move`` are primitives or operators and make the plan that modify the state.
+In this case a ``travel`` task must be performed, which is decomposed to a sequence of ``move`` tasks, that are not decomposable.
+Tasks like ``travel`` are non-primitives or methods, and may have several ways to be decomposed, while tasks like ``move`` are primitives or operators that modify the current state.
+The final plan is obtained from the primitive tasks that remain after every task is decomposed.
 
 ## Implementations
 - [SHOP and JSHOP](https://www.cs.umd.edu/projects/shop/)
@@ -19,7 +20,7 @@ Tasks like ``travel`` are non-primitives or methods, and may have several ways t
 - [HyperTensioN_U](https://github.com/Maumagnaguagno/HyperTensioN_U)
 
 ## Problem
-Since both [PDDL](/pddl) and JSHOP input were based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
+Since both [PDDL](/pddl) and SHOP/JSHOP input were based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
 PDDL is verbose with a name for each field, while JSHOP expects the user to remember what each field is used for.
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
 The missing keywords can be obtained with a smart use of comments.
