@@ -27,7 +27,7 @@ The missing keywords can be obtained with a smart use of comments.
 
 <div class="split" markdown="1">
 
-**PDDL**
+### PDDL
 ```elisp
 (define (problem pb1) (:domain search)
   (:objects ag1 p0 p1 p2 p3 p4)
@@ -47,7 +47,7 @@ The missing keywords can be obtained with a smart use of comments.
 </div>
 <div class="split" markdown="1">
 
-**JSHOP**
+### JSHOP
 ```elisp
 (defproblem pb1 search
 
@@ -75,7 +75,7 @@ The conjunction token ``and`` can be omitted.
 
 <div class="split" markdown="1">
 
-**PDDL**
+### PDDL
 ```elisp
 (:action move
   :parameters (?agent ?from ?to)
@@ -94,7 +94,7 @@ The conjunction token ``and`` can be omitted.
 </div>
 <div class="split" markdown="1">
 
-**JSHOP**
+### JSHOP
 ```elisp
 (:operator (!move ?agent ?from ?to)
   (; preconditions
