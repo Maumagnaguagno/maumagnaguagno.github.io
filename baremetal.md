@@ -27,32 +27,35 @@ Such features may include:
 - Speed
 
 ## Makefile
-**TODO**
+**TODO description**
 
-## Digital IO
-The most common usage of a microcontroller is to control digital pins.
-**TODO**
+```makefile
+TODO
+```
+
+## Pins
+The most common usage of a microcontroller is to control the state of pins.
+The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation).
+Arduino exposes read/write control with ``pinMode`` and state control with ``digitalWrite``.
 
 <div class="split" markdown="1">
 
 ### Arduino
-
 ```c
-#define PIN D1
+#define PIN D2
 pinMode(PIN, OUTPUT);
 digitalWrite(PIN, HIGH);
+digitalWrite(PIN, LOW);
 ```
 
 </div>
 <div class="split" markdown="1">
 
 ### C
-
 ```c
-
+DDRD  |= 1 << PB2;
+PORTD |= 1 << PB2;
+PORTD &= ~(1 << PB2);
 ```
 
 </div>
-
-## Analog IO
-**TODO**
