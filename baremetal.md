@@ -6,13 +6,13 @@ category: microcontroller
 hidden: true
 ---
 
-# Bare metal
-In programming a common practice is to avoid repetition and complexity by encapsulating instructions into routines.
+# Bare Metal
+A common practice in software engineering is to avoid repetition and unnecessary complexity by encapsulating instructions into routines.
 Collections of such routines become the libraries that make certain programming languages better suited to tackle specific problems.
-For microcontroller programming a well know environment is the Arduino, which abstracts away most of the initial and time-consuming setup step.
-However, such easy-to-use interface costs a lot on the long run, with routines that are slower than what they could be and a lack of understanding on how things work.
-Without a complete understanding of what is happening under the hood more people can handle and drive cars, but few can actually optimize their car for a specific need.
-In the following sections the old blocks of microcontroller programming are explained.
+For microcontroller programming a well know environment with such libraries is the Arduino platform, which abstracts away most of the initial and time-consuming setup step.
+However, such easy-to-use approach costs a lot on the long run, with routines that are slow and undocumented, leaving novice users without a clue about how they operate without reading the code.
+Without a complete understanding of what is happening under the hood more people can play with electronics, but few can actually build a long-term project out of it.
+In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by the tutorials around the web.
 
 ## Selecting a microcontroller
 Instead of searching for a single better microcontroller one must select which features are important first.
@@ -29,5 +29,30 @@ Such features may include:
 ## Makefile
 **TODO**
 
-## Digital Write
+## Digital IO
+The most common usage of a microcontroller is to control digital pins.
+**TODO**
+
+<div class="split" markdown="1">
+
+### Arduino
+
+```C
+#define PIN D1
+pinMode(PIN, OUTPUT);
+digitalWrite(PIN, HIGH);
+```
+
+</div>
+<div class="split" markdown="1">
+
+### C
+
+```C
+
+```
+
+</div>
+
+## Analog IO
 **TODO**
