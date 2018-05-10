@@ -42,10 +42,9 @@ Arduino exposes read/write control with ``pinMode`` and state control with ``dig
 
 ### Arduino
 ```c
-#define PIN D2
-pinMode(PIN, OUTPUT);
-digitalWrite(PIN, HIGH);
-digitalWrite(PIN, LOW);
+pinMode(D2, OUTPUT);
+digitalWrite(D2, HIGH);
+digitalWrite(D2, LOW);
 ```
 
 </div>
