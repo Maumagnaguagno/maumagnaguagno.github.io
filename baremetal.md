@@ -37,7 +37,7 @@ The most common usage of a microcontroller is to control digital pins.
 
 ### Arduino
 
-```C
+```c
 #define PIN D1
 pinMode(PIN, OUTPUT);
 digitalWrite(PIN, HIGH);
@@ -48,7 +48,7 @@ digitalWrite(PIN, HIGH);
 
 ### C
 
-```C
+```c
 
 ```
 
