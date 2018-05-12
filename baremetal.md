@@ -31,33 +31,33 @@ To compile you project outside the IDE you need to run certain tools in a specif
 Instead of repeating this process every day a makefile can do this job for you.
 
 ```makefile
-baud=57600
-avrType=atmega328p
-avrFreq=16000000
-programmerDev=/dev/ttyUSB0
-programmerType=arduino
+BAUD = 57600
+AVR  = atmega328p
+TYPE = arduino
+FREQ = 16000000
+PROGRAMMER = /dev/ttyUSB0
 
-cflags=-DF_CPU=$(avrFreq) -mmcu=$(avrType) -Wall -Werror -Wextra -Os
-objects=$(patsubst %.c,%.o,$(wildcard *.c))
+CFLAGS  = -DF_CPU=$(FREQ) -mmcu=$(AVR) -Wall -Werror -Wextra -Os
+OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))
 
 .PHONY: flash clean
 
 all: main.hex
 
 %.o: %.c
-	avr-gcc $(cflags) -c $< -o $@
+	avr-gcc $(CFLAGS) -c $< -o $@
 
-main.elf: $(objects)
-	avr-gcc $(cflags) -o $@ $^
+main.elf: $(OBJECTS)
+	avr-gcc $(CFLAGS) -o $@ $^
 
 main.hex: main.elf
 	avr-objcopy -j .text -j .data -O ihex $^ $@
 
 flash: main.hex
-	avrdude -p$(avrType) -c$(programmerType) -P$(programmerDev) -b$(baud) -v -U flash:w:$<
+	avrdude -p $(AVR) -c $(TYPE) -P $(PROGRAMMER) -b $(BAUD) -v -U flash:w:$<
 
 clean:
-	rm -f main.hex main.elf $(objects)
+	rm -f main.hex main.elf $(OBJECTS)
 ```
 
 ## Pins
