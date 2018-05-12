@@ -70,15 +70,15 @@ void loop(void)
 ```c
 void setup(void)
 {
-  DDRD  |= 1 << PB3;
-  DDRD  &= ~(1 << PB3);
+  DDRD  &= ~(1 << PD2);
+  DDRD  |= 1 << PD3;
 }
 
 void loop(void)
 {
-  // TODO this line
-  PORTD |= 1 << PB3;
-  PORTD &= ~(1 << PB3);
+  int val = (PIND >> PD2) & 1;
+  PORTD |= 1 << PD3;
+  PORTD &= ~(1 << PD3);
 }
 ```
 
