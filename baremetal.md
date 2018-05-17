@@ -17,14 +17,18 @@ In the following sections we explore the old blocks of microcontroller programmi
 ## Selecting a microcontroller
 Instead of searching for a single better microcontroller one must select which features are important first.
 Such features may include:
-- Amount of General Purpose Input/Output pins
-- Amount of analog and digital pins
-- Voltage and tolerance
+- General Purpose Input/Output pins
+  - Amount of digital and analog pins
+  - Voltage and tolerance
+- Energy consumption
 - Physical size
 - Protocols
 - Instruction set
 - Memory size
 - Speed
+- Cost
+- Availability
+- Tools to write, compile, flash and debug programs
 
 ## Makefile
 To compile you project outside the IDE you need to run certain tools in a specific order, depending on which files you modified to avoid running unnecessary commands.
