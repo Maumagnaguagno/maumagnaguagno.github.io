@@ -35,6 +35,7 @@ To compile you project outside the IDE you need to run certain tools in a specif
 Instead of repeating this process every day a makefile can do this job for you.
 
 ```makefile
+TARGET = main
 BAUD = 57600
 AVR  = atmega328p
 TYPE = arduino
@@ -46,22 +47,22 @@ OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))
 
 .PHONY: flash clean
 
-all: main.hex
+all: $(TARGET).hex
 
 %.o: %.c
 	avr-gcc $(CFLAGS) -c $< -o $@
 
-main.elf: $(OBJECTS)
+$(TARGET).elf: $(OBJECTS)
 	avr-gcc $(CFLAGS) -o $@ $^
 
-main.hex: main.elf
+$(TARGET).hex: $(TARGET).elf
 	avr-objcopy -j .text -j .data -O ihex $^ $@
 
-flash: main.hex
+flash: $(TARGET).hex
 	avrdude -p $(AVR) -c $(TYPE) -P $(PROGRAMMER) -b $(BAUD) -v -U flash:w:$<
 
 clean:
-	rm -f main.hex main.elf $(OBJECTS)
+	rm -f $(TARGET).hex $(TARGET).elf $(OBJECTS)
 ```
 
 ## Pins
