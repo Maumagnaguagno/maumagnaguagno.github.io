@@ -68,8 +68,8 @@ clean:
 ## Pins
 The most common usage of a microcontroller is to observe and control the state of pins.
 The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation):
-- ``DDRx`` stores which pins are used to read or write operations, as ``0`` or ``1`` respectively, set by ``pinMode``
-- ``PORTx`` obtains or sets the value of each pin, used by ``digitalRead`` and ``digitalWrite``
+- ``DDRx`` controls which pins are used to read or write, set by ``pinMode``
+- ``PORTx`` stores the value of each pin, used by ``digitalRead`` and ``digitalWrite``
 
 Arduino abstracts port and pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
 To solve which pin is what a look-up tables is used to identify port and pin with a few extra security checks, which consumes processing time and memory as they are being solved at run-time.
