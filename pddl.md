@@ -154,8 +154,7 @@ The following action shows how most common requirements take place:
 ```
 
 ## Documentation
-Once domain and problems is done it is important to document the design decisions that were taken.
-But what is important to report/document?
+It is important to document the design decisions that were taken during domain and problem development, such as:
 - Which planner is compatible with the description?
   - Describe version and flags used to execute
 - Which requirements and predicates were used?
