@@ -10,7 +10,7 @@ Hover links to see their descriptions.
 - Computer Science and Engineering
   - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
   - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
-  - [Red blob games](http://www.redblobgames.com/ "A* and game development material")
+  - [Red Blob Games](http://www.redblobgames.com/ "Interactive game development tutorials")
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
