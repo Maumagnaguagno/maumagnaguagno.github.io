@@ -146,8 +146,7 @@ The following action shows how most common requirements take place:
   :effect (and
     (not (pred ?param1)) ; strips
     (pred ?param2) ; strips
-    (when ; conditional-effects
-      (pred2 ?param1)
+    (when (pred2 ?param1) ; conditional-effects
       (not (pred2 ?param1))
     )
   )
