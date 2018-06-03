@@ -31,7 +31,7 @@ Such features may include:
 - Tools to write, compile, flash and debug programs
 
 ## Makefile
-To compile you project outside the IDE you need to run certain tools in a specific order, depending on which files you modified to avoid running unnecessary commands.
+To compile and flash your project outside an IDE you need to execute separate tools in a specific order.
 Instead of repeating this process every day a makefile can do this job for you.
 
 ```makefile
