@@ -44,6 +44,7 @@ To avoid being tied to one IDE it is a good idea to start with a Makefile, which
 ## Makefile
 To compile and flash your project outside an IDE you need to execute separate tools in a specific order.
 Instead of repeating this process every day a makefile can do this job for you.
+The makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
 
 ```makefile
 TARGET = main
