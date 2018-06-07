@@ -10,8 +10,9 @@ hidden: true
 A common practice in software engineering is to avoid repetition and unnecessary complexity by encapsulating instructions into routines.
 Collections of such routines become the libraries that make certain programming languages better suited to tackle specific problems.
 For microcontroller programming a well know environment with such libraries is the Arduino platform, which abstracts away most of the initial and time-consuming setup step.
-However, such easy-to-use approach costs a lot on the long run, with routines that are slow and undocumented, leaving novice users without a clue about how they operate without reading the code.
-Without a complete understanding of what is happening under the hood more people can play with electronics, but few can actually build a long-term project out of it.
+
+However, such easy-to-use approach may cost a lot in the long run, with slow or undocumented routines, leaving novice users without a clue.
+Without the need for a complete understanding of what is happening under the hood more people can play with electronics, but few can actually build a long-term project out of it.
 In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by the tutorials around the web.
 
 ## Selecting a microcontroller
@@ -31,10 +32,11 @@ Such features may include:
 - Tools to write, compile, flash and debug programs
 - Learning curve, tutorials, libraries and examples
 
-If you are starting it is a good idea to pick a the most available microcontroller, as their cost is usually low with lots of materials available online.
+It is a good idea for starters to pick the most available microcontroller, as their cost is usually low with lots of materials available online.
 Such materials will minimize your development time, as no library must be ported and tested in a new platform.
 Only pick a different microcontroller if part of your specification demands, for example, hardware division must be available to avoid a GHz microcontroller or energy consumption must be less than uA.
-For complex projects the memory size and amount of GPIOs must be carefully considered, as their placement around the IC.
+
+For complex projects the memory size and amount of GPIOs must be carefully considered, as well as their placement around the IC.
 Remember that some microcontrollers are 5V tolerant, which can save you a few extra components.
 The tools are usually free, their real cost is the learning curve that may consume a long time for inexperienced users.
 To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the stages instead of hiding the entire process behind a few buttons.
