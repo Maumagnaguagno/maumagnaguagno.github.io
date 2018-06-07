@@ -15,7 +15,7 @@ Without a complete understanding of what is happening under the hood more people
 In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by the tutorials around the web.
 
 ## Selecting a microcontroller
-Instead of searching for a single better microcontroller one must select which features are important first.
+Instead of searching for the best microcontroller ever one must identify which features are important in the project.
 Such features may include:
 - General Purpose Input/Output pins
   - Amount of digital and analog pins
@@ -29,6 +29,15 @@ Such features may include:
 - Cost
 - Availability
 - Tools to write, compile, flash and debug programs
+- Learning curve, tutorials, libraries and examples
+
+If you are starting it is a good idea to pick a the most available microcontroller, as their cost is usually low with lots of materials available online.
+Such materials will minimize your development time, as no library must be ported and tested in a new platform.
+Only pick a different microcontroller if part of your specification demands, for example, hardware division must be available to avoid a GHz microcontroller or energy consumption must be less than uA.
+For complex projects the memory size and amount of GPIOs must be carefully considered, as their placement around the IC.
+Remember that some microcontrollers are 5V tolerant, which can save you a few extra components.
+The tools are usually free, their real cost is the learning curve that may consume a long time for inexperienced users.
+To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the stages instead of hiding the entire process behind a few buttons.
 
 ## Makefile
 To compile and flash your project outside an IDE you need to execute separate tools in a specific order.
