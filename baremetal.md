@@ -114,8 +114,8 @@ void loop(void)
 ```c
 void setup(void)
 {
-  DDRD  &= ~(1 << PD2);
-  DDRD  |= 1 << PD3;
+  DDRD &= ~(1 << PD2);
+  DDRD |= 1 << PD3;
 }
 
 void loop(void)
