@@ -16,7 +16,7 @@ This is a reminder of how Ruby evolved through time.
 [2.0](#20) | 2013-02-24 | 2015-02-24     | 2016-02-24
 [2.1](#21) | 2013-12-25 | 2016-03-30     | 2017-03-31
 [2.2](#22) | 2014-12-25 | 2017-03-28     | 2018-03-31
-[2.3](#23) | 2015-12-25 | 2018-03-28     | TBA
+[2.3](#23) | 2015-12-25 | 2018-03-28     | 2019-03-31
 [2.4](#24) | 2016-12-25 | TBA            | TBA
 [2.5](#25) | 2017-12-25 | TBA            | TBA
 [2.6](#26) | 2018-12-25 | TBA            | TBA
@@ -82,8 +82,10 @@ The following are part of the [Ruby 2.6-preview1](https://www.ruby-lang.org/en/n
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 
-The more recent ones are still being developed:
+The more recent ones are part of the [Ruby 2.6-preview2](https://www.ruby-lang.org/en/news/2018/05/31/ruby-2-6-0-preview2-released/):
 - Endless Ranges ``(1..)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
+- ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
+- ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
 
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
