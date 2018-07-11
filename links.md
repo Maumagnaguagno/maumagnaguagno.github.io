@@ -33,6 +33,7 @@ Hover links to see their descriptions.
 - Youtube channels
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
+  - [Brows Held High](https://www.youtube.com/user/oancitizen/ "A mildly immature look at movies and their nonsense")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with nice graphics")
   - [Wisecrack](https://www.youtube.com/user/thugnotes "Funny and smart philosophy")
