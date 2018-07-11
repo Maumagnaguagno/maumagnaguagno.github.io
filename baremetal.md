@@ -3,7 +3,6 @@ title: Baremetal
 description: Fast operations on microcontrollers
 date: 2018-05-09
 category: microcontroller
-hidden: true
 ---
 
 # Bare Metal
