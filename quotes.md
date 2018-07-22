@@ -42,7 +42,7 @@ the goal is to create something that will.
 </div>
 
 <div class="quote" markdown="1">
-[César Cruz](https://en.wikipedia.org/wiki/Cesar_Cruz)
-> Art should comfort the disturbed  
+[Cesar Cruz](https://en.wikipedia.org/wiki/Cesar_Cruz)
+> Art should comfort the disturbed
 and disturb the comfortable.
 </div>
