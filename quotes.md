@@ -40,3 +40,9 @@ small broken things.
 The goal isn't to live forever,  
 the goal is to create something that will.
 </div>
+
+<div class="quote" markdown="1">
+Cesar cruz
+> Art should comfort the disturbed
+and disturb the comfortable.
+</div>
