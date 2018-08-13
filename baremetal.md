@@ -10,7 +10,7 @@ A common practice in software engineering is to avoid repetition and unnecessary
 Collections of such routines become the libraries that make certain programming languages better suited to tackle specific problems.
 A well know environment with such libraries for microcontroller programming is the Arduino platform, which abstracts away most of the initial and time-consuming setup step.
 
-However, such easy-to-use approach may cost a lot in the long run, with slow or undocumented routines from such libraries, leaving novice users without a clue on what is happening.
+However, such easy-to-use approach may cost a lot in the long run, with slow or undocumented routines and changes from such libraries breaking projects, leaving novice users without a clue.
 Without the need for a complete understanding of what is happening under the hood more people can play with electronics, but few can actually build a long-term project out of it.
 In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by tutorials around the web.
 

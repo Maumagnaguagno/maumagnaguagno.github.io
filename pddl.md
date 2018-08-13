@@ -154,7 +154,7 @@ The following action shows how most common requirements take place:
 ```
 
 ## Documentation
-It is important to document the design decisions that were taken during domain and problem development, such as:
+It is important to document the design decisions that were taken during domain and problem modeling, such as:
 - Which planner is compatible with the description?
   - Describe version and flags used to execute
 - Which requirements and predicates were used?
