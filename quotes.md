@@ -16,7 +16,7 @@ iudicium difficile.
 </div>
 
 <div class="quote" markdown="1">
-Ursula K. Le Guin
+[Ursula K. Le Guin](https://en.wikipedia.org/wiki/Ursula_K._Le_Guin)
 > The creative adult is  
 the child who has survived.
 </div>
