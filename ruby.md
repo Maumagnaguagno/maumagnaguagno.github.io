@@ -40,6 +40,29 @@ puts first until first = a.shift
 
 </div>
 
+## Side-effects
+Sometimes parentheses can make all the difference in the evaluation of an expression.
+The following examples show how you can obtain the last element of a list and a list without its last element, with or without side-effects.
+
+<div class="split" markdown="1">
+
+```ruby
+a = [1,2,3]
+b = a[-1] # a = [1,2,3], b = 3, could also use a.last
+c = a.pop # a = [1,2], c = 3
+```
+
+</div>
+<div class="split" markdown="1">
+
+```ruby
+a = [1,2,3]
+b = a[0..-2] # a = [1,2,3], b = [1,2], could also use a.drop(1)
+(c = a).pop  # a = c = [1,2]
+```
+
+</div>
+
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.
 
@@ -203,7 +226,7 @@ h            #=> {3=>'abc', 4=>'abcc'}
 ## Equality operator
 From time to time your new object class must be compared, and comparing only instance variables, ``@var == other.var``, will result in error if the ``other`` object does not respond to ``var``.
 Most users will compare the class first, ``self.class == other.class``, which is good but not optimal.
-Instead of thinking if both objects have the same class we can think if object is an instance of other object class, which is slightly faster.
+Instead of thinking if both objects have the same class we can think if ``self`` is an instance of other object class, which is slightly faster.
 
 ```ruby
 class MyObject
