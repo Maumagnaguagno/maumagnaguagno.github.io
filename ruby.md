@@ -66,7 +66,7 @@ b = a.drop(1) #=> [1,2], a = [1,2,3]
 </div>
 
 ## Splat operator
-Exploit arrays with the ``*`` splat operator, an asterisk prefix that remove variable content from the container.
+Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
 
 ```ruby
 [1, *[2, 3]] #=> [1, 2, 3]
@@ -82,6 +82,9 @@ process(*ARGV)
 
 # Particularly useful to print Hashes
 p *GC.stat
+
+# Array coercion
+a = *'str' #=> ['str']
 ```
 
 ## Splat iterator
