@@ -8,20 +8,20 @@ hidden: true
 
 # Lego Mindstorms
 TODO Write a little bit about the history of lego mindstorms
-
-## Motors
-
-### Power Functions
+Cite Seymour Papert
 
 ## RCX
+The first fully programmable brick...
+- [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
-- [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
+- RCX 1.0 vs 2.0 [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
 - [Built-in programs](https://pbrick.info/2013/10/rcx-3-built-in-standard-programs/)
-- [USB Tower](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/)
+- [USB tower](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/)
 - [Firmware](https://pbrick.info/rcx-firmware/)
 - [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C")
 - [The RCX, 19 years later](http://www.johnholbrook.us/edu/RCX_guide.html "written by John Holbrook")
 - [Raspberry Pi guide](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
+- [RCX touch sensor multiplexer](http://www.elecbrick.com/mux/)
 
 ### Scout, MicroScout and VLL
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
@@ -32,12 +32,21 @@ The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the 
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond after some time.
 After the user explored the numbered programs within the system, it is time to explore the ``P`` program.
+- [Micro Scout VLL Transparencies](http://www.elecbrick.com/vll/)
 - [Teaching the RCX VLL](https://waterpigs.co.uk/articles/rcx-vll/)
 - [Controlling a MicroScout from an RCX using VLL](https://pbrick.info/2013/10/microscout-rcx-vll/)
 - [R2D2](http://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
 
 ## NXT
+The next generation of Mindstorms came in two versions, the first...
 
 ## EV3
+The evolution of Mindstorms created the third (and current) release of Lego robots came in...
 
-## WeDo / Boost
+## Extra bits
+
+### Motors
+
+### Power Functions
+
+### WeDo / Boost
