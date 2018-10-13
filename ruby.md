@@ -48,8 +48,9 @@ The following examples show how you can obtain the last element of a list and a 
 
 ```ruby
 a = [1,2,3]
-b = a[-1] # a = [1,2,3], b = 3, could also use a.last
-c = a.pop # a = [1,2], c = 3
+b = a[-1]  #=> 3, a = [1,2,3]
+b = a.last #=> 3, a = [1,2,3]
+c = a.pop  #=> 3, a = [1,2]
 ```
 
 </div>
@@ -57,8 +58,9 @@ c = a.pop # a = [1,2], c = 3
 
 ```ruby
 a = [1,2,3]
-b = a[0..-2] # a = [1,2,3], b = [1,2], could also use a.drop(1)
-(c = a).pop  # a = c = [1,2]
+b = a[0..-2]  #=> [1,2], a = [1,2,3]
+b = a.drop(1) #=> [1,2], a = [1,2,3]
+(c = a).pop   #=> 3, a = c = [1,2]
 ```
 
 </div>
