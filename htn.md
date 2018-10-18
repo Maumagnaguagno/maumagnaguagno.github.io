@@ -23,7 +23,7 @@ The final plan is obtained from the primitive tasks that remain after every task
 Since both [PDDL](/pddl) and SHOP/JSHOP input were based on Lisp and developed around the same time they share style (lots of parentheses), but not keywords.
 PDDL is verbose with a name for each field, while JSHOP expects the user to remember what each field is used for.
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
-The missing keywords can be obtained with a smart use of comments.
+The missing keywords can be replaced by comments to increase readability.
 
 <div class="split" markdown="1">
 
