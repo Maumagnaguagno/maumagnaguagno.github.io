@@ -84,9 +84,9 @@ The pins are exposed through [port registers](https://www.arduino.cc/en/Referenc
 - ``PORTx`` stores the value of each pin, used by ``digitalRead`` and ``digitalWrite``
 
 Arduino abstracts port and pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
-To solve which pin is what a look-up tables is used to identify port and pin with a few extra security checks, which consumes processing time and memory as they are being solved at run-time.
-Variations of such functions were developed to identify port and pin at compile-time and obtain the same result faster without requiring an overclocked Arduino board.
-This is specially useful when working with external device protocols that require a lot of data being sent or received through pins, such as a display or a responsive sensor for hazard applications.
+To solve pin and port a look-up table is used at run-time, with a few extra security checks, which consumes processing time and memory.
+Variations of such functions were developed to identify port and pin at compile-time to obtain the same result faster with the same board.
+This is specially useful when working with protocols that require a lot of data being sent or received through pins, such as a display, or a responsive sensor for hazard applications.
 
 <div class="split" markdown="1">
 
