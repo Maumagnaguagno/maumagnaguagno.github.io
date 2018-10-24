@@ -1,12 +1,12 @@
 ---
-title: Lego Mindstorms
+title: Mindstorms
 description: Power to the bricks
 date: 2018-10-05
 category: lego
 hidden: true
 ---
 
-# Lego Mindstorms
+# Mindstorms
 TODO Write a little bit about the history of lego mindstorms
 Cite Seymour Papert
 
@@ -14,7 +14,8 @@ Cite Seymour Papert
 The first fully programmable brick came to the market in 1998, after a long relationshop between MIT Media Lab and the Lego company.
 - [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
-- RCX 1.0 vs 2.0 [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
+- RCX 1.0 vs 2.0
+  - [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
 - [Built-in programs](https://pbrick.info/2013/10/rcx-3-built-in-standard-programs/)
 - [USB tower](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/)
 - [Firmware](https://pbrick.info/rcx-firmware/)
