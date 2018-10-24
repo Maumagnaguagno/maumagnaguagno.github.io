@@ -11,7 +11,7 @@ TODO Write a little bit about the history of lego mindstorms
 Cite Seymour Papert
 
 ## RCX
-The first fully programmable brick...
+The first fully programmable brick came to the market in 1998, after a long relationshop between MIT Media Lab and the Lego company.
 - [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
 - RCX 1.0 vs 2.0 [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
@@ -27,7 +27,7 @@ The first fully programmable brick...
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
 A simpler solution came in the Scout, MicroScout and Spybotics sets.
 The idea is simple: have less electronic parts (merge controller, sensors, motors, battery into a single element) and a few behaviors preprogrammed to explore.
-The Scout (TODO add part here) is the most similar to RCX, with less input and output ports (2 instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
+The Scout (TODO add part here) is the most similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
 The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the other path: a single electronic element for everything.
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond after some time.
@@ -38,10 +38,10 @@ After the user explored the numbered programs within the system, it is time to e
 - [R2D2](http://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
 
 ## NXT
-The next generation of Mindstorms came in two versions, the first...
+The next generation of Mindstorms came in two versions, the first in July 2006 and the secoond in August 2009.
 
 ## EV3
-The evolution of Mindstorms created the third (and current) release of Lego robots came in...
+The evolution of Mindstorms created the third (and current) release of Lego robots came in September 2013.
 
 ## Extra bits
 
