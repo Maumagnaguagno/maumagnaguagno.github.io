@@ -65,11 +65,6 @@ b = a.drop(1) #=> [1,2], a = [1,2,3]
 
 </div>
 
-## Evevything returns a value
-#TODO
-- ``a.each {}; a.clear`` vs ``a.each {}.clear``
-- ``a = case b; when ...; end.method``
-
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
 
@@ -93,6 +88,7 @@ a = *'str' #=> ['str']
 ```
 
 ## Custom-implicit Splat
+Define ``to_ary`` to splat any instance.
 
 ```ruby
 class Foo
