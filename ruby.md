@@ -65,6 +65,11 @@ b = a.drop(1) #=> [1,2], a = [1,2,3]
 
 </div>
 
+## Evevything returns a value
+#TODO
+- ``a.each {}; a.clear`` vs ``a.each {}.clear``
+- ``a = case b; when ...; end.method``
+
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
 
@@ -85,6 +90,25 @@ p *GC.stat
 
 # Array coercion
 a = *'str' #=> ['str']
+```
+
+## Custom-implicit Splat
+
+```ruby
+class Foo
+  def initialize(x, y)
+    @x = x
+    @y = y
+  end
+
+  def to_ary
+    [@x, @y]
+  end
+end
+
+a, b = Foo.new(4,2)
+a # => 4
+b # => 2
 ```
 
 ## Splat iterator
@@ -281,7 +305,7 @@ b.exclude_end?    #=> true
 These are places to search for more Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
-- [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov
 - [RuboCop](http://batsov.com/rubocop/) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
 - [BigBinary blog](https://blog.bigbinary.com/categories/Ruby-2-4) have a Ruby 2.4 series of posts
+- [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov
