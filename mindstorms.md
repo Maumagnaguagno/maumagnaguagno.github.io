@@ -10,6 +10,16 @@ hidden: true
 TODO Write a little bit about the history of lego mindstorms
 Cite Seymour Papert
 
+| RCX | NXT | EV3
+--- | --- | --- | ---
+Release date | 1998 | 2006 | 2013
+Display | segmented LCD | 100x64 pixels LCD | 178x128 pixels LCD
+Processor | Hitachi H8/300 @16MHz | ARM7 @48MHz | ARM9 @300MHz
+RAM | 32 KB | 64 KB | 64 MB
+ROM | 16 KB | 256 KB Flash | 16 MB Flash + microSDHC
+USB | No | No | Yes
+Bluetooth | No | Yes | Yes
+
 ## RCX
 The first fully programmable brick came to the market in 1998, after a long relationshop between MIT Media Lab and the Lego company.
 - [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
