@@ -10,7 +10,7 @@ hidden: true
 TODO Write a little bit about the history of lego mindstorms
 Cite Seymour Papert
 
-| RCX | NXT | EV3
+ | RCX | NXT | EV3
 --- | --- | --- | ---
 Release date | 1998 | 2006 | 2013
 Display | segmented LCD | 100x64 pixels LCD | 178x128 pixels LCD
