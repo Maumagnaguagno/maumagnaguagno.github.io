@@ -10,7 +10,7 @@ hidden: true
 TODO Write a little bit about the history of lego mindstorms
 Cite Seymour Papert
 
- - | RCX | NXT | EV3
+|| RCX | NXT | EV3
 --- | --- | --- | ---
 Release | 1998 | 2006 | 2013
 Display | segmented | 100x64 pixels | 178x128 pixels
