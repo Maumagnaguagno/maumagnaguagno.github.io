@@ -39,10 +39,11 @@ After the user explored the numbered programs within the system, it is time to e
 - [R2D2](http://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
 
 ## NXT
-The next generation of Mindstorms came in two versions, the first in July 2006 and the secoond in August 2009.
+The next generation of Mindstorms came in two versions, the first in July 2006 and the second one in August 2009.
 
 ## EV3
-The evolution of Mindstorms created the third (and current) release of Lego robots came in September 2013.
+The evolution of Mindstorms created the third (and current) release of Lego robots in September 2013.
+This time previous sensors anad motors are supported.
 
 ## Extra bits
 
