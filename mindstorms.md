@@ -1,6 +1,6 @@
 ---
 title: Mindstorms
-description: Power to the bricks
+description: Power to the Brick
 date: 2018-10-05
 category: lego
 hidden: true
