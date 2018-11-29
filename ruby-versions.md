@@ -6,7 +6,6 @@ category: ruby
 ---
 
 # Ruby Versions
-As time goes on some features are added, others removed or changed.  
 This is a reminder of how Ruby evolved through time.
 
  Version   | Release    | End of support | End of maintenance
@@ -77,12 +76,12 @@ This is a reminder of how Ruby evolved through time.
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
 
 ## 2.6
-The following are part of the [Ruby 2.6-preview1](https://www.ruby-lang.org/en/news/2018/02/24/ruby-2-6-0-preview1-released/):
+[Ruby 2.6-preview1](https://www.ruby-lang.org/en/news/2018/02/24/ruby-2-6-0-preview1-released/):
 - ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 
-The more recent ones are part of the [Ruby 2.6-preview2](https://www.ruby-lang.org/en/news/2018/05/31/ruby-2-6-0-preview2-released/):
+[Ruby 2.6-preview2](https://www.ruby-lang.org/en/news/2018/05/31/ruby-2-6-0-preview2-released/):
 - Endless Ranges ``(1..)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
 - ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
 - ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
