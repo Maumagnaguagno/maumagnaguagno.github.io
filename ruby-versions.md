@@ -86,6 +86,9 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
 - ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
 
+[Ruby 2.6-preview3](https://www.ruby-lang.org/en/news/2018/11/06/ruby-2-6-0-preview3-released/):
+- Initial implementation of a JIT compiler
+
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
 - [MJIT: A Method Based Just-in-time Compiler for Ruby](https://blog.heroku.com/ruby-mjit)
