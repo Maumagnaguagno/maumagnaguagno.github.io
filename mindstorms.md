@@ -53,7 +53,7 @@ The next generation of Mindstorms came in two versions, the first in July 2006 a
 
 ## EV3
 The evolution of Mindstorms created the third (and current) release of Lego robots in September 2013.
-This time previous sensors anad motors are supported.
+This time previous sensors and motors are supported due to no modifications to the cables, being the same from NXT.
 
 ## Extra bits
 
