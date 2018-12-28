@@ -76,18 +76,16 @@ This is a reminder of how Ruby evolved through time.
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
 
 ## 2.6
-[Ruby 2.6-preview1](https://www.ruby-lang.org/en/news/2018/02/24/ruby-2-6-0-preview1-released/):
+- Initial implementation of a JIT compiler [#14235](https://bugs.ruby-lang.org/issues/14235)
+- Flip-flop syntax is deprecated [#5400](https://bugs.ruby-lang.org/issues/5400)
+- Endless Ranges ``(1..)`` and ``(1...)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
+- ``Array#union/difference`` [#14097](https://bugs.ruby-lang.org/issues/14097)
+- ``Dir#each_child/children`` [#13969](https://bugs.ruby-lang.org/issues/13969)
 - ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
 - ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
-
-[Ruby 2.6-preview2](https://www.ruby-lang.org/en/news/2018/05/31/ruby-2-6-0-preview2-released/):
-- Endless Ranges ``(1..)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
 - ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
 - ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
-
-[Ruby 2.6-preview3](https://www.ruby-lang.org/en/news/2018/11/06/ruby-2-6-0-preview3-released/):
-- Initial implementation of a JIT compiler
 
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
