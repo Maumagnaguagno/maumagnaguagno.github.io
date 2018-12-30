@@ -50,7 +50,7 @@ This is a reminder of how Ruby evolved through time.
 - Bignum with GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 - ``String#scrub`` [#8414](https://bugs.ruby-lang.org/issues/8414)
 - ``Numeric#bit_length`` [#8700](https://bugs.ruby-lang.org/issues/8700)
-- ``Module#prepend/include`` are public
+- ``Module#prepend/include`` are public [#8846](https://bugs.ruby-lang.org/issues/8846)
 
 ## 2.2
 - ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
