@@ -65,6 +65,11 @@ b = a.drop(1) #=> [1,2], a = [1,2,3]
 
 </div>
 
+## Evevything returns a value
+#TODO
+- ``a.each {}; a.clear`` vs ``a.each {}.clear``
+- ``a = case b; when ...; end.method``
+
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
 
@@ -252,6 +257,7 @@ h            #=> {3=>'abc', 4=>'abcc'}
 From time to time your new object class must be compared, and comparing only instance variables, ``@var == other.var``, will result in error if the ``other`` object does not respond to ``var``.
 Most users will compare the class first, ``self.class == other.class``, which is good but not optimal.
 Instead of thinking if both objects have the same class we can think if ``self`` is an instance of other object class, which is slightly faster.
+Another option is to use duck typing with ``respond_to?``, which allows other class instances to be compared, while requiring a ``respond_to?`` call for each method or variable to verify its availability.
 
 ```ruby
 class MyObject
@@ -262,8 +268,12 @@ class MyObject
     @var = var
   end
 
-  def ==(other)
+  def ==(other) # Class comparison
     instance_of?(other.class) and @var == other.var
+  end
+
+  def ==(other) # Duck typing comparison
+    other.respond_to?(:var) and @var == other.var
   end
 end
 ```
