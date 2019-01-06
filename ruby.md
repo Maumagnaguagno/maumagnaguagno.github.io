@@ -313,5 +313,5 @@ These are places to search for more Ruby snippets:
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](http://batsov.com/rubocop/) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
-- [BigBinary blog](https://blog.bigbinary.com/categories/Ruby-2-4) have a Ruby 2.4 series of posts
+- BigBinary blog has a series of posts about Ruby [2.4](https://blog.bigbinary.com/categories/Ruby-2-4), [2.5](https://blog.bigbinary.com/categories/Ruby-2-5) and [2.6](https://blog.bigbinary.com/categories/Ruby-2-6)
 - [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov
