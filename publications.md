@@ -12,6 +12,6 @@ hidden: true
 - [Online Goal Recognition Combining Landmarks and Planning](http://makro.ink/ijcai2017grw/ijcai2017grw_papers.zip "paper_2") - IJCAI/GRW 2017
 - [BioPlan: Classical Planning with Crowd simulation](http://www.seer.ufrgs.br/index.php/jis/article/viewFile/56149/43687) - SBC JIS 2017
 - [DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS16/paper/viewFile/12966/12544) - FLAIRS 2016
-- [LOCUS: An environment description language for JASON](http://www.meneguzzi.eu/felipe/pubs/wesaac-locus-2015.pdf) - WESAAC 2015
+- [LOCUS: An environment description language for JASON](https://www.meneguzzi.eu/felipe/pubs/wesaac-locus-2015.pdf) - WESAAC 2015
 - [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/files/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
 - [A generic FPGA emulation framework](http://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
