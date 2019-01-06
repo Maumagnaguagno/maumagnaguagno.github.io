@@ -65,11 +65,6 @@ b = a.drop(1) #=> [1,2], a = [1,2,3]
 
 </div>
 
-## Evevything returns a value
-#TODO
-- ``a.each {}; a.clear`` vs ``a.each {}.clear``
-- ``a = case b; when ...; end.method``
-
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
 
@@ -307,11 +302,19 @@ b.exclude_end?    #=> true
 
 </div>
 
+## Everything returns a value
+Every code block in Ruby returns a value, from a class or method definition to a method call or if/case statement.
+Which means you can do ``a.each {}.clear`` instead of ``a.each {}; a.clear`` and assign the return value of method calls from case statements, such as ``a = case b; when ...; end.method``.
+One interesting construction is to select which array to appeand an element ``(use_a ? array_a : array_b) << element``.
+This constructions may seen confusing, but may lead to a more compact code while avoiding repetition without the use of intermediate variables.
+Imagine how complex the last construction would be with a complex formula replacing ``element``, one could either repeat the formula for each if/else branch or add a variable before the condition is evaluated.
+Repetition implies hard maintenance and variables imply reuse, use such tricks with caution to make your code more readable and not less.
+
 ## Give me more
 These are places to search for more Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](http://batsov.com/rubocop/) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
-- BigBinary blog has a series of posts about Ruby [2.4](https://blog.bigbinary.com/categories/Ruby-2-4), [2.5](https://blog.bigbinary.com/categories/Ruby-2-5) and [2.6](https://blog.bigbinary.com/categories/Ruby-2-6)
+- BigBinary's blog has a series of posts about Ruby [2.4](https://blog.bigbinary.com/categories/Ruby-2-4), [2.5](https://blog.bigbinary.com/categories/Ruby-2-5) and [2.6](https://blog.bigbinary.com/categories/Ruby-2-6)
 - [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov
