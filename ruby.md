@@ -306,8 +306,7 @@ b.exclude_end?    #=> true
 Every code block in Ruby returns a value, from a class or method definition to a method call or if/case statement.
 Which means you can do ``a.each {}.clear`` instead of ``a.each {}; a.clear`` and assign the return value of method calls from case statements, such as ``a = case b; when ...; end.method``.
 One interesting construction is to select which array to appeand an element ``(use_a ? array_a : array_b) << element``.
-This constructions may seen confusing, but may lead to a more compact code while avoiding repetition without the use of intermediate variables.
-Imagine how complex the last construction would be with a complex formula replacing ``element``, one could either repeat the formula for each if/else branch or add a variable before the condition is evaluated.
+Consider replacing ``element`` with a complex formula and not use this construction, one could either repeat the formula for each if/else branch or add a variable before the condition is evaluated.
 Repetition implies hard maintenance and variables imply reuse, use such tricks with caution to make your code more readable and not less.
 
 ## Give me more
