@@ -6,13 +6,13 @@ category: planning
 ---
 
 # PDDL
-After years of planning research many different inputs formats for each planner were created, this environment made planners hard to be compared.
+After years of planning research many planners were developed, each with a different inputs format, creating an environment that made planners hard compare.
 The planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) only focusing on fast/correct planners, not compatible ones.
 [ICAPS](http://www.icaps-conference.org/) forced a standard description by setting a [competition](http://icaps-conference.org/index.php/main/competitions) were researchers could publish their approaches.
-Such standard description was ([PDDL 1.2 from 98](http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf)).
+Such standard description was [PDDL 1.2 from 98](http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf).
 This forced the planning community to share language, limitations and benchmarks.
-Planners that required more than what PDDL could express became incompatible and forgotten due to lack of niche users.
-PDDL is incremented from time to time to support such missing features, which may be modified or dropped as implementations and use cases appear.
+Planners that required more than what PDDL could express were forgotten or added new features to PDDL.
+PDDL is incremented from time to time to support such missing features, which may be modified or dropped as new use cases appear.
 
 ## Planning elements
 - **Objects**: elements in the world that are of our interest
