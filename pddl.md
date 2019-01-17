@@ -6,15 +6,13 @@ category: planning
 ---
 
 # PDDL
-Many different languages/inputs formats for each planner created an environment where incompatibility made planners hard to be compared and rework was required to use other planners.
-Planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) and they were interested in fast/correct planners, not being limited by parsers.
-It is time to make planners compete fot the title of best planner and while publishing their approaches, [ICAPS](http://www.icaps-conference.org/).
-- Make planners [compete](http://icaps-conference.org/index.php/main/competitions) within the same rules/input ([PDDL 1.2 from 98](http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf))
-- May the best/faster/more compatible planner win
-- Force community to share language/limitations/benchmarks
-
-Some people were not happy with this as their planners required more than PDDL could express, their incompatible planners were forgotten due to lack of usage and documentation.
-PDDL is incremented from time to time to support new features, which may be modified or dropped as implementations and use cases appear.
+After years of planning research many different inputs formats for each planner were created, this environment made planners hard to be compared.
+The planning community had no reason to use same language, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like) only focusing on fast/correct planners, not compatible ones.
+[ICAPS](http://www.icaps-conference.org/) forced a standard description by setting a [competition](http://icaps-conference.org/index.php/main/competitions) were researchers could publish their approaches.
+Such standard description was ([PDDL 1.2 from 98](http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf)).
+This forced the planning community to share language, limitations and benchmarks.
+Planners that required more than what PDDL could express became incompatible and forgotten due to lack of niche users.
+PDDL is incremented from time to time to support such missing features, which may be modified or dropped as implementations and use cases appear.
 
 ## Planning elements
 - **Objects**: elements in the world that are of our interest
