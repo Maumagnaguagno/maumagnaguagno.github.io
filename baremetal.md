@@ -62,10 +62,10 @@ OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))
 all: $(TARGET).hex
 
 %.o: %.c
-	avr-gcc $(CFLAGS) -c $< -o $@
+	avr-gcc -c $< -o $@ $(CFLAGS)
 
 $(TARGET).elf: $(OBJECTS)
-	avr-gcc $(CFLAGS) -o $@ $^
+	avr-gcc -o $@ $^ $(CFLAGS)
 
 $(TARGET).hex: $(TARGET).elf
 	avr-objcopy -j .text -j .data -O ihex $^ $@
