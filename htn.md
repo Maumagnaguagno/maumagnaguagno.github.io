@@ -10,8 +10,8 @@ Hierarchical Task Network is one approach to automated planning.
 Differently from classical planning, where one must find a sequence of actions to go from an initial state to a goal state, HTNs work decomposing tasks based on the current state.
 This is a shift from an explicit goal state to an implicit one, instead of a goal predicate ``(at hero there)`` we now have a task ``(travel hero there)``.
 In this case a ``travel`` task is decomposed to a sequence of ``move`` tasks that actually describe state changes.
-Tasks like ``travel`` are non-primitives or methods, and may have several ways to be decomposed, while tasks like ``move`` are primitives or operators that modify the current state.
-The final plan is obtained from the primitive tasks that remain after every task is successfully decomposed.
+Non primitive tasks like ``travel`` can be further decomposed by methods, which may have several ways to decompose a task, while primitive tasks like ``move`` are defined by operators that modify the current state.
+The final plan is obtained from the primitive tasks that remain after every non-primitive task is successfully decomposed.
 
 ## Implementations
 - [SHOP and JSHOP](https://www.cs.umd.edu/projects/shop/)
