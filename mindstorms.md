@@ -8,7 +8,7 @@ hidden: true
 
 # Mindstorms
 TODO Write a little bit about the history of lego mindstorms
-Cite Seymour Papert
+Cite [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert)
 
 || RCX | NXT | EV3
 --- | --- | --- | ---
@@ -38,7 +38,7 @@ The first fully programmable brick came to the market in 1998, after a long rela
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
 A simpler solution came in the Scout, MicroScout and Spybotics sets.
 The idea is simple: have less electronic parts (merge controller, sensors, motors, battery into a single element) and a few behaviors preprogrammed to explore.
-The Scout (TODO add part here) is the most similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
+The Scout (TODO add part here) is very similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
 The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the other path: a single electronic element for everything.
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond after some time.
