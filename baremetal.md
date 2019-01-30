@@ -33,7 +33,7 @@ Such features may include:
 
 It is a good idea for starters to pick the most available microcontroller, as their cost is usually low with lots of materials available online.
 Such materials will minimize your development time, as no library must be ported and tested in a new platform.
-Only pick a different microcontroller if part of your specification demands, for example, hardware division must be available to avoid a GHz microcontroller or energy consumption must be less than uA.
+Only pick a different microcontroller when your specification demands, for example, hardware division must be available for performance reasons or energy consumption must be small to work with batteries.
 
 For complex projects the memory size and amount of GPIOs must be carefully considered, as well as their placement around the IC.
 Remember that some microcontrollers are 5V tolerant, which can save you a few extra components.
