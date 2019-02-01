@@ -212,7 +212,7 @@ end
 ```
 
 ## Hash behavior
-Hash may behave differently according to object initialization if default value or block behavior is provided.
+Hash may behave differently according to object initialization if a default value or block is provided.
 
 ```ruby
 # Basic Hash
@@ -249,7 +249,7 @@ h            #=> {3=>'abc', 4=>'abcc'}
 ```
 
 ## Equality operator
-From time to time your new object class must be compared, and comparing only instance variables, ``@var == other.var``, will result in error if the ``other`` object does not respond to ``var``.
+Some objects must be compared, and comparing only instance variables, ``@var == other.var``, will result in error when ``other`` does not respond to ``var``.
 Most users will compare the class first, ``self.class == other.class``, which is good but not optimal.
 Instead of thinking if both objects have the same class we can think if ``self`` is an instance of other object class, which is slightly faster.
 Another option is to use duck typing with ``respond_to?``, which allows other class instances to be compared, while requiring a ``respond_to?`` call for each method or variable to verify its availability.
