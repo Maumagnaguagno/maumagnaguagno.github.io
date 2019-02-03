@@ -7,8 +7,9 @@ hidden: true
 ---
 
 # Mindstorms
-TODO Write a little bit about the history of lego mindstorms
-Cite [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert)
+Based on constructivism ideas researched by [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert), MIT lab and the Lego group colaborated to push Lego to the digital world.
+Lego was losing market space against the virtual worlds from the video-game industry and robotics looked like a good fit for the Lego parts, letting kids explore the real world with creatures built with their own hands.
+Gears, motors and many parts were already available, but sensors and a programmable brick were missing to achieve a robotics kit. 
 
 || RCX | NXT | EV3
 --- | --- | --- | ---
