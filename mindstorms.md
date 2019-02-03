@@ -7,9 +7,10 @@ hidden: true
 ---
 
 # Mindstorms
-Based on constructivism ideas researched by [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert), MIT lab and the Lego group colaborated to push Lego to the digital world.
-Lego was losing market space against the virtual worlds from the video-game industry and robotics looked like a good fit for the Lego parts, letting kids explore the real world with creatures built with their own hands.
-Gears, motors and many parts were already available, but sensors and a programmable brick were missing to achieve a robotics kit. 
+Based on constructionism from [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert), MIT Media lab and the Lego group collaborated to push Lego to the digital world.
+Lego was losing market space against the virtual worlds from the video-game industry and educational robotics looked like a good fit for the Lego parts, letting kids explore the real world through robots built with their own hands.
+Gears, motors and many parts were already available from technic kits, but sensors and a programmable brick were missing to achieve a robotics kit.
+The kits were named as Lego Mindstorms due to the book [Mindstorms: Children, Computers, and Powerful Ideas](https://en.wikipedia.org/wiki/Mindstorms:_Children,_Computers,_and_Powerful_Ideas) by Seymour Papert.
 
 || RCX | NXT | EV3
 --- | --- | --- | ---
