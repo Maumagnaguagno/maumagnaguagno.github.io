@@ -47,20 +47,20 @@ The following examples show how you can obtain the last element of a list and a 
 <div class="split" markdown="1">
 
 ```ruby
-a = [1,2,3]
-b = a[-1]  #=> 3, a = [1,2,3]
-b = a.last #=> 3, a = [1,2,3]
-c = a.pop  #=> 3, a = [1,2]
+a = [1, 2, 3]
+b = a[-1]  #=> 3, a = [1, 2, 3]
+b = a.last #=> 3, a = [1, 2, 3]
+c = a.pop  #=> 3, a = [1, 2]
 ```
 
 </div>
 <div class="split" markdown="1">
 
 ```ruby
-a = [1,2,3]
-b = a[0..-2]  #=> [1,2], a = [1,2,3]
-b = a.drop(1) #=> [1,2], a = [1,2,3]
-(c = a).pop   #=> 3, a = c = [1,2]
+a = [1, 2, 3]
+b = a[0..-2]  #=> [1, 2], a = [1, 2, 3]
+b = a.drop(1) #=> [1, 2], a = [1, 2, 3]
+(c = a).pop   #=> 3, a = c = [1, 2]
 ```
 
 </div>
