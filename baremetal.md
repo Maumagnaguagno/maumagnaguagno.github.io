@@ -100,7 +100,7 @@ void setup(void)
 
 void loop(void)
 {
-  int value = digitalRead(D2);
+  int v = digitalRead(D2);
   digitalWrite(D3, HIGH);
   digitalWrite(D3, LOW);
 }
@@ -119,7 +119,7 @@ void setup(void)
 
 void loop(void)
 {
-  int val = (PIND >> PD2) & 1;
+  int v = (PIND >> PD2) & 1;
   PORTD |= 1 << PD3;
   PORTD &= ~(1 << PD3);
 }
