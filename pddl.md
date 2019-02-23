@@ -30,8 +30,8 @@ PDDL is incremented from time to time to support such missing features, which ma
   - **Parameters**: Used to generalize, will be replaced by objects
   - **Precondition**: When a rule can applied (satisfied by current state)
   - **Effect**: What changes (add or delete predicates from current state)
-- **Domain**: Set of actions that define a scenario
-- **Problem**: Objects, initial and goal states that define an instance of the scenario
+- **Domain**: Set predicates and actions that define an environment
+- **Problem**: Objects, initial and goal states that define an instance of the environment
 
 ## Domain
 An implementation of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a good start, there is only one action and very clear initial and goal states.
