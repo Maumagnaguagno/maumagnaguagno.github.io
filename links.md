@@ -47,7 +47,7 @@ Hover links to see their descriptions.
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
 - Writing
   - [Dillinger](http://dillinger.io/ "Markdown editor")
-  - [Sharelatex](https://www.sharelatex.com/ "Collaborative writing")
+  - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
 - Movies
   - [TasteDive](https://tastedive.com/ "Recommendation system")
 </div>
