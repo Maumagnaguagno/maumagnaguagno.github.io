@@ -46,3 +46,10 @@ the goal is to create something that will.
 > Art should comfort the disturbed  
 and disturb the comfortable.
 </div>
+
+<div class="quote" markdown="1">
+[Bill Watterson](https://en.wikipedia.org/wiki/Bill_Watterson)
+> Things are never quite as
+scary when you've a
+best friend.
+</div>
