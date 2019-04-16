@@ -68,7 +68,7 @@ The missing keywords can be replaced by comments to increase readability.
 
 ## Domain
 
-### Changing the state
+### Modify the current state
 JSHOP operators are prefixed with ``!`` or ``!!``.
 Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
 The conjunction token ``and`` can be omitted.
