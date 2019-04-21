@@ -5,6 +5,8 @@ hidden: true
 ---
 
 # Publications
+- [Develop, Visualize and Test Classical Planning descriptions in your browser](TBD) - DEMO ICAPS 2019
+- [LatRec: Recognizing Goals in Latent Space](TBD) - DEMO ICAPS 2019
 - [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
 - [Team PUCRS: a Decentralised Multi-Agent Solution for the Agents in the City Scenario](https://www.meneguzzi.eu/felipe/pubs/ijaose-mapc-2017.pdf) - IJAOSE 2018
 - [Method Composition through Operator Pattern Identification](http://icaps17.icaps-conference.org/workshops/KEPS/proceedingsKEPS.pdf#page=57) - ICAPS/KEPS 2017
