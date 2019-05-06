@@ -5,6 +5,7 @@ hidden: true
 ---
 
 # Publications
+- [HTN Planning with Semantic Attachments](TBD) - ICAPS/Hierarchical Planning Workshop 2019
 - [Develop, Visualize and Test Classical Planning descriptions in your browser](TBD) - DEMO ICAPS 2019
 - [LatRec: Recognizing Goals in Latent Space](TBD) - DEMO ICAPS 2019
 - [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
