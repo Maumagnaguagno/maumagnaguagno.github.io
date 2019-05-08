@@ -78,6 +78,7 @@ This is a reminder of how Ruby evolved through time.
 ## 2.6
 - Initial implementation of a JIT compiler [#14235](https://bugs.ruby-lang.org/issues/14235)
 - Flip-flop syntax is deprecated [#5400](https://bugs.ruby-lang.org/issues/5400)
+- Beginless Ranges ``(..1)`` and ``(...1)`` [#14799](https://bugs.ruby-lang.org/issues/14799)
 - Endless Ranges ``(1..)`` and ``(1...)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
 - ``Array#union/difference`` [#14097](https://bugs.ruby-lang.org/issues/14097)
 - ``Dir#each_child/children`` [#13969](https://bugs.ruby-lang.org/issues/13969)
