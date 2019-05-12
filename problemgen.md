@@ -30,13 +30,19 @@ pegs = ['peg1', 'peg2', 'peg3']
     pegs.each {|p| state << ['smaller', di, p]}
     i.upto(n) {|j| state << ['smaller', di, "d#{j}"]}
   }
-  state.push(['clear', 'd1'], ['clear', 'peg2'], ['clear', 'peg3'], ['on', "d#{n}", 'peg1'])
+  state.push(
+    ['clear', 'd1'], ['clear', 'peg2'], ['clear', 'peg3'],
+    ['on', "d#{n}", 'peg1']
+  )
   goal_pos << ['on', "d#{n}", 'peg3']
   n.pred.downto(1) {|i|
     state    << ['on', "d#{i}", "d#{i.pred}"]
     goal_pos << ['on', "d#{i}", "d#{i.pred}"]
   }
-  pddl = PDDL_Compiler.compile_problem(domain_name, problem_name, nil, nil, nil, state, nil, goal_pos, goal_not, nil)
+  pddl = PDDL_Compiler.compile_problem(
+    domain_name, problem_name,
+    nil, nil, nil, state, nil, goal_pos, goal_not, nil
+  )
   IO.write("#{problem_name}.pddl", pddl)
   # TODO only add more elements instead of cleaning all up
   state.clear
