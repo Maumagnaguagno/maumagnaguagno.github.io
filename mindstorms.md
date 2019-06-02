@@ -32,9 +32,9 @@ The first fully programmable brick came to the market in 1998, after a long rela
 - [USB tower](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/)
 - [Firmware](https://pbrick.info/rcx-firmware/)
 - [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C")
-- [The RCX, 19 years later](http://www.johnholbrook.us/edu/RCX_guide.html "written by John Holbrook")
+- [The RCX, 19 years later](https://www.johnholbrook.us/edu/RCX_guide.html "written by John Holbrook")
 - [Raspberry Pi guide](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
-- [RCX touch sensor multiplexer](http://www.elecbrick.com/mux/)
+- [RCX touch sensor multiplexer](https://www.elecbrick.com/mux/)
 
 ### Scout, MicroScout and VLL
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
@@ -45,10 +45,10 @@ The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the 
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond after some time.
 After the user explored the numbered programs within the system, it is time to explore the ``P`` program.
-- [Micro Scout VLL Transparencies](http://www.elecbrick.com/vll/)
+- [Micro Scout VLL Transparencies](https://www.elecbrick.com/vll/)
 - [Teaching the RCX VLL](https://waterpigs.co.uk/articles/rcx-vll/)
 - [Controlling a MicroScout from an RCX using VLL](https://pbrick.info/2013/10/microscout-rcx-vll/)
-- [R2D2](http://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
+- [R2D2](https://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
 
 ## NXT
 The next generation of Mindstorms came in two versions, the first in July 2006 and the second one in August 2009.
