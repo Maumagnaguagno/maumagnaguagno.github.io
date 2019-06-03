@@ -11,14 +11,14 @@ Hover links to see their descriptions.
 - Computer Science and Engineering
   - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
   - [Bret Victor website](http://worrydream.com/ "The future of interface design") and [Vimeo](https://vimeo.com/worrydream "Bret Victor at Vimeo")
-  - [Red Blob Games](http://www.redblobgames.com/ "Interactive game development tutorials")
+  - [Red Blob Games](https://www.redblobgames.com/ "Interactive game development tutorials")
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
   - [Karpathy blog](https://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [academic site](https://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
-  - [Game AI Pro](http://www.gameaipro.com/ "Online book about AI in games")
+  - [Game AI Pro](https://www.gameaipro.com/ "Online book about AI in games")
 - Programming tools
-  - [Rubular](http://rubular.com/ "Regex editor")
+  - [Rubular](https://rubular.com/ "Regex editor")
   - [Compiler Explorer](https://gcc.godbolt.org/ "Online assembler")
   - [DiffChecker](https://www.diffchecker.com/ "Diff in your browser, with colors")
   - [W3C validator](https://validator.w3.org/ "Validate web documents")
@@ -47,7 +47,7 @@ Hover links to see their descriptions.
   - [CuriousMarc](https://www.youtube.com/user/mverdiell "Computer Restorations")
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
 - Writing
-  - [Dillinger](http://dillinger.io/ "Markdown editor")
+  - [Dillinger](https://dillinger.io/ "Markdown editor")
   - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
 - Movies
   - [TasteDive](https://tastedive.com/ "Recommendation system")
