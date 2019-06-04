@@ -19,6 +19,7 @@ This is a reminder of how Ruby evolved through time.
 [2.4](#24) | 2016-12-25 | 2019-04-01     | 2020-04-01
 [2.5](#25) | 2017-12-25 | TBA            | TBA
 [2.6](#26) | 2018-12-25 | TBA            | TBA
+[2.7](#27) | 2019-12-25 | TBA            | TBA
 
 ## 1.8
 - We will consider this version our starting point
@@ -78,7 +79,6 @@ This is a reminder of how Ruby evolved through time.
 ## 2.6
 - Initial implementation of a JIT compiler [#14235](https://bugs.ruby-lang.org/issues/14235)
 - Flip-flop syntax is deprecated [#5400](https://bugs.ruby-lang.org/issues/5400)
-- Beginless Ranges ``(..1)`` and ``(...1)`` [#14799](https://bugs.ruby-lang.org/issues/14799)
 - Endless Ranges ``(1..)`` and ``(1...)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
 - ``Array#union/difference`` [#14097](https://bugs.ruby-lang.org/issues/14097)
 - ``Dir#each_child/children`` [#13969](https://bugs.ruby-lang.org/issues/13969)
@@ -87,6 +87,15 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
 - ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
 - ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
+
+## 2.7
+The first preview for 2.7 has recently been made public, featuring:
+- Experimental pattern matching [#14912](https://bugs.ruby-lang.org/issues/14912)
+- Method reference operator ``.:`` [#12125](https://bugs.ruby-lang.org/issues/12125)
+- Beginless Ranges ``(..1)`` and ``(...1)`` [#14799](https://bugs.ruby-lang.org/issues/14799)
+- Experimental numbered parameter [#4475](https://bugs.ruby-lang.org/issues/4475)
+- ``Enumerable#tally`` [#11076](https://bugs.ruby-lang.org/issues/11076)
+- ``Integer#[]`` now supports range operation [#8842](https://bugs.ruby-lang.org/issues/8842)
 
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
