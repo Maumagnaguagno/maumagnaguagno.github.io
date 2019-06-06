@@ -40,18 +40,18 @@ This is a reminder of how Ruby evolved through time.
 ## 2.0
 - Keyword arguments
 - Extend class with ``Module#prepend``
-- UTF-8 as default encoding {% include ruby_issue.html i="6679"}
-- Convert to Hash with ``#to_h`` {% include ruby_issue.html i="6276"}
-- Onigmo replaces Oniguruma {% include ruby_issue.html i="5820"}
-- ``Kernel#__dir__`` {% include ruby_issue.html i="3346"}
-- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator {% include ruby_issue.html i="6670"}
+- UTF-8 as default encoding {% include ruby_issue.html i="6679" %}
+- Convert to Hash with ``#to_h`` {% include ruby_issue.html i="6276" %}
+- Onigmo replaces Oniguruma {% include ruby_issue.html i="5820" %}
+- ``Kernel#__dir__`` {% include ruby_issue.html i="3346" %}
+- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator {% include ruby_issue.html i="6670" %}
 
 ## 2.1
 - VM (method cache)
-- Bignum with GMP {% include ruby_issue.html i="8796"}
-- ``String#scrub`` {% include ruby_issue.html i="8414"}
-- ``Numeric#bit_length`` {% include ruby_issue.html i="8700"}
-- ``Module#prepend/include`` are public {% include ruby_issue.html i=8846}
+- Bignum with GMP {% include ruby_issue.html i="8796" %}
+- ``String#scrub`` {% include ruby_issue.html i="8414" %}
+- ``Numeric#bit_length`` {% include ruby_issue.html i="8700" %}
+- ``Module#prepend/include`` are public {% include ruby_issue.html i=8846 %}
 
 ## 2.2
 - ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
