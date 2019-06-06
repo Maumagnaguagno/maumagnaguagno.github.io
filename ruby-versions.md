@@ -90,10 +90,10 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.7
 The first preview for 2.7 has recently been made public, featuring:
+- Experimental numbered parameter [#4475](https://bugs.ruby-lang.org/issues/4475)
 - Experimental pattern matching [#14912](https://bugs.ruby-lang.org/issues/14912)
 - Method reference operator ``.:`` [#12125](https://bugs.ruby-lang.org/issues/12125)
 - Beginless Ranges ``(..1)`` and ``(...1)`` [#14799](https://bugs.ruby-lang.org/issues/14799)
-- Experimental numbered parameter [#4475](https://bugs.ruby-lang.org/issues/4475)
 - ``Enumerable#tally`` [#11076](https://bugs.ruby-lang.org/issues/11076)
 - ``Integer#[]`` now supports range operation [#8842](https://bugs.ruby-lang.org/issues/8842)
 
