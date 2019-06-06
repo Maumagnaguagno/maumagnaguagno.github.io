@@ -40,18 +40,18 @@ This is a reminder of how Ruby evolved through time.
 ## 2.0
 - Keyword arguments
 - Extend class with ``Module#prepend``
-- UTF-8 as default encoding [#6679](https://bugs.ruby-lang.org/issues/6679)
-- Convert to Hash with ``#to_h`` [#6276](https://bugs.ruby-lang.org/issues/6276)
-- Onigmo replaces Oniguruma [#5820](https://bugs.ruby-lang.org/issues/5820)
-- ``Kernel#__dir__`` [#3346](https://bugs.ruby-lang.org/issues/3346)
-- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator [#6670](https://bugs.ruby-lang.org/issues/6670)
+- UTF-8 as default encoding {% include ruby_issue.html i="6679"}
+- Convert to Hash with ``#to_h`` {% include ruby_issue.html i="6276"}
+- Onigmo replaces Oniguruma {% include ruby_issue.html i="5820"}
+- ``Kernel#__dir__`` {% include ruby_issue.html i="3346"}
+- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator {% include ruby_issue.html i="6670"}
 
 ## 2.1
 - VM (method cache)
-- Bignum with GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
-- ``String#scrub`` [#8414](https://bugs.ruby-lang.org/issues/8414)
-- ``Numeric#bit_length`` [#8700](https://bugs.ruby-lang.org/issues/8700)
-- ``Module#prepend/include`` are public [#8846](https://bugs.ruby-lang.org/issues/8846)
+- Bignum with GMP {% include ruby_issue.html i="8796"}
+- ``String#scrub`` {% include ruby_issue.html i="8414"}
+- ``Numeric#bit_length`` {% include ruby_issue.html i="8700"}
+- ``Module#prepend/include`` are public {% include ruby_issue.html i=8846}
 
 ## 2.2
 - ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
@@ -89,7 +89,7 @@ This is a reminder of how Ruby evolved through time.
 - ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
 
 ## 2.7
-The first preview for 2.7 has recently been made public, featuring:
+The first preview for 2.7 has been made public, featuring:
 - Experimental numbered parameter [#4475](https://bugs.ruby-lang.org/issues/4475)
 - Experimental pattern matching [#14912](https://bugs.ruby-lang.org/issues/14912)
 - Method reference operator ``.:`` [#12125](https://bugs.ruby-lang.org/issues/12125)
