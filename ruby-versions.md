@@ -40,62 +40,62 @@ This is a reminder of how Ruby evolved through time.
 ## 2.0
 - Keyword arguments
 - Extend class with ``Module#prepend``
-- UTF-8 as default encoding {% include ruby_issue.html i="6679" %}
-- Convert to Hash with ``#to_h`` {% include ruby_issue.html i="6276" %}
-- Onigmo replaces Oniguruma {% include ruby_issue.html i="5820" %}
-- ``Kernel#__dir__`` {% include ruby_issue.html i="3346" %}
-- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator {% include ruby_issue.html i="6670" %}
+- UTF-8 as default encoding {% include ruby_issue.html i=6679 %}
+- Convert to Hash with ``#to_h`` {% include ruby_issue.html i=6276 %}
+- Onigmo replaces Oniguruma {% include ruby_issue.html i=5820 %}
+- ``Kernel#__dir__`` {% include ruby_issue.html i=3346 %}
+- ``String#lines/chars/codepoints/bytes`` returns Array instead of Enumerator {% include ruby_issue.html i=6670 %}
 
 ## 2.1
 - VM (method cache)
-- Bignum with GMP {% include ruby_issue.html i="8796" %}
-- ``String#scrub`` {% include ruby_issue.html i="8414" %}
-- ``Numeric#bit_length`` {% include ruby_issue.html i="8700" %}
+- Bignum with GMP {% include ruby_issue.html i=8796 %}
+- ``String#scrub`` {% include ruby_issue.html i=8414 %}
+- ``Numeric#bit_length`` {% include ruby_issue.html i=8700 %}
 - ``Module#prepend/include`` are public {% include ruby_issue.html i=8846 %}
 
 ## 2.2
-- ``nil``, ``true`` and ``false`` objects are frozen [#8923](https://bugs.ruby-lang.org/issues/8923)
-- Symbol GC [#9634](https://bugs.ruby-lang.org/issues/9634)
+- ``nil``, ``true`` and ``false`` objects are frozen {% include ruby_issue.html i=8923 %}
+- Symbol GC {% include ruby_issue.html i=9634 %}
 
 ## 2.3
-- Frozen string literals [#11473](https://bugs.ruby-lang.org/issues/11473)
-- ``String#+@/-@`` to get mutable and frozen strings, respectively [#11782](https://bugs.ruby-lang.org/issues/11782)
-- ``obj&.foo`` [safe navigation operator](https://en.wikipedia.org/wiki/Safe_navigation_operator) [#11537](https://bugs.ruby-lang.org/issues/11537)
-- ``Array/Hash#dig`` [#11643](https://bugs.ruby-lang.org/issues/11643)
-- Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788](https://bugs.ruby-lang.org/issues/11788)
+- Frozen string literals {% include ruby_issue.html i=11473 %}
+- ``String#+@/-@`` to get mutable and frozen strings, respectively {% include ruby_issue.html i=11782 %}
+- ``obj&.foo`` [safe navigation operator](https://en.wikipedia.org/wiki/Safe_navigation_operator) {% include ruby_issue.html i=11537 %}
+- ``Array/Hash#dig`` {% include ruby_issue.html i=11643 %}
+- Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` {% include ruby_issue.html i=11788 %}
 
 ## 2.4
-- Unify Fixnum and Bignum into Integer [#12005](https://bugs.ruby-lang.org/issues/12005)
-- ``Array#max/min`` do not create temporary arrays under certain conditions [#12172](https://bugs.ruby-lang.org/issues/12172)
-- ``Regexp#match?`` does not change global variables [#8110](https://bugs.ruby-lang.org/issues/8110)
-- ``Comparable#clamp`` [#10594](https://bugs.ruby-lang.org/issues/10594)
+- Unify Fixnum and Bignum into Integer {% include ruby_issue.html i=12005 %}
+- ``Array#max/min`` do not create temporary arrays under certain conditions {% include ruby_issue.html i=12172 %}
+- ``Regexp#match?`` does not change global variables {% include ruby_issue.html i=8110 %}
+- ``Comparable#clamp`` {% include ruby_issue.html i=10594 %}
 
 ## 2.5
-- ``Kernel#yield_self`` [#6721](https://bugs.ruby-lang.org/issues/6721)
-- ``String#delete_prefix/delete_suffix`` [#12694](https://bugs.ruby-lang.org/issues/12694) [#13665](https://bugs.ruby-lang.org/issues/13665)
-- ``Array#prepend/append`` as aliases of ``Array#unshift/push`` [#12746](https://bugs.ruby-lang.org/issues/12746)
-- ``rescue/else/ensure`` in ``do/end`` blocks [#12906](https://bugs.ruby-lang.org/issues/12906)
+- ``Kernel#yield_self`` {% include ruby_issue.html i=6721 %}
+- ``String#delete_prefix/delete_suffix`` {% include ruby_issue.html i=12694 %} {% include ruby_issue.html i=13665 %}
+- ``Array#prepend/append`` as aliases of ``Array#unshift/push`` {% include ruby_issue.html i=12746 %}
+- ``rescue/else/ensure`` in ``do/end`` blocks {% include ruby_issue.html i=12906 %}
 
 ## 2.6
-- Initial implementation of a JIT compiler [#14235](https://bugs.ruby-lang.org/issues/14235)
-- Flip-flop syntax is deprecated [#5400](https://bugs.ruby-lang.org/issues/5400)
-- Endless Ranges ``(1..)`` and ``(1...)`` [#12912](https://bugs.ruby-lang.org/issues/12912)
-- ``Array#union/difference`` [#14097](https://bugs.ruby-lang.org/issues/14097)
-- ``Dir#each_child/children`` [#13969](https://bugs.ruby-lang.org/issues/13969)
-- ``Random.bytes`` [#4938](https://bugs.ruby-lang.org/issues/4938)
-- ``Binding#source_location`` [#14230](https://bugs.ruby-lang.org/issues/14230)
-- ``Kernel#system`` raise with ``:exception`` option [#14386](https://bugs.ruby-lang.org/issues/14386)
-- ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594](https://bugs.ruby-lang.org/issues/14594)
-- ``String#split`` yields to block if given [#4780](https://bugs.ruby-lang.org/issues/4780)
+- Initial implementation of a JIT compiler {% include ruby_issue.html i=14235 %}
+- Flip-flop syntax is deprecated {% include ruby_issue.html i=5400 %}
+- Endless Ranges ``(1..)`` and ``(1...)`` {% include ruby_issue.html i=12912 %}
+- ``Array#union/difference`` {% include ruby_issue.html i=14097 %}
+- ``Dir#each_child/children`` {% include ruby_issue.html i=13969 %}
+- ``Random.bytes`` {% include ruby_issue.html i=4938 %}
+- ``Binding#source_location`` {% include ruby_issue.html i=14230 %}
+- ``Kernel#system`` raise with ``:exception`` option {% include ruby_issue.html i=14386 %}
+- ``Kernel.then`` as alias to ``Kernel.yield_self`` {% include ruby_issue.html i=14594 %}
+- ``String#split`` yields to block if given {% include ruby_issue.html i=4780 %}
 
 ## 2.7
 The first preview for 2.7 has been made public, featuring:
-- Experimental numbered parameter [#4475](https://bugs.ruby-lang.org/issues/4475)
-- Experimental pattern matching [#14912](https://bugs.ruby-lang.org/issues/14912)
-- Method reference operator ``.:`` [#12125](https://bugs.ruby-lang.org/issues/12125)
-- Beginless Ranges ``(..1)`` and ``(...1)`` [#14799](https://bugs.ruby-lang.org/issues/14799)
-- ``Enumerable#tally`` [#11076](https://bugs.ruby-lang.org/issues/11076)
-- ``Integer#[]`` now supports range operation [#8842](https://bugs.ruby-lang.org/issues/8842)
+- Experimental numbered parameter {% include ruby_issue.html i=4475 %}
+- Experimental pattern matching {% include ruby_issue.html i=14912 %}
+- Method reference operator ``.:`` {% include ruby_issue.html i=12125 %}
+- Beginless Ranges ``(..1)`` and ``(...1)`` {% include ruby_issue.html i=14799 %}
+- ``Enumerable#tally`` {% include ruby_issue.html i=11076 %}
+- ``Integer#[]`` now supports range operation {% include ruby_issue.html i=8842 %}
 
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
