@@ -24,7 +24,7 @@ This is a reminder of how Ruby evolved through time.
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
 ## 1.8
-- We will consider this version our starting point
+- Consider this version our starting point
 
 ## 1.9
 - From MRI to YARV
@@ -91,11 +91,11 @@ This is a reminder of how Ruby evolved through time.
 - ``String#split`` yields to block if given [#4780]({{ issue }}4780)
 
 ## 2.7
-The first preview for 2.7 has recently been made public, featuring:
+The first preview for 2.7 has been made public, featuring:
+- Experimental numbered parameter [#4475]({{ issue }}4475)
 - Experimental pattern matching [#14912]({{ issue }}14912)
 - Method reference operator ``.:`` [#12125]({{ issue }}12125)
 - Beginless Ranges ``(..1)`` and ``(...1)`` [#14799]({{ issue }}14799)
-- Experimental numbered parameter [#4475]({{ issue }}4475)
 - ``Enumerable#tally`` [#11076]({{ issue }}11076)
 - ``Integer#[]`` now supports range operation [#8842]({{ issue }}8842)
 
