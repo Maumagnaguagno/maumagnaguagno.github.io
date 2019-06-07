@@ -21,7 +21,7 @@ This is a reminder of how Ruby evolved through time.
 [2.6](#26) | 2018-12-25 | TBA            | TBA
 [2.7](#27) | 2019-12-25 | TBA            | TBA
 
-{assign issue = "https://bugs.ruby-lang.org/issues/"}
+{% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
 ## 1.8
 - We will consider this version our starting point
