@@ -19,8 +19,9 @@ hidden: true
 - [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/files/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
 - [A generic FPGA emulation framework](http://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
 
-<details>
+<details markdown="1">
 <summary>title</summary>
+
 ```bibtex
 content
 ```
