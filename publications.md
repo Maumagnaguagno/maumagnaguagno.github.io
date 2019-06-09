@@ -18,3 +18,17 @@ hidden: true
 - [LOCUS: An environment description language for JASON](https://www.meneguzzi.eu/felipe/pubs/wesaac-locus-2015.pdf) - WESAAC 2015
 - [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/files/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
 - [A generic FPGA emulation framework](http://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
+  - <details markdown="1">
+<summary>Bibtex</summary>
+
+```bibtex
+@inproceedings{moraes2012generic,
+  title={A generic FPGA emulation framework},
+  author={Moraes, Fernando and Moreira, Matheus and Lucas, Carlo and Corr{\^e}a, Dairan and Cardoso, Douglas and Magnaguagno, Maur{\'\i}cio and Castilhos, Guilherme and Calazans, Ney},
+  booktitle={2012 19th IEEE International Conference on Electronics, Circuits, and Systems (ICECS 2012)},
+  pages={233--236},
+  year={2012},
+  organization={IEEE}
+}
+```
+</details>
