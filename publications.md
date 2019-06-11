@@ -65,4 +65,62 @@ hidden: true
 }
 ```
 
+**Incomplete**
+```bibtex
+@article{veredonline,
+  title={Online Goal Recognition Combining Landmarks and Planning},
+  author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\i}cio Cec{\i}lio and Kaminka, Gal A and Meneguzzi, Felipe}
+}
+```
+
+```bibtex
+@article{magnaguagno2017bioplan,
+  title={BioPlan: Classical Planning with Crowd simulation},
+  author={Magnaguagno, Maur{\'\i}cio C. and Meneguzzi, Felipe},
+  journal={SBC Journal on Interactive Systems},
+  volume={8},
+  number={1},
+  pages={48--59},
+  year={2017}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2016dovetail,
+  title={DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor},
+  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Pereira, Ramon Fraga and Meneguzzi, Felipe},
+  booktitle={The Twenty-Ninth International Flairs Conference},
+  year={2016}
+}
+```
+
+**Incomplete**
+```bibtex
+@article{pereiralocus,
+  title={LOCUS: An environment description language for JASON},
+  author={Pereira, Ramon Fraga and Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe and Heinsfeld, Anibal S{\'o}lon}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2014bioplan,
+  title={BioPlan: An API for classical planning on biocrowds},
+  author={Magnaguagno, Maur{\'\i}cio Cec{\'\i}lio and Meneguzzi, Felipe},
+  booktitle={2014 Brazilian Symposium on Computer Games and Digital Entertainment},
+  pages={11--20},
+  year={2014},
+  organization={IEEE}
+}
+```
+
+```bibtex
+@inproceedings{moraes2012generic,
+  title={A generic FPGA emulation framework},
+  author={Moraes, Fernando and Moreira, Matheus and Lucas, Carlo and Corr{\^e}a, Dairan and Cardoso, Douglas and Magnaguagno, Maur{\'\i}cio and Castilhos, Guilherme and Calazans, Ney},
+  booktitle={2012 19th IEEE International Conference on Electronics, Circuits, and Systems (ICECS 2012)},
+  pages={233--236},
+  year={2012},
+  organization={IEEE}
+}
+```
 </details>
