@@ -33,5 +33,36 @@ hidden: true
 }
 ```
 
+```bibtex
+@article{cardoso2018team,
+  title={Team PUCRS: a decentralised multi-agent solution for the agents in the city scenario},
+  author={Cardoso, Rafael C. and Pereira, Ramon Fraga and Krzisch, Guilherme and Magnaguagno, Maur{\i}cio Cec{\i}lio and Bas{\'e}gio, T{\'u}lio and Meneguzzi, Felipe},
+  journal={IJAOSE},
+  volume={6},
+  number={1},
+  pages={3--34},
+  year={2018}
+}
+```
+
+```bibtex
+@article{magnaguagno2017method,
+  title={Method Composition through Operator Pattern Identification},
+  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
+  journal={KEPS 2017},
+  pages={54},
+  year={2017}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2017web,
+  title={WEB PLANNER: A tool to develop classical planning domains and visualize heuristic state-space search},
+  author={Magnaguagno, Maur{\i}cio C. and Pereira, Ramon Fraga and M{\'o}re, Martin D. and Meneguzzi, Felipe},
+  booktitle={Proceedings of the Workshop on User Interfaces and Scheduling and Planning, UISP},
+  pages={32--38},
+  year={2017}
+}
+```
 
 </details>
