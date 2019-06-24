@@ -68,9 +68,14 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.4
 - Unify Fixnum and Bignum into Integer [#12005]({{ issue }}12005)
+- ``Integer#ceil/floor/truncate`` with optional digits [#12245]({{ issue }}12245)
+- ``Integer#digits`` to extract columns of place-value notation [#12447]({{ issue }}12447)
+- ``Integer#round`` with half option, default behavior is round-up [#12548]({{ issue }}12548) [#12958]({{ issue }}12958)
+  - Half option can be: ``:even``, ``:up``, and ``:down`` [#12953]({{ issue }}12953)
 - ``Array#max/min`` do not create temporary arrays under certain conditions [#12172]({{ issue }}12172)
 - ``Regexp#match?`` does not change global variables [#8110]({{ issue }}8110)
 - ``Comparable#clamp`` [#10594]({{ issue }}10594)
+- ``IO#gets/readline/each_line/readlines/foreach``, ``String#each_line/lines``, ``StringIO#gets/readline/each_line/readlines`` with chomp option [#12553]({{ issue }}12553)
 
 ## 2.5
 - ``Kernel#yield_self`` [#6721]({{ issue }}6721)
