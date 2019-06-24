@@ -52,10 +52,11 @@ After the user explored the numbered programs within the system, it is time to e
 
 ## NXT
 The next generation of Mindstorms came in two versions, the first in July 2006 and the second one in August 2009.
+Previous sensors and motors are no longer compatible as cables have new connections.
 
 ## EV3
 The evolution of Mindstorms created the third (and current) release of Lego robots in September 2013.
-This time previous sensors and motors are supported due to no modifications to the cables, being the same from NXT.
+This time previous sensors and motors are retro-compatible due to no modifications to the cables, being the same from NXT.
 
 ## Extra bits
 
