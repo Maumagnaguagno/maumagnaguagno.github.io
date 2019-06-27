@@ -63,7 +63,8 @@ This is a reminder of how Ruby evolved through time.
 - Frozen string literals [#11473]({{ issue }}11473)
 - ``String#+@/-@`` to get mutable and frozen strings, respectively [#11782]({{ issue }}11782)
 - ``obj&.foo`` [safe navigation operator](https://en.wikipedia.org/wiki/Safe_navigation_operator) [#11537]({{ issue }}11537)
-- ``Array/Hash#dig`` [#11643]({{ issue }}11643)
+- ``Array/Hash/Struct#dig`` [#11643]({{ issue }}11643) [#11688]({{ issue }}11688)
+- ``Array#bsearch_index`` [#10730]({{ issue }}10730)
 - Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788]({{ issue }}11788)
 
 ## 2.4
@@ -76,6 +77,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Regexp#match?`` does not change global variables [#8110]({{ issue }}8110)
 - ``Comparable#clamp`` [#10594]({{ issue }}10594)
 - ``IO#gets/readline/each_line/readlines/foreach``, ``String#each_line/lines``, ``StringIO#gets/readline/each_line/readlines`` with chomp option [#12553]({{ issue }}12553)
+- ``String.new`` with ``:capacity`` to preallocate size [#12024]({{ issue }}12024)
 
 ## 2.5
 - ``Kernel#yield_self`` [#6721]({{ issue }}6721)
