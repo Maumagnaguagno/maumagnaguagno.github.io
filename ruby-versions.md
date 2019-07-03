@@ -50,6 +50,7 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.1
 - VM (method cache)
+- Generational GC
 - Bignum with GMP [#8796]({{ issue }}8796)
 - ``String#scrub`` [#8414]({{ issue }}8414)
 - ``Numeric#bit_length`` [#8700]({{ issue }}8700)
