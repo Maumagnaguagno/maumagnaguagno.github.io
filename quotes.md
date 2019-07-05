@@ -53,3 +53,8 @@ and disturb the comfortable.
 scary when you've a  
 best friend.
 </div>
+<div class="quote" markdown="1">
+
+[Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan)
+> We are a way for the cosmos to know itself.
+</div>
