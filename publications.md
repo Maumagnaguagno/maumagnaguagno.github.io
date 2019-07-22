@@ -94,11 +94,12 @@ hidden: true
 }
 ```
 
-**Incomplete**
 ```bibtex
-@article{pereiralocus,
-  title={LOCUS: An environment description language for JASON},
-  author={Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe and Heinsfeld, Anibal S{\'o}lon}
+@article{pereira2015locus,
+  title={{LOCUS: An Environment Description Language for JASON}},
+  author={Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Heinsfeld, Anibal S{\'o}lon and Meneguzzi, Felipe},
+  journal={The 9th Software Agents, Environments and Applications School (WESAAC)},
+  year={2015}
 }
 ```
 
