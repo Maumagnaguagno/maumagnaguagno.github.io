@@ -79,6 +79,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Comparable#clamp`` [#10594]({{ issue }}10594)
 - ``IO#gets/readline/each_line/readlines/foreach``, ``String#each_line/lines``, ``StringIO#gets/readline/each_line/readlines`` with chomp option [#12553]({{ issue }}12553)
 - ``String.new`` with ``:capacity`` to preallocate size [#12024]({{ issue }}12024)
+- ``String#unpack1`` [#12752]({{ issue }}12752)
 
 ## 2.5
 - ``Kernel#yield_self`` [#6721]({{ issue }}6721)
