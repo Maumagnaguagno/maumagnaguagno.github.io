@@ -86,6 +86,7 @@ This is a reminder of how Ruby evolved through time.
 - ``String#delete_prefix/delete_suffix`` [#12694]({{ issue }}12694) [#13665]({{ issue }}13665)
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push`` [#12746]({{ issue }}12746)
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906]({{ issue }}12906)
+- ``Dir.children/each_child`` [#11302]({{ issue }}11302)
 
 ## 2.6
 - Initial implementation of a JIT compiler [#14235]({{ issue }}14235)
