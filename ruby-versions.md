@@ -70,7 +70,7 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.4
 - Unify Fixnum and Bignum into Integer [#12005]({{ issue }}12005)
-- ``Integer#ceil/floor/truncate`` with optional digits [#12245]({{ issue }}12245)
+- ``Integer/Float#ceil/floor/truncate`` with optional digits [#12245]({{ issue }}12245)
 - ``Integer#digits`` to extract columns of place-value notation [#12447]({{ issue }}12447)
 - ``Integer#round`` with half option, default behavior is round-up [#12548]({{ issue }}12548) [#12958]({{ issue }}12958)
   - Half option can be: ``:even``, ``:up``, and ``:down`` [#12953]({{ issue }}12953)
