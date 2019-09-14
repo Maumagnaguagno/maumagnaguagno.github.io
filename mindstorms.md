@@ -49,6 +49,7 @@ After the user explored the numbered programs within the system, it is time to e
 - [Teaching the RCX VLL](https://waterpigs.co.uk/articles/rcx-vll/)
 - [Controlling a MicroScout from an RCX using VLL](https://pbrick.info/2013/10/microscout-rcx-vll/)
 - [R2D2](https://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
+- [Adafruit Bluetooth Remote Control for the Lego Droid Developer Kit](https://learn.adafruit.com/bluetooth-remote-for-lego-droid/)
 
 ## NXT
 The next generation of Mindstorms came in two versions, the first in July 2006 and the second one in August 2009.
