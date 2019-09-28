@@ -309,8 +309,7 @@ One interesting construction is to select which array to append an element ``(us
 Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for branch or use a variable before the condition is evaluated.
 Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more readable.
 
-## Give me more
-These are places to search for more Ruby snippets:
+## More Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](https://www.rubocop.org) to enforce a style to your project
