@@ -23,19 +23,20 @@ USB | No | No | Yes
 Bluetooth | No | Yes | Yes
 
 ## RCX
-The first fully programmable brick came to the market in 1998, after a long relationshop between MIT Media Lab and the Lego company.
+The RCX is the first fully programmable Lego brick came to the market in 1998, after a long relationship between MIT Media Lab and the Lego company and appeared in [many sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631).
 The RCX could control 3 motors or lights, and 3 sensors simultaneously, which included: a touch sensor, a light/color sensor, a temperature sensor, and an angle sensor.
-- [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
+The RCX itself could emmit sounds and use its built-in infrared sensor to be programmed and communicate with other robots.
+The version 1.0 included a [power adapter](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/) that was later removed, which forced robots to be powered by 6 AA batteries.
+The RCX starts with [3 built-in programs](https://pbrick.info/2013/10/rcx-3-built-in-standard-programs/) that are stored for testing purposes.
+User defined programs require energy to not be lost.
+Kits included an infrared serial tower to let a computer communicate with the robot, later on they were replaced by USB towers.
+Such towers can still be [configured to work with Linux](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/), more specifically the [Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/).
+A [firmware](https://pbrick.info/rcx-firmware/) must be sent to the RCX before programming starts, many options are available with different levels of compatibility.
+In order to not be limited to Lego provided programming options, mostly based on drag-and-drop code blocks, users can program their robots with [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C").
+Due to the lack of inputs and outputs some users extended their robots capabilities with modified hardware, for example with a [multiplexer](https://www.elecbrick.com/mux/).
+You can find out more about the RCX in the following places:
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
-- RCX 1.0 vs 2.0
-  - [Power adapter for RCX 1.0](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/)
-- [Built-in programs](https://pbrick.info/2013/10/rcx-3-built-in-standard-programs/)
-- [USB tower](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/)
-- [Firmware](https://pbrick.info/rcx-firmware/)
-- [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C")
 - [The RCX, 19 years later](https://www.johnholbrook.us/edu/RCX_guide.html "written by John Holbrook")
-- [Raspberry Pi guide](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/)
-- [RCX touch sensor multiplexer](https://www.elecbrick.com/mux/)
 
 ### Scout, MicroScout and VLL
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
