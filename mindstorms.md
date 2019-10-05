@@ -24,6 +24,7 @@ Bluetooth | No | Yes | Yes
 
 ## RCX
 The first fully programmable brick came to the market in 1998, after a long relationshop between MIT Media Lab and the Lego company.
+The RCX could control 3 motors or lights, and 3 sensors simultaneously, which included: a touch sensor, a light/color sensor, a temperature sensor, and an angle sensor.
 - [related sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631)
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
 - RCX 1.0 vs 2.0
