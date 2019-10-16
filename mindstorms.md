@@ -9,7 +9,7 @@ hidden: true
 # Mindstorms
 Based on constructionism from [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert), MIT Media lab and the Lego group collaborated to push Lego to the digital world.
 Lego was losing market space against the virtual worlds from the video-game industry and educational robotics looked like a good fit for the Lego parts, letting kids explore the real world through robots built with their own hands.
-Gears, motors and many parts were already available from technic kits, but sensors and a programmable brick were missing to achieve a robotics kit.
+Gears, motors and many parts were already available from Lego Technic kits, but sensors, a programmable brick and a programming environment were missing to achieve [a robotics kit for education](http://hackeducation.com/2015/04/10/mindstorms).
 The kits were named as Lego Mindstorms due to the book [Mindstorms: Children, Computers, and Powerful Ideas](https://en.wikipedia.org/wiki/Mindstorms:_Children,_Computers,_and_Powerful_Ideas) by Seymour Papert.
 
 || RCX | NXT | EV3
@@ -28,8 +28,8 @@ The RCX could control 3 motors or lights, and 3 sensors simultaneously, which in
 The RCX itself could emmit sounds and use its built-in infrared sensor to be programmed and communicate with other robots.
 The version 1.0 included a [power adapter](https://pbrick.info/2013/10/using-an-adapter-to-power-the-rcx-1-0/) that was later removed, which forced robots to be powered by 6 AA batteries.
 The RCX starts with [3 built-in programs](https://pbrick.info/2013/10/rcx-3-built-in-standard-programs/) that are stored for testing purposes.
-User defined programs require energy to not be lost.
-Kits included an infrared serial tower to let a computer communicate with the robot, later on they were replaced by USB towers.
+User defined programs are lost if the RCX is left without power.
+Kits included an infrared serial tower to let a computer communicate with the robot, later on replaced by USB towers.
 Such towers can still be [configured to work with Linux](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/), more specifically the [Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/).
 A [firmware](https://pbrick.info/rcx-firmware/) must be sent to the RCX before programming starts, many options are available with different levels of compatibility.
 In order to not be limited to Lego provided programming options, mostly based on drag-and-drop code blocks, users can program their robots with [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C").
