@@ -68,5 +68,8 @@ Sensors and motors are retro-compatible with NXT ones due to no modifications to
 ### Power Functions
 
 ### WeDo / Boost
+Features smartphone app programming and available through the sets:
+- Creative toolbox 17101
+- Droid Commander 75253
 
 ### Prime
