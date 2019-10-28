@@ -66,10 +66,14 @@ Sensors and motors are retro-compatible with NXT ones due to no modifications to
 ### Motors
 
 ### Power Functions
+In 2007 Lego introduced a new connector for motors and sensors, resembling the one from the RCX era with [studs](https://en.wikipedia.org/wiki/Lego_Technic#%22Studded%22_(Beams)_versus_%22Studless%22_(Liftarms)).
+Such system is seen as a simpler way to add motorized/remote control features to model that are otherwise manually operated.
+Recent sets that do not come with Power Functions may have free space to add such motors and IR sensor to convert the set.
+You can see a list of Power Function sets at [wikipedia](https://en.wikipedia.org/wiki/Lego_Technic#Power_Functions).
 
 ### WeDo / Boost
-Features smartphone app programming and available through the sets:
+Features smartphone app programming and is available through the sets:
 - Creative toolbox 17101
-- Droid Commander 75253
+- Droid commander 75253
 
 ### Prime
