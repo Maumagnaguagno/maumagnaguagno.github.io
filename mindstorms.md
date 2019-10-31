@@ -45,8 +45,8 @@ The idea is simple: have less electronic parts (merge controller, sensors, motor
 The Scout (TODO add part here) is very similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
 The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the other path: a single electronic element for everything.
 
-Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond after some time.
-After the user explored the numbered programs within the system, it is time to explore the ``P`` program.
+Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond.
+After the user explored the default programs within the system, it is time to explore the ``P`` program.
 - [Micro Scout VLL Transparencies](https://www.elecbrick.com/vll/)
 - [Teaching the RCX VLL](https://waterpigs.co.uk/articles/rcx-vll/)
 - [Controlling a MicroScout from an RCX using VLL](https://pbrick.info/2013/10/microscout-rcx-vll/)
@@ -68,7 +68,7 @@ Sensors and motors are retro-compatible with NXT ones due to no modifications to
 ### Power Functions
 In 2007 Lego introduced a new connector for motors and sensors, resembling the one from the RCX era with [studs](https://en.wikipedia.org/wiki/Lego_Technic#%22Studded%22_(Beams)_versus_%22Studless%22_(Liftarms)).
 Such system is seen as a simpler way to add motorized/remote control features to model that are otherwise manually operated.
-Recent sets that do not come with Power Functions may have free space to add such motors and IR sensor to convert the set.
+Some recent sets that do not come with Power Functions have a dedicated space to them to the set.
 You can see a list of Power Function sets at [wikipedia](https://en.wikipedia.org/wiki/Lego_Technic#Power_Functions).
 
 ### WeDo / Boost
