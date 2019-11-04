@@ -109,6 +109,10 @@ The first preview for 2.7 has been made public, featuring:
 - ``Enumerable#tally`` [#11076]({{ issue }}11076)
 - ``Integer#[]`` now supports range operation [#8842]({{ issue }}8842)
 
+And new features are coming:
+- Syntactic sugar argument forwarding ``def foo(*) bar.foo(*) end`` [#16253]({{ issue }}16253)
+- ``Enumerable#filter_map`` [#15323]({{ issue }}15323)
+
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
 - [MJIT: A Method Based Just-in-time Compiler for Ruby](https://blog.heroku.com/ruby-mjit)
