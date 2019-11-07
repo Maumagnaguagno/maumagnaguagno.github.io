@@ -112,6 +112,7 @@ The first preview for 2.7 has been made public, featuring:
 And new features are coming:
 - Syntactic sugar argument forwarding ``def foo(*) bar.foo(*) end`` [#16253]({{ issue }}16253)
 - ``Enumerable#filter_map`` [#15323]({{ issue }}15323)
+- ``Array#intersection`` [#16155]({{ issue }}16155)
 
 ## Future
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
