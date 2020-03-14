@@ -87,6 +87,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Array#prepend/append`` as aliases of ``Array#unshift/push`` [#12746]({{ issue }}12746)
 - ``rescue/else/ensure`` in ``do/end`` blocks [#12906]({{ issue }}12906)
 - ``Dir.children/each_child`` [#11302]({{ issue }}11302)
+- ``Integer.pow(a, b)`` [#12508]({{ issue }}12508)
 
 ## 2.6
 - Initial implementation of a JIT compiler [#14235]({{ issue }}14235)

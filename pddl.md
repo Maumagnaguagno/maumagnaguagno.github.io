@@ -169,7 +169,7 @@ It is possible to add syntax highlighted PDDL to your papers/reports using LaTeX
 To simplify this process I created a [repository](https://github.com/Maumagnaguagno/Planning_LaTeX "Planning LaTeX") with listings for planning descriptions.
 
 ## References
-- [Open guide to PDDL to help you get started](https://nergmada.github.io/pddl-reference/)
+- [Planning Wiki](https://planning.wiki/)
 - [PDDL 2.1](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf) by Fox and Long
 - [An Introduction to PDDL](https://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf) by Malte Helmert
 - [AI Planning with STRIPS](http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/) by Kory Becker
