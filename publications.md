@@ -5,6 +5,8 @@ hidden: true
 ---
 
 # Publications
+- [Knowledge Engineering Tools and Techniques for AI Planning]() - Book chapter Springer 2020
+- [Semantic Attachments for HTN Planning]() - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
 - [Develop, Visualize and Test Classical Planning descriptions in your browser](TBD) - DEMO ICAPS 2019
 - [LatRec: Recognizing Goals in Latent Space](TBD) - DEMO ICAPS 2019
@@ -22,7 +24,34 @@ hidden: true
 <details markdown="1">
 <summary>Bibtex</summary>
 
-**TODO: ICAPS 2019**
+```bibtex
+@misc{vallati2020knowledge,
+  title={Knowledge Engineering Tools and Techniques for AI Planning},
+  author={Vallati, Mauro and Kitchin, Diane},
+  year={2020},
+  publisher={Springer}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2020semantic,
+  title={{Semantic Attachments for HTN Planning}},
+  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
+  booktitle={Proceedings of the Third-Fourth international joint conference on Artificial
+  Intelligence},
+  year={2020},
+  organization={AAAI Press}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2019htn,
+  title={{HTN Planning with Semantic Attachments}},
+  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
+  booktitle={Workshop on Hierarchical Planning},
+  year={2019}
+}
+```
 
 ```bibtex
 @inproceedings{vered2018online,
