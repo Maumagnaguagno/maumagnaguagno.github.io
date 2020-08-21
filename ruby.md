@@ -306,8 +306,8 @@ b.exclude_end?    #=> true
 Every Ruby code block returns a value, from a class or method definition to a method call or if/case statement.
 Which means you can do ``a.each {}.clear`` instead of ``a.each {}; a.clear``, or assign the return value of method calls from case statements, such as ``a = case b; when ...; end.method``.
 One interesting construction is to select which array to append an element ``(use_a ? array_a : array_b) << element``.
-Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for branch or use a variable before the condition is evaluated.
-Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more readable.
+Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for each branch or use a variable before the condition is evaluated.
+Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
 
 ## More Ruby snippets:
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
