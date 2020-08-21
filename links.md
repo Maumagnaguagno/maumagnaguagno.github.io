@@ -47,6 +47,8 @@ Hover links to see their descriptions.
   - [Matt Denton](https://www.youtube.com/user/winchymatt "Droids and engineering")
   - [CuriousMarc](https://www.youtube.com/user/mverdiell "Computer Restorations")
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
+  - [Ben Eater](https://www.youtube.com/c/beneater "Low-level computing tutorials")
+  - [Mitxela](https://www.youtube.com/c/mitxela/ "Video and Sound-based projects")
 - Writing
   - [Dillinger](https://dillinger.io/ "Markdown editor")
   - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
