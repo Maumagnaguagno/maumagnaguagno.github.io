@@ -15,7 +15,7 @@ Without the need for a complete understanding of what is happening under the hoo
 In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by tutorials around the web.
 
 ## Selecting a microcontroller
-Instead of searching for the best microcontroller ever one must identify which features are important in the project.
+Instead of searching for the best microcontroller ever, one must identify which features are important to each project.
 Such features may include:
 - General Purpose Input/Output pins
   - Amount of digital and analog pins
@@ -31,21 +31,21 @@ Such features may include:
 - Tools to write, compile, flash and debug programs
 - Learning curve, tutorials, libraries and examples
 
-It is a good idea for starters to pick the most available microcontroller, as their cost is usually low with lots of materials available online.
-Such materials will minimize your development time, as no library must be ported and tested in a new platform.
-Only pick a different microcontroller when your specification demands, for example, hardware division must be available for performance reasons or energy consumption must be small to improve battery life.
+It is a good idea for starters to pick the most available microcontroller, due to their low-cost and lots of materials available online.
+Such materials will minimize development time, with libraries ported and tested in the selected platform.
+Only pick a different microcontroller when the specification demands, for example, hardware division must be available for performance reasons or energy consumption must be small to improve battery life.
 
 For complex projects the memory size and amount of GPIOs must be carefully considered, as well as their placement around the IC.
-Remember that some microcontrollers are 5V tolerant, which can save you a few extra components.
-The tools are usually free, their real cost is the learning curve that may consume a long time for inexperienced users.
-To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the stages instead of hiding the entire process behind a few buttons.
+Remember that some microcontrollers are 5V tolerant, which can save a few extra components.
+The tools are usually free, their real cost is their learning curve, which may consume a long time for inexperienced users.
+To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the development stages instead of hiding the entire process behind a few buttons.
 
-Here we will focus on the Arduino/AVR microcontrollers due to their low-cost, availability and lvast ibrary support.
+Here we will focus on the Arduino/AVR microcontrollers due to their low-cost, availability and vast library support.
 
 ## Makefile
-To compile and flash your project outside an IDE you need to execute separate tools in a specific order.
-Instead of repeating this process every day a makefile can do this job for you.
-The makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
+To compile and flash a project outside an IDE one needs to execute separate tools in a specific order.
+These tedious command sequences can be accomplished by a Makefile.
+The Makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
 The following is my Makefile, based on [Florent Flament's post](https://www.florentflament.com/blog/arduino-hello-world-without-ide.html).
 
 ```makefile
@@ -129,7 +129,7 @@ void loop(void)
 
 </div>
 
-Another thing about Arduino is that ``pinMode`` actually changes more than DDRx:
+Another detail about Arduino is that ``pinMode`` actually changes more than DDRx:
 
 ``pinMode``  | DDRx | PORTx
 ---          | ---  | ---
