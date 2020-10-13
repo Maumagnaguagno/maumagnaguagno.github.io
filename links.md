@@ -23,11 +23,13 @@ Hover links to see their descriptions.
   - [DiffChecker](https://www.diffchecker.com/ "Diff in your browser, with colors")
   - [W3C validator](https://validator.w3.org/ "Validate web documents")
 - Graphs and Charts
-  - [WebGraphviz](http://www.webgraphviz.com/ "Write your graphs, let the computer draw for you")
-  - [Graphizo](https://g.gravizo.com/ "Graphviz, UMLGraph or PlantUML for your README")
-  - [GoAT](https://github.com/blampe/goat "ASCII diagram generation")
+  - [Diagrams.net](app.diagrams.net "SVG drawing")
+  - [WebGraphviz](http://www.webgraphviz.com/ "Describe graphs, let the computer draw for you")
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
+- Writing
+  - [Dillinger](https://dillinger.io/ "Markdown editor")
+  - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
 </div>
 <div style="float:left" markdown="1">
 
@@ -49,9 +51,6 @@ Hover links to see their descriptions.
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
   - [Ben Eater](https://www.youtube.com/c/beneater "Low-level computing tutorials")
   - [Mitxela](https://www.youtube.com/c/mitxela/ "Video and Sound-based projects")
-- Writing
-  - [Dillinger](https://dillinger.io/ "Markdown editor")
-  - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
 - Movies
   - [TasteDive](https://tastedive.com/ "Recommendation system")
 </div>
