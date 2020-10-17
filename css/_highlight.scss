@@ -70,7 +70,7 @@ pre.highlight {
   .gu  // Generic.Subheading & Diff Unified/Comment?
   { color: #0f0 }
 
-  .k + .nf, // Name.Function
+  .k + .nf, .kt + .nf, // Name.Function
   .na, // Name.Attribute
   .nd, // Name.Decorator
   .ne, // Name.Exception
