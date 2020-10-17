@@ -5,7 +5,7 @@ hidden: true
 ---
 
 # Publications
-- [Knowledge Engineering Tools and Techniques for AI Planning]() - Book chapter Springer 2020
+- [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
 - [Semantic Attachments for HTN Planning]() - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
 - [Develop, Visualize and Test Classical Planning descriptions in your browser](TBD) - DEMO ICAPS 2019
@@ -37,8 +37,7 @@ hidden: true
 @inproceedings{magnaguagno2020semantic,
   title={{Semantic Attachments for HTN Planning}},
   author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
-  booktitle={Proceedings of the Third-Fourth international joint conference on Artificial
-  Intelligence},
+  booktitle={Proceedings of the Third-Fourth international joint conference on Artificial Intelligence},
   year={2020},
   organization={AAAI Press}
 }

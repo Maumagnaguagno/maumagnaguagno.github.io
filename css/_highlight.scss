@@ -23,6 +23,7 @@ pre.highlight {
   margin:  0 -2rem 1rem;
   padding: 1rem 2rem;
   border-radius: 8px;
+  overflow-x: overlay;
 
   .err { background-color: #f00 } // Error
   .ge { font-style: italic } // Generic.Emph
