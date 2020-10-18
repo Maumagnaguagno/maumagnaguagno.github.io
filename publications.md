@@ -23,6 +23,7 @@ hidden: true
 
 <details markdown="1">
 <summary>Bibtex</summary>
+{% raw %}
 
 ```bibtex
 @misc{vallati2020knowledge,
@@ -152,4 +153,5 @@ hidden: true
   organization={IEEE}
 }
 ```
+{% endraw %}
 </details>
