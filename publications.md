@@ -6,10 +6,10 @@ hidden: true
 
 # Publications
 - [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
-- [Semantic Attachments for HTN Planning]() - AAAI 2020
+- [Semantic Attachments for HTN Planning](http://www.meneguzzi.eu/felipe/pubs/aaai-htn-semantic-attachments-2020.pdf) - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
-- [Develop, Visualize and Test Classical Planning descriptions in your browser](TBD) - DEMO ICAPS 2019
-- [LatRec: Recognizing Goals in Latent Space](TBD) - DEMO ICAPS 2019
+- [Develop, Visualize and Test Classical Planning descriptions in your browser](http://www.meneguzzi.eu/felipe/pubs/icaps-webplan-demo-2019.pdf) - DEMO ICAPS 2019
+- [LatRec: Recognizing Goals in Latent Space](http://www.meneguzzi.eu/felipe/pubs/icaps-latrec-demo-2019.pdf) - DEMO ICAPS 2019
 - [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
 - [Team PUCRS: a Decentralised Multi-Agent Solution for the Agents in the City Scenario](https://www.meneguzzi.eu/felipe/pubs/ijaose-mapc-2017.pdf) - IJAOSE 2018
 - [Method Composition through Operator Pattern Identification](http://icaps17.icaps-conference.org/workshops/KEPS/proceedingsKEPS.pdf#page=57) - ICAPS/KEPS 2017
@@ -64,7 +64,7 @@ hidden: true
 
 ```bibtex
 @article{cardoso2018team,
-  title={Team PUCRS: a decentralised multi-agent solution for the agents in the city scenario},
+  title={{Team PUCRS: a decentralised multi-agent solution for the agents in the city scenario}},
   author={Cardoso, Rafael C. and Pereira, Ramon Fraga and Krzisch, Guilherme and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Bas{\'e}gio, T{\'u}lio and Meneguzzi, Felipe},
   journal={IJAOSE},
   volume={6},
@@ -86,7 +86,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{magnaguagno2017web,
-  title={WEB PLANNER: A tool to develop classical planning domains and visualize heuristic state-space search},
+  title={{WEB PLANNER: A tool to develop classical planning domains and visualize heuristic state-space search}},
   author={Magnaguagno, Maur{\'i}cio C. and Pereira, Ramon Fraga and M{\'o}re, Martin D. and Meneguzzi, Felipe},
   booktitle={Proceedings of the Workshop on User Interfaces and Scheduling and Planning, UISP},
   pages={32--38},
@@ -94,17 +94,18 @@ hidden: true
 }
 ```
 
-**Incomplete**
 ```bibtex
-@article{veredonline,
+@inproceedings{vered2017online,
   title={Online Goal Recognition Combining Landmarks and Planning},
-  author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Kaminka, Gal A and Meneguzzi, Felipe}
+  author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Kaminka, Gal A. and Meneguzzi, Felipe},
+  booktitle={Proceedings of the 5th Goal Reasoning Workshop (GRW@ IJCAI), 2017, Austr{\'a}lia.},
+  year={2017}
 }
 ```
 
 ```bibtex
 @article{magnaguagno2017bioplan,
-  title={BioPlan: Classical Planning with Crowd simulation},
+  title={{BioPlan: Classical Planning with Crowd simulation}},
   author={Magnaguagno, Maur{\'i}cio C. and Meneguzzi, Felipe},
   journal={SBC Journal on Interactive Systems},
   volume={8},
@@ -116,7 +117,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{magnaguagno2016dovetail,
-  title={DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor},
+  title={{DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Pereira, Ramon Fraga and Meneguzzi, Felipe},
   booktitle={The Twenty-Ninth International Flairs Conference},
   year={2016}
@@ -134,7 +135,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{magnaguagno2014bioplan,
-  title={BioPlan: An API for classical planning on biocrowds},
+  title={{BioPlan: An API for classical planning on biocrowds}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   booktitle={2014 Brazilian Symposium on Computer Games and Digital Entertainment},
   pages={11--20},
@@ -145,7 +146,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{moraes2012generic,
-  title={A generic FPGA emulation framework},
+  title={{A generic FPGA emulation framework}},
   author={Moraes, Fernando and Moreira, Matheus and Lucas, Carlo and Corr{\^e}a, Dairan and Cardoso, Douglas and Magnaguagno, Maur{\'i}cio and Castilhos, Guilherme and Calazans, Ney},
   booktitle={2012 19th IEEE International Conference on Electronics, Circuits, and Systems (ICECS 2012)},
   pages={233--236},
