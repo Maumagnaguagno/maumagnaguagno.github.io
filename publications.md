@@ -37,7 +37,7 @@ hidden: true
 ```bibtex
 @inproceedings{magnaguagno2020semantic,
   title={{Semantic Attachments for HTN Planning}},
-  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
+  author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   booktitle={Proceedings of the Third-Fourth international joint conference on Artificial Intelligence},
   year={2020},
   organization={AAAI Press}
@@ -47,7 +47,7 @@ hidden: true
 ```bibtex
 @inproceedings{magnaguagno2019htn,
   title={{HTN Planning with Semantic Attachments}},
-  author={Magnaguagno, Maur{\i}cio Cec{\i}lio and Meneguzzi, Felipe},
+  author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   booktitle={Workshop on Hierarchical Planning},
   year={2019}
 }
