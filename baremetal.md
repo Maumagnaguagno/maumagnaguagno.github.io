@@ -79,16 +79,51 @@ clean:
 	rm -f $(TARGET).hex $(TARGET).elf $(OBJECTS)
 ```
 
+## Sketches
+Common embedded projects usually follow the idea of [Wiring](https://en.wikipedia.org/wiki/Wiring_(development_platform)) sketches, a program with ``setup`` and ``loop`` functions.
+During ``setup`` everything is initialized once, while the ``loop`` is repeatedly executed.
+These two functions cover most basic programs, complex programs require their own functions and Interrupt Service Routines (ISRs).
+
+```c
+void setup(void)
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop(void)
+{
+  digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN)); // Toggle LED
+  delay(1000); // Block program for 1000ms to see LED
+}
+```
+
+The entry point of this program, a ``main`` function, can be ommitted.
+Advanced users can add a custom ``main`` function to their program and avoid the unnecessary initialization and automatic event handling.
+The hidden ``main`` function of an Arduino sketch looks like the following:
+
+```c
+int main(void)
+{
+  init(); // Configures internal peripherals, such as timer used by delay
+  setup();
+  while(true)
+  {
+    loop();
+    if(event_available) execute_event(); // Execute external events
+  }
+}
+```
+
 ## Pins
 The most common usage of a microcontroller is to observe and control the state of pins.
 The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation):
 - ``DDRx`` controls which pins are used to read or write, set by ``pinMode``
 - ``PORTx`` stores the value of each pin, used by ``digitalRead`` and ``digitalWrite``
 
-Arduino abstracts port and pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
-To solve pin and port a look-up table is used at run-time, with a few extra security checks, which consumes processing time and memory.
-Variations of such functions were developed to identify port and pin at compile-time to obtain the same result faster with the same board.
-This is specially useful when working with protocols that require a lot of data being sent or received through pins, such as a display, or a responsive sensor for hazard applications.
+Arduino abstracts pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
+A look-up table is used to resolve pins at run-time, with a few extra security checks, which consumes processing time and memory.
+Variations of such functions can identify port and pin at compile-time to obtain the same result faster.
+This is specially useful with protocols that transmit a lot of data, such as a display, or a responsive sensor for hazard applications.
 
 <div class="split" markdown="1">
 
@@ -129,10 +164,13 @@ void loop(void)
 
 </div>
 
-Another detail about Arduino is that ``pinMode`` actually changes more than DDRx:
+Another detail about Arduino is that ``pinMode`` usually changes more than DDRx:
 
 ``pinMode``  | DDRx | PORTx
 ---          | ---  | ---
 INPUT        | 0    | 0
 INPUT_PULLUP | 0    | 1
 OUTPUT       | 1    | unchanged
+
+This behaviour may not be valid to certain boards, as different vendors may support Arduino functions in their hardware while supplying incompatible implementations of ``pinMode``.
+Even if the implementation is equal there is a chance only the OUTPUT pins are set, as Arduino starts all pins as INPUTs, something to keep in mind while porting projects.
