@@ -99,7 +99,7 @@ void loop(void)
 
 The entry point of this program, a ``main`` function, can be ommitted.
 Advanced users can add a custom ``main`` function to their program and avoid the unnecessary initialization and automatic event handling.
-The hidden ``main`` function of an Arduino sketch looks like the following:
+The hidden ``main`` function of a sketch looks like the following:
 
 ```c
 int main(void)
@@ -123,7 +123,7 @@ The pins are exposed through [port registers](https://www.arduino.cc/en/Referenc
 Arduino abstracts pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
 A look-up table is used to resolve pins at run-time, with a few extra security checks, which consumes processing time and memory.
 Variations of such functions can identify port and pin at compile-time to obtain the same result faster.
-This is specially useful with protocols that transmit a lot of data, such as a display, or a responsive sensor for hazard applications.
+This is specially useful with protocols that transmit a lot of data, such as the ones in displays, or responsive sensors for hazard applications.
 
 <div class="split" markdown="1">
 
@@ -166,7 +166,7 @@ void loop(void)
 
 Another detail about Arduino is that ``pinMode`` usually changes more than DDRx:
 
-``pinMode``  | DDRx | PORTx
+   pinMode   | DDRx | PORTx
 ---          | ---  | ---
 INPUT        | 0    | 0
 INPUT_PULLUP | 0    | 1
