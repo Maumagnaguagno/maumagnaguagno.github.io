@@ -17,7 +17,7 @@ In the following sections we explore the old blocks of microcontroller programmi
 ## Selecting a microcontroller
 Instead of searching for the best microcontroller ever, one must identify which features are important to each project.
 Such features may include:
-- General Purpose Input/Output pins
+- General Purpose Input/Output (GPIO) pins
   - Amount of digital and analog pins
   - Voltage and tolerance
 - Energy consumption
@@ -164,7 +164,7 @@ void loop(void)
 
 </div>
 
-Another detail about Arduino is that ``pinMode`` usually changes more than DDRx:
+Another detail about Arduino is that ``pinMode`` usually changes more than ``DDRx``:
 
    pinMode   | DDRx | PORTx
 ---          | ---  | ---
