@@ -3,7 +3,6 @@ title: Mindstorms
 description: Power to the Brick
 date: 2018-10-05
 category: lego
-hidden: true
 ---
 
 # Mindstorms
@@ -45,8 +44,10 @@ You can find out more about the RCX in the following places:
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
 A simpler solution came in the Scout, MicroScout and Spybotics sets.
 The idea is simple: have less electronic parts (merge controller, sensors, motors, battery into a single element) and a few behaviors preprogrammed to explore.
+New behaviors can be programmed using a Barcode language (VLL) to introduce commands to the robot.
 The Scout ([9735](https://brickipedia.fandom.com/wiki/9735_Robotics_Discovery_Set)) is very similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
 The MicroScout ([9748](https://brickipedia.fandom.com/wiki/9748_Droid_Developer_Kit) and [9754](https://brickipedia.fandom.com/wiki/9754_Dark_Side_Developer_Kit)) and Spybotics ([3806, 3807, 3808 and 3809](https://brickipedia.fandom.com/wiki/Spybotics)) took the other path: a single electronic element for everything.
+The Code Pilot ([8479](https://brickipedia.fandom.com/wiki/8479_Barcode_Multi-Set)) from 1997 is probably the first example of Barcode/VLL usage in Lego sets.
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond.
 After the user explored the default programs within the system, it is time to explore the ``P`` program.
@@ -66,11 +67,15 @@ The evolution of Mindstorms created the third release of Lego robots in Septembe
 Sensors and motors are retro-compatible with NXT ones due to no modifications to the cables.
 
 ## Extra bits
-TODO
-- Code Pilot ([8479](https://brickipedia.fandom.com/wiki/8479_Barcode_Multi-Set))
+Several other pieces and sets are related to adding electronics parts to Lego.
+They are different from the Mindstorms, as they usually require a user remote controlling the machine.
+However they can be interfaced with smarter parts to achieve robot status.
 
 ### Motors
-TODO
+Electric motors have been introduced much earlier than sensors and microcontrollers, enough to add movement to trains and small machines.
+Motors alone are limited to one direction and speed until the user interacts with a switch.
+With mechanical parts and gears it is possible to exploit the continuous movement of the motors to achieve more complex movements.
+A notable example is the [Great Ball Contraption](https://www.planet-gbc.com/), a modular system which moves balls to the next module in the most creative way possible.
 
 ### Power Functions
 In 2007 Lego introduced a new connector for motors and sensors, resembling the one from the RCX era with [studs](https://en.wikipedia.org/wiki/Lego_Technic#%22Studded%22_(Beams)_versus_%22Studless%22_(Liftarms)).
