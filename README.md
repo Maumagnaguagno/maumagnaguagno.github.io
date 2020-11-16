@@ -2,7 +2,8 @@
 **My internets**
 
 [Repository metadata on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages/)  
-Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
+Based on [jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)  
+Using [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
 
 ```
  ___________________
