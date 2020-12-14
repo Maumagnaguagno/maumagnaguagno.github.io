@@ -18,11 +18,12 @@ pre.highlight {
   font-size: .8rem;
   line-height: 1.4;
   color: #fff;
-  background-color: #111;
+  background-color: #000;
   box-shadow: 10px 10px 2px #666;
   margin:  0 -2rem 1rem;
   padding: 1rem 2rem;
   border-radius: 8px;
+  overflow-x: overlay;
 
   .err { background-color: #f00 } // Error
   .ge { font-style: italic } // Generic.Emph
@@ -70,7 +71,7 @@ pre.highlight {
   .gu  // Generic.Subheading & Diff Unified/Comment?
   { color: #0f0 }
 
-  .k + .nf, // Name.Function
+  .k + .nf, .kt + .nf, // Name.Function
   .na, // Name.Attribute
   .nd, // Name.Decorator
   .ne, // Name.Exception

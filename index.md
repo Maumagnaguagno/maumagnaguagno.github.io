@@ -29,5 +29,3 @@ Here you can see some of the stuff I worked on:
   - Convert Markdown timeline to Graphviz DOT
 
 Take a look at my [archive](archive.md) to see everything.
-
-Running on GitHub with Jekyll, based on [Jekyll minimal theme](https://github.com/henrythemes/jekyll-minimal-theme).

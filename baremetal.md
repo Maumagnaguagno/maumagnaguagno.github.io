@@ -15,9 +15,9 @@ Without the need for a complete understanding of what is happening under the hoo
 In the following sections we explore the old blocks of microcontroller programming that are sometimes ignored by tutorials around the web.
 
 ## Selecting a microcontroller
-Instead of searching for the best microcontroller ever one must identify which features are important in the project.
+Instead of searching for the best microcontroller ever, one must identify which features are important to each project.
 Such features may include:
-- General Purpose Input/Output pins
+- General Purpose Input/Output (GPIO) pins
   - Amount of digital and analog pins
   - Voltage and tolerance
 - Energy consumption
@@ -31,21 +31,21 @@ Such features may include:
 - Tools to write, compile, flash and debug programs
 - Learning curve, tutorials, libraries and examples
 
-It is a good idea for starters to pick the most available microcontroller, as their cost is usually low with lots of materials available online.
-Such materials will minimize your development time, as no library must be ported and tested in a new platform.
-Only pick a different microcontroller when your specification demands, for example, hardware division must be available for performance reasons or energy consumption must be small to improve battery life.
+It is a good idea for starters to pick the most available microcontroller, due to their low-cost and lots of materials available online.
+Such materials will minimize development time, with libraries ported and tested in the selected platform.
+Only pick a different microcontroller when the specification demands, for example, hardware division must be available for performance reasons or energy consumption must be small to improve battery life.
 
 For complex projects the memory size and amount of GPIOs must be carefully considered, as well as their placement around the IC.
-Remember that some microcontrollers are 5V tolerant, which can save you a few extra components.
-The tools are usually free, their real cost is the learning curve that may consume a long time for inexperienced users.
-To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the stages instead of hiding the entire process behind a few buttons.
+Remember that some microcontrollers are 5V tolerant, which can save a few extra components.
+The tools are usually free, their real cost is their learning curve, which may consume a long time for inexperienced users.
+To avoid being tied to one IDE it is a good idea to start with a Makefile, which reveals the development stages instead of hiding the entire process behind a few buttons.
 
-Here we will focus on the Arduino/AVR microcontrollers due to their low-cost, availability and lvast ibrary support.
+Here we will focus on the Arduino/AVR microcontrollers due to their low-cost, availability and vast library support.
 
 ## Makefile
-To compile and flash your project outside an IDE you need to execute separate tools in a specific order.
-Instead of repeating this process every day a makefile can do this job for you.
-The makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
+To compile and flash a project outside an IDE one needs to execute separate tools in a specific order.
+These tedious command sequences can be accomplished by a Makefile.
+The Makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
 The following is my Makefile, based on [Florent Flament's post](https://www.florentflament.com/blog/arduino-hello-world-without-ide.html).
 
 ```makefile
@@ -79,16 +79,51 @@ clean:
 	rm -f $(TARGET).hex $(TARGET).elf $(OBJECTS)
 ```
 
+## Sketches
+Common embedded projects usually follow the idea of [Wiring](https://en.wikipedia.org/wiki/Wiring_(development_platform)) sketches, a program with ``setup`` and ``loop`` functions.
+During ``setup`` everything is initialized once, while the ``loop`` is repeatedly executed.
+These two functions cover most basic programs, complex programs require their own functions and Interrupt Service Routines (ISRs).
+
+```c
+void setup(void)
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop(void)
+{
+  digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN)); // Toggle LED
+  delay(1000); // Block program for 1000ms to see LED
+}
+```
+
+The entry point of this program, a ``main`` function, can be ommitted.
+Advanced users can add a custom ``main`` function to their program and avoid the unnecessary initialization and automatic event handling.
+The hidden ``main`` function of a sketch looks like the following:
+
+```c
+int main(void)
+{
+  init(); // Configures internal peripherals, such as timer used by delay
+  setup();
+  while(true)
+  {
+    loop();
+    if(event_available) execute_event(); // Execute external events
+  }
+}
+```
+
 ## Pins
 The most common usage of a microcontroller is to observe and control the state of pins.
 The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation):
 - ``DDRx`` controls which pins are used to read or write, set by ``pinMode``
 - ``PORTx`` stores the value of each pin, used by ``digitalRead`` and ``digitalWrite``
 
-Arduino abstracts port and pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
-To solve pin and port a look-up table is used at run-time, with a few extra security checks, which consumes processing time and memory.
-Variations of such functions were developed to identify port and pin at compile-time to obtain the same result faster with the same board.
-This is specially useful when working with protocols that require a lot of data being sent or received through pins, such as a display, or a responsive sensor for hazard applications.
+Arduino abstracts pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
+A look-up table is used to resolve pins at run-time, with a few extra security checks, which consumes processing time and memory.
+Variations of such functions can identify port and pin at compile-time to obtain the same result faster.
+This is specially useful with protocols that transmit a lot of data, such as the ones in displays, or responsive sensors for hazard applications.
 
 <div class="split" markdown="1">
 
@@ -129,10 +164,13 @@ void loop(void)
 
 </div>
 
-Another thing about Arduino is that ``pinMode`` actually changes more than DDRx:
+Another detail about Arduino is that ``pinMode`` usually changes more than ``DDRx``:
 
-``pinMode``  | DDRx | PORTx
+   pinMode   | DDRx | PORTx
 ---          | ---  | ---
 INPUT        | 0    | 0
 INPUT_PULLUP | 0    | 1
 OUTPUT       | 1    | unchanged
+
+This behaviour may not be valid to certain boards, as different vendors may support Arduino functions in their hardware while supplying incompatible implementations of ``pinMode``.
+Even if the implementation is equal there is a chance only the OUTPUT pins are set, as Arduino starts all pins as INPUTs, something to keep in mind while porting projects.

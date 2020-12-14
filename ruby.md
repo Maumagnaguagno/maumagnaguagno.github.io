@@ -6,7 +6,7 @@ category: ruby
 ---
 
 # Ruby
-Over the years some tricks have been very useful while programming in Ruby, this is a collection of them.
+Over the [years](ruby-versions.md) some tricks have been very useful while programming in Ruby, this is a collection of them.
 
 ## Conditional/Assignment merge
 Other languages may not let you assign variables inside a conditional statement, such as ``if``, ``elsif``, ``while`` or ``until``.
@@ -306,13 +306,14 @@ b.exclude_end?    #=> true
 Every Ruby code block returns a value, from a class or method definition to a method call or if/case statement.
 Which means you can do ``a.each {}.clear`` instead of ``a.each {}; a.clear``, or assign the return value of method calls from case statements, such as ``a = case b; when ...; end.method``.
 One interesting construction is to select which array to append an element ``(use_a ? array_a : array_b) << element``.
-Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for branch or use a variable before the condition is evaluated.
-Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more readable.
+Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for each branch or use a variable before the condition is evaluated.
+Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
 
 ## More Ruby snippets:
+{% assign bigbinary = "https://blog.bigbinary.com/categories/Ruby-" %}
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](https://www.rubocop.org) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
-- BigBinary's blog has a series of posts about Ruby [2.4](https://blog.bigbinary.com/categories/Ruby-2-4), [2.5](https://blog.bigbinary.com/categories/Ruby-2-5) and [2.6](https://blog.bigbinary.com/categories/Ruby-2-6)
+- BigBinary's blog has a series of posts about Ruby [2.4]({{ bigbinary }}2-4), [2.5]({{ bigbinary }}2-5), [2.6]({{ bigbinary }}2-6) and [2.7]({{ bigbinary }}2-7)
 - [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov

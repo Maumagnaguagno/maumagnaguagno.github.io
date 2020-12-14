@@ -3,7 +3,6 @@ title: Mindstorms
 description: Power to the Brick
 date: 2018-10-05
 category: lego
-hidden: true
 ---
 
 # Mindstorms
@@ -14,13 +13,16 @@ The kits were named as Lego Mindstorms due to the book [Mindstorms: Children, Co
 
 || RCX | NXT | EV3
 --- | --- | --- | ---
-Release | 1998 | 2006 | 2013
-Display | segmented | 100x64 pixels | 178x128 pixels
-Processor | H8/300 @16MHz | ARM7 @48MHz | ARM9 @300MHz
-RAM | 32 KB | 64 KB | 64 MB
-ROM | 16 KB | 256 KB Flash | 16 MB Flash + microSDHC
-USB | No | No | Yes
-Bluetooth | No | Yes | Yes
+**Release** | 1998 | 2006 | 2013
+**Display** | segmented | 100x64 pixels | 178x128 pixels
+**Processor** | H8/300 @16MHz | ARM7 @48MHz | ARM9 @300MHz
+**RAM** | 32 KB | 64 KB | 64 MB
+**ROM** | 16 KB | 256 KB Flash | 16 MB Flash + microSDHC
+**USB** | No | No | Yes
+**Bluetooth** | No | Yes | Yes
+
+A new model, [51515](https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor/), became available in 2020.
+This page is updated as new sets are released and more information is found online.
 
 ## RCX
 The RCX is the first fully programmable Lego brick came to the market in 1998, after a long relationship between MIT Media Lab and the Lego company and appeared in [many sets](https://www.bricklink.com/catalogList.asp?catType=S&catString=59.631).
@@ -42,8 +44,10 @@ You can find out more about the RCX in the following places:
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
 A simpler solution came in the Scout, MicroScout and Spybotics sets.
 The idea is simple: have less electronic parts (merge controller, sensors, motors, battery into a single element) and a few behaviors preprogrammed to explore.
-The Scout (TODO add part here) is very similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
-The MicroScout (TODO add part link) and Spybotics (TODO add part link) took the other path: a single electronic element for everything.
+New behaviors can be programmed using a Barcode language (VLL) to introduce commands to the robot.
+The Scout ([9735](https://brickipedia.fandom.com/wiki/9735_Robotics_Discovery_Set)) is very similar to RCX, with less input and output ports (2 for each instead of 3) while using the same wires, motors and sensors from RCX, with a light sensor attached to the controller.
+The MicroScout ([9748](https://brickipedia.fandom.com/wiki/9748_Droid_Developer_Kit) and [9754](https://brickipedia.fandom.com/wiki/9754_Dark_Side_Developer_Kit)) and Spybotics ([3806, 3807, 3808 and 3809](https://brickipedia.fandom.com/wiki/Spybotics)) took the other path: a single electronic element for everything.
+The Code Pilot ([8479](https://brickipedia.fandom.com/wiki/8479_Barcode_Multi-Set)) from 1997 is probably the first example of Barcode/VLL usage in Lego sets.
 
 Such sets are easier to setup and play with the multiple behaviors programmed, but the Lego group noticed that some users would like go beyond.
 After the user explored the default programs within the system, it is time to explore the ``P`` program.
@@ -52,6 +56,7 @@ After the user explored the default programs within the system, it is time to ex
 - [Controlling a MicroScout from an RCX using VLL](https://pbrick.info/2013/10/microscout-rcx-vll/)
 - [R2D2](https://www.geocities.ws/laosoh/robots/r2d2new/R2D2.htm)
 - [Adafruit Bluetooth Remote Control for the Lego Droid Developer Kit](https://learn.adafruit.com/bluetooth-remote-for-lego-droid/)
+- [Swift and VLL](https://adriansieber.com/control-lego-via-swift-on-ipados/)
 
 ## NXT
 The next generation of Mindstorms came in two versions, the first in July 2006 and the second one in August 2009.
@@ -62,18 +67,26 @@ The evolution of Mindstorms created the third release of Lego robots in Septembe
 Sensors and motors are retro-compatible with NXT ones due to no modifications to the cables.
 
 ## Extra bits
+Several other pieces and sets are related to adding electronics parts to Lego.
+They are different from the Mindstorms, as they usually require a user remote controlling the machine.
+However they can be interfaced with smarter parts to achieve robot status.
 
 ### Motors
+Electric motors have been introduced much earlier than sensors and microcontrollers, enough to add movement to trains and small machines.
+Motors alone are limited to one direction and speed until the user interacts with a switch.
+With mechanical parts and gears it is possible to exploit the continuous movement of the motors to achieve more complex movements.
+A notable example is the [Great Ball Contraption](https://www.planet-gbc.com/), a modular system which moves balls to the next module in the most creative way possible.
 
 ### Power Functions
 In 2007 Lego introduced a new connector for motors and sensors, resembling the one from the RCX era with [studs](https://en.wikipedia.org/wiki/Lego_Technic#%22Studded%22_(Beams)_versus_%22Studless%22_(Liftarms)).
 Such system is seen as a simpler way to add motorized/remote control features to model that are otherwise manually operated.
-Some recent sets that do not come with Power Functions have a dedicated space to them to the set.
-You can see a list of Power Function sets at [wikipedia](https://en.wikipedia.org/wiki/Lego_Technic#Power_Functions).
+Some recent sets have a dedicated space to add Power Functions.
+A list of Power Function sets is available [here](https://en.wikipedia.org/wiki/Lego_Technic#Power_Functions).
 
 ### WeDo / Boost
 Features smartphone app programming and is available through the sets:
-- Creative toolbox 17101
-- Droid commander 75253
+- Creative toolbox ([17101](https://brickipedia.fandom.com/wiki/17101_Boost_Creative_Toolbox)) - 2017
+- Droid commander ([75253](https://brickipedia.fandom.com/wiki/75253_Droid_Commander)) - 2019
 
 ### Prime
+TODO
