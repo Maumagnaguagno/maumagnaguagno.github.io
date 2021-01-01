@@ -20,6 +20,7 @@ This is a reminder of how Ruby evolved through time.
 [2.5](#25) | 2017-12-25 | TBA            | TBA
 [2.6](#26) | 2018-12-25 | TBA            | TBA
 [2.7](#27) | 2019-12-25 | TBA            | TBA
+[3.0](#30) | 2020-12-25 | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -91,6 +92,7 @@ This is a reminder of how Ruby evolved through time.
 
 ## 2.6
 - Initial implementation of a JIT compiler [#14235]({{ issue }}14235)
+  - [MJIT: A Method Based Just-in-time Compiler for Ruby](https://blog.heroku.com/ruby-mjit)
 - Flip-flop syntax is deprecated [#5400]({{ issue }}5400)
 - Endless Ranges ``(1..)`` and ``(1...)`` [#12912]({{ issue }}12912)
 - ``Array#union/difference`` [#14097]({{ issue }}14097)
@@ -112,6 +114,8 @@ This is a reminder of how Ruby evolved through time.
 - ``Enumerable#filter_map`` [#15323]({{ issue }}15323)
 - ``Array#intersection`` [#16155]({{ issue }}16155)
 
-## Future
+## 3.0
 - [Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance](https://blog.heroku.com/ruby-3-by-3)
-- [MJIT: A Method Based Just-in-time Compiler for Ruby](https://blog.heroku.com/ruby-mjit)
+- Experimental Ractors
+- Experimental endless method definition ``def square(x) = x * x`` [#16746]({{ issue }}16746)
+- ``Hash#except`` [#15822]({{ issue }}15822)
