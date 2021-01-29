@@ -175,6 +175,6 @@ The task decomposition process continues until ``base`` is applicable, otherwise
 
 ## HTN in games
 HTNs can be seen as the next level of [Behavior Trees](https://en.wikipedia.org/wiki/Behavior_tree_%28artificial_intelligence,_robotics_and_control%29), with a logic flavor that gives AI freedom to choose variable values and task ordering.
-As faster processors become available, multiple games designers are taking advantage of HTN to improve their agents:
+As faster processors become available, multiple game designers are taking advantage of HTN to improve their agents:
 - [GameAIPro - Chapter 12 Exploring HTN Planners through Example](https://www.gameaipro.com/GameAIPro/GameAIPro_Chapter12_Exploring_HTN_Planners_through_Example.pdf)
 - AI and Games explanation of HTN Planning in [Transformers: Fall of Cybertron](https://aiandgames.com/cybertron-intel/) and [Horizon Zero Dawn](https://aiandgames.com/hzd-part1/)
