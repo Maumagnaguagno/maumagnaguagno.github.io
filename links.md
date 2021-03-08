@@ -15,7 +15,6 @@ Hover links to see their descriptions.
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
   - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
-  - [Karpathy blog](https://karpathy.github.io/ "Computer Science Ph.D student interested in machine learning") and [academic site](https://cs.stanford.edu/people/karpathy/ "Karpathy at Stanford")
   - [Game AI Pro](https://www.gameaipro.com/ "Online book about AI in games")
 - Programming tools
   - [Rubular](https://rubular.com/ "Regex editor")
@@ -27,9 +26,6 @@ Hover links to see their descriptions.
   - [WebGraphviz](http://www.webgraphviz.com/ "Describe graphs, let the computer draw for you")
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
-- Writing
-  - [Dillinger](https://dillinger.io/ "Markdown editor")
-  - [Overleaf](https://www.overleaf.com/ "Collaborative writing")
 </div>
 <div style="float:left" markdown="1">
 
@@ -51,6 +47,4 @@ Hover links to see their descriptions.
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
   - [Ben Eater](https://www.youtube.com/c/beneater "Low-level computing tutorials")
   - [Mitxela](https://www.youtube.com/c/mitxela/ "Video and Sound-based projects")
-- Movies
-  - [TasteDive](https://tastedive.com/ "Recommendation system")
 </div>
