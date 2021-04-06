@@ -6,7 +6,7 @@ hidden: true
 Links to the coolest places of the internets.
 Hover links to see their descriptions.
 
-<div style="float:left" markdown="1">
+<div style=float:left markdown=1>
 
 - Computer Science and Engineering
   - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
@@ -27,7 +27,7 @@ Hover links to see their descriptions.
   - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
 </div>
-<div style="float:left" markdown="1">
+<div style=float:left markdown=1>
 
 - Youtube channels
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")

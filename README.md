@@ -17,10 +17,10 @@ Using [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
 
 Apply split view using divs:
 ```HTML
-<div class="split" markdown="1">
+<div class=split markdown=1>
   Left content is here.
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
   And the right content is here.
 </div>
 ```

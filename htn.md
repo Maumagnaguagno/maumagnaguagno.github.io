@@ -25,7 +25,7 @@ PDDL is verbose with a name for each field, while JSHOP expects the user to reme
 The problem file is almost identical, the main differences are the lack of explicit objects and a task list instead of a goal state.
 The missing keywords can be replaced by comments to increase readability.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### PDDL
 ```elisp
@@ -45,7 +45,7 @@ The missing keywords can be replaced by comments to increase readability.
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### JSHOP
 ```elisp
@@ -73,7 +73,7 @@ JSHOP operators are prefixed with ``!`` or ``!!``.
 Instead of preconditions and effects, JSHOP operators have preconditions, delete and add effects.
 The conjunction token ``and`` can be omitted.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### PDDL
 ```elisp
@@ -92,7 +92,7 @@ The conjunction token ``and`` can be omitted.
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### JSHOP
 ```elisp
@@ -120,7 +120,7 @@ HTNs on the other hand may have tasks that must reach the same state multiple ti
 To create this memory of what already happened we can add predicates that mark partial states, in this case positions and agents, that were already explored.
 Since only operators can modify the state we need to add them, but they are only important internally, we can make them invisible to the final plan prefixing with ``!!``.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```elisp
 (:operator (!!visit ?agent ?pos)
@@ -131,7 +131,7 @@ Since only operators can modify the state we need to add them, but they are only
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```elisp
 (:operator (!!unvisit ?agent ?pos)

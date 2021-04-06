@@ -125,7 +125,7 @@ A look-up table is used to resolve pins at run-time, with a few extra security c
 Variations of such functions can identify port and pin at compile-time to obtain the same result faster.
 This is specially useful with protocols that transmit a lot of data, such as the ones in displays, or responsive sensors for hazard applications.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### Arduino
 ```c
@@ -144,7 +144,7 @@ void loop(void)
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ### C
 ```c

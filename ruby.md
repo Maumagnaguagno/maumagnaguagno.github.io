@@ -13,7 +13,7 @@ Other languages may not let you assign variables inside a conditional statement,
 But Ruby does let you do that, which actually can help you avoid asking twice for the same variable.
 The following code blocks are equivalent, in the first case we test and only then modify the array, in the second case we do both at once.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 a = [1, 2, 3]
@@ -26,7 +26,7 @@ puts a.shift until a.empty?
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 a = [1, 2, 3]
@@ -44,7 +44,7 @@ puts first until first = a.shift
 Sometimes parentheses can make all the difference in the evaluation of an expression.
 The following examples show how you can obtain the last element of a list and a list without its last element, with or without side-effects.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 a = [1, 2, 3]
@@ -54,7 +54,7 @@ c = a.pop  #=> 3, a = [1, 2]
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 a = [1, 2, 3]
@@ -281,7 +281,7 @@ This is useful if values must conform to mathematics/physics formulas where inte
 Ranges may include ``(1..end)`` or exclude ``(1...end)`` their end, you can check with ``range.exclude_end?``.
 To obtain the last element included in a range use ``range.max``, otherwise use ``range.last``.
 
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 a = 1..5
@@ -291,7 +291,7 @@ a.exclude_end?    #=> false
 ```
 
 </div>
-<div class="split" markdown="1">
+<div class=split markdown=1>
 
 ```ruby
 b = 1...5
