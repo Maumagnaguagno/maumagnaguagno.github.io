@@ -49,7 +49,7 @@ The green channel varies according to Y while the circular effect is created by 
 
 ### ``[y % 2 == 0 ? x & 1 : x, x & y, x * y]``
 
-![4](https://user-images.githubusercontent.com/11094484/114532935-bcc8d980-9c23-11eb-8d17-0bf25cfeae5e.png)
+<canvas id=c4 width=1024 height=1024></canvas>
 
 ### ``[x | y, x & ~y, ~x & y]``
 
@@ -102,6 +102,10 @@ function draw(index) {
       data[i+1] = 0;
       data[i+2] = 0;
       break;
+    case 4:
+      data[i]   = (y % 2 == 0 ? x & 1 : x) % 255;
+      data[i+1] = x & y % 255;
+      data[i+2] = x * y % 255;
     }
     data[i+3] = 255;
     x += 1;
@@ -114,4 +118,5 @@ function draw(index) {
 }
 draw(0);
 draw(1);
+draw(4);
 </script>
