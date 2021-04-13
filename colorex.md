@@ -49,7 +49,7 @@ The green channel varies according to Y while the circular effect is created by 
 
 ### ``[y % 2 == 0 ? x & 1 : x, x & y, x * y]``
 
-<canvas id=c4 width=1024 height=1024></canvas>
+<canvas id=c5 width=1024 height=1024></canvas>
 
 ### ``[x | y, x & ~y, ~x & y]``
 
@@ -98,8 +98,7 @@ function draw(index) {
       break;
     case 1:
       data[i]   = x * y % 256;
-      data[i+1] = 0;
-      data[i+2] = 0;
+      data[i+1] = data[i+2] = 0;
       break;
     case 2:
       data[i]   = x * y % 256;
@@ -112,15 +111,16 @@ function draw(index) {
       data[i+2] = Math.round(Math.hypot(x,y)) % 256;
       break;
     case 4:
-      data[i]   = (y % 2 == 0 ? x & 1 : x) % 256;
-      data[i+1] = x & y % 256;
-      data[i+2] = x * y % 256;
-      break;
-    case 5:
       data[i]   = x * y % 256;
       data[i+1] = x & y % 256;
       data[i+2] = Math.round(Math.hypot(x - width / 2, y - height / 2)) % 256;
       break;
+    case 5:
+      data[i]   = (y % 2 == 0 ? x & 1 : x) % 256;
+      data[i+1] = x & y % 256;
+      data[i+2] = x * y % 256;
+      break;
+    
     }
     data[i+3] = 255;
     x += 1;
