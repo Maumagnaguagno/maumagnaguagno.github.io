@@ -23,67 +23,67 @@ Several cool images can be created by simple formulas that take into account onl
 The following images were created using an R8G8B8 representation, which means 8 bits for each color channel.
 The functions used here are from Ruby and the channel values truncated to 8 bits.
 
-### ``[rand(256), rand(256), rand(256)]``
+### [rand(256), rand(256), rand(256)]
 The easiest one is just random noise, for each XY pixel draw any RGB color.
 
 <canvas id=c0 width=1024 height=1024></canvas>
 
-### ``[x * y, 0, 0]``
+### [x * y, 0, 0]
 An alien texture created by multiplication of coordinates on the red channel.
 
 <canvas id=c1 width=1024 height=1024></canvas>
 
-### ``[x * y, y, Math.hypot(x,y).round]``
+### [x * y, y, Math.hypot(x,y).round]
 Slightly more interesting to see than the previous one.
 The green channel varies according to Y while the circular effect is created by the hypotenuse.
 
 <canvas id=c2 width=1024 height=1024></canvas>
 
-### ``[x | y, x & y, Math.hypot(x,y).round]``
+### [x | y, x & y, Math.hypot(x,y).round]
 
 <canvas id=c3 width=1024 height=1024></canvas>
 
-### ``[x * y, x & y, Math.hypot(x - width / 2, y - height / 2).round]``
+### [x * y, x & y, Math.hypot(x - width / 2, y - height / 2).round]
 
 <canvas id=c4 width=1024 height=1024></canvas>
 
-### ``[y % 2 == 0 ? x & 1 : x, x & y, x * y]``
+### [y % 2 == 0 ? x & 1 : x, x & y, x * y]
 
 <canvas id=c5 width=1024 height=1024></canvas>
 
-### ``[x | y, x & ~y, ~x & y]``
+### [x | y, x & ~y, ~x & y]
 
-![5](https://user-images.githubusercontent.com/11094484/114533084-e84bc400-9c23-11eb-9180-32f691285c16.png)
+<canvas id=c6 width=1024 height=1024></canvas>
 
-### ``[5 * y, 15 * y, 255 * x / width]``
+### [5 * y, 15 * y, 255 * x / width]
 
-![6](https://user-images.githubusercontent.com/11094484/114533128-f7327680-9c23-11eb-8d7a-a60bcf367041.png)
+<canvas id=c7 width=1024 height=1024></canvas>
 
-### ``[r = x == 0 ? 0 : 5 * y % x, 3 * r, 255 * x / width]``
+### [r = x == 0 ? 0 : 5 * y % x, 3 * r, 255 * x / width]
 An intermediate value ``r`` is used to avoid division by zero errors.
 
-![7](https://user-images.githubusercontent.com/11094484/114533120-f39eef80-9c23-11eb-87dd-fea270069116.png)
+<canvas id=c8 width=1024 height=1024></canvas>
 
-### ``[r = x.zero? ? 0 : 5 * y % x, 3 * r % 12, 255 * x / width]``
+### [r = x.zero? ? 0 : 5 * y % x, 3 * r % 12, 255 * x / width]
 An intermediate value ``r`` is used to avoid division by zero errors.
 
-![8](https://user-images.githubusercontent.com/11094484/114533126-f699e000-9c23-11eb-8343-c617a96e415d.png)
+<canvas id=c9 width=1024 height=1024></canvas>
 
-### ``[(a & b) * 2, (a + b) * 2, (a | b) * 2]``
+### [(a & b) * 2, (a + b) * 2, (a | b) * 2]
 Two intermediate variables are used, ``a = (x + 1) % (y + 1)`` and ``b = (y + 1) % (x + 1)``
 
-![9](https://user-images.githubusercontent.com/11094484/114533194-06b1bf80-9c24-11eb-846b-d3fdfe7f57ae.png)
+<canvas id=c10 width=1024 height=1024></canvas>
 
-### ``[(r * r * 255).to_i, (g * g * 255).to_i, (b * b * 255).to_i]``
+### [(r * r * 255).to_i, (g * g * 255).to_i, (b * b * 255).to_i]
 The color wheel uses a little bit more math, with ``PI066 = Math::PI * 2 / 3``, ``a = Math.atan2(y - height / 2, x - width / 2) / 2``, ``r = Math.cos(a)``, ``g = Math.cos(a - PI066)`` and ``b = Math.cos(a + PI066)``.
 
-![Color wheel](https://user-images.githubusercontent.com/11094484/114532564-55128e80-9c23-11eb-8fce-61c6e15a41fb.png)
+<canvas id=c11 width=1024 height=1024></canvas>
 
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
 
 <script>
-const width = 1024, height = 1024, size = width * height * 4;
-function random(value) {return Math.floor(Math.random() * value);}
+const width = 1024, height = 1024, size = width * height * 4, pi066 = Math.PI * 2 / 3;
+function random() {return Math.floor(Math.random() * 256);}
 function draw(index) {
   var ctx = document.getElementById('c' + index).getContext("2d");
   var image = ctx.createImageData(1024, 1024);
@@ -92,49 +92,78 @@ function draw(index) {
   for(var i = 0; i < size; i += 4) {
     switch(index) {
     case 0:
-      data[i]   = random(256);
-      data[i+1] = random(256);
-      data[i+2] = random(256);
+      data[i]   = random();
+      data[i+1] = random();
+      data[i+2] = random();
       break;
     case 1:
-      data[i]   = x * y % 256;
+      data[i]   = x * y & 255;
       data[i+1] = data[i+2] = 0;
       break;
     case 2:
-      data[i]   = x * y % 256;
-      data[i+1] = y % 256;
-      data[i+2] = Math.round(Math.hypot(x,y)) % 256;
+      data[i]   = x * y & 255;
+      data[i+1] = y & 255;
+      data[i+2] = Math.round(Math.hypot(x,y)) & 255;
       break;
     case 3:
-      data[i]   = (x | y) % 256;
-      data[i+1] = x & y % 256;
-      data[i+2] = Math.round(Math.hypot(x,y)) % 256;
+      data[i]   = (x | y) & 255;
+      data[i+1] = x & y & 255;
+      data[i+2] = Math.round(Math.hypot(x,y)) & 255;
       break;
     case 4:
-      data[i]   = x * y % 256;
-      data[i+1] = x & y % 256;
-      data[i+2] = Math.round(Math.hypot(x - width / 2, y - height / 2)) % 256;
+      data[i]   = x * y & 255;
+      data[i+1] = x & y & 255;
+      data[i+2] = Math.round(Math.hypot(x - width / 2, y - height / 2)) & 255;
       break;
     case 5:
-      data[i]   = (y % 2 == 0 ? x & 1 : x) % 256;
-      data[i+1] = x & y % 256;
-      data[i+2] = x * y % 256;
+      data[i]   = (y % 2 == 0 ? x & 1 : x) & 255;
+      data[i+1] = x & y & 255;
+      data[i+2] = x * y & 255;
       break;
-    
+    case 6:
+      data[i]   = (x | y) & 255;
+      data[i+1] = (x & ~y) & 255;
+      data[i+2] = (~x & y) & 255;
+      break;
+    case 7:
+      data[i]   = 5 * y & 255;
+      data[i+1] = 15 * y & 255;
+      data[i+2] = 255 * x / width;
+      break;
+    case 8:
+      var r;
+      data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
+      data[i+1] = 3 * r & 255;
+      data[i+2] = 255 * x / width;
+      break;
+    case 9:
+      var r;
+      data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
+      data[i+1] = 3 * r % 12;
+      data[i+2] = 255 * x / width;
+      break;
+    case 10:
+      var a = (x + 1) % (y + 1), b = (y + 1) % (x + 1);
+      data[i]   = (a & b) * 2 & 255;
+      data[i+1] = (a + b) * 2 & 255;
+      data[i+2] = (a | b) * 2 & 255;
+      break;
+    case 11:
+      var a = Math.atan2(y - height / 2, x - width / 2) / 2;
+      var r = Math.cos(a);
+      var g = Math.cos(a - pi066);
+      var b = Math.cos(a + pi066);
+      data[i]   = Math.round(r * r * 255);
+      data[i+1] = Math.round(g * g * 255);
+      data[i+2] = Math.round(b * b * 255);
     }
     data[i+3] = 255;
-    x += 1;
-    if(x == width) {
-      y += 1;
+    if(++x == width) {
+      ++y;
       x = 0;
     }
   }
   ctx.putImageData(image, 0, 0);
 }
-draw(0);
-draw(1);
-draw(2);
-draw(3);
-draw(4);
-draw(5);
+for(var i = 0; i < 12;) draw(i++);
 </script>
