@@ -83,9 +83,9 @@ Eventually I am going to populate this page with more algorithms and pretty imag
 
 <script>
 const length = 1024 * 1024 * 4;
-function random(value) {return Math.floor(Math.random() * value);}
+function rand(value) {return Math.floor(Math.random() * value);}
 function draw(index) {
-  var canvas = document.getElementById('c0');
+  var canvas = document.getElementById('c' + index);
   var ctx = canvas.getContext("2d");
   var image = ctx.createImageData(1024, 1024);
   var data = image.data;
@@ -93,9 +93,9 @@ function draw(index) {
   for(var i = 0; i < length; i += 4) {
     switch(index) {
     case 0:
-      data[i]   = random(256);
-      data[i+1] = random(256);
-      data[i+2] = random(256);
+      data[i]   = rand(256);
+      data[i+1] = rand(256);
+      data[i+2] = rand(256);
       break;
     case 1:
       data[i]   = x * y % 256;
