@@ -37,15 +37,15 @@ An alien texture created by multiplication of coordinates on the red channel.
 Slightly more interesting to see than the previous one.
 The green channel varies according to Y while the circular effect is created by the hypotenuse.
 
-![1](https://user-images.githubusercontent.com/11094484/114533360-319c1380-9c24-11eb-96ac-15c5e578d8db.png)
+<canvas id=c2 width=1024 height=1024></canvas>
 
 ### ``[x | y, x & y, Math.hypot(x,y).round]``
 
-![2](https://user-images.githubusercontent.com/11094484/114532756-89864a80-9c23-11eb-96a2-20fa8cdf3bf4.png)
+<canvas id=c3 width=1024 height=1024></canvas>
 
 ### ``[x * y, x & y, Math.hypot(x - width / 2, y - height / 2).round]``
 
-![3](https://user-images.githubusercontent.com/11094484/114532866-a589ec00-9c23-11eb-9ea2-a460fec72215.png)
+<canvas id=c4 width=1024 height=1024></canvas>
 
 ### ``[y % 2 == 0 ? x & 1 : x, x & y, x * y]``
 
@@ -82,34 +82,49 @@ The color wheel uses a little bit more math, with ``PI066 = Math::PI * 2 / 3``, 
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
 
 <script>
-const length = 1024 * 1024 * 4;
-function rand(value) {return Math.floor(Math.random() * value);}
+const width = 1024, height = 1024, size = width * height * 4;
+function random(value) {return Math.floor(Math.random() * value);}
 function draw(index) {
-  var canvas = document.getElementById('c' + index);
-  var ctx = canvas.getContext("2d");
+  var ctx = document.getElementById('c' + index).getContext("2d");
   var image = ctx.createImageData(1024, 1024);
   var data = image.data;
   var x = 0, y = 0;
-  for(var i = 0; i < length; i += 4) {
+  for(var i = 0; i < size; i += 4) {
     switch(index) {
     case 0:
-      data[i]   = rand(256);
-      data[i+1] = rand(256);
-      data[i+2] = rand(256);
+      data[i]   = random(256);
+      data[i+1] = random(256);
+      data[i+2] = random(256);
       break;
     case 1:
       data[i]   = x * y % 256;
       data[i+1] = 0;
       data[i+2] = 0;
       break;
+    case 2:
+      data[i]   = x * y % 256;
+      data[i+1] = y % 256;
+      data[i+2] = Math.round(Math.hypot(x,y)) % 256;
+      break;
+    case 3:
+      data[i]   = (x | y) % 256;
+      data[i+1] = x & y % 256;
+      data[i+2] = Math.round(Math.hypot(x,y)) % 256;
+      break;
     case 4:
-      data[i]   = (y % 2 == 0 ? x & 1 : x) % 255;
-      data[i+1] = x & y % 255;
-      data[i+2] = x * y % 255;
+      data[i]   = (y % 2 == 0 ? x & 1 : x) % 256;
+      data[i+1] = x & y % 256;
+      data[i+2] = x * y % 256;
+      break;
+    case 5:
+      data[i]   = x * y % 256;
+      data[i+1] = x & y % 256;
+      data[i+2] = Math.round(Math.hypot(x - width / 2, y - height / 2)) % 256;
+      break;
     }
     data[i+3] = 255;
     x += 1;
-    if(x == 1024) {
+    if(x == width) {
       y += 1;
       x = 0;
     }
@@ -118,5 +133,8 @@ function draw(index) {
 }
 draw(0);
 draw(1);
+draw(2);
+draw(3);
 draw(4);
+draw(5);
 </script>
