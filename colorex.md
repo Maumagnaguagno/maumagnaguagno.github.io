@@ -21,17 +21,17 @@ Then generating a X mirrored image to result in something like a [Rorschach test
 ## Simple formulas
 Several cool images can be created by simple formulas that take into account only math functions, the X and Y coordinates and sometimes the canvas width and height.
 The following images were created using an R8G8B8 representation, which means 8 bits for each color channel.
-The functions used here are from Ruby.
+The functions used here are from Ruby and the channel values truncated to 8 bits.
 
 ### ``[rand(256), rand(256), rand(256)]``
 The easiest one is just random noise, for each XY pixel draw any RGB color.
 
-![Random noise](https://user-images.githubusercontent.com/11094484/114532643-678cc800-9c23-11eb-8537-8d44ad4fea88.png)
+<canvas id=c0 width=1024 height=1024></canvas>
 
 ### ``[x * y, 0, 0]``
 An alien texture created by multiplication of coordinates on the red channel.
 
-![0](https://user-images.githubusercontent.com/11094484/114534413-5a70d880-9c25-11eb-9154-5bc825ef1a6d.png)
+<canvas id=c1 width=1024 height=1024></canvas>
 
 ### ``[x * y, y, Math.hypot(x,y).round]``
 Slightly more interesting to see than the previous one.
@@ -80,3 +80,38 @@ The color wheel uses a little bit more math, with ``PI066 = Math::PI * 2 / 3``, 
 ![Color wheel](https://user-images.githubusercontent.com/11094484/114532564-55128e80-9c23-11eb-8fce-61c6e15a41fb.png)
 
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
+
+<script>
+const length = 1024 * 1024 * 4;
+function random(value) {return Math.floor(Math.random() * value);}
+function draw(index) {
+  var canvas = document.getElementById('c0');
+  var ctx = canvas.getContext("2d");
+  var image = ctx.createImageData(1024, 1024);
+  var data = image.data;
+  var x = 0, y = 0;
+  for(var i = 0; i < length; i += 4) {
+    switch(index) {
+    case 0:
+      data[i]   = random(256);
+      data[i+1] = random(256);
+      data[i+2] = random(256);
+      break;
+    case 1:
+      data[i]   = x * y % 256;
+      data[i+1] = 0;
+      data[i+2] = 0;
+      break;
+    }
+    data[i+3] = 255;
+    x += 1;
+    if(x == 1024) {
+      y += 1;
+      x = 0;
+    }
+  }
+  ctx.putImageData(image, 0, 0);
+}
+draw(0);
+draw(1);
+</script>
