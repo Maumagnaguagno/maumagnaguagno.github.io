@@ -18,4 +18,65 @@ Then generating a X mirrored image to result in something like a [Rorschach test
 
 ![Brownian motion X mirrored](img/colorex_brownian.png "Now tell me, what do you see?")
 
+## Simple formulas
+Several cool images can be created by simple formulas that take into account only math functions, the X and Y coordinates and sometimes the canvas width and height.
+The following images were created using an R8G8B8 representation, which means 8 bits for each color channel.
+The functions used here are from Ruby.
+
+### ``[rand(256), rand(256), rand(256)]``
+The easiest one is just random noise, for each XY pixel draw any RGB color.
+
+![Random noise](https://user-images.githubusercontent.com/11094484/114532643-678cc800-9c23-11eb-8537-8d44ad4fea88.png)
+
+### ``[x * y, 0, 0]``
+An alien texture created by multiplication of coordinates on the red channel.
+
+![0](https://user-images.githubusercontent.com/11094484/114534413-5a70d880-9c25-11eb-9154-5bc825ef1a6d.png)
+
+### ``[x * y, y, Math.hypot(x,y).round]``
+Slightly more interesting to see than the previous one.
+The green channel varies according to Y while the circular effect is created by the hypotenuse.
+
+![1](https://user-images.githubusercontent.com/11094484/114533360-319c1380-9c24-11eb-96ac-15c5e578d8db.png)
+
+### ``[x | y, x & y, Math.hypot(x,y).round]``
+
+![2](https://user-images.githubusercontent.com/11094484/114532756-89864a80-9c23-11eb-96a2-20fa8cdf3bf4.png)
+
+### ``[x * y, x & y, Math.hypot(x - width / 2, y - height / 2).round]``
+
+![3](https://user-images.githubusercontent.com/11094484/114532866-a589ec00-9c23-11eb-9ea2-a460fec72215.png)
+
+### ``[y % 2 == 0 ? x & 1 : x, x & y, x * y]``
+
+![4](https://user-images.githubusercontent.com/11094484/114532935-bcc8d980-9c23-11eb-8d17-0bf25cfeae5e.png)
+
+### ``[x | y, x & ~y, ~x & y]``
+
+![5](https://user-images.githubusercontent.com/11094484/114533084-e84bc400-9c23-11eb-9180-32f691285c16.png)
+
+### ``[5 * y, 15 * y, 255 * x / width]``
+
+![6](https://user-images.githubusercontent.com/11094484/114533128-f7327680-9c23-11eb-8d7a-a60bcf367041.png)
+
+### ``[r = x == 0 ? 0 : 5 * y % x, 3 * r, 255 * x / width]``
+An intermediate value ``r`` is used to avoid division by zero errors.
+
+![7](https://user-images.githubusercontent.com/11094484/114533120-f39eef80-9c23-11eb-87dd-fea270069116.png)
+
+### ``[r = x.zero? ? 0 : 5 * y % x, 3 * r % 12, 255 * x / width]``
+An intermediate value ``r`` is used to avoid division by zero errors.
+
+![8](https://user-images.githubusercontent.com/11094484/114533126-f699e000-9c23-11eb-8343-c617a96e415d.png)
+
+### ``[(a & b) * 2, (a + b) * 2, (a | b) * 2]``
+Two intermediate variables are used, ``a = (x + 1) % (y + 1)`` and ``b = (y + 1) % (x + 1)``
+
+![9](https://user-images.githubusercontent.com/11094484/114533194-06b1bf80-9c24-11eb-846b-d3fdfe7f57ae.png)
+
+### ``[(r * r * 255).to_i, (g * g * 255).to_i, (b * b * 255).to_i]``
+The color wheel uses a little bit more math, with ``PI066 = Math::PI * 2 / 3``, ``a = Math.atan2(y - height / 2, x - width / 2) / 2``, ``r = Math.cos(a)``, ``g = Math.cos(a - PI066)`` and ``b = Math.cos(a + PI066)``.
+
+![Color wheel](https://user-images.githubusercontent.com/11094484/114532564-55128e80-9c23-11eb-8fce-61c6e15a41fb.png)
+
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
