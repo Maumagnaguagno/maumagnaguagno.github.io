@@ -83,11 +83,10 @@ Eventually I am going to populate this page with more algorithms and pretty imag
 
 <script>
 const width = 1024, height = 1024, size = width * height * 4, pi066 = Math.PI * 2 / 3;
+var image = new ImageData(1024, 1024), data = image.data;
+for(var i = 3; i < size; i += 4) data[i] = 255;
 function random() {return Math.floor(Math.random() * 256);}
 function draw(index) {
-  var ctx = document.getElementById('c' + index).getContext("2d");
-  var image = ctx.createImageData(1024, 1024);
-  var data = image.data;
   var x = 0, y = 0;
   for(var i = 0; i < size; i += 4) {
     switch(index) {
@@ -157,13 +156,12 @@ function draw(index) {
       data[i+1] = Math.round(g * g * 255);
       data[i+2] = Math.round(b * b * 255);
     }
-    data[i+3] = 255;
     if(++x == width) {
       ++y;
       x = 0;
     }
   }
-  ctx.putImageData(image, 0, 0);
+  document.getElementById('c' + index).getContext("2d").putImageData(image, 0, 0);
 }
 for(var i = 0; i < 12;) draw(i++);
 </script>
