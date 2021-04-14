@@ -85,15 +85,15 @@ Eventually I am going to populate this page with more algorithms and pretty imag
 const width = 1024, height = 1024, size = width * height * 4, pi066 = Math.PI * 2 / 3;
 var image = new ImageData(1024, 1024), data = image.data;
 for(var i = 3; i < size; i += 4) data[i] = 255;
-function random() {return Math.floor(Math.random() * 256);}
 function draw(index) {
   var x = 0, y = 0;
   for(var i = 0; i < size; i += 4) {
     switch(index) {
     case 0:
-      data[i]   = random();
-      data[i+1] = random();
-      data[i+2] = random();
+      var r = Math.floor(Math.random() * 0xFFFFFF);
+      data[i]   = r >> 16;
+      data[i+1] = (r >> 8) & 0xFF;
+      data[i+2] = r & 0xFF;
       break;
     case 1:
       data[i]   = x * y & 255;
