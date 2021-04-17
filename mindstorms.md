@@ -38,7 +38,7 @@ In order to not be limited to Lego provided programming options, mostly based on
 Due to the lack of inputs and outputs some users extended their robots capabilities with modified hardware, for example with a [multiplexer](https://www.elecbrick.com/mux/).
 You can find out more about the RCX in the following places:
 - [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
-- [The RCX, 19 years later](https://www.johnholbrook.us/edu/RCX_guide.html "written by John Holbrook")
+- [Using the RCX Today](https://www.johnholbrook.us/RCX_guide.html "written by John Holbrook")
 
 ### Scout, MicroScout and VLL
 The RCX is a great introductory robotics kit, but due to cost and programming requirements (which require a computer not at hand for many kids) the RCX is simply too much.
