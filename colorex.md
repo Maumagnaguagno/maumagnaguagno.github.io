@@ -85,105 +85,92 @@ Based on Alien art by [Martin Kleppe](https://twitter.com/aemkei/status/13781067
 
 <canvas id=c12 width=1024 height=1024></canvas>
 
-### [a * 7, a * 22, a * 5]
-An intermediate variable is used, ``a = (x ^ y) % 33``.
-
-<canvas id=c13 width=1024 height=1024></canvas>
-
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
 
 <script>
 const w = 1024, h = 1024, s = w * h * 4, pi066 = Math.PI * 2 / 3;
-var image = new ImageData(w, h), data = image.data;
-for(var i = 3; i < s; i += 4) data[i] = 255;
-function draw(index) {
-  var x = 0, y = 0;
+var img = new ImageData(w, h), d = img.data;
+for(var i = 3; i < s; i += 4) d[i] = 255;
+function draw(c) {
+  var x = 0, y = 0, a, r, g, b;
   for(var i = 0; i < s; i += 4) {
-    switch(index) {
+    switch(c) {
     case 0:
-      var r = Math.floor(Math.random() * 0xFFFFFF);
-      data[i]   = r >> 16;
-      data[i+1] = (r >> 8) & 0xFF;
-      data[i+2] = r & 0xFF;
+      r = Math.floor(Math.random() * 0xFFFFFF);
+      d[i]   = r >> 16;
+      d[i+1] = (r >> 8) & 255;
+      d[i+2] = r & 255;
       break;
     case 1:
-      data[i]   = x * y & 255;
-      data[i+1] = data[i+2] = 0;
+      d[i]   = x * y & 255;
+      d[i+1] = d[i+2] = 0;
       break;
     case 2:
-      data[i]   = x * y & 255;
-      data[i+1] = y & 255;
-      data[i+2] = Math.round(Math.hypot(x,y)) & 255;
+      d[i]   = x * y & 255;
+      d[i+1] = y & 255;
+      d[i+2] = Math.round(Math.hypot(x,y)) & 255;
       break;
     case 3:
-      data[i]   = (x | y) & 255;
-      data[i+1] = x & y & 255;
-      data[i+2] = Math.round(Math.hypot(x,y)) & 255;
+      d[i]   = (x | y) & 255;
+      d[i+1] = x & y & 255;
+      d[i+2] = Math.round(Math.hypot(x,y)) & 255;
       break;
     case 4:
-      data[i]   = x * y & 255;
-      data[i+1] = x & y & 255;
-      data[i+2] = Math.round(Math.hypot(x - w / 2, y - h / 2)) & 255;
+      d[i]   = x * y & 255;
+      d[i+1] = x & y & 255;
+      d[i+2] = Math.round(Math.hypot(x - w / 2, y - h / 2)) & 255;
       break;
     case 5:
-      data[i]   = (y % 2 == 0 ? x & 1 : x) & 255;
-      data[i+1] = x & y & 255;
-      data[i+2] = x * y & 255;
+      d[i]   = (y % 2 == 0 ? x & 1 : x) & 255;
+      d[i+1] = x & y & 255;
+      d[i+2] = x * y & 255;
       break;
     case 6:
-      data[i]   = (x | y) & 255;
-      data[i+1] = (x & ~y) & 255;
-      data[i+2] = (~x & y) & 255;
+      d[i]   = (x | y) & 255;
+      d[i+1] = (x & ~y) & 255;
+      d[i+2] = (~x & y) & 255;
       break;
     case 7:
-      data[i]   = 5 * y & 255;
-      data[i+1] = 15 * y & 255;
-      data[i+2] = 255 * x / w;
+      d[i]   = 5 * y & 255;
+      d[i+1] = 15 * y & 255;
+      d[i+2] = 255 * x / w;
       break;
     case 8:
-      var r;
-      data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
-      data[i+1] = 3 * r & 255;
-      data[i+2] = 255 * x / w;
+      d[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
+      d[i+1] = 3 * r & 255;
+      d[i+2] = 255 * x / w;
       break;
     case 9:
-      var r;
-      data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
-      data[i+1] = 3 * r % 12;
-      data[i+2] = 255 * x / w;
+      d[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
+      d[i+1] = 3 * r % 12;
+      d[i+2] = 255 * x / w;
       break;
     case 10:
-      var a = (x + 1) % (y + 1), b = (y + 1) % (x + 1);
-      data[i]   = (a & b) * 2 & 255;
-      data[i+1] = (a + b) * 2 & 255;
-      data[i+2] = (a | b) * 2 & 255;
+      a = (x + 1) % (y + 1); b = (y + 1) % (x + 1);
+      d[i]   = (a & b) * 2 & 255;
+      d[i+1] = (a + b) * 2 & 255;
+      d[i+2] = (a | b) * 2 & 255;
       break;
     case 11:
-      var a = Math.atan2(y - h / 2, x - w / 2) / 2;
-      var r = Math.cos(a);
-      var g = Math.cos(a - pi066);
-      var b = Math.cos(a + pi066);
-      data[i]   = Math.round(r * r * 255);
-      data[i+1] = Math.round(g * g * 255);
-      data[i+2] = Math.round(b * b * 255);
+      a = Math.atan2(y - h / 2, x - w / 2) / 2;
+      r = Math.cos(a);
+      g = Math.cos(a - pi066);
+      b = Math.cos(a + pi066);
+      d[i]   = Math.round(r * r * 255);
+      d[i+1] = Math.round(g * g * 255);
+      d[i+2] = Math.round(b * b * 255);
       break;
     case 12:
-      data[i]   = (((x ^ y) % 9) & 8) * 31;
-      data[i+1] = (x ^ y) % 5 * 22;
-      data[i+2] = 0;
-      break;
-    case 13:
-      var a = (x ^ y) % 33;
-      data[i] = a * 7;
-      data[i+1] = a * 22;
-      data[i+2] = a * 5;
+      d[i]   = (((x ^ y) % 9) & 8) * 31;
+      d[i+1] = (x ^ y) % 5 * 22;
+      d[i+2] = 0;
     }
     if(++x == w) {
       ++y;
       x = 0;
     }
   }
-  document.getElementById('c' + index).getContext("2d").putImageData(image, 0, 0);
+  document.getElementById('c' + c).getContext("2d").putImageData(img, 0, 0);
 }
-for(var i = 0; i < 14;) draw(i++);
+for(var i = 0; i < 13;) draw(i++);
 </script>
