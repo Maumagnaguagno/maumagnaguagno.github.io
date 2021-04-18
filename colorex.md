@@ -40,6 +40,7 @@ The green channel varies according to Y while the circular effect is created by 
 <canvas id=c2 width=1024 height=1024></canvas>
 
 ### [x | y, x & y, Math.hypot(x,y).round]
+Aparently I rediscovered [Munching squares](https://en.wikipedia.org/wiki/Munching_square).
 
 <canvas id=c3 width=1024 height=1024></canvas>
 
@@ -60,12 +61,12 @@ The green channel varies according to Y while the circular effect is created by 
 <canvas id=c7 width=1024 height=1024></canvas>
 
 ### [r = x == 0 ? 0 : 5 * y % x, 3 * r, 255 * x / width]
-An intermediate value ``r`` is used to avoid division by zero errors.
+An intermediate variable ``r`` is used to avoid division by zero errors.
 
 <canvas id=c8 width=1024 height=1024></canvas>
 
-### [r = x.zero? ? 0 : 5 * y % x, 3 * r % 12, 255 * x / width]
-An intermediate value ``r`` is used to avoid division by zero errors.
+### [r = x == 0 ? 0 : 5 * y % x, 3 * r % 12, 255 * x / width]
+An intermediate variable ``r`` is used to avoid division by zero errors.
 
 <canvas id=c9 width=1024 height=1024></canvas>
 
@@ -79,15 +80,25 @@ The color wheel uses a little bit more math, with ``PI066 = Math::PI * 2 / 3``, 
 
 <canvas id=c11 width=1024 height=1024></canvas>
 
+### [(((x ^ y) % 9) & 8) * 31, (x ^ y) % 5 * 22, 0]
+Based on Alien art by [Martin Kleppe](https://twitter.com/aemkei/status/1378106731386040322).
+
+<canvas id=c12 width=1024 height=1024></canvas>
+
+### [a * 7, a * 22, a * 5]
+An intermediate variable is used, ``a = (x ^ y) % 33``.
+
+<canvas id=c13 width=1024 height=1024></canvas>
+
 Eventually I am going to populate this page with more algorithms and pretty images, stay tuned.
 
 <script>
-const width = 1024, height = 1024, size = width * height * 4, pi066 = Math.PI * 2 / 3;
-var image = new ImageData(1024, 1024), data = image.data;
-for(var i = 3; i < size; i += 4) data[i] = 255;
+const w = 1024, h = 1024, s = w * h * 4, pi066 = Math.PI * 2 / 3;
+var image = new ImageData(w, h), data = image.data;
+for(var i = 3; i < s; i += 4) data[i] = 255;
 function draw(index) {
   var x = 0, y = 0;
-  for(var i = 0; i < size; i += 4) {
+  for(var i = 0; i < s; i += 4) {
     switch(index) {
     case 0:
       var r = Math.floor(Math.random() * 0xFFFFFF);
@@ -112,7 +123,7 @@ function draw(index) {
     case 4:
       data[i]   = x * y & 255;
       data[i+1] = x & y & 255;
-      data[i+2] = Math.round(Math.hypot(x - width / 2, y - height / 2)) & 255;
+      data[i+2] = Math.round(Math.hypot(x - w / 2, y - h / 2)) & 255;
       break;
     case 5:
       data[i]   = (y % 2 == 0 ? x & 1 : x) & 255;
@@ -127,19 +138,19 @@ function draw(index) {
     case 7:
       data[i]   = 5 * y & 255;
       data[i+1] = 15 * y & 255;
-      data[i+2] = 255 * x / width;
+      data[i+2] = 255 * x / w;
       break;
     case 8:
       var r;
       data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
       data[i+1] = 3 * r & 255;
-      data[i+2] = 255 * x / width;
+      data[i+2] = 255 * x / w;
       break;
     case 9:
       var r;
       data[i]   = r = x == 0 ? 0 : 5 * y % x & 255;
       data[i+1] = 3 * r % 12;
-      data[i+2] = 255 * x / width;
+      data[i+2] = 255 * x / w;
       break;
     case 10:
       var a = (x + 1) % (y + 1), b = (y + 1) % (x + 1);
@@ -148,20 +159,31 @@ function draw(index) {
       data[i+2] = (a | b) * 2 & 255;
       break;
     case 11:
-      var a = Math.atan2(y - height / 2, x - width / 2) / 2;
+      var a = Math.atan2(y - h / 2, x - w / 2) / 2;
       var r = Math.cos(a);
       var g = Math.cos(a - pi066);
       var b = Math.cos(a + pi066);
       data[i]   = Math.round(r * r * 255);
       data[i+1] = Math.round(g * g * 255);
       data[i+2] = Math.round(b * b * 255);
+      break;
+    case 12:
+      data[i]   = (((x ^ y) % 9) & 8) * 31;
+      data[i+1] = (x ^ y) % 5 * 22;
+      data[i+2] = 0;
+      break;
+    case 13:
+      var a = (x ^ y) % 33;
+      data[i] = a * 7;
+      data[i+1] = a * 22;
+      data[i+2] = a * 5;
     }
-    if(++x == width) {
+    if(++x == w) {
       ++y;
       x = 0;
     }
   }
   document.getElementById('c' + index).getContext("2d").putImageData(image, 0, 0);
 }
-for(var i = 0; i < 12;) draw(i++);
+for(var i = 0; i < 14;) draw(i++);
 </script>
