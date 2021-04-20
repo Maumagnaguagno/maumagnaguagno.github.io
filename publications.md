@@ -26,11 +26,20 @@ hidden: true
 {% raw %}
 
 ```bibtex
-@misc{vallati2020knowledge,
+@article{,
+  title={{HyperTensioN - A three-stage compiler for planning}},
+  author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
+  year={2021}
+}
+```
+
+```bibtex
+@book{vallati2020knowledge,
   title={Knowledge Engineering Tools and Techniques for AI Planning},
   author={Vallati, Mauro and Kitchin, Diane},
   year={2020},
-  publisher={Springer}
+  publisher={Springer},
+  numpages={285}
 }
 ```
 
@@ -49,7 +58,8 @@ hidden: true
   title={{HTN Planning with Semantic Attachments}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   booktitle={Workshop on Hierarchical Planning},
-  year={2019}
+  year={2019},
+  pages={15--21}
 }
 ```
 
@@ -75,11 +85,11 @@ hidden: true
 ```
 
 ```bibtex
-@article{magnaguagno2017method,
+@inproceedings{magnaguagno2017method,
   title={Method Composition through Operator Pattern Identification},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
-  journal={KEPS 2017},
-  pages={54},
+  journal={Workshop on Knowledge Engineering for Planning and Scheduling, KEPS},
+  pages={54--61},
   year={2017}
 }
 ```
@@ -125,10 +135,10 @@ hidden: true
 ```
 
 ```bibtex
-@article{pereira2015locus,
+@inproceedings{pereira2015locus,
   title={{LOCUS: An Environment Description Language for JASON}},
   author={Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Heinsfeld, Anibal S{\'o}lon and Meneguzzi, Felipe},
-  journal={The 9th Software Agents, Environments and Applications School (WESAAC)},
+  booktitle={The 9th Software Agents, Environments and Applications School (WESAAC)},
   year={2015}
 }
 ```
