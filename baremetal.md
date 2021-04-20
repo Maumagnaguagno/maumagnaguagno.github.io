@@ -46,7 +46,7 @@ Here we will focus on the Arduino/AVR microcontrollers due to their low-cost, av
 To compile and flash a project outside an IDE one needs to execute separate tools in a specific order.
 These tedious command sequences can be accomplished by a Makefile.
 The Makefile can be used with ``make`` or ``make all`` to compile the project, ``make flash`` to program the microcontroller and ``make clean`` to remove generated files.
-The following is my Makefile, based on [Florent Flament's post](https://www.florentflament.com/blog/arduino-hello-world-without-ide.html).
+The following is my Makefile, based on [Florent Flament's post](http://www.florentflament.com/blog/arduino-hello-world-without-ide.html).
 
 ```makefile
 TARGET = main
