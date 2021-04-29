@@ -5,6 +5,7 @@ hidden: true
 ---
 
 # Publications
+- [HyperTensioN: A three-stage compiler for planning](http://www.meneguzzi.eu/felipe/pubs/ipc-hypertension-2021.pdf) - IPC paper 2020/2021
 - [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
 - [Semantic Attachments for HTN Planning](http://www.meneguzzi.eu/felipe/pubs/aaai-htn-semantic-attachments-2020.pdf) - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
@@ -26,8 +27,8 @@ hidden: true
 {% raw %}
 
 ```bibtex
-@article{,
-  title={{HyperTensioN - A three-stage compiler for planning}},
+@article{
+  title={{HyperTensioN: A three-stage compiler for planning}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
   year={2021}
 }
