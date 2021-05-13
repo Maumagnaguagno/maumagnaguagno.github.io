@@ -8,20 +8,20 @@ hidden: true
 - [HyperTensioN: A three-stage compiler for planning](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=14) - IPC paper 2021
 - [Snake Domain for HTN IPC 2020](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=43) - IPC paper 2021
 - [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
-- [Semantic Attachments for HTN Planning](http://www.meneguzzi.eu/felipe/pubs/aaai-htn-semantic-attachments-2020.pdf) - AAAI 2020
+- [Semantic Attachments for HTN Planning](https://www.meneguzzi.eu/felipe/pubs/aaai-htn-semantic-attachments-2020.pdf) - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
-- [Develop, Visualize and Test Classical Planning descriptions in your browser](http://www.meneguzzi.eu/felipe/pubs/icaps-webplan-demo-2019.pdf) - DEMO ICAPS 2019
-- [LatRec: Recognizing Goals in Latent Space](http://www.meneguzzi.eu/felipe/pubs/icaps-latrec-demo-2019.pdf) - DEMO ICAPS 2019
-- [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
+- [Develop, Visualize and Test Classical Planning descriptions in your browser](https://www.meneguzzi.eu/felipe/pubs/icaps-webplan-demo-2019.pdf) - DEMO ICAPS 2019
+- [LatRec: Recognizing Goals in Latent Space](https://www.meneguzzi.eu/felipe/pubs/icaps-latrec-demo-2019.pdf) - DEMO ICAPS 2019
+- [Online Goal Recognition as Reasoning over Landmarks](http://www.planrec.org/PAIR/PAIR18/Papers/VeredPair18.pdf) - AAAI/PAIR 2018
 - [Team PUCRS: a Decentralised Multi-Agent Solution for the Agents in the City Scenario](https://www.meneguzzi.eu/felipe/pubs/ijaose-mapc-2017.pdf) - IJAOSE 2018
-- [Method Composition through Operator Pattern Identification](http://icaps17.icaps-conference.org/workshops/KEPS/proceedingsKEPS.pdf#page=57) - ICAPS/KEPS 2017
-- [WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search](http://icaps17.icaps-conference.org/workshops/UISP/uisp17proceedings.pdf#page=36) - ICAPS/UISP 2017
+- [Method Composition through Operator Pattern Identification](https://icaps17.icaps-conference.org/workshops/KEPS/proceedingsKEPS.pdf#page=57) - ICAPS/KEPS 2017
+- [WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search](https://icaps17.icaps-conference.org/workshops/UISP/uisp17proceedings.pdf#page=36) - ICAPS/UISP 2017
 - [Online Goal Recognition Combining Landmarks and Planning](http://makro.ink/ijcai2017grw/ijcai2017grw_papers.zip "paper_2") - IJCAI/GRW 2017
-- [BioPlan: Classical Planning with Crowd simulation](http://www.seer.ufrgs.br/index.php/jis/article/viewFile/56149/43687) - SBC JIS 2017
+- [BioPlan: Classical Planning with Crowd simulation](https://www.seer.ufrgs.br/index.php/jis/article/viewFile/56149/43687) - SBC JIS 2017
 - [DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS16/paper/viewFile/12966/12544) - FLAIRS 2016
 - [LOCUS: An environment description language for JASON](http://www2.ic.uff.br/~wesaac2015/Proceedings-WESAAC-2015.pdf#page=27) - WESAAC 2015
 - [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
-- [A generic FPGA emulation framework](http://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
+- [A generic FPGA emulation framework](https://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
 
 <details markdown=1>
 <summary>Bibtex</summary>

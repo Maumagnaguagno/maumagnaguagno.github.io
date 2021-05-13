@@ -9,7 +9,7 @@ category: planning
 After years of planning research many planners were developed, each with a different input format, creating planners hard to compare.
 The planning community had no reason to use a common input format, there was no well defined formalism (only [STRIPS](https://en.wikipedia.org/wiki/STRIPS)-like).
 The planning community focus was on fast/correct planners, not compatible ones.
-[ICAPS](http://www.icaps-conference.org/) forced a standard description by setting a [competition](http://icaps-conference.org/index.php/main/competitions) were researchers could publish their approaches.
+[ICAPS](https://www.icaps-conference.org/) forced a standard description by setting a [competition](https://www.icaps-conference.org/competitions/) were researchers could publish their approaches.
 Such standard description was [PDDL 1.2 from 98](https://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf).
 This forced the planning community to share language, limitations and benchmarks.
 Planners that required more than what PDDL could express were forgotten or added new features to PDDL.
