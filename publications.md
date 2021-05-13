@@ -5,7 +5,8 @@ hidden: true
 ---
 
 # Publications
-- [HyperTensioN: A three-stage compiler for planning](http://www.meneguzzi.eu/felipe/pubs/ipc-hypertension-2021.pdf) - IPC paper 2020/2021
+- [HyperTensioN: A three-stage compiler for planning](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=14) - IPC paper 2021
+- [Snake Domain for HTN IPC 2020](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=43) - IPC paper 2021
 - [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
 - [Semantic Attachments for HTN Planning](http://www.meneguzzi.eu/felipe/pubs/aaai-htn-semantic-attachments-2020.pdf) - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
@@ -18,8 +19,8 @@ hidden: true
 - [Online Goal Recognition Combining Landmarks and Planning](http://makro.ink/ijcai2017grw/ijcai2017grw_papers.zip "paper_2") - IJCAI/GRW 2017
 - [BioPlan: Classical Planning with Crowd simulation](http://www.seer.ufrgs.br/index.php/jis/article/viewFile/56149/43687) - SBC JIS 2017
 - [DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS16/paper/viewFile/12966/12544) - FLAIRS 2016
-- [LOCUS: An environment description language for JASON](https://www.meneguzzi.eu/felipe/pubs/wesaac-locus-2015.pdf) - WESAAC 2015
-- [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/files/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
+- [LOCUS: An environment description language for JASON](http://www2.ic.uff.br/~wesaac2015/Proceedings-WESAAC-2015.pdf#page=27) - WESAAC 2015
+- [BioPlan: An API for Classical Planning on BioCrowds](https://www.sbgames.org/sbgames2014/papers/computing/full/102-computingfullpages.pdf) - SBGAMES 2014
 - [A generic FPGA emulation framework](http://ieeexplore.ieee.org/document/6463758/) - ICECS 2012
 
 <details markdown=1>
@@ -27,10 +28,22 @@ hidden: true
 {% raw %}
 
 ```bibtex
-@article{
+@inproceedings{Magnaguagno2021HyperTensioN,
   title={{HyperTensioN: A three-stage compiler for planning}},
-  author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
-  year={2021}
+  author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
+  booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
+  year={2021},
+  pages={5--8}
+}
+```
+
+```bibtex
+@inproceedings{Magnaguagno2021Snake,
+  title={{Snake Domain for HTN IPC 2020}},
+  author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio},
+  booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
+  year={2021},
+  pages={34--35}
 }
 ```
 
