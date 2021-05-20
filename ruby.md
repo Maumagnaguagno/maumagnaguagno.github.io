@@ -310,10 +310,10 @@ Consider replacing ``element`` with a complex formula without this construction,
 Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
 
 ## More Ruby snippets:
-{% assign bigbinary = "https://blog.bigbinary.com/categories/Ruby-" %}
+{% assign bigbinary = "https://bigbinary.com/blog/categories/Ruby-" %}
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](https://www.rubocop.org) to enforce a style to your project
 - [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby) is a collection of fast Ruby idioms
-- BigBinary's blog has a series of posts about Ruby [2.4]({{ bigbinary }}2-4), [2.5]({{ bigbinary }}2-5), [2.6]({{ bigbinary }}2-6) and [2.7]({{ bigbinary }}2-7)
+- BigBinary's blog has a series of posts about Ruby [2.4]({{ bigbinary }}2-4), [2.5]({{ bigbinary }}2-5), [2.6]({{ bigbinary }}2-6), [2.7]({{ bigbinary }}2-7), [3.0]({{ bigbinary }}3) and [3.1]({{ bigbinary }}3-1)
 - [Ruby performance tricks](https://www.greyblake.com/blog/2012-09-01-ruby-perfomance-tricks/) and [Unexpected Ruby behaviour](https://www.greyblake.com/blog/2012-08-10-unexpected-ruby-behaviour/) by Sergey Potapov
