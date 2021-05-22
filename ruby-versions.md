@@ -21,6 +21,7 @@ This is a reminder of how Ruby evolved through time.
 [2.6](#26) | 2018-12-25 | TBA            | TBA
 [2.7](#27) | 2019-12-25 | TBA            | TBA
 [3.0](#30) | 2020-12-25 | TBA            | TBA
+[3.1](#31) | 2021-12-25 | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -119,3 +120,6 @@ This is a reminder of how Ruby evolved through time.
 - Experimental Ractors
 - Experimental endless method definition ``def square(x) = x * x`` [#16746]({{ issue }}16746)
 - ``Hash#except`` [#15822]({{ issue }}15822)
+
+## 3.1
+- ``Array#intersect?`` [#15198]({{ issue }}15198)
