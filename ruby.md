@@ -273,6 +273,19 @@ class MyObject
 end
 ```
 
+## Truly unique
+Some objects are truly unique in memory, which means you can avoid comparing data and only compare pointers.
+
+```ruby
+a = ['Ana', 1, ...]
+b = ['Bob', 2, ...]
+group1 = [a, b, ...]
+group2 = [b, ...]
+group1.concat(group2)
+group1.uniq! # Slow, requires elements to be hashed
+group1.uniq!(&:object_id) # Faster
+```
+
 ## Float division
 Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` can do that for you, ``a.fdiv(b)``.
 This is useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
