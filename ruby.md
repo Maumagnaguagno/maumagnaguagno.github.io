@@ -323,7 +323,7 @@ Consider replacing ``element`` with a complex formula without this construction,
 Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
 
 ## More Ruby snippets:
-{% assign bigbinary = "https://bigbinary.com/blog/categories/Ruby-" %}
+{% assign bigbinary = "https://bigbinary.com/blog/categories/ruby-" %}
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
 - [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/) to learn about inconsistencies
 - [RuboCop](https://www.rubocop.org) to enforce a style to your project
