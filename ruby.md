@@ -67,6 +67,7 @@ b = a.drop(1) #=> [1, 2], a = [1, 2, 3]
 
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
+Splatting large arrays may trigger an stack error.
 
 ```ruby
 [1, *[2, 3]] #=> [1, 2, 3]
@@ -87,7 +88,7 @@ p *GC.stat
 a = *'str' #=> ['str']
 ```
 
-## Custom-implicit Splat
+## Custom-implicit splat
 Define ``to_ary`` to splat any instance.
 
 ```ruby
