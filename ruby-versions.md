@@ -122,4 +122,5 @@ This is a reminder of how Ruby evolved through time.
 - ``Hash#except`` [#15822]({{ issue }}15822)
 
 ## 3.1
+- YJIT: New experimental in-process JIT compiler [#18229]({{ issue }}18229)
 - ``Array#intersect?`` [#15198]({{ issue }}15198)
