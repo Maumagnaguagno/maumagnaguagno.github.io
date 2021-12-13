@@ -124,3 +124,8 @@ This is a reminder of how Ruby evolved through time.
 ## 3.1
 - YJIT: New experimental in-process JIT compiler [#18229]({{ issue }}18229)
 - ``Array#intersect?`` [#15198]({{ issue }}15198)
+- Anonymous block argument ``def foo(&) bar(&) end`` [#11256]({{ issue }}11256)
+- Omit values in Hash literals and keyword arguments [#14579]({{ issue }}14579)
+
+## More Information
+- [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
