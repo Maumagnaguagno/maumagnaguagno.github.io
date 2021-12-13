@@ -43,6 +43,7 @@ puts first until first = a.shift
 ## Side-effects
 Sometimes parentheses can make all the difference in the evaluation of an expression.
 The following examples show how you can obtain the last element of a list and a list without its last element, with or without side-effects.
+New [value omission feature](https://zverok.github.io/blog/2021-12-08-value-omission-debug.html) from Ruby 3.1 also requires parentheses to avoid unexpected behavior.
 
 <div class=split markdown=1>
 
@@ -288,7 +289,7 @@ group1.uniq!(&:object_id) # Faster
 ```
 
 ## Float division
-Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` can do that for you, ``a.fdiv(b)``.
+Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` exists, ``a.fdiv(b)``.
 This is useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
 
 ## Range max or last element
@@ -320,8 +321,10 @@ b.exclude_end?    #=> true
 Every Ruby code block returns a value, from a class or method definition to a method call or if/case statement.
 Which means you can do ``a.each {}.clear`` instead of ``a.each {}; a.clear``, or assign the return value of method calls from case statements, such as ``a = case b; when ...; end.method``.
 One interesting construction is to select which array to append an element ``(use_a ? array_a : array_b) << element``.
-Consider replacing ``element`` with a complex formula without this construction, one would repeat the formula for each branch or use a variable before the condition is evaluated.
+Consider replacing ``element`` with a complex formula without this construction, it would require repeating the formula for each branch or a temporary variable before the condition is evaluated.
 Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
+
+Going a little further one can even return from unexpected places, such as ``var = (foo || bar || return).uniq``, you could even raise an exception instead of returning.
 
 ## More Ruby snippets:
 {% assign bigbinary = "https://bigbinary.com/blog/categories/ruby-" %}
