@@ -118,11 +118,12 @@ int main(void)
 The most common usage of a microcontroller is to observe and control the state of pins.
 The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation):
 - ``DDRx`` controls which pins are used to read or write, set by ``pinMode``
-- ``PORTx`` stores the value of each pin, used by ``digitalRead`` and ``digitalWrite``
+- ``PORTx`` stores the value of each pin, used by ``digitalWrite``
+- ``PINx`` reads/toggles current state, used by ``digitalRead``
 
 Arduino abstracts pin numbering with ``pinMode`` and ``digitalRead/Write``, but the problem lies in the implementation.
-A look-up table is used to resolve pins at run-time, with a few extra security checks, which consumes processing time and memory.
-Variations of such functions can identify port and pin at compile-time to obtain the same result faster.
+A look-up table is used to resolve pins at run-time, with a few extra checks to disable PWM and invalid pins, which consumes processing time and memory.
+Variations of such functions can identify port and pin at compile-time to achieve the same result faster.
 This is specially useful with protocols that transmit a lot of data, such as the ones in displays, or responsive sensors for hazard applications.
 
 <div class=split markdown=1>
@@ -174,6 +175,54 @@ OUTPUT       | 1    | unchanged
 
 This behaviour may not be valid to certain boards, as different vendors may support Arduino functions in their hardware while supplying incompatible implementations of ``pinMode``.
 Even if the implementation is equal there is a chance only the OUTPUT pins are set, as Arduino starts all pins as INPUTs, something to keep in mind while porting projects.
+
+## Fast toggle
+If you wanted to change the state of a pin, usually twice, to send a rising or falling edge trigger signal you would probably use ``digitalRead`` and ``digitalWrite``.
+However, if you are certain about the state of such pin, you could skip ``digitalRead`` and use two calls to ``digitalWrite``.
+Such calls to ``digitalWrite`` can be replaced by ``PORTx`` operations. but they can also be replaced by ``PINx``.
+Faster toggling can be performed by writing a 1 to the bit in the ``PINx`` register instead of reading and writing the ``PORTx`` bit.
+Note that ``PINx = 1 << Px`` generates a ``ldi out`` pair of instructions, loading and writing a register, while ``PINx |= 1 << Px`` generates a single ``sbi`` to set a bit in a register.
+Both options consume 2 clock cycles, but the ``ldi`` can happen before a loop, trading an extra instruction (space) for a cycle (time).
+Applying this knowledge you can avoid the double call to ``delay``, just toggle one per loop and use the smaller ``_delay_ms``.
+The difference here is over 900 bytes for Arduino to 156 bytes in C, with a much faster code to [bit-bang](https://en.wikipedia.org/wiki/Bit_banging).
+
+<div class=split markdown=1>
+
+### Arduino
+```c
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+}
+```
+
+</div>
+<div class=split markdown=1>
+
+### C
+```c
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main(void)
+{
+  DDRB |= 1 << PB5;
+loop:
+  PINB |= 1 << PB5;
+  _delay_ms(1000);
+  goto loop;
+}
+```
+
+</div>
 
 ## Barrel shifter
 Little microcontrollers may lack not only hardware division, but the useful [barrel shifter](https://en.wikipedia.org/wiki/Barrel_shifter).
