@@ -232,8 +232,7 @@ An idea to improve performance without using a better compiler is to avoid shift
 
 To test the leftmost bit avoid ``if(n >> 7)``, use the equivalent ``if(n & 0x80)``.
 Such single bit tests are actually available as instructions.
-When in need of just the upper 4 bits it is possible to avoid the shift loop with the swap instruction.
-The swap instruction returns ``(n << 4) | (n >> 4)`` for an ``n`` register, which means no loop, just a swap and a ``0xF`` mask.
+When in need of the upper 4 bits it is also possible to avoid a shift loop with the swap instruction, which flips the nibbles as in ``(n << 4) | (n >> 4)``, and a ``0xF`` mask.
 
 Divide or multiply by 256 a 16 bit integer is free, as the result is already in upper byte.
 For example, to avoid division by 10 one can multiply by 26 and divide by 256, which works for small integers and may be applicable to certain projects, as it was in [Aorist](https://github.com/Maumagnaguagno/Aorist).
