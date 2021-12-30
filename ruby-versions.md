@@ -94,7 +94,6 @@ This is a reminder of how Ruby evolved through time.
 ## 2.6
 - Initial implementation of a JIT compiler [#14235]({{ issue }}14235)
   - [MJIT: A Method Based Just-in-time Compiler for Ruby](https://blog.heroku.com/ruby-mjit)
-- Flip-flop syntax is deprecated [#5400]({{ issue }}5400)
 - Endless Ranges ``(1..)`` and ``(1...)`` [#12912]({{ issue }}12912)
 - ``Array#union/difference`` [#14097]({{ issue }}14097)
 - ``Dir#each_child/children`` [#13969]({{ issue }}13969)
