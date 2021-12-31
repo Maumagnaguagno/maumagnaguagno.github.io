@@ -22,6 +22,7 @@ This is a reminder of how Ruby evolved through time.
 [2.7](#27) | 2019-12-25 | TBA            | TBA
 [3.0](#30) | 2020-12-25 | TBA            | TBA
 [3.1](#31) | 2021-12-25 | TBA            | TBA
+[3.2](#32) | 2022-12-25 | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -125,6 +126,11 @@ This is a reminder of how Ruby evolved through time.
 - ``Array#intersect?`` [#15198]({{ issue }}15198)
 - Anonymous block argument ``def foo(&) bar(&) end`` [#11256]({{ issue }}11256)
 - Omit values in Hash literals and keyword arguments [#14579]({{ issue }}14579)
+
+## 3.2
+- Anonymous rest and keyword rest arguments [#18351]({{ issue }}18351)
+  - ``def foo(*) bar(*) end``
+  - ``def baz(**) quux(**) end``
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
