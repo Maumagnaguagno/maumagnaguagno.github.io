@@ -190,12 +190,12 @@ The difference here is over 900 bytes for Arduino to 156 bytes in C, with a much
 
 ### Arduino
 ```c
-void setup()
+void setup(void)
 {
   pinMode(13, OUTPUT);
 }
 
-void loop()
+void loop(void)
 {
   digitalWrite(13, HIGH);
   delay(1000);
