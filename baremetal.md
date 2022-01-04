@@ -132,15 +132,15 @@ This is specially useful with protocols that transmit a lot of data, such as the
 ```c
 void setup(void)
 {
-  pinMode(D2, INPUT);
-  pinMode(D3, OUTPUT);
+  pinMode(2, INPUT);
+  pinMode(3, OUTPUT);
 }
 
 void loop(void)
 {
-  int v = digitalRead(D2);
-  digitalWrite(D3, HIGH);
-  digitalWrite(D3, LOW);
+  char v = digitalRead(2);
+  digitalWrite(3, HIGH);
+  digitalWrite(3, LOW);
 }
 ```
 
@@ -157,7 +157,7 @@ void setup(void)
 
 void loop(void)
 {
-  int v = (PIND >> PD2) & 1;
+  char v = (PIND >> PD2) & 1;
   PORTD |= 1 << PD3;
   PORTD &= ~(1 << PD3);
 }
@@ -192,14 +192,14 @@ The difference here is over 900 bytes for Arduino to 156 bytes in C, with a much
 ```c
 void setup(void)
 {
-  pinMode(13, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop(void)
 {
-  digitalWrite(13, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(1000);
 }
 ```
