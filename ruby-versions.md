@@ -107,7 +107,6 @@ This is a reminder of how Ruby evolved through time.
 ## 2.7
 - Experimental numbered parameter [#4475]({{ issue }}4475)
 - Experimental pattern matching [#14912]({{ issue }}14912)
-- Method reference operator ``.:`` [#12125]({{ issue }}12125)
 - Beginless Ranges ``(..1)`` and ``(...1)`` [#14799]({{ issue }}14799)
 - ``Enumerable#tally`` [#11076]({{ issue }}11076)
 - ``Integer#[]`` now supports range operation [#8842]({{ issue }}8842)
