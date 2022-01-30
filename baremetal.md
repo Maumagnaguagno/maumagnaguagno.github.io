@@ -234,7 +234,7 @@ To test the leftmost bit avoid ``if(n >> 7)``, use the equivalent ``if(n & 0x80)
 Such single bit tests are actually available as instructions.
 When in need of the upper 4 bits it is also possible to avoid a shift loop with the swap instruction, which flips the nibbles as in ``(n << 4) | (n >> 4)``, and a ``0xF`` mask.
 
-Divide or multiply by 256 a 16 bit integer is free, as the result is already in upper byte.
+Divide or multiply by 256 a 16 bit integer is free, as the result is already in a byte.
 For example, to avoid division by 10 one can multiply by 26 and divide by 256, which works for small integers and may be applicable to certain projects, as it was in [Aorist](https://github.com/Maumagnaguagno/Aorist).
 This results in a single multiplication instruction, ignoring the least significant byte.
-Remember to limit shifts to 1, 4 and 8 amounts to take advantage of the available instructions.
+Remember to limit shifts to 1, 4 and 8 bits to take advantage of the available instructions.
