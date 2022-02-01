@@ -89,8 +89,7 @@ Eventually I am going to populate this page with more algorithms and pretty imag
 
 <script>
 const w = 1024, h = 1024, s = w * h * 4, pi066 = Math.PI * 2 / 3;
-var img = new ImageData(w, h), d = img.data;
-for(var i = 3; i < s; i += 4) d[i] = 255;
+var img = new ImageData(w, h), d = img.data.fill(255);
 function draw(c) {
   var x = 0, y = 0, a, r, g, b;
   for(var i = 0; i < s; i += 4) {
