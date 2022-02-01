@@ -289,7 +289,7 @@ group1.uniq!(&:object_id) # Faster
 ```
 
 ## Float division
-Instead of forcing values to Float before division to output another Float, ``a.to_f / b``, remember that ``fdiv`` exists, ``a.fdiv(b)``.
+Instead of forcing Integers to Float to obtain Float output from division, ``a.to_f / b``, remember that ``fdiv`` exists, ``a.fdiv(b)``.
 This is useful if values must conform to mathematics/physics formulas where integer division rules from programming are nonexistent.
 
 ## Range max or last element
