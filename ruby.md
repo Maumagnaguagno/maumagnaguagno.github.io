@@ -40,6 +40,14 @@ puts first until first = a.shift
 
 </div>
 
+Note that there is the short-circuit style, in which the conditional is implicit.
+
+```ruby
+a = value and method(a)
+a = value and a.method2
+a&.method2 # Safe navigation operator
+```
+
 ## Side-effects
 Sometimes parentheses can make all the difference in the evaluation of an expression.
 The following examples show how you can obtain the last element of a list and a list without its last element, with or without side-effects.
@@ -68,7 +76,7 @@ b = a.drop(1) #=> [1, 2], a = [1, 2, 3]
 
 ## Splat operator
 Exploit arrays with the ``*`` splat operator, an asterisk prefix to expand content from an inner container to an outer container at the same position.
-Splatting large arrays may trigger stack errors.
+Prefer splatting small arrays, large arrays may trigger stack errors.
 
 ```ruby
 [1, *[2, 3]] #=> [1, 2, 3]
@@ -120,6 +128,9 @@ array.each {|(a,b),(c,d)| p [a, b, c, d]}               # Prints [1, 2, 3, 4]
 # Splat with index
 array = [['a', 'b'], ['c', 'd']]
 array.each_with_index {|(a,b),i| p [i, a, b]} # Prints [0, "a", "b"] [1, "c", "d"]
+
+# Splat with only the variable you want
+array.each {|a,| p a} # Prints "a" "c"
 ```
 
 ## Pointer unification
