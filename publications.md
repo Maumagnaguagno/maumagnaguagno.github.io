@@ -29,7 +29,19 @@ hidden: true
 {% raw %}
 
 ```bibtex
-@inproceedings{Magnaguagno2021HyperTensioN,
+@misc{magnaguagno2022HyperTensioN,
+  title={{HyperTensioN and Total-order Forward Decomposition optimizations}},
+  author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
+  year={2022},
+  publisher={arXiv},
+  doi={10.48550/ARXIV.2207.00345},
+  url={https://arxiv.org/abs/2207.00345},
+  copyright={arXiv.org perpetual, non-exclusive license}
+}
+```
+
+```bibtex
+@inproceedings{magnaguagno2021HyperTensioN,
   title={{HyperTensioN: A three-stage compiler for planning}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
   booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
@@ -39,7 +51,7 @@ hidden: true
 ```
 
 ```bibtex
-@inproceedings{Magnaguagno2021Snake,
+@inproceedings{magnaguagno2021Snake,
   title={{Snake Domain for HTN IPC 2020}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio},
   booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
@@ -110,7 +122,7 @@ hidden: true
 ```
 
 ```bibtex
-@inproceedings{magnaguagno2017web,
+@inproceedings{magnaguagno2017webplanner,
   title={{WEB PLANNER: A tool to develop classical planning domains and visualize heuristic state-space search}},
   author={Magnaguagno, Maur{\'i}cio C. and Pereira, Ramon Fraga and M{\'o}re, Martin D. and Meneguzzi, Felipe},
   booktitle={Proceedings of the Workshop on User Interfaces and Scheduling and Planning, UISP},
