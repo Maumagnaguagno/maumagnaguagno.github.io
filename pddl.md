@@ -172,4 +172,4 @@ To simplify this process I created a [repository](https://github.com/Maumagnagua
 - [Planning Wiki](https://planning.wiki/)
 - [PDDL 2.1](https://helios.hud.ac.uk/scommv/IPC-14/repository/fox-long-jair-2003.pdf) by Fox and Long
 - [An Introduction to PDDL](https://www.cs.toronto.edu/~sheila/2542/s14/A1/introtopddl2.pdf) by Malte Helmert
-- [AI Planning with STRIPS](http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/) by Kory Becker
+- [AI Planning with STRIPS](https://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/) by Kory Becker

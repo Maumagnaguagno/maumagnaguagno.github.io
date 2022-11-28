@@ -34,10 +34,10 @@ User defined programs are lost if the RCX is left without power.
 Kits included an infrared serial tower to let a computer communicate with the robot, later on replaced by USB towers.
 Such towers can still be [configured to work with Linux](https://pbrick.info/2013/10/configuring-the-lego-usb-tower-on-linux/), more specifically the [Raspberry Pi](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/).
 A [firmware](https://pbrick.info/rcx-firmware/) must be sent to the RCX before programming starts, many options are available with different levels of compatibility.
-In order to not be limited to Lego provided programming options, mostly based on drag-and-drop code blocks, users can program their robots with [NQC](http://bricxcc.sourceforge.net/nqc/ "Not Quite C").
+In order to not be limited to Lego provided programming options, mostly based on drag-and-drop code blocks, users can program their robots with [NQC](https://bricxcc.sourceforge.net/nqc/ "Not Quite C").
 Due to the lack of inputs and outputs some users extended their robots capabilities with modified hardware, for example with a [multiplexer](https://www.elecbrick.com/mux/).
 You can find out more about the RCX in the following places:
-- [RCX presentation](http://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
+- [RCX presentation](https://clark.cementhorizon.com/RCX-web-page-2013-09-29.html)
 - [Using the RCX Today](https://www.johnholbrook.us/RCX_guide.html "written by John Holbrook")
 
 ### Scout, MicroScout and VLL
