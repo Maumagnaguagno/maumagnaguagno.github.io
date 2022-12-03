@@ -130,6 +130,8 @@ This is a reminder of how Ruby evolved through time.
 - Anonymous rest and keyword rest arguments [#18351]({{ issue }}18351)
   - ``def foo(*) bar(*) end``
   - ``def baz(**) quux(**) end``
+- ``Enumerator#product```[#18685]({{ issue }}18685)
+- Data class as immutable Struct [#16122]({{ issue }}16122)
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
