@@ -62,7 +62,7 @@ hidden: true
 
 ```bibtex
 @book{vallati2020knowledge,
-  title={Knowledge Engineering Tools and Techniques for AI Planning},
+  title={{Knowledge Engineering Tools and Techniques for AI Planning}},
   author={Vallati, Mauro and Kitchin, Diane},
   year={2020},
   publisher={Springer},
@@ -76,6 +76,7 @@ hidden: true
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   booktitle={Proceedings of the Third-Fourth international joint conference on Artificial Intelligence},
   year={2020},
+  pages={9933--9940},
   organization={AAAI Press}
 }
 ```
@@ -92,7 +93,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{vered2018online,
-  title={Online goal recognition as reasoning over landmarks},
+  title={{Online goal recognition as reasoning over landmarks}},
   author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe and Kaminka, Gal A.},
   booktitle={Workshops at the Thirty-Second AAAI Conference on Artificial Intelligence},
   year={2018}
@@ -113,7 +114,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{magnaguagno2017method,
-  title={Method Composition through Operator Pattern Identification},
+  title={{Method Composition through Operator Pattern Identification}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Meneguzzi, Felipe},
   journal={Workshop on Knowledge Engineering for Planning and Scheduling, KEPS},
   pages={54--61},
@@ -133,7 +134,7 @@ hidden: true
 
 ```bibtex
 @inproceedings{vered2017online,
-  title={Online Goal Recognition Combining Landmarks and Planning},
+  title={{Online Goal Recognition Combining Landmarks and Planning}},
   author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Kaminka, Gal A. and Meneguzzi, Felipe},
   booktitle={Proceedings of the 5th Goal Reasoning Workshop (GRW@ IJCAI), 2017, Austr{\'a}lia.},
   year={2017}
