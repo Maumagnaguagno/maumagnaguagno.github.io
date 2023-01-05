@@ -97,6 +97,18 @@ p *GC.stat
 a = *'str' #=> ['str']
 ```
 
+## Splat parameters
+One way to name array indexes without adding extra lines.
+Note the double parentheses, one for the method parameters, another for splatting.
+
+```ruby
+def add((x,y))
+  x + y
+end
+
+add([5,3]) #=> 8
+```
+
 ## Custom-implicit splat
 Define ``to_ary`` to splat any instance.
 
@@ -124,6 +136,7 @@ Iterating nested ``Arrays`` can be cumbersome, but with parentheses we have para
 array = [[[1, 2], [3, 4]]]
 array.each {|a,b| p [a.first, a.last, b.first, b.last]} # Prints [1, 2, 3, 4]
 array.each {|(a,b),(c,d)| p [a, b, c, d]}               # Prints [1, 2, 3, 4]
+[[1,2], [3,4]].each {|a,| print a} # Prints 1 3
 
 # Splat with index
 array = [['a', 'b'], ['c', 'd']]
