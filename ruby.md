@@ -237,6 +237,13 @@ if $0 == __FILE__
 end
 ```
 
+Note that you can also exploit the [Ruby switch parsing](https://idiosyncratic-ruby.com/7-easier-switching.html) ``-s`` to set global variables.
+The global variable names must be valid and not conflict with system variables.
+
+```shell
+ruby -s -e 'p [$x, $y]' -- -x -y=value # Prints [true, "value"]
+```
+
 ## Hash behavior
 Hash may behave differently according to object initialization if a default value or block is provided.
 
