@@ -22,10 +22,10 @@ Here you can see some of the stuff I worked on:
 - [HeuristicView](HeuristicView/)
   - State-space visualization with D3.js
 - [Web-planner](https://web-planner.herokuapp.com/)
-  - A classical planner running on Heroku
+  - A classical planner on Heroku
 - [PDDL-Parser](https://github.com/pucrs-automated-planning/pddl-parser)
-  - A simple classical planner in Python
+  - Classical parser and planner in Python
 - [Timeline](Timeline/)
-  - Convert Markdown timeline to Graphviz DOT
+  - From Markdown to Graphviz DOT
 
 Take a look at my [archive](archive.md) to see everything.
