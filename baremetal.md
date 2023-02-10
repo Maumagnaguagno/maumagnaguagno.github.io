@@ -116,7 +116,7 @@ int main(void)
 
 ## Pins
 The most common usage of a microcontroller is to observe and control the state of pins.
-The pins are exposed through [port registers](https://www.arduino.cc/en/Reference/PortManipulation):
+The pins are exposed through [port registers](https://docs.arduino.cc/hacking/software/PortManipulation):
 - ``DDRx`` controls which pins are used to read or write, set by ``pinMode``
 - ``PORTx`` stores the value of each pin, used by ``digitalWrite``
 - ``PINx`` reads/toggles current state, used by ``digitalRead``
