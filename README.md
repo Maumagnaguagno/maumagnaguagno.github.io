@@ -8,7 +8,7 @@ Using [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
 ```
  ___________________
 |___________________| <-- Nav bar
-|   | 1 Collumn |   |
+|   | 1 Column  |   |
 |   |     |     |   | <-- Split view
 |   |  L  |  R  |   |     Separations are invisible
 |   |     |     |   |
