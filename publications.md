@@ -158,6 +158,7 @@ hidden: true
   title={{DOVETAIL - An Abstraction for Classical Planning Using a Visual Metaphor}},
   author={Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Pereira, Ramon Fraga and Meneguzzi, Felipe},
   booktitle={The Twenty-Ninth International Flairs Conference},
+  pages={74--79},
   year={2016}
 }
 ```
