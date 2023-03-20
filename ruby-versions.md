@@ -6,7 +6,7 @@ category: ruby
 ---
 
 # Ruby Versions
-This is a reminder of how Ruby evolved through time.
+This is a reminder of how Ruby evolves through time.
 
  Version   | Release    | End of support | End of maintenance
  :---:     | :---:      | :---:          | :---:
@@ -103,6 +103,7 @@ This is a reminder of how Ruby evolved through time.
 - ``Kernel#system`` raise with ``:exception`` option [#14386]({{ issue }}14386)
 - ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594]({{ issue }}14594)
 - ``String#split`` yields to block if given [#4780]({{ issue }}4780)
+- ``File#read/binread/write/binwrite/foreach/readlines`` without pipes [#14245]({{ issue }}14245)
 
 ## 2.7
 - Experimental numbered parameter [#4475]({{ issue }}4475)
