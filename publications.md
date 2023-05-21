@@ -136,7 +136,7 @@ hidden: true
 @inproceedings{vered2017online,
   title={{Online Goal Recognition Combining Landmarks and Planning}},
   author={Vered, Mor and Pereira, Ramon Fraga and Magnaguagno, Maur{\'i}cio Cec{\'i}lio and Kaminka, Gal A. and Meneguzzi, Felipe},
-  booktitle={Proceedings of the 5th Goal Reasoning Workshop (GRW@ IJCAI), 2017, Austr{\'a}lia.},
+  booktitle={Proceedings of the 5th Goal Reasoning Workshop (GRW@IJCAI)},
   year={2017}
 }
 ```
@@ -187,7 +187,7 @@ hidden: true
 @inproceedings{moraes2012generic,
   title={{A generic FPGA emulation framework}},
   author={Moraes, Fernando and Moreira, Matheus and Lucas, Carlo and Corr{\^e}a, Dairan and Cardoso, Douglas and Magnaguagno, Maur{\'i}cio and Castilhos, Guilherme and Calazans, Ney},
-  booktitle={2012 19th IEEE International Conference on Electronics, Circuits, and Systems (ICECS 2012)},
+  booktitle={19th IEEE International Conference on Electronics, Circuits, and Systems (ICECS)},
   pages={233--236},
   year={2012},
   organization={IEEE}
