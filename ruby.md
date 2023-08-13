@@ -95,6 +95,14 @@ p *GC.stat
 
 # Array coercion
 a = *'str' #=> ['str']
+
+# Readable cases
+CONDITION = ['begin', 'end']
+
+case var
+when *CONDITION
+  # ...
+end
 ```
 
 ## Splat parameters
