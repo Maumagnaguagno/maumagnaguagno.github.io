@@ -365,6 +365,39 @@ Repetition implies hard maintenance and variables imply reuse, use such construc
 
 Going a little further one can even return from unexpected places, such as ``var = (foo || bar || return).uniq``, you could even raise an exception instead of returning.
 
+## Breakthrough with break true
+Many methods with blocks return ``nil``, which requires setting a flag before breaking to affect the state outside the block.
+However, one can break with a value, such as ``true``, and use the method call in a conditional without temporary variables.
+This becomes more useful as you reuse methods that ``yield`` values and return ``nil``, being able to use ``if method {break true}`` to verify that at least one value was yielded.
+A simple example with ``Array#zip`` to find equal elements at the same position in both arrays, without creating a new array.
+
+<div class=split markdown=1>
+
+```ruby
+a = [1, 2, 3]
+b = [2, 3, 3]
+if a.zip(b).any? {|i,j| i == j}
+  puts 'found'
+else
+  puts 'not found'
+end
+```
+
+</div>
+<div class=split markdown=1>
+
+```ruby
+a = [1, 2, 3]
+b = [2, 3, 3]
+if a.zip(b) {|i,j| break true if i == j}
+  puts 'found'
+else
+  puts 'not found'
+end
+```
+
+</div>
+
 ## More Ruby snippets:
 {% assign bigbinary = "https://bigbinary.com/blog/categories/ruby-" %}
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
