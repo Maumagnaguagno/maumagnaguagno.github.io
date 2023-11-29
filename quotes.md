@@ -58,3 +58,11 @@ best friend.
 [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan)
 > We are a way for the cosmos to know itself.
 </div>
+<div class=quote markdown=1>
+
+[Terry Pratchett](https://en.wikipedia.org/wiki/Terry_Pratchett)
+> Belief is one of the most powerful  
+organic forces in the multiverse.  
+It may not be able to move mountains, exactly.  
+But it can create someone who can.
+</div>
