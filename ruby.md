@@ -58,7 +58,6 @@ New [value omission feature](https://zverok.github.io/blog/2021-12-08-value-omis
 ```ruby
 a = [1, 2, 3]
 b = a[-1]  #=> 3, a = [1, 2, 3]
-b = a.last #=> 3, a = [1, 2, 3]
 c = a.pop  #=> 3, a = [1, 2]
 ```
 
@@ -142,9 +141,9 @@ Iterating nested ``Arrays`` can be cumbersome, but with parentheses we have para
 
 ```ruby
 array = [[[1, 2], [3, 4]]]
-array.each {|a,b| p [a.first, a.last, b.first, b.last]} # Prints [1, 2, 3, 4]
-array.each {|(a,b),(c,d)| p [a, b, c, d]}               # Prints [1, 2, 3, 4]
-[[1,2], [3,4]].each {|a,| print a} # Prints 1 3
+array.each {|a,b| p [a[0], a[1], b[0], b[1]]} # Prints [1, 2, 3, 4]
+array.each {|(a,b),(c,d)| p [a, b, c, d]}     # Prints [1, 2, 3, 4]
+[[1,2], [3,4]].each {|a,| print a}            # Prints 1 3
 
 # Splat with index
 array = [['a', 'b'], ['c', 'd']]
@@ -238,7 +237,7 @@ end
 
 if $0 == __FILE__
   # Use ARGV.size < N for N required parameters or empty? for N == 1
-  if ARGV.empty? or ARGV.first == '-h'
+  if ARGV.empty? or ARGV[0] == '-h'
     puts Foo::HELP
   else Foo.setup(*ARGV)
   end
