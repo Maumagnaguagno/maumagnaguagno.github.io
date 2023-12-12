@@ -24,7 +24,6 @@ Hover links to see their descriptions.
 - Graphs and Charts
   - [Diagrams.net](app.diagrams.net "SVG drawing")
   - [WebGraphviz](http://www.webgraphviz.com/ "Describe graphs, let the computer draw for you")
-  - [Gnuplot Online](http://gnuplot.respawned.com/ "Chart editor")
   - [Google Charts API](https://developers.google.com/chart/interactive/docs/ "Use javascript to show your datasets")
 </div>
 <div style="float:left" markdown=1>
@@ -33,6 +32,7 @@ Hover links to see their descriptions.
   - [Nerdwriter](https://www.youtube.com/user/Nerdwriter1 "Movie and art reviews")
   - [Every Frame a Painting](https://www.youtube.com/user/everyframeapainting "Movies explained")
   - [Brows Held High](https://www.youtube.com/user/oancitizen/ "A mildly immature look at movies and their nonsense")
+  - [Like Stories of Old](https://www.youtube.com/@LikeStoriesofOld "Emotional media analysis")
   - [Satchbag's Goods](https://www.youtube.com/user/satchbags/ "Games explained")
   - [Kurzgesagt - In a Nutshell](https://www.youtube.com/user/Kurzgesagt/ "Philosophy with nice graphics")
   - [Wisecrack](https://www.youtube.com/user/thugnotes "Funny and smart philosophy")
