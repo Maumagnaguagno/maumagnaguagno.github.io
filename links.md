@@ -43,6 +43,7 @@ Hover links to see their descriptions.
   - [The Ben Heck Show](https://www.youtube.com/user/thebenheckshow "Design, build and fix electronics")
   - [Evan Kale](https://www.youtube.com/user/EvanKale91 "Circuit bending")
   - [Matt Denton](https://www.youtube.com/user/winchymatt "Droids and engineering")
+  - [James Bruton](https://www.youtube.com/user/jamesbruton "Former toy designer, general robotics, electrical and mechanical engineer")
   - [CuriousMarc](https://www.youtube.com/user/mverdiell "Computer Restorations")
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
   - [Ben Eater](https://www.youtube.com/c/beneater "Low-level computing tutorials")
