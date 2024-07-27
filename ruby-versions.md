@@ -20,9 +20,10 @@ This is a reminder of how Ruby evolves through time.
 [2.5](#25) | 2017-12-25 | 2020-04-05     | 2021-04-05
 [2.6](#26) | 2018-12-25 | 2021-04-05     | 2022-04-05
 [2.7](#27) | 2019-12-25 | 2022-04-12     | 2023-03-31
-[3.0](#30) | 2020-12-25 | 2023-03-31     | TBA
-[3.1](#31) | 2021-12-25 | TBA            | TBA
+[3.0](#30) | 2020-12-25 | 2023-03-31     | 2024-03-31
+[3.1](#31) | 2021-12-25 | 2024-03-31     | TBA
 [3.2](#32) | 2022-12-25 | TBA            | TBA
+[3.3](#33) | 2023-12-25 | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -134,6 +135,8 @@ This is a reminder of how Ruby evolves through time.
 - ``Enumerator#product`` [#18685]({{ issue }}18685)
 - Data class as immutable Struct [#16122]({{ issue }}16122)
 - YJIT no longer experimental
+
+# 3.3
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
