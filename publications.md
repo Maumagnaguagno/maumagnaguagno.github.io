@@ -6,8 +6,8 @@ hidden: true
 
 # Publications
 - [HyperTensioN and Total-order Forward Decomposition optimizations](https://arxiv.org/pdf/2207.00345.pdf) - Extended IPC paper arXiv 2022
-- [HyperTensioN: A three-stage compiler for planning](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=14) - IPC paper 2021
-- [Snake Domain for HTN IPC 2020](https://gki.informatik.uni-freiburg.de/competition/proceedings.pdf#page=46) - IPC paper 2021
+- [HyperTensioN: A three-stage compiler for planning](https://ipc2020.hierarchical-task.net/publications/IPC2020Booklet.pdf#page=14) - IPC paper 2021
+- [Snake Domain for HTN IPC 2020](https://ipc2020.hierarchical-task.net/publications/IPC2020Booklet.pdf#page=46) - IPC paper 2021
 - [Knowledge Engineering Tools and Techniques for AI Planning](https://www.springer.com/gp/book/9783030385606) - Book chapter Springer 2020
 - [Semantic Attachments for HTN Planning](https://ojs.aaai.org/index.php/AAAI/article/view/6548/6404) - AAAI 2020
 - [HTN Planning with Semantic Attachments](https://openreview.net/pdf?id=BkxAIrBZtE) - ICAPS/Hierarchical Planning Workshop 2019
@@ -44,7 +44,7 @@ hidden: true
 @inproceedings{magnaguagno2021HyperTensioN,
   title={{HyperTensioN: A three-stage compiler for planning}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
-  booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
+  booktitle={Proceedings of the 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020,
   year={2021},
   pages={5--8}
 }
@@ -54,9 +54,9 @@ hidden: true
 @inproceedings{magnaguagno2021Snake,
   title={{Snake Domain for HTN IPC 2020}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio},
-  booktitle={{Proceedings of 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)}},
+  booktitle={Proceedings of the 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)},
   year={2021},
-  pages={34--35}
+  pages={37--38}
 }
 ```
 
