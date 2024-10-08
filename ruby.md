@@ -362,7 +362,14 @@ One interesting construction is to select which array to append an element ``(us
 Consider replacing ``element`` with a complex formula without this construction, it would require repeating the formula for each branch or a temporary variable before the condition is evaluated.
 Repetition implies hard maintenance and variables imply reuse, use such constructions with caution to make your code intention more clear.
 
-Going a little further one can even return from unexpected places, such as ``var = (foo || bar || return).uniq``, you could even raise an exception instead of returning.
+Going a little further one can even return from unexpected places, such as ``var = (foo || bar || return).uniq``.
+Even an exception can be raised in the event of a missing argument.
+
+```ruby
+def m(a = raise('missing a'))
+  puts a
+end
+```
 
 ## Breakthrough with break true
 Many methods with blocks return ``nil``, which requires setting a flag before breaking to affect the state outside the block.
