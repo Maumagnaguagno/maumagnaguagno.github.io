@@ -24,6 +24,7 @@ This is a reminder of how Ruby evolves through time.
 [3.1](#31) | 2021-12-25 | 2024-03-31     | TBA
 [3.2](#32) | 2022-12-25 | TBA            | TBA
 [3.3](#33) | 2023-12-25 | TBA            | TBA
+[3.4](#34) | 2024-12-25 | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -136,7 +137,15 @@ This is a reminder of how Ruby evolves through time.
 - Data class as immutable Struct [#16122]({{ issue }}16122)
 - YJIT no longer experimental
 
-# 3.3
+## 3.3
+- ``String#bytesplice`` [#19314]({{ issue }}19314)
+- ``MatchData#named_captures`` [#19591]({{ issue }}19591)
+- ``Array#pack`` and ``String#unpack``: raise ``ArgumentError`` for unknown directives [#19150]({{ issue }}19150)
+- ``Range#reverse_each`` [#18515]({{ issue }}18515)
+- ``Range#overlap?`` [#19839]({{ issue }}19839)
+
+## 3.4
+- ``it`` as anonymous block argument [#18980]({{ issue }}18980)
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
