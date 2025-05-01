@@ -56,7 +56,7 @@ hidden: true
 @inproceedings{magnaguagno2021HyperTensioN,
   title={{HyperTensioN: A three-stage compiler for planning}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
-  booktitle={Proceedings of the 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020,
+  booktitle={Proceedings of the 10th International Planning Competition: Planner and Domain Abstracts -- Hierarchical Task Network (HTN) Planning Track (IPC 2020)},
   year={2021},
   pages={5--8}
 }
