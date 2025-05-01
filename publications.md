@@ -5,6 +5,7 @@ hidden: true
 ---
 
 # Publications
+- [HyperTensioN and Total-order Forward Decomposition optimizations](https://link.springer.com/article/10.1007/s10458-025-09705-9) - JAAMAS 2025
 - [HyperTensioN and Total-order Forward Decomposition optimizations](https://arxiv.org/pdf/2207.00345.pdf) - Extended IPC paper arXiv 2022
 - [HyperTensioN: A three-stage compiler for planning](https://ipc2020.hierarchical-task.net/publications/IPC2020Booklet.pdf#page=14) - IPC paper 2021
 - [Snake Domain for HTN IPC 2020](https://ipc2020.hierarchical-task.net/publications/IPC2020Booklet.pdf#page=46) - IPC paper 2021
@@ -29,6 +30,17 @@ hidden: true
 {% raw %}
 
 ```bibtex
+@article{magnaguagno2025hypertension,
+  title={Hypertension and total-order forward decomposition optimizations},
+  author={Cec{\'\i}lio Magnaguagno, Maur{\'\i}cio and Meneguzzi, Felipe and de Silva, Lavindra},
+  journal={Autonomous Agents and Multi-Agent Systems},
+  volume={39},
+  number={1},
+  pages={1--27},
+  year={2025},
+  publisher={Springer}
+}
+
 @misc{magnaguagno2022HyperTensioN,
   title={{HyperTensioN and Total-order Forward Decomposition optimizations}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
