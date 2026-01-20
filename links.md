@@ -48,4 +48,6 @@ Hover links to see their descriptions.
   - [Explaining Computers](https://www.youtube.com/user/explainingcomputers "Clear explanations about hardware and software")
   - [Ben Eater](https://www.youtube.com/c/beneater "Low-level computing tutorials")
   - [Mitxela](https://www.youtube.com/c/mitxela/ "Video and Sound-based projects")
+  - [Enrico Tartarotti](https://www.youtube.com/@enricotartarotti "Uncovering the design and psychology behind tech")
+  - [Scott Yu-Jan](https://www.youtube.com/@ScottYuJan "Making art and design stuff")
 </div>
