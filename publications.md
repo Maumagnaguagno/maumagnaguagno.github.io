@@ -40,7 +40,9 @@ hidden: true
   year={2025},
   publisher={Springer}
 }
+```
 
+```bibtex
 @misc{magnaguagno2022HyperTensioN,
   title={{HyperTensioN and Total-order Forward Decomposition optimizations}},
   author={Magnaguagno, Maur\'{i}cio Cec\'{i}lio and Meneguzzi, Felipe and de Silva, Lavindra},
