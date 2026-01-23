@@ -3,10 +3,11 @@ title: Links
 hidden: true
 ---
 
+<div style="float:left" markdown=1>
+
+# Links
 Links to the coolest places of the internets.
 Hover links to see their descriptions.
-
-<div style="float:left" markdown=1>
 
 - Computer Science and Engineering
   - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
