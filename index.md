@@ -21,11 +21,9 @@ Here you can see some of the stuff I worked on:
   - Hierarchical Task Network planner in Ruby
 - [HeuristicView](HeuristicView/)
   - State-space visualization with D3.js
-- [Web-planner](https://web-planner.herokuapp.com/)
-  - A classical planner on Heroku
 - [PDDL-Parser](https://github.com/pucrs-automated-planning/pddl-parser)
   - Classical parser and planner in Python
 - [Timeline](Timeline/)
   - From Markdown to Graphviz DOT
 
-Take a look at my [archive](archive.md) to see everything.
+Take a look at the [archive](archive.md) to see more.
