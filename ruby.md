@@ -31,11 +31,11 @@ puts a.shift until a.empty?
 ```ruby
 a = [1, 2, 3]
 # Multi-line version
-until first = a.shift
+while first = a.shift
   puts first
 end
 # Fail due to first being assigned after access
-puts first until first = a.shift
+puts first while first = a.shift
 ```
 
 </div>
