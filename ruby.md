@@ -404,6 +404,12 @@ end
 
 </div>
 
+## Early break
+Methods with blocks that always return a truthy value can ``break`` earlier to signify failure.
+The most significant usage is replacing ``Hash#values_at(*keys)`` with ``Hash#fetch_values(*keys) {break}``.
+With ``values_at`` there is a secondary call to ``all?`` to verify that all values returned are non-nil.
+With ``fetch_values`` without block an exception would be raised for missing keys, but with a ``break`` block an early nil return happens.
+
 ## More Ruby snippets:
 {% assign bigbinary = "https://bigbinary.com/blog/categories/ruby-" %}
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) to learn about consistency
