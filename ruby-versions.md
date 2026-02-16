@@ -72,6 +72,7 @@ This is a reminder of how Ruby evolves through time.
 - ``obj&.foo`` [safe navigation operator](https://en.wikipedia.org/wiki/Safe_navigation_operator) [#11537]({{ issue }}11537)
 - ``Array/Hash/Struct#dig`` [#11643]({{ issue }}11643) [#11688]({{ issue }}11688)
 - ``Array#bsearch_index`` [#10730]({{ issue }}10730)
+- ``Hash#fetch_values`` [10017]({{ issue }}10017)
 - Experimental ``RubyVM::InstructionSequence#to_binary`` and ``RubyVM::InstructionSequence.load_from_binary`` [#11788]({{ issue }}11788)
 
 ## 2.4
