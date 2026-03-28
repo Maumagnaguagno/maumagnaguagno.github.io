@@ -23,7 +23,7 @@ This is a reminder of how Ruby evolves through time.
 [3.0](#30) | 2020-12-25 | 2023-04-01     | 2024-04-23
 [3.1](#31) | 2021-12-25 | 2024-04-01     | 2025-03-26
 [3.2](#32) | 2022-12-25 | 2025-04-01     | 2026-03-31
-[3.3](#33) | 2023-12-25 | TBA            | 2027-03-31
+[3.3](#33) | 2023-12-25 | 2026-04-01     | 2027-03-31
 [3.4](#34) | 2024-12-25 | TBA            | TBA
 [4.0](#40) | 2025-12-25 | TBA            | TBA
 
@@ -105,7 +105,7 @@ This is a reminder of how Ruby evolves through time.
 - ``Random.bytes`` [#4938]({{ issue }}4938)
 - ``Binding#source_location`` [#14230]({{ issue }}14230)
 - ``Kernel#system`` raise with ``:exception`` option [#14386]({{ issue }}14386)
-- ``Kernel.then`` as alias to ``Kernel.yield_self`` [#14594]({{ issue }}14594)
+- ``Kernel#then`` as alias to ``Kernel#yield_self`` [#14594]({{ issue }}14594)
 - ``String#split`` yields to block if given [#4780]({{ issue }}4780)
 - ``File#read/binread/write/binwrite/foreach/readlines`` without pipes [#14245]({{ issue }}14245)
 
