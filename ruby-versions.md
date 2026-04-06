@@ -138,9 +138,11 @@ This is a reminder of how Ruby evolves through time.
 - ``Enumerator#product`` [#18685]({{ issue }}18685)
 - Data class as immutable Struct [#16122]({{ issue }}16122)
 - YJIT no longer experimental
+- ``String#byteindex``, ``String#byterindex``, ``MatchData#byteoffset`` [#13110]({{ issue }}13110)
+- ``String#bytesplice`` [#18598]({{ issue }}18598)
 
 ## 3.3
-- ``String#bytesplice`` [#19314]({{ issue }}19314)
+- ``String#bytesplice`` with partial copy [#19314]({{ issue }}19314)
 - ``MatchData#named_captures`` [#19591]({{ issue }}19591)
 - ``Array#pack`` and ``String#unpack``: raise ``ArgumentError`` for unknown directives [#19150]({{ issue }}19150)
 - ``Range#reverse_each`` [#18515]({{ issue }}18515)
