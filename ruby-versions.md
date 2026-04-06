@@ -150,6 +150,7 @@ This is a reminder of how Ruby evolves through time.
 
 ## 3.4
 - ``it`` as anonymous block argument [#18980]({{ issue }}18980)
+- ``String#append_as_bytes`` [#20594]({{ issue }}20594)
 
 ## 4.0
 - ``Array#find/rfind`` [#21678]({{ issue }}21678)
