@@ -115,7 +115,7 @@ This is a reminder of how Ruby evolves through time.
 - Beginless Ranges ``(..1)`` and ``(...1)`` [#14799]({{ issue }}14799)
 - ``Enumerable#tally`` [#11076]({{ issue }}11076)
 - ``Integer#[]`` now supports range operation [#8842]({{ issue }}8842)
-- Syntactic sugar argument forwarding ``def foo(*) bar.foo(*) end`` [#16253]({{ issue }}16253)
+- Syntactic sugar argument forwarding ``def foo(...) bar.foo(...) end`` [#16253]({{ issue }}16253)
 - ``Enumerable#filter_map`` [#15323]({{ issue }}15323)
 - ``Array#intersection`` [#16155]({{ issue }}16155)
 
