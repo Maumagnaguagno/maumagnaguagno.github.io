@@ -15,7 +15,7 @@ Hover links to see their descriptions.
   - [Red Blob Games](https://www.redblobgames.com/ "Interactive game development tutorials")
   - [Project Nayuki](https://www.nayuki.io/ "Programming blog")
   - [Hackaday](https://hackaday.com "Engineering and maker stuff")
-  - [Coding Horror](https://blog.codinghorror.com/ "Programming and human factors")
+  - [Scott Jenson](https://jenson.org/ "Exploring the world beyond mobile")
   - [Game AI Pro](https://www.gameaipro.com/ "Online book about AI in games")
 - Programming tools
   - [Rubular](https://rubular.com/ "Regex editor")
