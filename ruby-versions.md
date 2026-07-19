@@ -26,6 +26,7 @@ This is a reminder of how Ruby evolves through time.
 [3.3](#33) | 2023-12-25 | 2026-04-01     | 2027-03-31
 [3.4](#34) | 2024-12-25 | TBA            | TBA
 [4.0](#40) | 2025-12-25 | TBA            | TBA
+[4.1](#41) | TBA        | TBA            | TBA
 
 {% assign issue = "https://bugs.ruby-lang.org/issues/" %}
 
@@ -154,6 +155,10 @@ This is a reminder of how Ruby evolves through time.
 
 ## 4.0
 - ``Array#find/rfind`` [#21678]({{ issue }}21678)
+
+## 4.1
+- ``Integer#bit_count`` [#20163]({{ issue }}20163)
+- ``String#bit_/bitwise_*`` [#22118]({{ issue }}22118)
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
