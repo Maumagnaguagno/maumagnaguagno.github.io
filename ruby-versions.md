@@ -145,7 +145,7 @@ This is a reminder of how Ruby evolves through time.
 ## 3.3
 - ``String#bytesplice`` with partial copy [#19314]({{ issue }}19314)
 - ``MatchData#named_captures`` [#19591]({{ issue }}19591)
-- ``Array#pack`` and ``String#unpack``: raise ``ArgumentError`` for unknown directives [#19150]({{ issue }}19150)
+- ``Array#pack`` and ``String#unpack`` raise ``ArgumentError`` for unknown directives [#19150]({{ issue }}19150)
 - ``Range#reverse_each`` [#18515]({{ issue }}18515)
 - ``Range#overlap?`` [#19839]({{ issue }}19839)
 
@@ -159,6 +159,8 @@ This is a reminder of how Ruby evolves through time.
 ## 4.1
 - ``Integer#bit_count`` [#20163]({{ issue }}20163)
 - ``String#bit_/bitwise_*`` [#22118]({{ issue }}22118)
+- ``String#unpack/unpack1`` with new ``^`` format that returns current offset [#21796]({{ issue }}21796)
+- ``Symbol#to_s`` returns a frozen string [#22137]({{ issue}}22137)
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
