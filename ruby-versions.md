@@ -160,7 +160,8 @@ This is a reminder of how Ruby evolves through time.
 - ``Integer#bit_count`` [#20163]({{ issue }}20163)
 - ``String#bit_/bitwise_*`` [#22118]({{ issue }}22118)
 - ``String#unpack/unpack1`` with new ``^`` format that returns current offset [#21796]({{ issue }}21796)
-- ``Symbol#to_s`` returns a frozen string [#22137]({{ issue}}22137)
+- ``Symbol#to_s`` returns a frozen string [#22137]({{ issue }}22137)
+- ``Array#index/rindex`` with ``offset:`` argument [#17056]({{ issue }}17056)
 
 ## More Information
 - [Ruby Changes](https://rubyreferences.github.io/rubychanges/)
