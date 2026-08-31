@@ -84,7 +84,7 @@ Prefer splatting small arrays, large arrays may trigger stack errors.
 def process(arg0, arg1, *other_args)
   # arg0 == ARGV[0]
   # arg1 == ARGV[1]
-  # other_args == ARGV[2..-1]
+  # other_args == ARGV[2..]
 end
 
 process(*ARGV)
