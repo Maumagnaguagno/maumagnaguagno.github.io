@@ -163,6 +163,7 @@ This is a reminder of how Ruby evolves through time.
 - ``String#tr`` takes a Hash for multi-character replacements [#22238]({{ issue }}22238)
 - ``Symbol#to_s`` returns a frozen string [#22137]({{ issue }}22137)
 - ``Array#index/rindex`` with ``offset:`` argument [#17056]({{ issue }}17056)
+- ``Regexp`` instances are frozen [#8948]({{ issue }}8948)
 - ``Kernel#autoload_relative`` and ``Module#autoload_relative`` [#15330]({{ issue }}15330)
 
 ## More Information
